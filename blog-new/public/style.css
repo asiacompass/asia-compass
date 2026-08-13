@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+:root {
+    --primary-red: #ca041e;
+    --text-color: #2c3e50;
+    --tile-bg: #b7eebc;
+    --hover-color: #e98a99;
+    --bg-color: #f7f9f7;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, a { color: var(--primary-red); text-decoration: none; }
+h4 { color: var(--text-color); }
+
+/* Styl menu nawigacyjnego */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    background-color: var(--tile-bg);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.nav-menu li a {
+    font-weight: bold;
+}
+
+.nav-menu li a:hover {
+    color: var(--hover-color);
+}
+
+/* Styl kafelków */
+.tile {
+    background-color: var(--tile-bg);
+    transition: background-color 0.3s;
+}
+
+.tile:hover {
+    background-color: var(--hover-color);
+}

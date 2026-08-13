@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jedzenie on Asia Compass</title>
+    <link>http://localhost:1313/kategoria/jedzenie/</link>
+    <description>Recent content in Jedzenie on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/kategoria/jedzenie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wieza</title>
+      <link>http://localhost:1313/kraje/japonia/tokyo/wieza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kraje/japonia/tokyo/wieza/</guid>
+      <description>&lt;h3 id=&#34;opis-atrakcji&#34;&gt;Opis atrakcji&lt;/h3&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+  </channel>
+</rss>

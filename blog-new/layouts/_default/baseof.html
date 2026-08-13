@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }} | Asia Compass</title>
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <header class="site-header">
+        <div class="logo">
+            <!-- Zmieniamy na sztywny link do głównego katalogu -->
+            <a href="/">Asia Compass</a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <!-- Usuwamy | relURL, używamy bezpośrednio .URL -->
+                {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        {{ block "main" . }}{{ end }}
+    </main>
+</body>
+</html>

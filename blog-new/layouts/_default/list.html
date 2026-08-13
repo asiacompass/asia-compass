@@ -1,0 +1,30 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+<div class="attractions-grid">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="tile attraction-card">
+        <h3>{{ .Title }}</h3>
+        {{ if .Params.image_url }}
+            <img src="{{ .Params.image_url }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; border-radius: 8px;">
+        {{ end }}
+        <p>Kraj: {{ .Params.kraj }} | Miasto: {{ .Params.miasto }}</p>
+    </a>
+    {{ end }}
+</div>
+
+<style>
+.attractions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.attraction-card {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+</style>
+{{ end }}

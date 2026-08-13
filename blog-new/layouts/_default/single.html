@@ -1,0 +1,87 @@
+{{ define "main" }}
+<article class="attraction-page">
+    <!-- Tytuł i przycisk Ulubione -->
+    <header class="attraction-header">
+        <h1>{{ .Title }}</h1>
+        <button id="favorite-btn" class="tile" onclick="toggleFavorite('{{ .Permalink }}', '{{ .Title }}')">
+            ⭐ Dodaj do ulubionych
+        </button>
+    </header>
+
+    <!-- Baner ze zdjęciem (zewnętrzny link z frontmatter) -->
+    {{ if .Params.image_url }}
+    <div class="attraction-banner">
+        <img src="{{ .Params.image_url }}" alt="{{ .Title }}" loading="lazy">
+    </div>
+    {{ end }}
+
+    <!-- Sekcja z głównymi cechami atrakcji -->
+    <section class="attraction-meta tile">
+        <ul>
+            <li><strong>Kraj:</strong> <a href="/kraje/{{ .Params.kraj | urlize }}/">{{ .Params.kraj }}</a></li>
+            <li><strong>Miejscowość:</strong> <a href="/miasta/{{ .Params.miasto | urlize }}/">{{ .Params.miasto }}</a></li>
+            <li><strong>Kategoria:</strong> <a href="/kategorie/{{ .Params.kategoria | urlize }}/">{{ .Params.kategoria }}</a></li>
+            {{ if .Params.tag }}
+            <li><strong>Tagi:</strong> 
+                {{ range .Params.tag }}
+                    <a href="/tags/{{ . | urlize }}/" class="tag-badge">#{{ . }}</a>
+                {{ end }}
+            </li>
+            {{ end }}
+            {{ if .Params.cena }}<li><strong>Ceny:</strong> {{ .Params.cena }}</li>{{ end }}
+            {{ if .Params.rezerwacja }}<li><strong>Rezerwacja:</strong> {{ .Params.rezerwacja }}</li>{{ end }}
+            {{ if .Params.sezon }}<li><strong>Sezon:</strong> {{ .Params.sezon }}</li>{{ end }}
+            {{ if .Params.adres }}<li><strong>Adres:</strong> {{ .Params.adres }}</li>{{ end }}
+            {{ if .Params.link }}<li><strong>Link oficjalny:</strong> <a href="{{ .Params.link }}" target="_blank">Odwiedź stronę</a></li>{{ end }}
+        </ul>
+    </section>
+
+    <!-- Sekcja z opisem (treść z pliku Markdown) -->
+    <div class="attraction-content">
+        {{ .Content }}
+    </div>
+
+    <!-- Sekcja ze zdjęciami w układzie 2 kolumny (styl Pinteresta) -->
+    {{ if .Params.gallery }}
+    <section class="pinterest-gallery">
+        {{ range .Params.gallery }}
+        <div class="gallery-item">
+            <img src="{{ . }}" alt="Zdjęcie z galerii {{ $.Title }}" loading="lazy">
+        </div>
+        {{ end }}
+    </section>
+    {{ end }}
+</article>
+
+<!-- Skrypt obsługujący zapisywanie do ulubionych w localStorage -->
+<script>
+function toggleFavorite(url, title) {
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const index = favorites.findIndex(fav => fav.url === url);
+    
+    if (index > -1) {
+        favorites.splice(index, 1);
+        alert('Usunięto z ulubionych');
+    } else {
+        favorites.push({ url, title });
+        alert('Dodano do ulubionych!');
+    }
+    localStorage.setItem('asia_compass_favorites', JSON.stringify(favorites));
+    updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+    const btn = document.getElementById('favorite-btn');
+    const favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const exists = favorites.some(fav => fav.url === window.location.pathname);
+    if (exists) {
+        btn.innerText = '❤️ W ulubionych';
+        btn.style.backgroundColor = 'var(--hover-color)';
+    } else {
+        btn.innerText = '⭐ Dodaj do ulubionych';
+        btn.style.backgroundColor = 'var(--tile-bg)';
+    }
+}
+document.addEventListener('DOMContentLoaded', updateFavoriteButton);
+</script>
+{{ end }}

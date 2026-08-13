@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <title>Zakazane Miasto | Asia Compass</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+        <div class="logo">
+            
+            <a href="/">Asia Compass</a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                
+                
+                <li><a href="/kraje/">Kraje</a></li>
+                
+                <li><a href="/blog/">Blog</a></li>
+                
+                <li><a href="/sociale/">Sociale</a></li>
+                
+                <li><a href="/ulubione/">Ulubione</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        
+<article class="attraction-page">
+    
+    <header class="attraction-header">
+        <h1>Zakazane Miasto</h1>
+        <button id="favorite-btn" class="tile" onclick="toggleFavorite('http:\/\/localhost:1313\/kraje\/chiny\/pekin\/zakazane-miasto\/', 'Zakazane Miasto')">
+            ⭐ Dodaj do ulubionych
+        </button>
+    </header>
+
+    
+    
+    <div class="attraction-banner">
+        <img src="https://link-do-zewnetrznego-zdjecia.com/zakazane-miasto.jpg" alt="Zakazane Miasto" loading="lazy">
+    </div>
+    
+
+    
+    <section class="attraction-meta tile">
+        <ul>
+            <li><strong>Kraj:</strong> <a href="/kraje/chiny/">Chiny</a></li>
+            <li><strong>Miejscowość:</strong> <a href="/miasta/pekin/">Pekin</a></li>
+            <li><strong>Kategoria:</strong> <a href="/kategorie/historia/">Historia</a></li>
+            
+            <li><strong>Tagi:</strong> 
+                
+                    <a href="/tags/anime/" class="tag-badge">#Anime</a>
+                
+                    <a href="/tags/jedzenie/" class="tag-badge">#Jedzenie</a>
+                
+            </li>
+            
+            <li><strong>Ceny:</strong> 60 CNY</li>
+            <li><strong>Rezerwacja:</strong> Wymagana wcześniej online</li>
+            <li><strong>Sezon:</strong> Cały rok (najlepiej jesień/wiosna)</li>
+            <li><strong>Adres:</strong> 4 Jingshan Front St, Dongcheng, Beijing</li>
+            <li><strong>Link oficjalny:</strong> <a href="https://siodme-zrodlo.com" target="_blank">Odwiedź stronę</a></li>
+        </ul>
+    </section>
+
+    
+    <div class="attraction-content">
+        <h3 id="opis-atrakcji">Opis atrakcji</h3>
+<p>Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&hellip;</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+
+    </div>
+
+    
+    
+</article>
+
+
+<script>
+function toggleFavorite(url, title) {
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const index = favorites.findIndex(fav => fav.url === url);
+    
+    if (index > -1) {
+        favorites.splice(index, 1);
+        alert('Usunięto z ulubionych');
+    } else {
+        favorites.push({ url, title });
+        alert('Dodano do ulubionych!');
+    }
+    localStorage.setItem('asia_compass_favorites', JSON.stringify(favorites));
+    updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+    const btn = document.getElementById('favorite-btn');
+    const favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const exists = favorites.some(fav => fav.url === window.location.pathname);
+    if (exists) {
+        btn.innerText = '❤️ W ulubionych';
+        btn.style.backgroundColor = 'var(--hover-color)';
+    } else {
+        btn.innerText = '⭐ Dodaj do ulubionych';
+        btn.style.backgroundColor = 'var(--tile-bg)';
+    }
+}
+document.addEventListener('DOMContentLoaded', updateFavoriteButton);
+</script>
+
+    </main>
+</body>
+</html>
