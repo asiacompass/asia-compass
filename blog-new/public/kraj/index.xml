@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kraj on Asia Compass</title>
-    <link>http://localhost:1313/kraj/</link>
+    <link>https://keyra016.github.io/asia-compass/kraj/</link>
     <description>Recent content in Kraj on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="http://localhost:1313/kraj/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://keyra016.github.io/asia-compass/kraj/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chiny</title>
-      <link>http://localhost:1313/kraj/chiny/</link>
+      <link>https://keyra016.github.io/asia-compass/kraj/chiny/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kraj/chiny/</guid>
+      <guid>https://keyra016.github.io/asia-compass/kraj/chiny/</guid>
       <description></description>
     </item>
     <item>
       <title>Japonia</title>
-      <link>http://localhost:1313/kraj/japonia/</link>
+      <link>https://keyra016.github.io/asia-compass/kraj/japonia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kraj/japonia/</guid>
+      <guid>https://keyra016.github.io/asia-compass/kraj/japonia/</guid>
       <description></description>
     </item>
     <item>
       <title>Korea</title>
-      <link>http://localhost:1313/kraj/korea/</link>
+      <link>https://keyra016.github.io/asia-compass/kraj/korea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/kraj/korea/</guid>
+      <guid>https://keyra016.github.io/asia-compass/kraj/korea/</guid>
       <description></description>
     </item>
   </channel>
