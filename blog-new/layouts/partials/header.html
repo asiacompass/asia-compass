@@ -1,0 +1,54 @@
+<header class="site-header">
+    <div class="logo">
+        <a href="/">Asia Compass</a>
+    </div>
+    <nav>
+        <ul class="nav-menu">
+            
+            <!-- Rozwijane menu Kraje -->
+            <li class="dropdown">
+                <a href="/kraj/">Kraje</a>
+                <ul class="dropdown-content">
+                    {{ $krajPageObj := site.GetPage "kraj" }}
+                    {{ if $krajPageObj }}
+                        {{ range $krajPageObj.Pages }}
+                            {{ $krajSlug := .Title | urlize | lower }}
+                            
+                            <li class="dropdown-submenu">
+                                <a href="{{ .RelPermalink }}">{{ .Title }} &raquo;</a>
+                                <ul class="submenu-content">
+                                    {{ $miastoPageObj := site.GetPage "miasto" }}
+                                    {{ if $miastoPageObj }}
+                                        {{ range $miastoPageObj.Pages }}
+                                            {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
+                                            {{ if eq $miastoKraj $krajSlug }}
+                                                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </li>
+
+            <!-- Blog -->
+            <li><a href="/blog/">Blog</a></li>
+
+            <!-- Menu Sociale -->
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/asiacompass" target="_blank" rel="noopener">Facebook</a></li>
+                    <li><a href="https://www.pinterest.com/asiacompass" target="_blank" rel="noopener">Pinterest</a></li>
+                </ul>
+            </li>
+
+            <!-- Ulubione -->
+            <li><a href="/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>

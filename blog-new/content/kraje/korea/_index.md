@@ -1,4 +1,0 @@
----
-title: "Korea"
-kraj: "Korea"
----

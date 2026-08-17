@@ -1,0 +1,155 @@
+{{ define "main" }}
+<div class="country-page" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+    {{/* 1. Baner ze zdjęciem i nazwą kraju */}}
+    {{ $banner := .Params.banner_image | default .Params.image }}
+    {{ if $banner }}
+    <div style="position: relative; width: 100%; height: 350px; border-radius: 12px; overflow: hidden; margin-bottom: 30px;">
+        <img src="{{ $banner }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); padding: 30px 20px 20px;">
+            <h1 style="color: #fff; margin: 0; font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">{{ .Title }}</h1>
+        </div>
+    </div>
+    {{ else }}
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px; color: var(--primary-red);">{{ .Title }}</h1>
+    {{ end }}
+
+    {{/* 2. Opis kraju */}}
+    {{ if .Params.description }}
+    <div style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 40px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+        <p style="margin: 0;">{{ .Params.description }}</p>
+    </div>
+    {{ end }}
+
+    {{ $currentCountrySlug := .Title | urlize | lower }}
+
+    {{/* 3. Ważne informacje - Kafelki jeden pod drugim na pełną szerokość */}}
+    <section class="country-info-section" style="margin-bottom: 40px;">
+        <h2 style="color: var(--primary-red); margin-bottom: 20px;">Ważne informacje o kraju</h2>
+        
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            
+            {{/* Kafel 1: Płatności */}}
+            {{ if .Params.info_pl_desc }}
+            <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
+                <details style="cursor: pointer;">
+                    <summary style="padding: 20px; display: flex; align-items: center; justify-content: space-between; font-weight: bold; font-size: 1.2rem; color: var(--primary-red); user-select: none; background: #fff;">
+                        <span style="display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 2.2rem;">💳</span> {{ .Params.info_pl_title | default "Płatności i waluta" }}
+                        </span>
+                        <span style="font-size: 0.9rem; background: var(--tile-bg); padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
+                    </summary>
+                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid var(--tile-bg); background: #fafafa;">
+                        {{ .Params.info_pl_desc | safeHTML }}
+                    </div>
+                </details>
+            </div>
+            {{ end }}
+
+            {{/* Kafel 2: Internet */}}
+            {{ if .Params.info_net_desc }}
+            <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
+                <details style="cursor: pointer;">
+                    <summary style="padding: 20px; display: flex; align-items: center; justify-content: space-between; font-weight: bold; font-size: 1.2rem; color: var(--primary-red); user-select: none; background: #fff;">
+                        <span style="display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 2.2rem;">📱</span> {{ .Params.info_net_title | default "Internet i VPN" }}
+                        </span>
+                        <span style="font-size: 0.9rem; background: var(--tile-bg); padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
+                    </summary>
+                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid var(--tile-bg); background: #fafafa;">
+                        {{ .Params.info_net_desc | safeHTML }}
+                    </div>
+                </details>
+            </div>
+            {{ end }}
+
+            {{/* Kafel 3: Transport */}}
+            {{ if .Params.info_trans_desc }}
+            <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
+                <details style="cursor: pointer;">
+                    <summary style="padding: 20px; display: flex; align-items: center; justify-content: space-between; font-weight: bold; font-size: 1.2rem; color: var(--primary-red); user-select: none; background: #fff;">
+                        <span style="display: flex; align-items: center; gap: 15px;">
+                            <span style="font-size: 2.2rem;">🚇</span> {{ .Params.info_trans_title | default "Transport" }}
+                        </span>
+                        <span style="font-size: 0.9rem; background: var(--tile-bg); padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
+                    </summary>
+                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid var(--tile-bg); background: #fafafa;">
+                        {{ .Params.info_trans_desc | safeHTML }}
+                    </div>
+                </details>
+            </div>
+            {{ end }}
+
+        </div>
+    </section>
+
+    {{/* 4. Dynamiczne kafelki Kategorii */}}
+    {{ $currentSlug := .Title | urlize | lower }}
+    {{ $kategorieFound := slice }}
+    
+    {{/* Przeszukujemy bezpośrednio sekcję atrakcji */}}
+    {{ with site.GetPage "/atrakcja" }}
+        {{ range .Pages }}
+            {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
+            {{ if eq $atrakcjaKraj $currentSlug }}
+                {{ if .Params.kategoria }}
+                    {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    
+    {{ $kategorieFound = $kategorieFound | uniq | sort }}
+
+    {{ if gt (len $kategorieFound) 0 }}
+    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Kategorie</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px; margin-bottom: 40px;">
+        {{ range $kategorieFound }}
+            {{ $katName := . }}
+            {{/* Generuje poprawny link do taksonomii kategorii w Hugo, np. /kategoria/historia/ */}}
+            {{ $targetUrl := printf "/kategoria/%s/" ($katName | urlize) }}
+            
+            <a href="{{ $targetUrl }}" class="country-kat-tile" style="display: block; padding: 18px 15px; background: var(--tile-bg); color: var(--text-color); text-decoration: none; border-radius: 8px; text-align: center; font-weight: bold; font-size: 1.05rem; border: 2px solid transparent; transition: all 0.3s ease;">
+                {{ $katName }}
+            </a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* 5. Nagłówek i kafelki miast */}}
+    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Miasta w tym kraju</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+        {{ with site.GetPage "/miasto" }}
+            {{ range .Pages }}
+                {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
+                {{ if eq $miastoKraj $currentCountrySlug }}
+                <div class="country-city-tile" style="padding: 15px; border-radius: 8px; background: transparent; border: 2px solid var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.02); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                        {{ if $img }}
+                        <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                        {{ end }}
+                        <h3 style="margin: 0 0 10px 0; color: var(--primary-red); text-align: center;">{{ .Title }}</h3>
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: block; text-align: center; padding: 8px 12px; background: #b7eebc; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz miasto</a>
+                </div>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.country-kat-tile:hover, 
+.country-city-tile:hover {
+    background-color: #fce8ec !important;
+    border-color: #fce8ec !important;
+}
+.country-city-btn:hover {
+    opacity: 0.85;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+</style>
+{{ end }}

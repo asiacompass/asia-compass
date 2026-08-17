@@ -2,24 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chiny on Asia Compass</title>
-    <link>https://keyra016.github.io/asia-compass/kraj/chiny/</link>
+    <link>http://localhost:1313/kraj/chiny/</link>
     <description>Recent content in Chiny on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="https://keyra016.github.io/asia-compass/kraj/chiny/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/kraj/chiny/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chiny</title>
-      <link>https://keyra016.github.io/asia-compass/kraje/chiny/</link>
+      <link>http://localhost:1313/kraj/chiny/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keyra016.github.io/asia-compass/kraje/chiny/</guid>
+      <guid>http://localhost:1313/kraj/chiny/</guid>
       <description></description>
     </item>
     <item>
-      <title>Zakazane Miasto</title>
-      <link>https://keyra016.github.io/asia-compass/kraje/chiny/pekin/zakazane-miasto/</link>
+      <title>PEKIN</title>
+      <link>http://localhost:1313/miasto/pekin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keyra016.github.io/asia-compass/kraje/chiny/pekin/zakazane-miasto/</guid>
-      <description>&lt;h3 id=&#34;opis-atrakcji&#34;&gt;Opis atrakcji&lt;/h3&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+      <guid>http://localhost:1313/miasto/pekin/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shanghai</title>
+      <link>http://localhost:1313/miasto/shanghai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/shanghai/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Skytower</title>
+      <link>http://localhost:1313/atrakcja/skytower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/atrakcja/skytower/</guid>
+      <description>&lt;h3 id=&#34;opis-atrakcji&#34;&gt;Opis atrakcji&lt;/h3&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;aaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;fascynujące-fakty-i-ciekawostki&#34;&gt;Fascynujące Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Magia cyfry dziewięć:&lt;/strong&gt; W kulturze chińskiej cyfra 9 jest symbolem cesarza i wieczności. W Zakazanym Mieście zobaczysz ją na każdym kroku.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pałac bez kominów:&lt;/strong&gt; Mimo surowych pekińskich zim, w głównych budynkach mieszkalnych cesarzy na próżno szukać kominów. Ogień rozpalano w specjalnych jamach poza budynkami.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Temple</title>
+      <link>http://localhost:1313/atrakcja/temple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/atrakcja/temple/</guid>
+      <description>&lt;h3 id=&#34;opis-atrakcji&#34;&gt;Opis atrakcji&lt;/h3&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;aaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;fascynujące-fakty-i-ciekawostki&#34;&gt;Fascynujące Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Magia cyfry dziewięć:&lt;/strong&gt; W kulturze chińskiej cyfra 9 jest symbolem cesarza i wieczności. W Zakazanym Mieście zobaczysz ją na każdym kroku.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pałac bez kominów:&lt;/strong&gt; Mimo surowych pekińskich zim, w głównych budynkach mieszkalnych cesarzy na próżno szukać kominów. Ogień rozpalano w specjalnych jamach poza budynkami.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

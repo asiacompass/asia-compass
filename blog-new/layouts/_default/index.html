@@ -1,0 +1,82 @@
+{{ define "main" }}
+
+<!-- Hero Banner -->
+<section class="hero-banner">
+    <div class="hero-content">
+        <h1>Azja wszchodznia wszystkimi zmysłami</h1>
+        <p>Ruszaj w podróż przez Chiny, Japonię i Koreę, gdzie wiekowe tradycje łączą się z neonowym światem. Odkryj kultowe zabytki, sekrety lokalnej kultury i smaki street foodu, które uzależniają od pierwszego kęsa!</p>
+    </div>
+</section>
+
+<!-- Sekcja Kraje -->
+<section class="section-container" style="text-align: center;">
+    <h2>Dokąd lecisz?</h2>
+    <div class="kraje-grid-center">
+        {{ $krajPageObj := site.GetPage "kraj" }}
+        {{ if $krajPageObj }}
+            {{ range $krajPageObj.Pages }}
+            <a href="{{ .RelPermalink }}" class="kraj-card-tile">
+                {{ $img := .Params.banner_image | default .Params.img | default .Params.image_url | default .Params.image }}
+                {{ if $img }}
+                <div class="kraj-card-img">
+                    <img src="{{ $img }}" alt="{{ .Title }}">
+                </div>
+                {{ end }}
+                <span class="kraj-card-title">{{ .Title }}</span>
+            </a>
+            {{ end }}
+        {{ end }}
+    </div>
+</section>
+
+<!-- Sekcja Kategorii -->
+<section class="section-container" style="text-align: center;">
+    <h2 style="margin-bottom: 30px;">Zakochaj się w Azji</h2>
+    <div class="kategorie-grid-center">
+        <a href="{{ "kategoria/jedzenie/" | relURL }}" class="kategoria-tile-center">Jedzenie</a>
+        <a href="{{ "kategoria/nocleg/" | relURL }}" class="kategoria-tile-center">Nocleg</a>
+        <a href="{{ "kategoria/hotel/" | relURL }}" class="kategoria-tile-center">Hotel</a>
+        <a href="{{ "kategoria/historia/" | relURL }}" class="kategoria-tile-center">Historia</a>
+        <a href="{{ "kategoria/popkultura/" | relURL }}" class="kategoria-tile-center">Popkultura</a>
+    </div>
+</section>
+
+<!-- Sekcja Atrakcje -->
+{{ if $krajPageObj }}
+    {{ range $krajPageObj.Pages }}
+        {{ $currentCountryTitle := .Title }}
+        {{ $currentCountrySlug := .Title | urlize | lower }}
+        
+        <section class="section-container">
+            <h2>Odkryj atrakcje w {{ $currentCountryTitle }}</h2>
+            <div class="atrakcje-grid-3">
+                {{ $counter := 0 }}
+                {{ $atrakcjaPageObj := site.GetPage "atrakcja" }}
+                {{ if $atrakcjaPageObj }}
+                    {{ range $atrakcjaPageObj.Pages }}
+                        {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
+                        
+                        {{ if and (eq $atrakcjaKraj $currentCountrySlug) (lt $counter 12) }}
+                            {{ $counter = add $counter 1 }}
+                            <a href="{{ .RelPermalink }}" class="atrakcja-tile">
+                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                                {{ if $img }}
+                                <div class="atrakcja-img-wrap">
+                                    <img src="{{ $img }}" alt="{{ .Title }}">
+                                </div>
+                                {{ end }}
+                                <div class="atrakcja-content">
+                                    <h3>{{ .Title }}</h3>
+                                    {{ if .Params.description }}
+                                    {{ end }}
+                                </div>
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            </div>
+        </section>
+    {{ end }}
+{{ end }}
+
+{{ end }}

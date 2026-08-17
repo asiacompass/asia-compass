@@ -1,4 +1,0 @@
----
-title: "Chiny"
-kraj: "Chiny"
----

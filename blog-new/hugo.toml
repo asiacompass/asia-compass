@@ -1,18 +1,18 @@
-baseURL = 'https://keyra016.github.io/asia-compass/'
+baseURL = 'https://keyra016.github.io/'
 languageCode = 'pl-pl'
 title = 'Asia Compass'
 
-# Definiujemy taksonomie, które pozwolą Ci łatwo łączyć atrakcje z krajami i kategoriami
+# Taksonomie w liczbie pojedynczej, spójne z folderami i szablonami
 [taxonomies]
 kraj = "kraj"
 miasto = "miasto"
 kategoria = "kategoria"
-tag = "tag"
+tag = "tags"
 
 [menu]
   [[menu.main]]
     name = "Kraje"
-    url = "/kraje/"
+    url = "/kraj/"
     weight = 1
 
   [[menu.main]]
@@ -22,7 +22,7 @@ tag = "tag"
 
   [[menu.main]]
     name = "Sociale"
-    url = "/sociale/"
+    url = "/social/"
     weight = 3
 
   [[menu.main]]

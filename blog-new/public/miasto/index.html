@@ -1,67 +1,206 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
-    <title>Miasto | Asia Compass</title>
-    <link rel="stylesheet" href="/asia-compass/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miasta | Asia Compass</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <header class="site-header">
-        <div class="logo">
+
+    
+    <header class="site-header">
+    <div class="logo">
+        <a href="/">Asia Compass</a>
+    </div>
+    <nav>
+        <ul class="nav-menu">
             
-            <a href="/">Asia Compass</a>
-        </div>
-        <nav>
-            <ul class="nav-menu">
-                
-                
-                <li><a href="/asia-compass/kraje/">Kraje</a></li>
-                
-                <li><a href="/asia-compass/blog/">Blog</a></li>
-                
-                <li><a href="/asia-compass/sociale/">Sociale</a></li>
-                
-                <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
-                
-            </ul>
-        </nav>
-    </header>
+            
+            <li class="dropdown">
+                <a href="/kraj/">Kraje</a>
+                <ul class="dropdown-content">
+                    
+                    
+                        
+                            
+                            
+                            <li class="dropdown-submenu">
+                                <a href="/kraj/chiny/">Chiny &raquo;</a>
+                                <ul class="submenu-content">
+                                    
+                                    
+                                        
+                                            
+                                            
+                                                <li><a href="/miasto/pekin/">PEKIN</a></li>
+                                            
+                                        
+                                            
+                                            
+                                        
+                                            
+                                            
+                                                <li><a href="/miasto/shanghai/">Shanghai</a></li>
+                                            
+                                        
+                                            
+                                            
+                                        
+                                    
+                                </ul>
+                            </li>
+                        
+                            
+                            
+                            <li class="dropdown-submenu">
+                                <a href="/kraj/japonia/">JAPONIA &raquo;</a>
+                                <ul class="submenu-content">
+                                    
+                                    
+                                        
+                                            
+                                            
+                                        
+                                            
+                                            
+                                        
+                                            
+                                            
+                                        
+                                            
+                                            
+                                                <li><a href="/miasto/tokyo/">Tokyo</a></li>
+                                            
+                                        
+                                    
+                                </ul>
+                            </li>
+                        
+                            
+                            
+                            <li class="dropdown-submenu">
+                                <a href="/kraj/korea/">Korea &raquo;</a>
+                                <ul class="submenu-content">
+                                    
+                                    
+                                        
+                                            
+                                            
+                                        
+                                            
+                                            
+                                                <li><a href="/miasto/seoul/">Seoul</a></li>
+                                            
+                                        
+                                            
+                                            
+                                        
+                                            
+                                            
+                                        
+                                    
+                                </ul>
+                            </li>
+                        
+                    
+                </ul>
+            </li>
 
-    <main class="site-main">
-        
-<h1>Miasto</h1>
+            
+            <li><a href="/blog/">Blog</a></li>
 
-<div class="attractions-grid">
+            
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/asiacompass" target="_blank" rel="noopener">Facebook</a></li>
+                    <li><a href="https://www.pinterest.com/asiacompass" target="_blank" rel="noopener">Pinterest</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a href="/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
     
-    <a href="https://keyra016.github.io/asia-compass/miasto/pekin/" class="tile attraction-card">
-        <h3>Pekin</h3>
+    <main>
         
-        <p>Kraj:  | Miasto: </p>
-    </a>
+<div class="city-page" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     
-    <a href="https://keyra016.github.io/asia-compass/miasto/tokyo/" class="tile attraction-card">
-        <h3>Tokyo</h3>
+    
+    
+    
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px; color: var(--primary-red);">Miasta</h1>
+    
+
+    
+    
+
+    
+
+    
+    
+    
         
-        <p>Kraj:  | Miasto: </p>
-    </a>
+        
     
+        
+        
+    
+        
+        
+    
+        
+        
+    
+    
+
+    
+
+    
+    <p><h2 style="margin-bottom: 20px; color: var(--primary-red);">Miasta odkryj niezwykłe miejsca!</h2></p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+        
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+                
+                
+                
+            
+        
+    </div>
 </div>
 
 <style>
-.attractions-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
+ 
+.city-kat-tile:hover, 
+.city-attr-tile:hover {
+    background-color: #fce8ec !important;
+    border-color: var(--hover-color) !important;
 }
-.attraction-card {
-    text-decoration: none;
-    padding: 15px;
-    border-radius: 10px;
-    color: var(--text-color);
+.city-attr-btn:hover {
+    opacity: 0.85;
 }
 </style>
 
     </main>
+
 </body>
 </html>

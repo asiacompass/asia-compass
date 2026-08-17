@@ -1,0 +1,139 @@
+{{ define "main" }}
+<div class="list-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+    <header style="margin-bottom: 30px;">
+        <h1 style="font-size: 2.5rem; color: var(--text-color); margin-bottom: 10px;">{{ .Title }}</h1>
+        {{ if .Description }}
+        <p style="font-size: 1.1rem; color: var(--text-color); opacity: 0.8;">{{ .Description }}</p>
+        {{ end }}
+    </header>
+
+    {{ $currentKatSlug := .Title | urlize | lower }}
+
+    {{/* Krok 1: Zbieramy unikalne kraje, które posiadają atrakcje w tej konkretnej kategorii */}}
+    {{ $krajeFound := slice }}
+    {{ $atrakcjaPageObj := site.GetPage "/atrakcja" }}
+    {{ if $atrakcjaPageObj }}
+        {{ range $atrakcjaPageObj.Pages }}
+            {{ $atrakcjaKat := .Params.kategoria | default "" | urlize | lower }}
+            {{ if and (eq $atrakcjaKat $currentKatSlug) .Params.kraj }}
+                {{ $krajeFound = $krajeFound | append .Params.kraj }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ $krajeFound = $krajeFound | uniq | sort }}
+
+    {{/* Krok 2: Generujemy pasek zakładek z krajami na górze */}}
+    {{ if gt (len $krajeFound) 0 }}
+        <div class="country-tabs" style="display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 40px; border-bottom: 2px solid var(--tile-bg); padding-bottom: 15px;">
+            {{ range $krajeFound }}
+                {{ $krajName := . }}
+                {{ $krajSlug := $krajName | urlize | lower }}
+                
+                <button class="country-tab-btn" data-kraj="{{ $krajSlug }}" style="padding: 10px 20px; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; background: var(--tile-bg); color: var(--text-color); transition: all 0.2s;">
+                    {{ $krajName }}
+                </button>
+            {{ end }}
+        </div>
+
+        {{/* Krok 3: Sekcje treści dla każdego kraju */}}
+        {{ range $krajeFound }}
+            {{ $krajName := . }}
+            {{ $krajSlug := $krajName | urlize | lower }}
+            
+            <div class="country-section" data-kraj-content="{{ $krajSlug }}" style="display: none;">
+                
+                {{/* Zbieramy atrakcje dla danej kategorii i tego konkretnego kraju */}}
+                {{ $atrakcjeKraju := slice }}
+                {{ if $atrakcjaPageObj }}
+                    {{ range $atrakcjaPageObj.Pages }}
+                        {{ $akKat := .Params.kategoria | default "" | urlize | lower }}
+                        {{ $akKraj := .Params.kraj | default "" | urlize | lower }}
+                        {{ if and (eq $akKat $currentKatSlug) (eq $akKraj $krajSlug) }}
+                            {{ $atrakcjeKraju = $atrakcjeKraju | append . }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                {{/* Wyświetlamy atrakcje: grafika, tytuł i kolor tła kafla */}}
+                {{ if gt (len $atrakcjeKraju) 0 }}
+                    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                        {{ range $atrakcjeKraju }}
+                        <a href="{{ .RelPermalink }}" class="list-item-tile" style="border: 3px solid #b7eebc; padding: 5px; border-radius: 8px; background: #f7f9f7; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; text-decoration: none; transition: background-color 0.3s ease, transform 0.2s ease;">
+                            {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                            {{ if $img }}
+                            <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 180px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                            {{ end }}
+                            
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.15rem; text-align: center;">{{ .Title }}</h3>
+                        </a>
+                        {{ end }}
+                    </div>
+                {{ else }}
+                    <p style="color: var(--text-color);">Brak atrakcji w tej kategorii dla wybranego kraju.</p>
+                {{ end }}
+
+            </div>
+        {{ end }}
+
+        {{/* Skrypt obsługujący przełączanie zakładek */}}
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const buttons = document.querySelectorAll('.country-tab-btn');
+            const sections = document.querySelectorAll('.country-section');
+
+            function switchTab(krajSlug) {
+                buttons.forEach(btn => {
+                    if(btn.getAttribute('data-kraj') === krajSlug) {
+                        btn.style.background = 'var(--primary-red)';
+                        btn.style.color = '#fff';
+                    } else {
+                        btn.style.background = 'var(--tile-bg)';
+                        btn.style.color = 'var(--text-color)';
+                    }
+                });
+
+                sections.forEach(sec => {
+                    if(sec.getAttribute('data-kraj-content') === krajSlug) {
+                        sec.style.display = 'block';
+                    } else {
+                        sec.style.display = 'none';
+                    }
+                });
+            }
+
+            if(buttons.length > 0) {
+                const urlParams = new URLSearchParams(window.location.search);
+                let activeKraj = urlParams.get('kraj');
+
+                if(!activeKraj || !document.querySelector(`[data-kraj="${activeKraj}"]`)) {
+                    activeKraj = buttons[0].getAttribute('data-kraj');
+                }
+
+                switchTab(activeKraj);
+
+                buttons.forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const kraj = this.getAttribute('data-kraj');
+                        const newUrl = window.location.pathname + '?kraj=' + kraj;
+                        window.history.pushState({path: newUrl}, '', newUrl);
+                        switchTab(kraj);
+                    });
+                });
+            }
+        });
+        </script>
+
+    {{ else }}
+        <p style="color: var(--text-color);">Brak atrakcji w tej kategorii.</p>
+    {{ end }}
+
+</div>
+
+<style>
+.list-item-tile:hover {
+    background-color: #fce8ec !important;
+    transform: translateY(-2px);
+}
+</style>
+{{ end }}

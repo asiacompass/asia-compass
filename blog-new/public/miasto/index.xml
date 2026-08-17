@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Miasto on Asia Compass</title>
-    <link>https://keyra016.github.io/asia-compass/miasto/</link>
-    <description>Recent content in Miasto on Asia Compass</description>
+    <title>Miasta on Asia Compass</title>
+    <link>http://localhost:1313/miasto/</link>
+    <description>Recent content in Miasta on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="https://keyra016.github.io/asia-compass/miasto/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/miasto/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pekin</title>
-      <link>https://keyra016.github.io/asia-compass/miasto/pekin/</link>
+      <title>PEKIN</title>
+      <link>http://localhost:1313/miasto/pekin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keyra016.github.io/asia-compass/miasto/pekin/</guid>
-      <description></description>
+      <guid>http://localhost:1313/miasto/pekin/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seoul</title>
+      <link>http://localhost:1313/miasto/seoul/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/seoul/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Shanghai</title>
+      <link>http://localhost:1313/miasto/shanghai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/shanghai/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tokyo</title>
-      <link>https://keyra016.github.io/asia-compass/miasto/tokyo/</link>
+      <link>http://localhost:1313/miasto/tokyo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://keyra016.github.io/asia-compass/miasto/tokyo/</guid>
-      <description></description>
+      <guid>http://localhost:1313/miasto/tokyo/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
