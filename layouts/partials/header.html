@@ -1,13 +1,13 @@
 <header class="site-header">
     <div class="logo">
-        <a href="/asia-compass/">Asia Compass</a>
+        <a href="{{ "/" | relURL }}">Asia Compass</a>
     </div>
     <nav>
         <ul class="nav-menu">
             
             <!-- Rozwijane menu Kraje -->
             <li class="dropdown">
-                <a href="/asia-compass/kraj/">Kraje</a>
+                <a href="{{ "/kraj/" | relURL }}">Kraje</a>
                 <ul class="dropdown-content">
                     {{ $krajPageObj := site.GetPage "kraj" }}
                     {{ if $krajPageObj }}
@@ -21,7 +21,7 @@
             </li>
 
             <!-- Blog -->
-            <li><a href="/asia-compass/blog/">Blog</a></li>
+            <li><a href="{{ "/blog/" | relURL }}">Blog</a></li>
 
             <!-- Menu Sociale -->
             <li class="dropdown">
@@ -32,7 +32,7 @@
             </li>
 
             <!-- Ulubione -->
-            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+            <li><a href="{{ "/ulubione/" | relURL }}">Ulubione</a></li>
 
         </ul>
     </nav>
