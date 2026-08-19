@@ -1,27 +1,133 @@
 <header class="site-header">
     <div class="logo">
-        <a href="{{ "/" | relURL }}">Asia Compass</a>
+        <a href="/asia-compass/">Asia Compass</a>
     </div>
     <nav>
         <ul class="nav-menu">
             
-            <!-- Rozwijane menu Kraje -->
-            <li class="dropdown">
-                <a href="{{ "/kraj/" | relURL }}">Kraje</a>
-                <ul class="dropdown-content">
-                    {{ $krajPageObj := site.GetPage "kraj" }}
-                    {{ if $krajPageObj }}
-                        {{ range $krajPageObj.Pages }}
-                            <li class="dropdown-submenu">
-                                <a href="{{ .RelPermalink }}">{{ .Title }} &raquo;</a>
-                            </li>
+ <!-- Rozwijane menu Kraje -->
+<li class="dropdown">
+    <a href="/asia-compass/kraj/">Kraje</a>
+    <ul class="dropdown-content">
+        {{ $krajPageObj := site.GetPage "kraj" }}
+        {{ if $krajPageObj }}
+            {{/* 1. Iterujemy tylko po głównych krajach */}}
+            {{ range (where $krajPageObj.Pages "Section" "kraj") }}
+                {{ $currentCountryPage := . }}
+                {{ $countrySlug := .Title | urlize | lower }}
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="{{ .RelPermalink }}">{{ .Title }} &raquo;</a>
+                    
+                    {{/* 2. Dynamicznie zaciągamy miasta pasujące do tego kraju do podmenu */}}
+                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                        {{ with site.GetPage "/miasto" }}
+                            {{ range .Pages }}
+                                {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
+                                {{ if eq $miastoKraj $countrySlug }}
+                                    <li>
+                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                    </li>
+                                {{ end }}
+                            {{ end }}
                         {{ end }}
-                    {{ end }}
-                </ul>
-            </li>
+                    </ul>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</li>
+
+<style>
+/* Główny element nawigacji - powiększone napisy */
+.main-nav a, 
+.nav-links a, 
+header nav a {
+    font-size: 1.15rem !important; /* Powiększone napisy główne (Kraje, Blog, etc.) */
+    font-weight: 500;
+}
+
+/* Główny kontener menu rozwijanego */
+.dropdown {
+    position: relative;
+}
+
+/* Pudełko główne dla krajów */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Pozycje w głównym menu (Chiny, Japonia, Korea) */
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a {
+    display: block;
+    padding: 10px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-submenu > a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+
+/* Pudełko z miastami - otwiera się DO WEWNĘTRZA (w lewo), żeby nie uciekało z ekranu */
+.dropdown-sub-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%; /* Kluczowa zmiana: wyskakuje po lewej stronie kraju */
+    left: auto;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1001;
+}
+
+/* Pokazuj miasta po najechaniu na dany kraj */
+.dropdown-submenu:hover .dropdown-sub-content {
+    display: block !important;
+}
+
+/* Style linków miast w podmenu */
+.dropdown-sub-content li a {
+    display: block;
+    padding: 8px 1px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-sub-content li a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+</style>
 
             <!-- Blog -->
-            <li><a href="{{ "/blog/" | relURL }}">Blog</a></li>
+            <li><a href="/asia-compass/blog/">Blog</a></li>
 
             <!-- Menu Sociale -->
             <li class="dropdown">
@@ -32,7 +138,7 @@
             </li>
 
             <!-- Ulubione -->
-            <li><a href="{{ "/ulubione/" | relURL }}">Ulubione</a></li>
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
 
         </ul>
     </nav>

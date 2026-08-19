@@ -9,20 +9,22 @@
 </section>
 
 <!-- Sekcja Kraje -->
-<section class="section-container" style="text-align: center;">
-    <h2>Dokąd lecisz?</h2>
-    <div class="kraje-grid-center">
+<section class="section-container" style="text-align: center; margin-bottom: 20px;">
+    <h1 style="color: var(--primary-red); margin-bottom: 30px;">Dokąd lecisz?</h1>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; max-width: 960px; margin: 0 auto;">
         {{ $krajPageObj := site.GetPage "kraj" }}
         {{ if $krajPageObj }}
             {{ range $krajPageObj.Pages }}
-            <a href="{{ .RelPermalink }}" class="kraj-card-tile">
+            <a href="{{ .RelPermalink }}" class="kraj-card-tile" style="border-radius: 12px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: all 0.3s ease;">
                 {{ $img := .Params.banner_image | default .Params.img | default .Params.image_url | default .Params.image }}
                 {{ if $img }}
-                <div class="kraj-card-img">
-                    <img src="{{ $img }}" alt="{{ .Title }}">
+                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
                 </div>
                 {{ end }}
-                <span class="kraj-card-title">{{ .Title }}</span>
+                <div style="padding: 40px 20px 20px 20px; text-align: center;">
+                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.8rem; font-weight: bold;">{{ .Title }}</h3>
+                </div>
             </a>
             {{ end }}
         {{ end }}
@@ -30,8 +32,8 @@
 </section>
 
 <!-- Sekcja Kategorii -->
-<section class="section-container" style="text-align: center;">
-    <h2 style="margin-bottom: 30px;">Zakochaj się w Azji</h2>
+<section class="section-container" style="text-align: center; margin-bottom: 30px;">
+    <h1 style="margin-bottom: 30px;">Zakochaj się w Azji</h1>
     <div class="kategorie-grid-center">
         <a href="{{ "kategoria/jedzenie/" | relURL }}" class="kategoria-tile-center">Jedzenie</a>
         <a href="{{ "kategoria/nocleg/" | relURL }}" class="kategoria-tile-center">Nocleg</a>
@@ -47,9 +49,9 @@
         {{ $currentCountryTitle := .Title }}
         {{ $currentCountrySlug := .Title | urlize | lower }}
         
-        <section class="section-container">
-            <h2>Odkryj atrakcje w {{ $currentCountryTitle }}</h2>
-            <div class="atrakcje-grid-3">
+        <section class="section-container" style="text-align: center; margin-bottom: 40px;">
+            <h1 style="color: var(--primary-red); margin-bottom: 20px;">Odkryj atrakcje w {{ $currentCountryTitle }}</h1>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; max-width: 960px; margin: 0 auto;">
                 {{ $counter := 0 }}
                 {{ $atrakcjaPageObj := site.GetPage "atrakcja" }}
                 {{ if $atrakcjaPageObj }}
@@ -58,19 +60,22 @@
                         
                         {{ if and (eq $atrakcjaKraj $currentCountrySlug) (lt $counter 12) }}
                             {{ $counter = add $counter 1 }}
-                            <a href="{{ .RelPermalink }}" class="atrakcja-tile">
-                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
-                                {{ if $img }}
-                                <div class="atrakcja-img-wrap">
-                                    <img src="{{ $img }}" alt="{{ .Title }}">
-                                </div>
-                                {{ end }}
-                                <div class="atrakcja-content">
-                                    <h3>{{ .Title }}</h3>
-                                    {{ if .Params.description }}
+                            <div class="home-attraction-tile" style="border-radius: 12px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; text-align: left; transition: all 0.3s ease;">
+                                <div>
+                                    {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                                    {{ if $img }}
+                                    <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                        <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                    </div>
                                     {{ end }}
+                                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
+                                    </div>
                                 </div>
-                            </a>
+                                <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                    <a href="{{ .RelPermalink }}" class="home-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                                </div>
+                            </div>
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -79,4 +84,27 @@
     {{ end }}
 {{ end }}
 
+<style>
+.home-attraction-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    border-color: var(--primary-red);
+}
+.home-attraction-tile:hover img {
+    transform: scale(1.03);
+}
+.home-attraction-btn:hover {
+    background: #a2e8a9 !important;
+}
+
+.kraj-card-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    border-color: var(--primary-red);
+}
+.kraj-card-tile:hover img {
+    transform: scale(1.03);
+}
+
+</style>
 {{ end }}
