@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAPONIA on Asia Compass</title>
+    <link>http://localhost:1313/kraj/japonia/</link>
+    <description>Recent content in JAPONIA on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/kraj/japonia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JAPONIA</title>
+      <link>http://localhost:1313/kraj/japonia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kraj/japonia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TOKYO</title>
+      <link>http://localhost:1313/miasto/tokyo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/tokyo/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wieza</title>
+      <link>http://localhost:1313/atrakcja/wieza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/atrakcja/wieza/</guid>
+      <description>&lt;h3 id=&#34;opis-atrakcji&#34;&gt;Opis atrakcji&lt;/h3&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;aaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;fascynujące-fakty-i-ciekawostki&#34;&gt;Fascynujące Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Magia cyfry dziewięć:&lt;/strong&gt; W kulturze chińskiej cyfra 9 jest symbolem cesarza i wieczności. W Zakazanym Mieście zobaczysz ją na każdym kroku.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pałac bez kominów:&lt;/strong&gt; Mimo surowych pekińskich zim, w głównych budynkach mieszkalnych cesarzy na próżno szukać kominów. Ogień rozpalano w specjalnych jamach poza budynkami.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

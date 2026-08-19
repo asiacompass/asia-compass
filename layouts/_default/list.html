@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="list-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+    <h1 style="font-size: 2.5rem; margin-bottom: 10px; color: var(--text-color);">{{ .Title }}</h1>
+    
+    {{ if .Description }}
+    <p style="font-size: 1.1rem; color: var(--text-color); margin-bottom: 30px; opacity: 0.8;">{{ .Description }}</p>
+    {{ end }}
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
+        {{ range .RegularPages }}
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                {{ $img := .Params.img | default .Params.image_url | default .Params.image }}
+                {{ if $img }}
+                <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                {{ end }}
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">{{ .Title }}</h3>
+                
+                {{ if .Params.description }}
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;">{{ .Params.description }}</p>
+                {{ else if .Summary }}
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;">{{ .Summary }}</p>
+                {{ end }}
+            </div>
+            
+            <a href="{{ .RelPermalink }}" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        {{ end }}
+    </div>
+
+</div>
+
+<style>
+.list-item-tile:hover {
+    background-color: var(--hover-color) !important;
+}
+.list-btn:hover {
+    opacity: 0.85;
+}
+</style>
+{{ end }}

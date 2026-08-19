@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Miasto on Asia Compass</title>
+    <link>http://localhost:1313/miasto/</link>
+    <description>Recent content in Miasto on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/miasto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PEKIN</title>
+      <link>http://localhost:1313/miasto/pekin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/pekin/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SEOUL</title>
+      <link>http://localhost:1313/miasto/seoul/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/seoul/</guid>
+      <description>&lt;p&gt;Seul to fascynujące miasto kontrastów, w którym ultranowoczesna technologia płynnie miesza się z wielowiekową tradycją.&lt;br&gt;&#xA;W cieniu szklanych drapaczy chmur i neonów dzielnicy Gangnam kryją się monumentalne, XV-wieczne pałace dynastii Joseon, w których wciąż można spotkać ludzi spacerujących w tradycyjnych strojach hanbok. Stolica Korei Południowej nigdy nie śpi – za dnia zachwyca futurystyczną architekturą, taką jak Dongdaemun Design Plaza, a w nocy przyciąga tętniącymi życiem targami ulicznymi, gdzie zapachy pikantnego tteokbokki i pieczonego mięsa samgyeopsal mieszają się w powietrzu.&lt;br&gt;&#xA;To miasto, które oszałamia intensywnością, inspiruje technologią i momentalnie rozkochuje w sobie każdego, kto uwielbia azjatycką kulturę, modę oraz genialne jedzenie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SHANGHAI</title>
+      <link>http://localhost:1313/miasto/shanghai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/shanghai/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TOKYO</title>
+      <link>http://localhost:1313/miasto/tokyo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/tokyo/</guid>
+      <description>&lt;p&gt;TU POWINIEN BYC WIDOCZNY OPIS KRAJU NA KARCIE KAFELKA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TONDABAYASHI</title>
+      <link>http://localhost:1313/miasto/tondabayashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/tondabayashi/</guid>
+      <description>&lt;p&gt;Tondabayashi to urokliwe miasto położone w południowo-wschodniej części prefektury Osaka na wyspie Honsiu w Japonii. Znajduje się zaledwie około 30 minut jazdy pociągiem od centrum Osaki, co czyni je idealnym celem podróży na jednodniową wycieczkę dla osób szukających ucieczki od zgiełku wielkich metropolii. Miasto słynie z unikalnego połączenia doskonale zachowanej architektury historycznej z niesamowitymi obiektami sakralnymi oraz nowoczesnymi (i wręcz surrealistycznymi) punktami orientacyjnymi.&lt;/p&gt;&#xA;&lt;p&gt;Możesz tutaj wstawić &lt;strong&gt;pogrubienie&lt;/strong&gt;, a także dowolny &lt;a href=&#34;http://localhost:1313/atrakcja/twoja-atrakcja/&#34;&gt;link do atrakcji&lt;/a&gt; lub strony zewnętrznej.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

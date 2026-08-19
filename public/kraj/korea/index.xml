@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KOREA on Asia Compass</title>
+    <link>http://localhost:1313/kraj/korea/</link>
+    <description>Recent content in KOREA on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/kraj/korea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KOREA</title>
+      <link>http://localhost:1313/kraj/korea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/kraj/korea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SEOUL</title>
+      <link>http://localhost:1313/miasto/seoul/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/miasto/seoul/</guid>
+      <description>&lt;p&gt;Seul to fascynujące miasto kontrastów, w którym ultranowoczesna technologia płynnie miesza się z wielowiekową tradycją.&lt;br&gt;&#xA;W cieniu szklanych drapaczy chmur i neonów dzielnicy Gangnam kryją się monumentalne, XV-wieczne pałace dynastii Joseon, w których wciąż można spotkać ludzi spacerujących w tradycyjnych strojach hanbok. Stolica Korei Południowej nigdy nie śpi – za dnia zachwyca futurystyczną architekturą, taką jak Dongdaemun Design Plaza, a w nocy przyciąga tętniącymi życiem targami ulicznymi, gdzie zapachy pikantnego tteokbokki i pieczonego mięsa samgyeopsal mieszają się w powietrzu.&lt;br&gt;&#xA;To miasto, które oszałamia intensywnością, inspiruje technologią i momentalnie rozkochuje w sobie każdego, kto uwielbia azjatycką kulturę, modę oraz genialne jedzenie.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
