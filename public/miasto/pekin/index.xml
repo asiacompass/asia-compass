@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PEKIN on Asia Compass</title>
-    <link>http://localhost:1313/miasto/pekin/</link>
+    <link>http://localhost:1313/asia-compass/miasto/pekin/</link>
     <description>Recent content in PEKIN on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="http://localhost:1313/miasto/pekin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/asia-compass/miasto/pekin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Skytower</title>
-      <link>http://localhost:1313/atrakcja/skytower/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/skytower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/atrakcja/skytower/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/skytower/</guid>
       <description>&lt;h3 id=&#34;opis-atrakcji&#34;&gt;Opis atrakcji&lt;/h3&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;aaaaaaaaaaaaaaaaaaaaaaa&lt;/p&gt;&#xA;&lt;p&gt;Rozległy kompleks pałacowy w sercu Pekinu, który przez stulecia był domem dla cesarzy&amp;hellip;&lt;/p&gt;&#xA;&lt;h3 id=&#34;fascynujące-fakty-i-ciekawostki&#34;&gt;Fascynujące Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Magia cyfry dziewięć:&lt;/strong&gt; W kulturze chińskiej cyfra 9 jest symbolem cesarza i wieczności. W Zakazanym Mieście zobaczysz ją na każdym kroku.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pałac bez kominów:&lt;/strong&gt; Mimo surowych pekińskich zim, w głównych budynkach mieszkalnych cesarzy na próżno szukać kominów. Ogień rozpalano w specjalnych jamach poza budynkami.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Zakazane Miasto (The Palace Museum)</title>
-      <link>http://localhost:1313/atrakcja/zakazane-miasto/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/atrakcja/zakazane-miasto/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</guid>
       <description>&lt;h3 id=&#34;the-palace-museum&#34;&gt;The Palace Museum&lt;/h3&gt;&#xA;&lt;p&gt;Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Miasta, wkraczasz do największego i najlepiej zachowanego kompleksu pałacowego na świecie. Przez ponad 500 lat ten majestatyczny labirynt czerwonych murów, złoconych dachów i marmurowych dziedzińców służył jako samowystarczalne serce Imperium Chińskiego, niedostępne dla zwykłych śmiertelników. To tutaj 24 cesarzy z dynastii Ming i Qing sprawowało władzę absolutną, żyjąc pośród niewyobrażalnego przepychu, dworskiej etykiety i sekretnych intryg. Spacer po Zakazanym Mieście to bezprecedensowa podróż w czasie do epoki potęgi i mistycznego symbolizmu starożytnych Chin.&lt;/p&gt;</description>
     </item>
   </channel>

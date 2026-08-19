@@ -2,58 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/asia-compass/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>http://localhost:1313/asia-compass/blog/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/pierwszy-wpis-copy/</loc>
+    <loc>http://localhost:1313/asia-compass/blog/pierwszy-wpis-copy/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/pierwszy-wpis/</loc>
+    <loc>http://localhost:1313/asia-compass/blog/pierwszy-wpis/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/atrakcja/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/</loc>
   </url><url>
-    <loc>http://localhost:1313/kraj/chiny/</loc>
+    <loc>http://localhost:1313/asia-compass/kraj/chiny/</loc>
   </url><url>
-    <loc>http://localhost:1313/kategoria/historia/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/pl-peace-tower/</loc>
   </url><url>
-    <loc>http://localhost:1313/kraj/japonia/</loc>
+    <loc>http://localhost:1313/asia-compass/kategoria/historia/</loc>
   </url><url>
-    <loc>http://localhost:1313/kategoria/jedzenie/</loc>
+    <loc>http://localhost:1313/asia-compass/kraj/japonia/</loc>
   </url><url>
-    <loc>http://localhost:1313/kategoria/</loc>
+    <loc>http://localhost:1313/asia-compass/kategoria/</loc>
   </url><url>
-    <loc>http://localhost:1313/kraj/korea/</loc>
+    <loc>http://localhost:1313/asia-compass/kraj/korea/</loc>
   </url><url>
-    <loc>http://localhost:1313/kraj/</loc>
+    <loc>http://localhost:1313/asia-compass/kraj/</loc>
   </url><url>
-    <loc>http://localhost:1313/miasto/</loc>
+    <loc>http://localhost:1313/asia-compass/miasto/</loc>
   </url><url>
-    <loc>http://localhost:1313/miasto/pekin/</loc>
+    <loc>http://localhost:1313/asia-compass/miasto/pekin/</loc>
   </url><url>
-    <loc>http://localhost:1313/kategoria/popkultura/</loc>
+    <loc>http://localhost:1313/asia-compass/kategoria/popkultura/</loc>
   </url><url>
-    <loc>http://localhost:1313/miasto/seoul/</loc>
+    <loc>http://localhost:1313/asia-compass/miasto/seoul/</loc>
   </url><url>
-    <loc>http://localhost:1313/miasto/shanghai/</loc>
+    <loc>http://localhost:1313/asia-compass/miasto/shanghai/</loc>
   </url><url>
-    <loc>http://localhost:1313/atrakcja/skytower/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/skytower/</loc>
   </url><url>
-    <loc>http://localhost:1313/sociale/</loc>
+    <loc>http://localhost:1313/asia-compass/sociale/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/asia-compass/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/atrakcja/temple/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/temple/</loc>
   </url><url>
-    <loc>http://localhost:1313/miasto/tokyo/</loc>
+    <loc>http://localhost:1313/asia-compass/miasto/tokyo/</loc>
   </url><url>
-    <loc>http://localhost:1313/ulubione/</loc>
+    <loc>http://localhost:1313/asia-compass/miasto/tondabayashi/</loc>
   </url><url>
-    <loc>http://localhost:1313/atrakcja/wieza/</loc>
+    <loc>http://localhost:1313/asia-compass/ulubione/</loc>
   </url><url>
-    <loc>http://localhost:1313/atrakcja/zakazane-miasto/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</loc>
   </url>
 </urlset>
