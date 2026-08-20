@@ -2,6 +2,8 @@
 title: "NAGOYA"
 kraj: "japonia"
 typ: "miasto"
+lat: 35.1815
+lng: 136.9066
 img: "https://images.pexels.com/photos/18413832/pexels-photo-18413832.jpeg"
 ---
 

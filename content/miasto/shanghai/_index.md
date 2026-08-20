@@ -2,6 +2,8 @@
 title: "SHANGHAI"
 kraj: "chiny"
 typ: "miasto"
+lat: 31.2304
+lng: 121.4737
 img: "https://images.unsplash.com/photo-1545893835-abaa50cbe628?q=80&w=1312&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 Szanghaj to kosmiczna metropolia przyszłości i Paryż Wschodu w jednym, gdzie kolonialna historia przegląda się w lustrzanych fasadach najwyższych wieżowców świata. To miasto oszałamia architektonicznym rozmachem.   

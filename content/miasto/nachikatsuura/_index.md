@@ -2,6 +2,8 @@
 title: "NACHIKATSUURA"
 kraj: "japonia"
 typ: "miasto"
+lat: 33.6264
+lng: 135.9389
 img: "https://images.pexels.com/photos/96932/pexels-photo-96932.jpeg"
 ---
 

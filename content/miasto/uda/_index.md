@@ -2,6 +2,8 @@
 title: "UDA"
 kraj: "japonia"
 typ: "miasto"
+lat: 34.5208
+lng: 135.9525
 img: "https://countrysidestays-japan.com/sp2023/assets/image/article/kansai/uda/img_slider_01_pc.jpg"
 ---
 

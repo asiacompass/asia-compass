@@ -6,7 +6,7 @@
       var script = document.createElement("script");
       script.async = 1;
       script.setAttribute("data-cmp-ab","2");
-      script.src = 'https://emrldtp.cc/NTU4ODA4.js?t=558808';
+      script.src = 'https://emrldtp.cc/NTY0MzA5.js?t=564309';
       document.head.appendChild(script);
   })();
 </script>
@@ -15,6 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KOREA | Asia Compass</title>
     <link rel="stylesheet" href="/asia-compass/css/style.css">
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
 
@@ -41,11 +46,8 @@
                     <a href="/asia-compass/kraj/chiny/">CHINY &raquo;</a>
                     
                     
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         
-                            
-                                
-                                
                             
                                 
                                 
@@ -130,6 +132,12 @@
                                 
                                 
                             
+                                
+                                
+                            
+                                
+                                
+                            
                         
                     </ul>
                 </li>
@@ -141,11 +149,8 @@
                     <a href="/asia-compass/kraj/japonia/">JAPONIA &raquo;</a>
                     
                     
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         
-                            
-                                
-                                
                             
                                 
                                 
@@ -256,6 +261,13 @@
                             
                                 
                                 
+                                    <li>
+                                        <a href="/asia-compass/miasto/shirakawa/">SHIRAKAWA</a>
+                                    </li>
+                                
+                            
+                                
+                                
                             
                                 
                                 
@@ -273,6 +285,13 @@
                             
                                 
                                 
+                                    <li>
+                                        <a href="/asia-compass/miasto/uda/">UDA</a>
+                                    </li>
+                                
+                            
+                                
+                                
                             
                         
                     </ul>
@@ -285,11 +304,8 @@
                     <a href="/asia-compass/kraj/korea/">KOREA &raquo;</a>
                     
                     
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         
-                            
-                                
-                                
                             
                                 
                                 
@@ -388,9 +404,15 @@
                             
                                 
                                 
+                            
+                                
+                                
                                     <li>
                                         <a href="/asia-compass/miasto/suwon/">SUWON</a>
                                     </li>
+                                
+                            
+                                
                                 
                             
                                 
@@ -414,13 +436,69 @@
     </ul>
 </li>
 
+            
+            <li><a href="/asia-compass/blog/">Blog</a></li>
+
+            
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
 <style>
  
-.main-nav a, 
-.nav-links a, 
-header nav a {
-    font-size: 1.15rem !important;  
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    padding-top: 75px;
+}
+
+ 
+.site-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-red, #d9534f);
+    text-decoration: none;
+}
+
+.site-header nav ul.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.site-header nav ul.nav-menu > li > a {
+    font-size: 1.15rem !important;
     font-weight: 500;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    padding: 8px 0;
 }
 
  
@@ -471,7 +549,7 @@ header nav a {
     display: none;
     position: absolute;
     top: 0;
-    right: 100%;  
+    right: 100%;
     left: auto;
     background: #ffffff;
     min-width: 160px;
@@ -490,7 +568,7 @@ header nav a {
  
 .dropdown-sub-content li a {
     display: block;
-    padding: 8px 1px;
+    padding: 8px 16px;
     color: var(--text-color, #333);
     text-decoration: none;
     white-space: nowrap;
@@ -501,24 +579,6 @@ header nav a {
     color: var(--primary-red);
 }
 </style>
-
-            
-            <li><a href="/asia-compass/blog/">Blog</a></li>
-
-            
-            <li class="dropdown">
-                <a href="#">Sociale</a>
-                <ul class="dropdown-content">
-                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
-                </ul>
-            </li>
-
-            
-            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
-
-        </ul>
-    </nav>
-</header>
 
     
     <main>
@@ -547,7 +607,7 @@ header nav a {
 
     
     <section class="country-info-section" style="margin-bottom: 40px;">
-        <h2 style="color: var(--primary-red); margin-bottom: 20px;">Ważne informacje o kraju</h2>
+        <h2 style="color: var(--primary-red); margin-bottom: 20px;">Przydatne informacje</h2>
         
         <div style="display: flex; flex-direction: column; gap: 20px;">
             
@@ -689,6 +749,10 @@ header nav a {
         
             
             
+                
+                    
+                
+            
         
             
             
@@ -701,241 +765,439 @@ header nav a {
     
 
      
+    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Co chcesz zobaczyć?</h2>
+    <div class="kategorie-grid-center" style="margin-bottom: 40px;">
+        
+            
+            
+            
+            <a href="/kategoria/historia/" class="kategoria-tile-center">
+                historia
+            </a>
+        
+    </div>
+    
 
     
-<h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Miasta w tym kraju</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+    <div style="margin-bottom: 40px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Mapa miast</h2>
+        <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var map = L.map('country-map').setView([ 35 ,  105 ], 4);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            var cities = [
+                
+                    
+                    
+                        {
+                            title: "BUSAN",
+                            lat:  35.1796 ,
+                            lng:  129.0756 ,
+                            url: "\/asia-compass\/miasto\/busan\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "DONGDUCHEON",
+                            lat:  37.9133 ,
+                            lng:  127.0633 ,
+                            url: "\/asia-compass\/miasto\/dongducheon\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "GANGNEUNG",
+                            lat:  37.7556 ,
+                            lng:  128.896 ,
+                            url: "\/asia-compass\/miasto\/gangneung\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "GIMHAE",
+                            lat:  35.2281 ,
+                            lng:  128.8894 ,
+                            url: "\/asia-compass\/miasto\/gimhae\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "GIMPO",
+                            lat:  37.6153 ,
+                            lng:  126.7156 ,
+                            url: "\/asia-compass\/miasto\/gimpo\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "GWANGMYEONG",
+                            lat:  37.4784 ,
+                            lng:  126.8646 ,
+                            url: "\/asia-compass\/miasto\/gwangmyeong\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "GYEONGJU",
+                            lat:  35.8562 ,
+                            lng:  129.2244 ,
+                            url: "\/asia-compass\/miasto\/gyeongju\/"
+                        },
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        {
+                            title: "SEOUL",
+                            lat:  37.5665 ,
+                            lng:  126.978 ,
+                            url: "\/asia-compass\/miasto\/seoul\/"
+                        },
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        {
+                            title: "SUWON",
+                            lat:  37.2636 ,
+                            lng:  127.0286 ,
+                            url: "\/asia-compass\/miasto\/suwon\/"
+                        },
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        {
+                            title: "YONGIN",
+                            lat:  37.241 ,
+                            lng:  127.1779 ,
+                            url: "\/asia-compass\/miasto\/yongin\/"
+                        },
+                    
+                
+            ];
+
+            var bounds = [];
+            cities.forEach(function(city) {
+                var marker = L.marker([city.lat, city.lng]).addTo(map);
+                marker.bindPopup("<b><a href='" + city.url + "' style='color: var(--primary-red); text-decoration: none; font-weight: bold;'>" + city.title + "</a></b><br><a href='" + city.url + "'>Zobacz miasto &rarr;</a>");
+                bounds.push([city.lat, city.lng]);
+            });
+
+            if(bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [50, 50] });
+            }
+        });
+    </script>
+
     
+    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Zobacz atrakcje w mieście i zainspiruj się!</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
         
             
-            
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/29861385/pexels-photo-29861385.jpeg" alt="BUSAN" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">BUSAN</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/29861385/pexels-photo-29861385.jpeg" alt="BUSAN" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">BUSAN</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/busan/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/busan/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE0NDc2MjEyLzE5Yzk4MGVmNjhmZjZhY2IyNzNkOGM2YTJhYjk4NDRmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjIwNDgiLCJoZWlnaHQiOiIyMDQ4IiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19" alt="DONGDUCHEON" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">DONGDUCHEON</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTE0NDc2MjEyLzE5Yzk4MGVmNjhmZjZhY2IyNzNkOGM2YTJhYjk4NDRmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjIwNDgiLCJoZWlnaHQiOiIyMDQ4IiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19" alt="DONGDUCHEON" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">DONGDUCHEON</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/dongducheon/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/dongducheon/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/28466969/pexels-photo-28466969.jpeg" alt="GANGNEUNG" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GANGNEUNG</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/28466969/pexels-photo-28466969.jpeg" alt="GANGNEUNG" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GANGNEUNG</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/gangneung/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/gangneung/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://english.visitkorea.or.kr/public/images/2023/10/17/613a9845789141d1a287ef6fcc3b0d79.jpg" alt="GIMHAE" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GIMHAE</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://english.visitkorea.or.kr/public/images/2023/10/17/613a9845789141d1a287ef6fcc3b0d79.jpg" alt="GIMHAE" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GIMHAE</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/gimhae/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/gimhae/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/18705526/pexels-photo-18705526.jpeg" alt="GIMPO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GIMPO</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/18705526/pexels-photo-18705526.jpeg" alt="GIMPO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GIMPO</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/gimpo/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/gimpo/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Gwangmyeong.jpg" alt="GWANGMYEONG" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GWANGMYEONG</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Gwangmyeong.jpg" alt="GWANGMYEONG" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GWANGMYEONG</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/gwangmyeong/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/gwangmyeong/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/36285558/pexels-photo-36285558.jpeg" alt="GYEONGJU" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GYEONGJU</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/36285558/pexels-photo-36285558.jpeg" alt="GYEONGJU" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">GYEONGJU</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/gyeongju/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/gyeongju/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.unsplash.com/photo-1506816561089-5cc37b3aa9b0?q=80&amp;w=1275&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="SEOUL" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">SEOUL</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.unsplash.com/photo-1506816561089-5cc37b3aa9b0?q=80&amp;w=1275&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="SEOUL" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">SEOUL</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/seoul/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/seoul/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
+                
+                
             
+                
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/35551378/pexels-photo-35551378.png" alt="SUWON" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">SUWON</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/35551378/pexels-photo-35551378.png" alt="SUWON" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">SUWON</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/suwon/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/suwon/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
-            
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/14949126/pexels-photo-14949126.jpeg" alt="YONGIN" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">YONGIN</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/14949126/pexels-photo-14949126.jpeg" alt="YONGIN" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">YONGIN</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/yongin/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/yongin/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
         
-    
     </div>
 </div>
 

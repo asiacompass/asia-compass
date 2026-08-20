@@ -2,6 +2,8 @@
 title: "SHIRAKAWA"
 kraj: "japonia"
 typ: "miasto"
+lat: 37.1322
+lng: 140.2114
 img: "https://images.pexels.com/photos/28251127/pexels-photo-28251127.jpeg"
 ---
 

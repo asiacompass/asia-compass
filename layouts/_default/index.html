@@ -9,7 +9,7 @@
 </section>
 
 <!-- Sekcja Kraje -->
-<section class="section-container" style="text-align: center; margin-bottom: 20px;">
+<section class="section-container" style="text-align: center; margin-bottom: 40px;">
     <h1 style="color: var(--primary-red); margin-bottom: 30px;">Dokąd lecisz?</h1>
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; max-width: 960px; margin: 0 auto;">
         {{ $krajPageObj := site.GetPage "kraj" }}
@@ -22,8 +22,8 @@
                     <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
                 </div>
                 {{ end }}
-                <div style="padding: 40px 20px 20px 20px; text-align: center;">
-                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.8rem; font-weight: bold;">{{ .Title }}</h3>
+                <div style="padding: 20px; text-align: center;">
+                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
                 </div>
             </a>
             {{ end }}
@@ -32,7 +32,7 @@
 </section>
 
 <!-- Sekcja Kategorii -->
-<section class="section-container" style="text-align: center; margin-bottom: 30px;">
+<section class="section-container" style="text-align: center; margin-bottom: 40px;">
     <h1 style="margin-bottom: 30px;">Zakochaj się w Azji</h1>
     <div class="kategorie-grid-center">
         <a href="{{ "kategoria/jedzenie/" | relURL }}" class="kategoria-tile-center">Jedzenie</a>
@@ -40,6 +40,43 @@
         <a href="{{ "kategoria/hotel/" | relURL }}" class="kategoria-tile-center">Hotel</a>
         <a href="{{ "kategoria/historia/" | relURL }}" class="kategoria-tile-center">Historia</a>
         <a href="{{ "kategoria/popkultura/" | relURL }}" class="kategoria-tile-center">Popkultura</a>
+    </div>
+</section>
+
+<!-- Sekcja Blog (zamknięta w max-width, żeby nie wystawała) -->
+<section class="section-container" style="margin-bottom: 40px;">
+    <div style="max-width: 960px; margin: 0 auto;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            <h2 style="margin: 0; color: var(--primary-red);">Najnowsze z bloga</h2>
+            <a href="/asia-compass/blog/" style="color: var(--primary-red); text-decoration: none; font-weight: 600;">Wszystkie wpisy &rarr;</a>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px;">
+            {{ $blogPage := site.GetPage "/blog" }}
+            {{ if $blogPage }}
+                {{ range first 4 $blogPage.Pages.ByDate.Reverse }}
+                <div style="border-radius: 12px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                        {{ if $img }}
+                        <div style="width: 100%; height: 160px; overflow: hidden; margin: 0;">
+                            <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                        </div>
+                        {{ end }}
+                        <div style="padding: 15px 15px 5px 15px;">
+                            <h3 style="margin: 0 0 8px 0; color: var(--primary-red); font-size: 1.15rem; font-weight: bold;">{{ .Title }}</h3>
+                            {{ if .Description }}
+                            <p style="margin: 0; font-size: 0.9rem; color: var(--text-color); line-height: 1.4;">{{ .Description | truncate 80 }}</p>
+                            {{ end }}
+                        </div>
+                    </div>
+                    <div style="padding: 15px;">
+                        <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 6px 16px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem;">Czytaj artykuł &rarr;</a>
+                    </div>
+                </div>
+                {{ end }}
+            {{ end }}
+        </div>
     </div>
 </section>
 
@@ -105,6 +142,5 @@
 .kraj-card-tile:hover img {
     transform: scale(1.03);
 }
-
 </style>
 {{ end }}

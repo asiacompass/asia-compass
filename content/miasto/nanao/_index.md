@@ -2,6 +2,8 @@
 title: "NANAO"
 kraj: "japonia"
 typ: "miasto"
+lat: 37.0378
+lng: 136.9639
 img: "https://www.iju-join.jp/material/images/group/1/7d164ea9240ec1a8.jpg"
 ---
 

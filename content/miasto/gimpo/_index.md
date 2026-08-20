@@ -2,6 +2,8 @@
 title: "GIMPO"
 kraj: "korea"
 typ: "miasto"
+lat: 37.6153
+lng: 126.7156
 img: "https://images.pexels.com/photos/18705526/pexels-photo-18705526.jpeg"
 ---
 

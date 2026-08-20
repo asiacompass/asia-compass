@@ -20,7 +20,7 @@
                     <a href="{{ .RelPermalink }}">{{ .Title }} &raquo;</a>
                     
                     {{/* 2. Dynamicznie zaciągamy miasta pasujące do tego kraju do podmenu */}}
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         {{ with site.GetPage "/miasto" }}
                             {{ range .Pages }}
                                 {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
@@ -38,13 +38,69 @@
     </ul>
 </li>
 
+            <!-- Blog -->
+            <li><a href="/asia-compass/blog/">Blog</a></li>
+
+            <!-- Menu Sociale -->
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </li>
+
+            <!-- Ulubione -->
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
 <style>
-/* Główny element nawigacji - powiększone napisy */
-.main-nav a, 
-.nav-links a, 
-header nav a {
-    font-size: 1.15rem !important; /* Powiększone napisy główne (Kraje, Blog, etc.) */
+/* === PRZYKLEJONY (STICKY) NAGŁÓWEK === */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+/* Odsunięcie treści strony, żeby nie chowała się pod menu */
+body {
+    padding-top: 75px;
+}
+
+/* === STYLE NAWIGACJI === */
+.site-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-red, #d9534f);
+    text-decoration: none;
+}
+
+.site-header nav ul.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.site-header nav ul.nav-menu > li > a {
+    font-size: 1.15rem !important;
     font-weight: 500;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    padding: 8px 0;
 }
 
 /* Główny kontener menu rozwijanego */
@@ -90,12 +146,12 @@ header nav a {
     color: var(--primary-red);
 }
 
-/* Pudełko z miastami - otwiera się DO WEWNĘTRZA (w lewo), żeby nie uciekało z ekranu */
+/* Pudełko z miastami - otwiera się DO WEWNĘTRZA (w lewo) */
 .dropdown-sub-content {
     display: none;
     position: absolute;
     top: 0;
-    right: 100%; /* Kluczowa zmiana: wyskakuje po lewej stronie kraju */
+    right: 100%;
     left: auto;
     background: #ffffff;
     min-width: 160px;
@@ -114,7 +170,7 @@ header nav a {
 /* Style linków miast w podmenu */
 .dropdown-sub-content li a {
     display: block;
-    padding: 8px 1px;
+    padding: 8px 16px;
     color: var(--text-color, #333);
     text-decoration: none;
     white-space: nowrap;
@@ -125,21 +181,3 @@ header nav a {
     color: var(--primary-red);
 }
 </style>
-
-            <!-- Blog -->
-            <li><a href="/asia-compass/blog/">Blog</a></li>
-
-            <!-- Menu Sociale -->
-            <li class="dropdown">
-                <a href="#">Sociale</a>
-                <ul class="dropdown-content">
-                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
-                </ul>
-            </li>
-
-            <!-- Ulubione -->
-            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
-
-        </ul>
-    </nav>
-</header>

@@ -2,6 +2,8 @@
 title: "NARA"
 kraj: "japonia"
 typ: "miasto"
+lat: 34.6851
+lng: 135.8048
 img: "https://images.pexels.com/photos/30660398/pexels-photo-30660398.jpeg"
 ---
 

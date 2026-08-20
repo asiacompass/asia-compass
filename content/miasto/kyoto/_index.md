@@ -2,6 +2,8 @@
 title: "KYOTO"
 kraj: "japonia"
 typ: "miasto"
+lat: 35.0116
+lng: 135.7681
 img: "https://images.pexels.com/photos/15683773/pexels-photo-15683773.jpeg"
 ---
 

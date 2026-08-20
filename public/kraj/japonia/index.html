@@ -6,7 +6,7 @@
       var script = document.createElement("script");
       script.async = 1;
       script.setAttribute("data-cmp-ab","2");
-      script.src = 'https://emrldtp.cc/NTU4ODA4.js?t=558808';
+      script.src = 'https://emrldtp.cc/NTY0MzA5.js?t=564309';
       document.head.appendChild(script);
   })();
 </script>
@@ -15,6 +15,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAPONIA | Asia Compass</title>
     <link rel="stylesheet" href="/asia-compass/css/style.css">
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
 
@@ -41,7 +46,7 @@
                     <a href="/asia-compass/kraj/chiny/">CHINY &raquo;</a>
                     
                     
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         
                             
                                 
@@ -144,7 +149,7 @@
                     <a href="/asia-compass/kraj/japonia/">JAPONIA &raquo;</a>
                     
                     
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         
                             
                                 
@@ -299,7 +304,7 @@
                     <a href="/asia-compass/kraj/korea/">KOREA &raquo;</a>
                     
                     
-                    <ul class="dropdown-sub-content" style="display: none; position: absolute; left: 100%; top: 0;">
+                    <ul class="dropdown-sub-content">
                         
                             
                                 
@@ -431,13 +436,69 @@
     </ul>
 </li>
 
+            
+            <li><a href="/asia-compass/blog/">Blog</a></li>
+
+            
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
 <style>
  
-.main-nav a, 
-.nav-links a, 
-header nav a {
-    font-size: 1.15rem !important;  
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    padding-top: 75px;
+}
+
+ 
+.site-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-red, #d9534f);
+    text-decoration: none;
+}
+
+.site-header nav ul.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.site-header nav ul.nav-menu > li > a {
+    font-size: 1.15rem !important;
     font-weight: 500;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    padding: 8px 0;
 }
 
  
@@ -488,7 +549,7 @@ header nav a {
     display: none;
     position: absolute;
     top: 0;
-    right: 100%;  
+    right: 100%;
     left: auto;
     background: #ffffff;
     min-width: 160px;
@@ -507,7 +568,7 @@ header nav a {
  
 .dropdown-sub-content li a {
     display: block;
-    padding: 8px 1px;
+    padding: 8px 16px;
     color: var(--text-color, #333);
     text-decoration: none;
     white-space: nowrap;
@@ -518,24 +579,6 @@ header nav a {
     color: var(--primary-red);
 }
 </style>
-
-            
-            <li><a href="/asia-compass/blog/">Blog</a></li>
-
-            
-            <li class="dropdown">
-                <a href="#">Sociale</a>
-                <ul class="dropdown-content">
-                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
-                </ul>
-            </li>
-
-            
-            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
-
-        </ul>
-    </nav>
-</header>
 
     
     <main>
@@ -664,6 +707,10 @@ header nav a {
         
             
             
+                
+                    
+                
+            
         
             
             
@@ -679,7 +726,6 @@ header nav a {
             
             
             
-            
             <a href="/kategoria/historia/" class="kategoria-tile-center">
                 historia
             </a>
@@ -688,317 +734,535 @@ header nav a {
     
 
     
-<h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Zobacz atrakcje w mieście i zainspiruj się!</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+    <div style="margin-bottom: 40px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Mapa miast</h2>
+        <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var map = L.map('country-map').setView([ 35 ,  105 ], 4);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            var cities = [
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        {
+                            title: "ICHINOSEKI",
+                            lat:  38.9275 ,
+                            lng:  141.1378 ,
+                            url: "\/asia-compass\/miasto\/ichinoseki\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "KAWASAKI",
+                            lat:  35.5308 ,
+                            lng:  139.7029 ,
+                            url: "\/asia-compass\/miasto\/kawasaki\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "KYOTO",
+                            lat:  35.0116 ,
+                            lng:  135.7681 ,
+                            url: "\/asia-compass\/miasto\/kyoto\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "NACHIKATSUURA",
+                            lat:  33.6264 ,
+                            lng:  135.9389 ,
+                            url: "\/asia-compass\/miasto\/nachikatsuura\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "NAGAOKAKYO",
+                            lat:  34.925 ,
+                            lng:  135.7003 ,
+                            url: "\/asia-compass\/miasto\/nagaokakyo\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "NAGOYA",
+                            lat:  35.1815 ,
+                            lng:  136.9066 ,
+                            url: "\/asia-compass\/miasto\/nagoya\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "NANAO",
+                            lat:  37.0378 ,
+                            lng:  136.9639 ,
+                            url: "\/asia-compass\/miasto\/nanao\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "NARA",
+                            lat:  34.6851 ,
+                            lng:  135.8048 ,
+                            url: "\/asia-compass\/miasto\/nara\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "OITA",
+                            lat:  33.2382 ,
+                            lng:  131.6126 ,
+                            url: "\/asia-compass\/miasto\/oita\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "OKAGAKI",
+                            lat:  33.8647 ,
+                            lng:  130.6022 ,
+                            url: "\/asia-compass\/miasto\/okagaki\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "OSAKA",
+                            lat:  34.6937 ,
+                            lng:  135.5022 ,
+                            url: "\/asia-compass\/miasto\/osaka\/"
+                        },
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        {
+                            title: "SHIRAKAWA",
+                            lat:  37.1322 ,
+                            lng:  140.2114 ,
+                            url: "\/asia-compass\/miasto\/shirakawa\/"
+                        },
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        {
+                            title: "TOKYO",
+                            lat:  35.6762 ,
+                            lng:  139.6503 ,
+                            url: "\/asia-compass\/miasto\/tokyo\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "TONDABAYASHI",
+                            lat:  34.5003 ,
+                            lng:  135.5978 ,
+                            url: "\/asia-compass\/miasto\/tondabayashi\/"
+                        },
+                    
+                
+                    
+                    
+                        {
+                            title: "UDA",
+                            lat:  34.5208 ,
+                            lng:  135.9525 ,
+                            url: "\/asia-compass\/miasto\/uda\/"
+                        },
+                    
+                
+                    
+                    
+                
+            ];
+
+            var bounds = [];
+            cities.forEach(function(city) {
+                var marker = L.marker([city.lat, city.lng]).addTo(map);
+                marker.bindPopup("<b><a href='" + city.url + "' style='color: var(--primary-red); text-decoration: none; font-weight: bold;'>" + city.title + "</a></b><br><a href='" + city.url + "'>Zobacz miasto &rarr;</a>");
+                bounds.push([city.lat, city.lng]);
+            });
+
+            if(bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [50, 50] });
+            }
+        });
+    </script>
+
     
+    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Zobacz atrakcje w mieście i zainspiruj się!</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
         
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
+                
+                
             
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://cdn.gaijinpot.com/app/uploads/sites/6/2018/05/Genbikei-Gorge-in-Iwate-prefecture-2@3x-1536x1017.jpg" alt="ICHINOSEKI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">ICHINOSEKI</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://cdn.gaijinpot.com/app/uploads/sites/6/2018/05/Genbikei-Gorge-in-Iwate-prefecture-2@3x-1536x1017.jpg" alt="ICHINOSEKI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">ICHINOSEKI</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/ichinoseki/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/ichinoseki/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://www.japan-guide.com/g20/3254_11.jpg" alt="KAWASAKI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">KAWASAKI</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://www.japan-guide.com/g20/3254_11.jpg" alt="KAWASAKI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">KAWASAKI</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/kawasaki/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/kawasaki/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/15683773/pexels-photo-15683773.jpeg" alt="KYOTO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">KYOTO</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/15683773/pexels-photo-15683773.jpeg" alt="KYOTO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">KYOTO</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/kyoto/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/kyoto/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/96932/pexels-photo-96932.jpeg" alt="NACHIKATSUURA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NACHIKATSUURA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/96932/pexels-photo-96932.jpeg" alt="NACHIKATSUURA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NACHIKATSUURA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/nachikatsuura/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/nachikatsuura/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://www.the-kansai-guide.com/kansaiguide/data/article/21000/20323/20260112_003551_ec7c8baf_w1920.webp" alt="NAGAOKAKYO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NAGAOKAKYO</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://www.the-kansai-guide.com/kansaiguide/data/article/21000/20323/20260112_003551_ec7c8baf_w1920.webp" alt="NAGAOKAKYO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NAGAOKAKYO</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/nagaokakyo/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/nagaokakyo/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/18413832/pexels-photo-18413832.jpeg" alt="NAGOYA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NAGOYA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/18413832/pexels-photo-18413832.jpeg" alt="NAGOYA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NAGOYA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/nagoya/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/nagoya/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://www.iju-join.jp/material/images/group/1/7d164ea9240ec1a8.jpg" alt="NANAO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NANAO</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://www.iju-join.jp/material/images/group/1/7d164ea9240ec1a8.jpg" alt="NANAO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NANAO</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/nanao/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/nanao/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/30660398/pexels-photo-30660398.jpeg" alt="NARA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NARA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/30660398/pexels-photo-30660398.jpeg" alt="NARA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">NARA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/nara/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/nara/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/38801615/pexels-photo-38801615.jpeg" alt="OITA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">OITA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/38801615/pexels-photo-38801615.jpeg" alt="OITA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">OITA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/oita/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/oita/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://www.crossroadfukuoka.jp/storage/special_features/197/responsive_images/OPESQiPaXyxbKiPtKxFBfqthH44IrnMW9zbjFl0E__1080_607.jpg" alt="OKAGAKI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">OKAGAKI</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://www.crossroadfukuoka.jp/storage/special_features/197/responsive_images/OPESQiPaXyxbKiPtKxFBfqthH44IrnMW9zbjFl0E__1080_607.jpg" alt="OKAGAKI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">OKAGAKI</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/okagaki/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/okagaki/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/37044748/pexels-photo-37044748.jpeg" alt="OSAKA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">OSAKA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/37044748/pexels-photo-37044748.jpeg" alt="OSAKA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">OSAKA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/osaka/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/osaka/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
+                
+                
             
+                
+                
             
-        
+                
+                
             
-            
-        
-            
-            
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://images.pexels.com/photos/28251127/pexels-photo-28251127.jpeg" alt="SHIRAKAWA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">SHIRAKAWA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://images.pexels.com/photos/28251127/pexels-photo-28251127.jpeg" alt="SHIRAKAWA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">SHIRAKAWA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/shirakawa/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/shirakawa/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
+                
+                
             
-            
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TOKYO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">TOKYO</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TOKYO" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">TOKYO</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/tokyo/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/tokyo/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://plus.unsplash.com/premium_photo-1722593856044-e5176ca19a5f?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TONDABAYASHI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">TONDABAYASHI</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://plus.unsplash.com/premium_photo-1722593856044-e5176ca19a5f?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TONDABAYASHI" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">TONDABAYASHI</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/tondabayashi/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/tondabayashi/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
             
-        
-            
-            
-            <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    
-                    
-                    <img src="https://countrysidestays-japan.com/sp2023/assets/image/article/kansai/uda/img_slider_01_pc.jpg" alt="UDA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
-                    
-                    <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">UDA</h3>
+                
+                
+                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div>
+                        
+                        
+                        <img src="https://countrysidestays-japan.com/sp2023/assets/image/article/kansai/uda/img_slider_01_pc.jpg" alt="UDA" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        
+                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">UDA</h3>
+                        </div>
+                    </div>
+                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                        <a href="/asia-compass/miasto/uda/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                     </div>
                 </div>
-                <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                    <a href="/asia-compass/miasto/uda/" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
-                </div>
-            </div>
+                
+            
+                
+                
             
         
-            
-            
-        
-    
     </div>
 </div>
 

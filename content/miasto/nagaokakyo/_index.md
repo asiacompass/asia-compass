@@ -2,6 +2,8 @@
 title: "NAGAOKAKYO"
 kraj: "japonia"
 typ: "miasto"
+lat: 34.9250
+lng: 135.7003
 img: "https://www.the-kansai-guide.com/kansaiguide/data/article/21000/20323/20260112_003551_ec7c8baf_w1920.webp"
 ---
 

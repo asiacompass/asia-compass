@@ -2,6 +2,8 @@
 title: "ICHINOSEKI"
 kraj: "japonia"
 typ: "miasto"
+lat: 38.9275
+lng: 141.1378
 img: "https://cdn.gaijinpot.com/app/uploads/sites/6/2018/05/Genbikei-Gorge-in-Iwate-prefecture-2@3x-1536x1017.jpg"
 ---
 

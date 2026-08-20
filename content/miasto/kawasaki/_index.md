@@ -2,6 +2,8 @@
 title: "KAWASAKI"
 kraj: "japonia"
 typ: "miasto"
+lat: 35.5308
+lng: 139.7029
 img: "https://www.japan-guide.com/g20/3254_11.jpg"
 ---
 

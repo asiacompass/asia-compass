@@ -2,6 +2,8 @@
 title: "YONGIN"
 kraj: "korea"
 typ: "miasto"
+lat: 37.2410
+lng: 127.1779
 img: "https://images.pexels.com/photos/14949126/pexels-photo-14949126.jpeg"
 ---
 

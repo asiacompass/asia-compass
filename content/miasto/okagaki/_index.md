@@ -2,6 +2,8 @@
 title: "OKAGAKI"
 kraj: "japonia"
 typ: "miasto"
+lat: 33.8647
+lng: 130.6022
 img: "https://www.crossroadfukuoka.jp/storage/special_features/197/responsive_images/OPESQiPaXyxbKiPtKxFBfqthH44IrnMW9zbjFl0E__1080_607.jpg"
 ---
 

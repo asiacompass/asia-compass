@@ -2,6 +2,8 @@
 title: "OSAKA"
 kraj: "japonia"
 typ: "miasto"
+lat: 34.6937
+lng: 135.5022
 img: "https://images.pexels.com/photos/37044748/pexels-photo-37044748.jpeg"
 ---
 

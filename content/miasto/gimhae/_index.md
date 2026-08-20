@@ -2,6 +2,8 @@
 title: "GIMHAE"
 kraj: "korea"
 typ: "miasto"
+lat: 35.2281
+lng: 128.8894
 img: "https://english.visitkorea.or.kr/public/images/2023/10/17/613a9845789141d1a287ef6fcc3b0d79.jpg"
 ---
 

@@ -2,6 +2,8 @@
 title: "GANGNEUNG"
 kraj: "korea"
 typ: "miasto"
+lat: 37.7556
+lng: 128.8960
 img: "https://images.pexels.com/photos/28466969/pexels-photo-28466969.jpeg"
 ---
 
