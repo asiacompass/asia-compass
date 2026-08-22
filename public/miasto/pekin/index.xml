@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PEKIN on Asia Compass</title>
-    <link>http://localhost:1313/asia-compass/miasto/pekin/</link>
+    <link>https://asiacompass.github.io/asia-compass/miasto/pekin/</link>
     <description>Recent content in PEKIN on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="http://localhost:1313/asia-compass/miasto/pekin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://asiacompass.github.io/asia-compass/miasto/pekin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Zakazane Miasto (The Palace Museum)</title>
-      <link>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</link>
+      <link>https://asiacompass.github.io/asia-compass/atrakcja/zakazane-miasto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</guid>
+      <guid>https://asiacompass.github.io/asia-compass/atrakcja/zakazane-miasto/</guid>
       <description>&lt;h3 id=&#34;the-palace-museum&#34;&gt;The Palace Museum&lt;/h3&gt;&#xA;&lt;p&gt;Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Miasta, wkraczasz do największego i najlepiej zachowanego kompleksu pałacowego na świecie. Przez ponad 500 lat ten majestatyczny labirynt czerwonych murów, złoconych dachów i marmurowych dziedzińców służył jako samowystarczalne serce Imperium Chińskiego, niedostępne dla zwykłych śmiertelników. To tutaj 24 cesarzy z dynastii Ming i Qing sprawowało władzę absolutną, żyjąc pośród niewyobrażalnego przepychu, dworskiej etykiety i sekretnych intryg. Spacer po Zakazanym Mieście to bezprecedensowa podróż w czasie do epoki potęgi i mistycznego symbolizmu starożytnych Chin.&lt;/p&gt;</description>
     </item>
   </channel>

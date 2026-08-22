@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head><script src="/asia-compass/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=asia-compass/livereload" data-no-instant defer></script>
+<head>
     <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
   (function () {
       var script = document.createElement("script");
@@ -587,7 +587,7 @@ body {
     
     <header class="attraction-header">
         <h1>Zakazane Miasto (The Palace Museum)</h1>
-        <button id="favorite-btn" onclick="toggleFavorite('http:\/\/localhost:1313\/asia-compass\/atrakcja\/zakazane-miasto\/', 'Zakazane Miasto (The Palace Museum)')">
+        <button id="favorite-btn" onclick="toggleFavorite('https:\/\/asiacompass.github.io\/asia-compass\/atrakcja\/zakazane-miasto\/', 'Zakazane Miasto (The Palace Museum)')">
             ⭐ Dodaj do ulubionych
         </button>
     </header>
@@ -980,7 +980,7 @@ function updateFavoriteButton() {
     
     let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
     
-    const currentUrl = "http:\/\/localhost:1313\/asia-compass\/atrakcja\/zakazane-miasto\/";
+    const currentUrl = "https:\/\/asiacompass.github.io\/asia-compass\/atrakcja\/zakazane-miasto\/";
     const exists = favorites.some(fav => fav.url === currentUrl);
 
     if (exists) {

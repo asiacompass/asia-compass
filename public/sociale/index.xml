@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sociale on Asia Compass</title>
-    <link>http://localhost:1313/asia-compass/sociale/</link>
+    <link>https://asiacompass.github.io/asia-compass/sociale/</link>
     <description>Recent content in Sociale on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="http://localhost:1313/asia-compass/sociale/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://asiacompass.github.io/asia-compass/sociale/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
