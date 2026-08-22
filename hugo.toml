@@ -9,6 +9,11 @@ miasto = "miasto"
 kategoria = "kategoria"
 tag = "tags"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     name = "Kraje"

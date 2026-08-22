@@ -3,15 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/asia-compass/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/blog/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/blog/korea-pay/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/blog/china-net/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/blog/pierwszy-wpis-copy/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/asia-compass/blog/pierwszy-wpis/</loc>
+    <loc>http://localhost:1313/asia-compass/blog/china-pay/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/</loc>

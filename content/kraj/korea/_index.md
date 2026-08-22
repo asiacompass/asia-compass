@@ -34,6 +34,7 @@ info_pl_desc: |
 
     <li><b> BucaCheck: </b> Aplikacja wykorzystująca NFC w telefonie do natychmiastowego sprawdzania salda tradycyjnej karty T-Money.
     </li>
+     <h3><a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> Zobacz więcej:  JAK PŁACIĆ W KOREI?</a></h3>
   </ul>
 
 # Kafel 2: Internet

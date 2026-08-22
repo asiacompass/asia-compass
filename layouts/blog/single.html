@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="blog-post-single" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+    
+    <header style="margin-bottom: 30px; text-align: center;">
+        <h1 style="font-size: 2.2rem; color: var(--primary-red); margin-bottom: 10px;">{{ .Title }}</h1>
+        <div style="font-size: 0.9rem; color: #666;">
+            {{ .Date.Format "02.01.2006" }}
+        </div>
+    </header>
+
+    {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+    {{ if $img }}
+    <div style="margin: 0 auto 30px auto; max-width: 600px; border-radius: 10px; overflow: hidden;">
+        <img src="{{ $img | relURL }}" alt="{{ .Title }}" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+    </div>
+    {{ end }}
+
+    <div class="post-content" style="line-height: 1.8; font-size: 1.05rem; color: var(--text-color);">
+        {{ .Content }}
+    </div>
+
+</article>
+{{ end }}
