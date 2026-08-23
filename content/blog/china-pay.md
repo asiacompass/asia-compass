@@ -9,8 +9,6 @@ image_url: "https://images.pexels.com/photos/4199526/pexels-photo-4199526.jpeg"
 
 W Chinach płaci się wyłącznie skanując kody QR za pomocą dwóch aplikacji: **Alipay** oraz **WeChat**. Gotówka bywa odrzucana, a tradycyjne karty płatnicze działają niemal wyłącznie w międzynarodowych sieciach hoteli.
 
-
-
 ### Jak skonfigurować Alipay krok po kroku:
 1.  <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> Pobierz aplikację Alipay </a> na swój telefon.
 2. **Zarejestruj konto**, podając polski numer telefonu z prefiksem +48.

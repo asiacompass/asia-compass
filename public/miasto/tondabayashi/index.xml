@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TONDABAYASHI on Asia Compass</title>
-    <link>https://asiacompass.github.io/asia-compass/miasto/tondabayashi/</link>
+    <link>http://localhost:1313/asia-compass/miasto/tondabayashi/</link>
     <description>Recent content in TONDABAYASHI on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="https://asiacompass.github.io/asia-compass/miasto/tondabayashi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/asia-compass/miasto/tondabayashi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Great Peace Prayer Tower</title>
-      <link>https://asiacompass.github.io/asia-compass/atrakcja/pl-peace-tower/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/pl-peace-tower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/atrakcja/pl-peace-tower/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/pl-peace-tower/</guid>
       <description>&lt;h3 id=&#34;wieża-pokoju-pl&#34;&gt;Wieża Pokoju PL&lt;/h3&gt;&#xA;&lt;p&gt;Wyrastająca ponad spokojne przedmieścia Tondabayashi w prefekturze Osaka, Wieża Pokoju PL (Dai Heiwa Kinen Tō) wygląda jak surrealistyczny obiekt rodem z filmów sci-fi lub gier wideo. Ten mierzący 180 metrów wysokości biały, organiczny monolit przypomina gigantyczną skulpturę skamieniałego płomienia, rogu lub abstrakcyjnego grzyba. Wzniesiona w 1970 roku przez ruch religijny Church of Perfect Liberty (PL Kyōdan), jest cenotafem poświęconym wszystkim ofiarom wojen w historii świata, niezależnie od ich rasy, narodowości czy wyznania. To jedno z najbardziej nieziemskich i alternatywnych miejsc na mapie metropolii Osaka, które zachwyci miłośników unikalnej architektury archiwizujących niezwykłe kadry.&lt;/p&gt;</description>
     </item>
   </channel>

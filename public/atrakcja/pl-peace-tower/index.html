@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
+<head><script src="/asia-compass/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=asia-compass/livereload" data-no-instant defer></script>
     <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
   (function () {
       var script = document.createElement("script");
@@ -587,7 +587,7 @@ body {
     
     <header class="attraction-header">
         <h1>Great Peace Prayer Tower</h1>
-        <button id="favorite-btn" onclick="toggleFavorite('https:\/\/asiacompass.github.io\/asia-compass\/atrakcja\/pl-peace-tower\/', 'Great Peace Prayer Tower')">
+        <button id="favorite-btn" onclick="toggleFavorite('http:\/\/localhost:1313\/asia-compass\/atrakcja\/pl-peace-tower\/', 'Great Peace Prayer Tower')">
             ⭐ Dodaj do ulubionych
         </button>
     </header>
@@ -943,7 +943,7 @@ function updateFavoriteButton() {
     
     let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
     
-    const currentUrl = "https:\/\/asiacompass.github.io\/asia-compass\/atrakcja\/pl-peace-tower\/";
+    const currentUrl = "http:\/\/localhost:1313\/asia-compass\/atrakcja\/pl-peace-tower\/";
     const exists = favorites.some(fav => fav.url === currentUrl);
 
     if (exists) {

@@ -57,6 +57,8 @@ info_net_desc: |
 
     <li><b> Papago:</b> Kluczowa aplikacja do tłumaczeń (znacznie dokładniejsza dla języka koreańskiego niż Google Translate, świetnie tłumaczy menu ze zdjęć).
     </li>
+
+   <h3><a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> Zobacz więcej:  INTERNET W KOREI</a></h3>
   </ul>
 
 # Kafel 3: Transport
@@ -88,5 +90,6 @@ info_trans_desc: |
 
     <li><b> Subway Korea / Kakao Metro:</b> Bardzo przejrzyste rozkłady metra dla największych miast (Seul, Pusan, Daegu).
     </li>
+    <h3><a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> Zobacz więcej jak pobrac i zainstalować aplikacje</a></h3>
   </ul>
 ---

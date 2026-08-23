@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TOKYO on Asia Compass</title>
-    <link>https://asiacompass.github.io/asia-compass/miasto/tokyo/</link>
+    <link>http://localhost:1313/asia-compass/miasto/tokyo/</link>
     <description>Recent content in TOKYO on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="https://asiacompass.github.io/asia-compass/miasto/tokyo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/asia-compass/miasto/tokyo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shibuya Sky - taras widokowy</title>
-      <link>https://asiacompass.github.io/asia-compass/atrakcja/shibuya-sky/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/shibuya-sky/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/atrakcja/shibuya-sky/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/shibuya-sky/</guid>
       <description>&lt;h3 id=&#34;taras-widokowy-na-miasto&#34;&gt;Taras widokowy na miasto&lt;/h3&gt;&#xA;&lt;p&gt;Zawieszony niemal 230 metrów nad ziemią taras widokowy Shibuya Sky to absolutny hit na mapie Tokio i jedna z najbardziej widowiskowych przestrzeni obserwacyjnych na świecie. Zlokalizowany na dachu wieżowca Shibuya Scramble Square, oferuje spektakularną, panoramiczną panoramę 360° na nieskończone morze tokijskich wieżowców, ikoniczne skrzyżowanie Shibuya Scramble Crossing, a przy dobrej widoczności – majaczący na horyzoncie majestatyczny szczyt góry Fuji. To nie jest zwykły punkt widokowy: to nowoczesna, przemyślana koncepcyjnie przestrzeń z otwartym dachem (Sky Stage), sztuczną trawą, leżakami do obserwacji chmur i interaktywnymi instalacjami świetlnymi, które po zmroku zmieniają to miejsce w niemal hipnotyzujące widowisko.&lt;/p&gt;</description>
     </item>
   </channel>

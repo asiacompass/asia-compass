@@ -2,7 +2,7 @@
 title: "Japonia i płatności"
 description: "Dlaczego warto mieć gotówkę? Czy karty są potrzebne?"
 date: 2026-08-22
-image_url: "https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg"
+image_url: "https://images.pexels.com/photos/29916084/pexels-photo-29916084.jpeg"
 ---
 
 Mimo że Japonia kojarzy się z nowoczesnością i zaawansowaną technologią, tutejszy system płatności opiera się na unikalnym połączeniu tradycyjnej gotówki, kart prepaid oraz zbliżeniowych kart bankowych. 
@@ -15,7 +15,7 @@ Japonia stopniowo odchodzi od gotówki, jednak japoński jen (**JPY**) w formie 
 
 * **Gdzie gotówka jest niezbędna?** W tradycyjnych restauracjach (*ramen-ya* z automatami biletowymi), lokalnych świątyniach, małych sklepikach, wiejskich rejonach oraz do **doładowywania fizycznych kart transportowych w automatach**.  
 
-* **Skąd brać gotówkę?** Najprostszym sposobem jest wypłata jenów z kart zagranicznych (np. Revolut, Visa, Mastercard) w bankomatach w sieciach sklepów typu convenience: **7-Eleven (7Bank)** lub **FamilyMart**.
+* **Skąd brać gotówkę?** Najprostszym sposobem jest wypłata jenów z kart zagranicznych (np. Revolut, Visa, Mastercard) w bankomatach w sieciach sklepów typu convenience: **7-Eleven (7Bank)** lub **FamilyMart**. Wymiana złotówek na jeny w polskich kantorach jest nieopłacalna (szeroki spread). Zabierz kartę Revolut lub Wise z zasilonym saldem w PLN lub JPY.
 
 ---
 
@@ -31,7 +31,8 @@ Bezdotykowe karty prepaidowe (tzw. **IC Cards**) zostały stworzone z myślą o 
 ### Jak z niej korzystać?
 * **Użytkownicy iPhone (Apple Wallet):** Możesz bezpłatnie dodać cyfrową kartę **Suica** lub **Pasmo** bezpośrednio w aplikacji Portfel w telefonie i doładowywać ją polską kartą Mastercard/Amex bez podchodzenia do automatów.  
 
-* **Użytkownicy Androida / Karty Fizyczne:** Ze względu na niedobory mikrochipów, turyści mogą kupić specjalną fizyczną kartę dla obcokrajowców – **Welcome Suica** lub **Pasmo Passport** (ważne przez 28 dni, bez depozytu).
+* **Użytkownicy Androida / Karty Fizyczne:** Ze względu na niedobory mikrochipów, turyści mogą kupić specjalną fizyczną kartę dla obcokrajowców – **Welcome Suica** <a href="https://www.jreast.co.jp/en/multi/welcomesuica/welcomesuica.html" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;">
+ zobacz kartę </a> lub **Pasmo Passport** <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz kartę </a>  (ważne przez 28 dni, bez depozytu).
 
 ---
 ## 3. Karty płatnicze (Visa, Mastercard, Revolut)

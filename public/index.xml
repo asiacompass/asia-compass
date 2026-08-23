@@ -2,59 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Asia Compass</title>
-    <link>https://asiacompass.github.io/asia-compass/</link>
+    <link>http://localhost:1313/asia-compass/</link>
     <description>Recent content on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://asiacompass.github.io/asia-compass/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/asia-compass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japonia jak się poruszać?</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-transport/</link>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-transport/</guid>
+      <description>&lt;p&gt;Poruszanie się po Japonii wymaga dwóch rzeczy: odpowiednich aplikacji w telefonie oraz cyfrowej lub fizycznej karty IC. Poniżej znajdziesz kompletny instruktaż, jak ogarnąć transport miejski i dalekobieżny.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-nawigacja-po-kolejach-i-metrze-google-maps-vs-navitime&#34;&gt;1. Nawigacja po kolejach i metrze (Google Maps vs NAVITIME)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;jak-bezbłędnie-planować-trasy-w-japan-travel-by-navitime&#34;&gt;Jak bezbłędnie planować trasy w Japan Travel by NAVITIME&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://japantravel.navitime.com/en/&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; Pobierz aplikację &lt;/a&gt; Japan Travel by NAVITIME (najlepsza alternatywa dla Google Maps, stworzona specjalnie dla turystów).&lt;/li&gt;&#xA;&lt;li&gt;Wybierz opcję Route Search.&lt;/li&gt;&#xA;&lt;li&gt;W filtrowaniu trasy (Option Settings) zaznacz, czy posiadasz bilet JR Pass lub bilet metra Tokyo Subway Ticket – aplikacja wyznaczy trasę darmową w ramach Twojego karnetu.&lt;/li&gt;&#xA;&lt;li&gt;Zwracaj uwagę na oznaczenia:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Car Position for Transfer:&lt;/strong&gt; Pokazuje, do którego wagonu wsiąść, aby przesiąść się najszybciej.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform Number:&lt;/strong&gt; Numer peronu, z którego odjeżdża pociąg (kluczowe na dużych dworcach).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-aplikacje-do-zamawiania-taksówek-go-oraz-uber&#34;&gt;2. Aplikacje do zamawiania taksówek (GO oraz Uber)&lt;/h2&gt;&#xA;&lt;p&gt;Zwykły Uber w Japonii po prostu zamawia lokalną taksówkę i bywa drogi. Najlepszą i najbardziej popularną aplikacją używaną przez Japończyków jest GO (Taxi App).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internet w Japonii</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-net/</link>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-net/</guid>
+      <description>&lt;p&gt;Japonia słynie z nowinek technologicznych, ale rzeczywistość na miejscu potrafi mocno rozczarować: publiczne sieci Wi-Fi są rzadkie, wymagają uciążliwej rejestracji i często po prostu nie działają. Brak stałego dostępu do sieci oznacza paraliż – od sprawdzania rozkładów jazdy pociągów w Google Maps/Navitime, po korzystanie z translatora przy zamawianiu jedzenia. Ten artykuł rozwiązuje ten kluczowy problem, dając czytelnikowi jasny wybór między eSIM, Pocket Wi-Fi a lokalną kartą SIM, co wygeneruje wysoki ruch z wyszukiwarek przed wyjazdem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Japonia i płatności</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-pay/</link>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-pay/</guid>
+      <description>&lt;p&gt;Mimo że Japonia kojarzy się z nowoczesnością i zaawansowaną technologią, tutejszy system płatności opiera się na unikalnym połączeniu tradycyjnej gotówki, kart prepaid oraz zbliżeniowych kart bankowych.&lt;/p&gt;&#xA;&lt;p&gt;Poniżej znajdziesz poradnik krok po kroku: jak płacić w Japonii, kiedy potrzebna jest gotówka oraz jak wygodnie korzystać z japońskich kart transportowych &lt;strong&gt;IC&lt;/strong&gt; (Suica, Pasmo, ICOCA).&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-gotówka--czy-nadal-jest-potrzebna&#34;&gt;1. Gotówka – Czy nadal jest potrzebna?&lt;/h2&gt;&#xA;&lt;p&gt;Japonia stopniowo odchodzi od gotówki, jednak japoński jen (&lt;strong&gt;JPY&lt;/strong&gt;) w formie papierowej i bilonu nadal odgrywa kluczową rolę podczas podróży.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internet w Korei</title>
+      <link>http://localhost:1313/asia-compass/blog/korea-net/</link>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/korea-net/</guid>
+      <description>&lt;p&gt;W Korei Południowej masz do wyboru trzy sprawdzone metody na stały dostęp do sieci: eSIM, fizyczną kartę SIM oraz Pocket Wi-Fi. Oto jak je wybrać i skonfigurować krok po kroku.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-esim-najszybszy-i-najwygodniejszy-wybór&#34;&gt;1. eSIM (Najszybszy i najwygodniejszy wybór)&lt;/h2&gt;&#xA;&lt;p&gt;Idealne rozwiązanie, jeśli Twój telefon obsługuje wirtualne karty SIM. Nie musisz wymieniać fizycznej karty ani stać w kolejce na lotnisku Incheon.&lt;/p&gt;&#xA;&lt;script async src=&#34;https://tpwidg.com/content?trs=564309&amp;shmarker=760698&amp;locale=en&amp;country=South%20Korea&amp;powered_by=true&amp;color_button=%23f2685f&amp;color_focused=%23f2685f&amp;secondary=%23FFFFFF&amp;dark=%2311100f&amp;light=%23FFFFFF&amp;special=%23C4C4C4&amp;border_radius=13&amp;plain=false&amp;no_labels=true&amp;promo_id=8588&amp;campaign_id=541&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&#xD;&#xA;&lt;h3 id=&#34;instrukcja-instalacji-esim-przed-wylotem&#34;&gt;Instrukcja instalacji eSIM przed wylotem&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Kup pakiet danych dla Korei Południowej (np. w Airalo &lt;a href=&#34;https://airalo.tpk.mx/KfiWGDjb&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt;zobacz operatora &lt;/a&gt; – sieć LG U+ lub SK Telecom).&lt;/li&gt;&#xA;&lt;li&gt;Otwórz aplikację dostawcy lub kod QR przesłany w wiadomości e-mail.&lt;/li&gt;&#xA;&lt;li&gt;W telefonie przejdź do: Ustawienia -&amp;gt; Sieć komórkowa -&amp;gt; Dodaj kartę eSIM i zeskanuj kod QR.&lt;/li&gt;&#xA;&lt;li&gt;Nazwij nowy profil np. „Korea eSIM”.&lt;/li&gt;&#xA;&lt;li&gt;Wyląduj w Seulu: Włącz kartę eSIM w ustawieniach, wybierz ją jako główną dla Danych komórkowych (Cellular Data) i włącz opcję Roaming danych (Data Roaming) dla profilu koreańskiego.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-fizyczna-karta-sim-z-odbiorem-na-lotnisku&#34;&gt;2. Fizyczna karta SIM z odbiorem na lotnisku&lt;/h2&gt;&#xA;&lt;p&gt;Jeśli Twój smartfon nie obsługuje eSIM, najlepszym wyborem jest fizyczna karta prepaid od lokalnych gigantów: KT (Korea Telecom), SK Telecom lub LG U+.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Jak płacić w Korei?</title>
-      <link>https://asiacompass.github.io/asia-compass/blog/korea-pay/</link>
+      <link>http://localhost:1313/asia-compass/blog/korea-pay/</link>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/blog/korea-pay/</guid>
+      <guid>http://localhost:1313/asia-compass/blog/korea-pay/</guid>
       <description>&lt;p&gt;Korea Południowa to jeden z najbardziej rozwiniętych cyfrowo krajów świata. Choć bezgotówkowość jest tu normą, system płatniczy opiera się na lokalnych rozwiązaniach, które mogą zaskoczyć zagranicznego turystę.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-karty-płatnicze-visa--mastercard--revolut&#34;&gt;1. Karty płatnicze (Visa / Mastercard / Revolut)&lt;/h2&gt;&#xA;&lt;p&gt;Międzynarodowe karty debetowe i kredytowe z polskiego banku.&lt;/p&gt;&#xA;&lt;h4 id=&#34;dlaczego&#34;&gt;DLACZEGO?&lt;/h4&gt;&#xA;&lt;p&gt;Karty płatnicze są akceptowane w 90% miejsc w Korei – w hotelach, restauracjach, kawiarniach czy dużych sklepach. Niestety, ze względu na specyfikę koreańskiego systemu bankowego, mniejsze punkty stacjonarne, automaty biletowe na stacjach metra czy małe sklepy mogą &lt;strong&gt;odrzucić zagraniczną kartę&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Internet w Chinach?</title>
-      <link>https://asiacompass.github.io/asia-compass/blog/china-net/</link>
+      <title>Korea jak się poruszać?</title>
+      <link>http://localhost:1313/asia-compass/blog/korea-transport/</link>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/korea-transport/</guid>
+      <description>&lt;p&gt;Korea Południowa jest technologiczną pułapką dla zagranicznego turysty: Google Maps w Korei nie działa poprawnie (nie wyznacza tras pieszych ani rowerowych ze względów bezpieczeństwa narodowego). Próba złapania taksówki z ulicy w Seulu czy Pusan bywa koszmarem przez brak znajomości języka i powszechność aplikacji rezerwacyjnych. Ten artykuł rozwiązuje najgłębszy stres podróżnego: jak bezstresowo poruszać się po miastach, nawigować w metrze bez barier językowych oraz jak płacić za transport bez odrzucania kart.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chiny i transport</title>
+      <link>http://localhost:1313/asia-compass/blog/china-transport/</link>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/blog/china-net/</guid>
-      <description>&lt;p&gt;Planujesz wyjazd do Chin? Musisz pamiętać o jednej kluczowej rzeczy: chiński Internet różni się od tego, do którego jesteś przyzwyczajony w Europie. Brak dostępu do Google, WhatsAppa, Instagrama czy Google Maps może całkowicie sparaliżować podróż, jeśli nie przygotujesz się do tego odpowiednio wcześnie.&lt;/p&gt;&#xA;&lt;p&gt;Poniżej znajdziesz kompletny przewodnik: co warto wiedzieć o cyfrowym świecie w Chinach, jak i gdzie kupić kartę &lt;strong&gt;eSIM&lt;/strong&gt; oraz jak bezstresowo korzystać z sieci.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;1-co-warto-wiedzieć-przed-wyjazdem&#34;&gt;1. Co warto wiedzieć przed wyjazdem?&lt;/h1&gt;&#xA;&lt;p&gt;Chiński rząd stosuje rozbudowany system cenzury cyfrowej, znany jako &lt;strong&gt;Great Firewall (Wielki Firewall)&lt;/strong&gt;. Blokuje on dostęp do większości zachodnich aplikacji i stron internetowych.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/asia-compass/blog/china-transport/</guid>
+      <description>&lt;p&gt;Transport w Chinach to dla turysty z Zachodu największy cyfrowy i logistyczny koszmar. Tradycyjny Google Maps nie działa (Great Firewall), Uber wycofał się z Chin, bilety na kolej szybkiej prędkości (High-Speed Rail) wyprzedają się błyskawicznie, a na dworcach i w metrze obowiązuje ścisła kontrola paszportowa i całkowity brak gotówki. Ten artykuł rozwiązuje kluczowy problem: daje turyście gotowy, sprawdzony zestaw aplikacji do nawigacji, zamawiania taksówek oraz rezerwacji pociągów bez konieczności posiadania chińskiego konta bankowego.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internet w Chinach?</title>
+      <link>http://localhost:1313/asia-compass/blog/china-net/</link>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/china-net/</guid>
+      <description>&lt;p&gt;Planujesz wyjazd do Chin? Musisz pamiętać o jednej kluczowej rzeczy: chiński Internet różni się od tego, do którego jesteś przyzwyczajony w Europie. Brak dostępu do Google, WhatsAppa, Instagrama czy Google Maps może całkowicie sparaliżować podróż, jeśli nie przygotujesz się do tego odpowiednio wcześnie.&lt;/p&gt;&#xA;&lt;p&gt;Poniżej znajdziesz kompletny przewodnik: co warto wiedzieć o cyfrowym świecie w Chinach, jak i gdzie kupić kartę &lt;strong&gt;eSIM&lt;/strong&gt; oraz jak bezstresowo korzystać z sieci.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-co-warto-wiedzieć-przed-wyjazdem&#34;&gt;1. Co warto wiedzieć przed wyjazdem?&lt;/h2&gt;&#xA;&lt;p&gt;Chiński rząd stosuje rozbudowany system cenzury cyfrowej, znany jako &lt;strong&gt;Great Firewall (Wielki Firewall)&lt;/strong&gt;. Blokuje on dostęp do większości zachodnich aplikacji i stron internetowych.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Jak płacić w Chinach?</title>
-      <link>https://asiacompass.github.io/asia-compass/blog/china-pay/</link>
+      <link>http://localhost:1313/asia-compass/blog/china-pay/</link>
       <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/blog/china-pay/</guid>
-      <description>&lt;h2 id=&#34;płatności-mobilne-w-chinach-alipay-i-wechat-pay&#34;&gt;Płatności mobilne w Chinach (Alipay i WeChat Pay)&lt;/h2&gt;&#xA;&lt;p&gt;W Chinach płaci się wyłącznie skanując kody QR za pomocą dwóch aplikacji: &lt;strong&gt;Alipay&lt;/strong&gt; oraz &lt;strong&gt;WeChat&lt;/strong&gt;. Gotówka bywa odrzucana, a tradycyjne karty płatnicze działają niemal wyłącznie w międzynarodowych sieciach hoteli.&lt;/p&gt;&#xA;&lt;h3 id=&#34;jak-skonfigurować-alipay-krok-po-kroku&#34;&gt;Jak skonfigurować Alipay krok po kroku:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://render.alipay.com/p/yuyan/180020040001212700/&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; Pobierz aplikację Alipay &lt;/a&gt; na swój telefon.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Zarejestruj konto&lt;/strong&gt;, podając polski numer telefonu z prefiksem +48.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Przełącz interfejs na wersję międzynarodową&lt;/strong&gt;: przejdź do Account -&amp;gt; Settings -&amp;gt; Switch Version i wybierz International Version.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Przejdź weryfikację tożsamości&lt;/strong&gt; (&lt;em&gt;Real-Name Verification&lt;/em&gt;): w zakładce Account kliknij ikonę zębatki, przejdź do Account and Security -&amp;gt; Identity Information i dodaj skan paszportu. Weryfikacja trwa zazwyczaj od kilku minut do paru godzin.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Podepnij kartę płatniczą&lt;/strong&gt;: wybierz Account -&amp;gt; Cards -&amp;gt; Add Card i wpisz dane polskiej karty (Visa, Mastercard lub Revolut). Przejdź autoryzację 3D-Secure w aplikacji bankowej.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;jak-skonfigurować-wechat-pay-krok-po-kroku&#34;&gt;Jak skonfigurować WeChat Pay krok po kroku:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wechat.com/en&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt;Zainstaluj WeChat&lt;/a&gt; i zarejestruj konto (może być wymagana weryfikacja przez innego użytkownika WeChat poprzez kod QR).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Przejdź do zakładki&lt;/strong&gt; Me -&amp;gt; Services -&amp;gt; Money (lub Wallet).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wybierz opcję&lt;/strong&gt; Add a Card i podaj dane swojej karty Visa lub Mastercard.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uzupełnij dane osobowe&lt;/strong&gt; zgodnie z paszportem i ustaw 6-cyfrowy kod PIN płatności (&lt;em&gt;Payment Password&lt;/em&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;!-- GRAFIKA 1: Płatności QR w Chinach --&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://asiacompass.github.io/asia-compass/images/china-pay.jpg&#34; alt=&#34;Płatności kodem QR w Chinach&#34; style=&#34;max-width: 50%; height: auto; display: block; margin: 1em auto;&#34; /&gt;&#xA;&lt;em&gt;Skanowanie kodów QR to podstawowa metoda płatności w Chinach.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/asia-compass/blog/china-pay/</guid>
+      <description>&lt;h2 id=&#34;płatności-mobilne-w-chinach-alipay-i-wechat-pay&#34;&gt;Płatności mobilne w Chinach (Alipay i WeChat Pay)&lt;/h2&gt;&#xA;&lt;p&gt;W Chinach płaci się wyłącznie skanując kody QR za pomocą dwóch aplikacji: &lt;strong&gt;Alipay&lt;/strong&gt; oraz &lt;strong&gt;WeChat&lt;/strong&gt;. Gotówka bywa odrzucana, a tradycyjne karty płatnicze działają niemal wyłącznie w międzynarodowych sieciach hoteli.&lt;/p&gt;&#xA;&lt;h3 id=&#34;jak-skonfigurować-alipay-krok-po-kroku&#34;&gt;Jak skonfigurować Alipay krok po kroku:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://render.alipay.com/p/yuyan/180020040001212700/&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; Pobierz aplikację Alipay &lt;/a&gt; na swój telefon.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Zarejestruj konto&lt;/strong&gt;, podając polski numer telefonu z prefiksem +48.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Przełącz interfejs na wersję międzynarodową&lt;/strong&gt;: przejdź do Account -&amp;gt; Settings -&amp;gt; Switch Version i wybierz International Version.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Przejdź weryfikację tożsamości&lt;/strong&gt; (&lt;em&gt;Real-Name Verification&lt;/em&gt;): w zakładce Account kliknij ikonę zębatki, przejdź do Account and Security -&amp;gt; Identity Information i dodaj skan paszportu. Weryfikacja trwa zazwyczaj od kilku minut do paru godzin.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Podepnij kartę płatniczą&lt;/strong&gt;: wybierz Account -&amp;gt; Cards -&amp;gt; Add Card i wpisz dane polskiej karty (Visa, Mastercard lub Revolut). Przejdź autoryzację 3D-Secure w aplikacji bankowej.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;jak-skonfigurować-wechat-pay-krok-po-kroku&#34;&gt;Jak skonfigurować WeChat Pay krok po kroku:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.wechat.com/en&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt;Zainstaluj WeChat&lt;/a&gt; i zarejestruj konto (może być wymagana weryfikacja przez innego użytkownika WeChat poprzez kod QR).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Przejdź do zakładki&lt;/strong&gt; Me -&amp;gt; Services -&amp;gt; Money (lub Wallet).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wybierz opcję&lt;/strong&gt; Add a Card i podaj dane swojej karty Visa lub Mastercard.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Uzupełnij dane osobowe&lt;/strong&gt; zgodnie z paszportem i ustaw 6-cyfrowy kod PIN płatności (&lt;em&gt;Payment Password&lt;/em&gt;).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;!-- GRAFIKA 1: Płatności QR w Chinach --&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/asia-compass/images/china-pay.jpg&#34; alt=&#34;Płatności kodem QR w Chinach&#34; style=&#34;max-width: 50%; height: auto; display: block; margin: 1em auto;&#34; /&gt;&#xA;&lt;em&gt;Skanowanie kodów QR to podstawowa metoda płatności w Chinach.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Great Peace Prayer Tower</title>
-      <link>https://asiacompass.github.io/asia-compass/atrakcja/pl-peace-tower/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/pl-peace-tower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/atrakcja/pl-peace-tower/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/pl-peace-tower/</guid>
       <description>&lt;h3 id=&#34;wieża-pokoju-pl&#34;&gt;Wieża Pokoju PL&lt;/h3&gt;&#xA;&lt;p&gt;Wyrastająca ponad spokojne przedmieścia Tondabayashi w prefekturze Osaka, Wieża Pokoju PL (Dai Heiwa Kinen Tō) wygląda jak surrealistyczny obiekt rodem z filmów sci-fi lub gier wideo. Ten mierzący 180 metrów wysokości biały, organiczny monolit przypomina gigantyczną skulpturę skamieniałego płomienia, rogu lub abstrakcyjnego grzyba. Wzniesiona w 1970 roku przez ruch religijny Church of Perfect Liberty (PL Kyōdan), jest cenotafem poświęconym wszystkim ofiarom wojen w historii świata, niezależnie od ich rasy, narodowości czy wyznania. To jedno z najbardziej nieziemskich i alternatywnych miejsc na mapie metropolii Osaka, które zachwyci miłośników unikalnej architektury archiwizujących niezwykłe kadry.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pałac Gyeongbokgung</title>
-      <link>https://asiacompass.github.io/asia-compass/atrakcja/gyeongbokgung-palace/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/gyeongbokgung-palace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/atrakcja/gyeongbokgung-palace/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/gyeongbokgung-palace/</guid>
       <description>&lt;h3 id=&#34;podróż-do-dynastii-joseon&#34;&gt;Podróż do dynastii Joseon&lt;/h3&gt;&#xA;&lt;p&gt;Wkraczając przez monumentalną Bramę Gwanghwamun na dziedziniec pałacu Gyeongbokgung, przenosisz się wprost do złotego wieku dynastii Joseon. Wzniesiony w 1395 roku jako główny i największy z Pięciu Wielkich Pałaców Seulu, Gyeongbokgung – którego nazwa oznacza „Pałac Wielce Błogosławiony przez Niebo” – to absolutne serce koreańskiej historii i kultury. Zbudowany u podnóża majestatycznej góry Bugaksan, urzeka niezwykłą harmonią tradycyjnej architektury, misterne zdobionych dachów dancheong oraz rozległych ogrodów i pawilonów zawieszonych nad lustrem wody.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shibuya Sky - taras widokowy</title>
-      <link>https://asiacompass.github.io/asia-compass/atrakcja/shibuya-sky/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/shibuya-sky/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/atrakcja/shibuya-sky/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/shibuya-sky/</guid>
       <description>&lt;h3 id=&#34;taras-widokowy-na-miasto&#34;&gt;Taras widokowy na miasto&lt;/h3&gt;&#xA;&lt;p&gt;Zawieszony niemal 230 metrów nad ziemią taras widokowy Shibuya Sky to absolutny hit na mapie Tokio i jedna z najbardziej widowiskowych przestrzeni obserwacyjnych na świecie. Zlokalizowany na dachu wieżowca Shibuya Scramble Square, oferuje spektakularną, panoramiczną panoramę 360° na nieskończone morze tokijskich wieżowców, ikoniczne skrzyżowanie Shibuya Scramble Crossing, a przy dobrej widoczności – majaczący na horyzoncie majestatyczny szczyt góry Fuji. To nie jest zwykły punkt widokowy: to nowoczesna, przemyślana koncepcyjnie przestrzeń z otwartym dachem (Sky Stage), sztuczną trawą, leżakami do obserwacji chmur i interaktywnymi instalacjami świetlnymi, które po zmroku zmieniają to miejsce w niemal hipnotyzujące widowisko.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zakazane Miasto (The Palace Museum)</title>
-      <link>https://asiacompass.github.io/asia-compass/atrakcja/zakazane-miasto/</link>
+      <link>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://asiacompass.github.io/asia-compass/atrakcja/zakazane-miasto/</guid>
+      <guid>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</guid>
       <description>&lt;h3 id=&#34;the-palace-museum&#34;&gt;The Palace Museum&lt;/h3&gt;&#xA;&lt;p&gt;Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Miasta, wkraczasz do największego i najlepiej zachowanego kompleksu pałacowego na świecie. Przez ponad 500 lat ten majestatyczny labirynt czerwonych murów, złoconych dachów i marmurowych dziedzińców służył jako samowystarczalne serce Imperium Chińskiego, niedostępne dla zwykłych śmiertelników. To tutaj 24 cesarzy z dynastii Ming i Qing sprawowało władzę absolutną, żyjąc pośród niewyobrażalnego przepychu, dworskiej etykiety i sekretnych intryg. Spacer po Zakazanym Mieście to bezprecedensowa podróż w czasie do epoki potęgi i mistycznego symbolizmu starożytnych Chin.&lt;/p&gt;</description>
     </item>
   </channel>

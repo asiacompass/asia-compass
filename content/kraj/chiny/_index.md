@@ -73,5 +73,6 @@ info_trans_desc: |
 
      <li><b> Apple Maps / Baidu Maps:</b> Apple Maps działa w Chinach dobrze i pokazuje aktualny transport publiczny. Baidu Maps to chiński standard, wymagający jednak znajomości znaków.
      </li>
+     <h3><a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Zobacz jak zainstalować i obsługiwać aplikacje</a></h3>
   </ul>
 ---

@@ -11,7 +11,7 @@ Poniżej znajdziesz kompletny przewodnik: co warto wiedzieć o cyfrowym świecie
 
 ---
 
-# 1. Co warto wiedzieć przed wyjazdem?
+## 1. Co warto wiedzieć przed wyjazdem?
 
 Chiński rząd stosuje rozbudowany system cenzury cyfrowej, znany jako **Great Firewall (Wielki Firewall)**. Blokuje on dostęp do większości zachodnich aplikacji i stron internetowych.
 
@@ -27,9 +27,11 @@ Chiński rząd stosuje rozbudowany system cenzury cyfrowej, znany jako **Great F
   <img src="https://images.pexels.com/photos/20805597/pexels-photo-20805597.jpeg" alt="Opis zdjęcia" width="500">
 </p>
 
-# 2. Jak i gdzie pobrać kartę eSIM do Chin?
+## 2. Jak i gdzie pobrać kartę eSIM do Chin?
 
 Instalację karty eSIM warto wykonać **jeszcze w Polsce** (lub przed wylotem), ponieważ do aktywacji i pobrania profilu wymagane jest stabilne połączenie z Internetem.
+
+<script async src="https://tpwidg.com/content?trs=564309&shmarker=760698&locale=en&country=China&powered_by=true&color_button=%23f2685f&color_focused=%23f2685f&secondary=%23FFFFFF&dark=%2311100f&light=%23FFFFFF&special=%23C4C4C4&border_radius=13&plain=false&no_labels=true&promo_id=8588&campaign_id=541" charset="utf-8"></script>
 
 ### Najpopularniejsi dostawcy eSIM do Chin:
 1. **Airalo** (pakiety *Chinacom* lub regionalne *Asialink*) – bardzo popularny i niezawodny dostawca 
@@ -49,7 +51,7 @@ Instalację karty eSIM warto wykonać **jeszcze w Polsce** (lub przed wylotem), 
 5. **Włącz Roaming:** Po przylocie przełącz transmisję danych na eSIM i **włącz roaming danych** dla tej karty.
 
 ---
-# 3. Astrill VPN vs. Mullvad VPN
+## 3. Astrill VPN vs. Mullvad VPN
 
 ### Astrill VPN – Lider do zadań specjalnych
 
