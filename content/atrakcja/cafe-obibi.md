@@ -6,6 +6,7 @@ miasto: "chengdu"
 lat: 30.6622
 lng: 104.0538
 kategoria: "jedzenie"
+tag: ["sweets"]
 image_url: "https://ak-d.tripcdn.com/images/0104k120009plvj8oE815.jpg"
 rezerwacja: "Nie"
 sezon: "Cały rok"

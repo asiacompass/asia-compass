@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/miasto/furong/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Furong Ancient Town</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/furong-city/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/furong-city/</guid>
+      <description>&lt;h3 id=&#34;starożytne-miasto-nad-wodospadem&#34;&gt;Starożytne miasto nad wodospadem&lt;/h3&gt;&#xA;&lt;p&gt;Zawieszone spektakularnie na krawędzi klifu, dwutysięczne miasteczko Furong wyglądem przypomina baśniową krainę przeniesioną wprost do rzeczywistości. Jego najbardziej charakterystycznym elementem jest potężny, dwustopniowy wodospad, który spływa z hukiem prosto do rzeki Youshui – to jedyne miasto w Chinach wzniesione bezpośrednio nad tak potężną kaskadą wodną. Dawniej znane jako Wangcun, miasteczko zmieniło nazwę po spektakularnym sukcesie chińskiego hitu filmowego Hibiskusowe Miasteczko (Hibiscus Town) z 1986 roku. Tradycyjna architektura ludu Tujia, drewniane domy Diaojiaolou wsparte na palach oraz wąskie, brukowane uliczki tworzą tu atmosferę pełną tajemniczości, która po zmroku – gdy cały kompleks rozświetla się tysiącem złocistych lampionów – po prostu zapiera dech w piersiach.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

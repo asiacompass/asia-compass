@@ -35,11 +35,15 @@
 <section class="section-container" style="text-align: center; margin-bottom: 40px;">
     <h1 style="margin-bottom: 30px;">Zakochaj się w Azji</h1>
     <div class="kategorie-grid-center">
-        <a href="{{ "kategoria/jedzenie/" | relURL }}" class="kategoria-tile-center">Jedzenie</a>
-        <a href="{{ "kategoria/nocleg/" | relURL }}" class="kategoria-tile-center">Nocleg</a>
-        <a href="{{ "kategoria/hotel/" | relURL }}" class="kategoria-tile-center">Hotel</a>
-        <a href="{{ "kategoria/historia/" | relURL }}" class="kategoria-tile-center">Historia</a>
-        <a href="{{ "kategoria/popkultura/" | relURL }}" class="kategoria-tile-center">Popkultura</a>
+        {{ $kategorie := slice "jedzenie" "nocleg" "hotel" "historia" "popkultura" "natura" }}
+        {{ range $kategorie }}
+            {{ $katPage := site.GetPage (printf "/kategoria/%s" .) }}
+            {{ if $katPage }}
+                <a href="{{ $katPage.RelPermalink }}" class="kategoria-tile-center">{{ $katPage.Title }}</a>
+            {{ else }}
+                <a href="{{ printf "/kategoria/%s/" . | relURL }}" class="kategoria-tile-center">{{ . | title }}</a>
+            {{ end }}
+        {{ end }}
     </div>
 </section>
 

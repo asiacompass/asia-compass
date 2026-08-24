@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sweets on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/tag/sweets/</link>
+    <description>Recent content in Sweets on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/tag/sweets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cafe Obibi Panda Milk</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</guid>
+      <description>&lt;h3 id=&#34;kawiarnia-obibi&#34;&gt;Kawiarnia Obibi&lt;/h3&gt;&#xA;&lt;p&gt;Wstępując do kawiarni Obibi na kultowej ulicy Kui Xing Lou w Chengdu, natychmiast trafiasz do najsłodszego zakątka stolicy prowincji Syczuan. Chengdu to światowa stolica wielkich pand, a Obibi mistrzowsko przenosi tę miłość na kulinarną mapę miasta. Lokalne herbaty z mlekiem, kremowe pianki i kawy zamieniają się tu w małe dzieła sztuki – od puszystych pianek w kształcie uszu i pyszczków pand, po posypki z węgla bambusowego w formie śladów łapek. To miejsce pachnie świeżo parzoną chińską herbatą, palonym cukrem i słodkim tiramisu, oferując estetykę, obok której żaden miłośnik trendów i podróży nie przejdzie obojętnie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xi Yue He Zi - Tea House</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/tea-house/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/tea-house/</guid>
+      <description>&lt;h3 id=&#34;herbaciarnia-xi-yue-he-zi&#34;&gt;Herbaciarnia Xi Yue He Zi&lt;/h3&gt;&#xA;&lt;p&gt;Ukryta pośród zabytkowych uliczek dawnego miasteczka Xiahaoli w Chongqing, herbaciarnia Xi Yue He Zi (Moon Opera Box) to jedno z najbardziej bajkowych i poetyckich miejsc na współczesnej mapie kulinarno-kulturalnej Chin. Połączenie tradycyjnej estetki, kojącego szumu wody oraz nowatorskiego podejścia do serwowania deserów sprawiło, że to niezwykłe miejsce błyskawicznie stało się wiralowym hitem w mediach społecznościowych. Przekraczając jej drewniane progi, zostawiasz za sobą zgiełk kilkunastomilionowej metropolii i wkraczasz w świat, gdzie czas płynie wolniej, a woda niesie ze sobą kulinarne minidzieła sztuki.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

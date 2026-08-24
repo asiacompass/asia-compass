@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/miasto/gexian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gexian Village</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/gexian-village/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/gexian-village/</guid>
+      <description>&lt;h3 id=&#34;wioska-gexian-gexian-village-resort&#34;&gt;Wioska Gexian (Gexian Village Resort)&lt;/h3&gt;&#xA;&lt;p&gt;Ukryta u podnóża świętej taoistycznej góry Gexian w prowincji Jiangxi, Wioska Gexian wygląda jak malownicza kraina wyjęta wprost z klasycznego chińskiego malarstwa zwojowego lub ulubionych seriali fantasy z gatunku Xianxia. Choć stylizowana na starożytną osadę z czasów dynastii Han i Song, to tętniący życiem, luksusowy i genialnie zaprojektowany resort. Drewniane rezydencje, tradycyjne mosty zawieszone nad otulonymi mgłą stawami oraz bujne ogrody tworzą spójną i poetycką całość. To miejsce, gdzie mistycyzm starożytnego taoizmu łączy się z zapierającą dech w piersiach technologią – po zmroku cała wioska zamienia się w bajkowy teatr świateł, mgły i laserowych pokazów na wodzie.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -10,7 +10,7 @@ img: "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsI
 Dongducheon to fascynujące miasto pogranicza, w którym amerykański klimat militarny niespodziewanie miesza się z dziką, koreańską naturą i japońską estetyką. Ta położona na północ od Seulu, strategiczna baza wojskowa przez dekady rozwijała się pod silnym wpływem stacjonujących tu żołnierzy USA, tworząc unikalną, wielokulturową enklawę. Dziś to idealny cel na jednodniową ucieczkę ze stolicy, kuszący zarówno tętniącym życiem, zagranicznym tyglem kulturowym w mieście, jak i absolutnym spokojem świętych, porośniętych lasami gór na jego obrzeżach.   
 
 **Vibe Dongducheon w pigułce:**  
-**- Amerykańskie miasteczko (Camp Bosan):** Specjalna strefa turystyczna pełna neonów, klubów muzycznych, restauracji z zachodnim jedzeniem i studiów tatuażu, ukształtowana przez sąsiedztwo bazy wojskowej Camp Casey.  
-**- Klimat Nijimori Studio:** Ogromny park tematyczny i plan filmowy odtwarzający historyczne japońskie miasteczko z okresu Edo – z klimatycznymi ryokanami, tradycyjnymi lampami i sklepikami z kimonami.  
-**- Majestatyczna góra Soyosan:** Jedno z najpiękniejszych miejsc w regionie, słynące z niesamowitych, ognistych kolorów jesiennych liści, malowniczych wodospadów oraz ukrytej na zboczach pustelni Jajaeam.  
-**- Muzeum Wolności i Pokoju:** Imponujące, interaktywne muzeum poświęcone wojnie koreańskiej, z wystawą prawdziwych czołgów i samolotów bojowych na wolnym powietrzu.
+**- Amerykańskie miasteczko (Camp Bosan):** Specjalna strefa turystyczna pełna neonów, klubów muzycznych, restauracji z zachodnim jedzeniem i studiów tatuażu, ukształtowana przez sąsiedztwo bazy wojskowej Camp Casey.    
+**- Klimat Nijimori Studio:** Ogromny park tematyczny i plan filmowy odtwarzający historyczne japońskie miasteczko z okresu Edo – z klimatycznymi ryokanami, tradycyjnymi lampami i sklepikami z kimonami.    
+**- Majestatyczna góra Soyosan:** Jedno z najpiękniejszych miejsc w regionie, słynące z niesamowitych, ognistych kolorów jesiennych liści, malowniczych wodospadów oraz ukrytej na zboczach pustelni Jajaeam.    
+**- Muzeum Wolności i Pokoju:** Imponujące, interaktywne muzeum poświęcone wojnie koreańskiej, z wystawą prawdziwych czołgów i samolotów bojowych na wolnym powietrzu.  

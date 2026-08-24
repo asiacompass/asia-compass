@@ -8,7 +8,8 @@
     {{ end }}
 
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-top: 20px;">
-        {{ range .RegularPages }}
+        <!-- ZAMIANA: z .RegularPages na .Pages -->
+        {{ range .Pages }}
         <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
             <div>
                 {{ $img := .Params.img | default .Params.image_url | default .Params.image }}
@@ -27,6 +28,8 @@
             
             <a href="{{ .RelPermalink }}" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
         </div>
+        {{ else }}
+            <p style="grid-column: 1 / -1; color: var(--text-color);">Brak przypisanych wpisów dla tej kategorii.</p>
         {{ end }}
     </div>
 

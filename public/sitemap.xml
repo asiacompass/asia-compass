@@ -55,9 +55,13 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/furong/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/furong-city/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gangneung/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gexian/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/gexian-village/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gimhae/</loc>
   </url><url>
@@ -68,6 +72,8 @@
     <loc>http://localhost:1313/asia-compass/miasto/gwangmyeong/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gyeongju/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/hengdian-world-studio/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/historia/</loc>
   </url><url>
@@ -122,6 +128,8 @@
     <loc>http://localhost:1313/asia-compass/sociale/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/suwon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/sweets/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</loc>
   </url><url>

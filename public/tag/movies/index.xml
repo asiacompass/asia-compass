@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Movies on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/tag/movies/</link>
+    <description>Recent content in Movies on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/tag/movies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Universal Studios - Harry Potter, Kung Fu Panda, Transformers</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/universal-studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/universal-studio/</guid>
+      <description>&lt;h3 id=&#34;universal-studios-beijing&#34;&gt;Universal Studios Beijing&lt;/h3&gt;&#xA;&lt;p&gt;To największy i najbardziej zaawansowany technologicznie park rozrywki Universal na świecie. Rozciągający się w pekińskiej dzielnicy Tongzhou kompleks to absolutny majstersztyk inżynierii rozrywkowej, łączący ikoniczne, światowe franczyzy z unikalnymi elementami stworzonymi specjalnie z myślą o bogatej kulturze Chin. Wkraczając przez bramę główną, przechodzisz ze współczesnej metropolii do w pełni imersyjnych krain: od ośnieżonych dachów Hogsmeade w &lt;strong&gt;Harrym Potterze&lt;/strong&gt;, przez postapokaliptyczny świat &lt;strong&gt;Transformersów&lt;/strong&gt;, aż po urokliwą, chińską wioskę z &lt;strong&gt;Kung Fu Pandy&lt;/strong&gt;. To miejsce oferuje nie tylko zapierające dech w piersiach kolejki górskie i symulatory 4D/5D, ale przede wszystkim bezprecedensowy poziom dopracowania detali, scenografii oraz widowiskowych pokazów na żywo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
