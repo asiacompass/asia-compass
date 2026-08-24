@@ -8,6 +8,13 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/tag/movies/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Legoland Shanghai Resort</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/legoland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/legoland/</guid>
+      <description>&lt;h3 id=&#34;legoland-shanghai-resort&#34;&gt;Legoland Shanghai Resort&lt;/h3&gt;&#xA;&lt;p&gt;Położony w urokliwej historycznej dzielnicy Fengjing w Jinshan, Legoland Shanghai Resort to najnowszy i jednocześnie największy tego typu park na świecie. Ten zajmujący obszar ponad 318 000 metrów kwadratowych kompleks to idealne połączenie ikonicznych klocowych atrakcji z tradycyjną chińską kulturą oraz architekturą. Ponad 85 milionów elementów LEGO posłużyło do zbudowania tętniącego życiem świata, w którym nowoczesne rollercoastery mieszają się z miniaturowymi, chińskimi miasteczkami na wodzie i futurystycznymi strefami znanymi z ulubionych bajek.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Universal Studios - Harry Potter, Kung Fu Panda, Transformers</title>
       <link>http://localhost:1313/asia-compass/atrakcja/universal-studio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

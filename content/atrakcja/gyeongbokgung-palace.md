@@ -5,8 +5,8 @@ miasto: "seoul"
 kategoria: "historia"
 tag: ["drama"]
 type: "atrakcja"
-lat: 37.5796
-lng: 126.9770
+lat: 37.58036523153356
+lng: 126.97661184721943
 image_url: "https://images.pexels.com/photos/37968751/pexels-photo-37968751.jpeg"
 cena: "tanio $"
 rezerwacja: "Wymagana wcześniej online"

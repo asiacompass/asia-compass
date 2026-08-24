@@ -8,6 +8,20 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/kategoria/popkultura/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Legoland Shanghai Resort</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/legoland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/legoland/</guid>
+      <description>&lt;h3 id=&#34;legoland-shanghai-resort&#34;&gt;Legoland Shanghai Resort&lt;/h3&gt;&#xA;&lt;p&gt;Położony w urokliwej historycznej dzielnicy Fengjing w Jinshan, Legoland Shanghai Resort to najnowszy i jednocześnie największy tego typu park na świecie. Ten zajmujący obszar ponad 318 000 metrów kwadratowych kompleks to idealne połączenie ikonicznych klocowych atrakcji z tradycyjną chińską kulturą oraz architekturą. Ponad 85 milionów elementów LEGO posłużyło do zbudowania tętniącego życiem świata, w którym nowoczesne rollercoastery mieszają się z miniaturowymi, chińskimi miasteczkami na wodzie i futurystycznymi strefami znanymi z ulubionych bajek.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Teatr Opery Syczuańskiej Shu Yan Fu</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/shu-yan-fu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/shu-yan-fu/</guid>
+      <description>&lt;h3 id=&#34;imersyjny-teatr-i-uczta-kulturowa-w-chengdu&#34;&gt;Imersyjny Teatr i Uczta Kulturowa w Chengdu&lt;/h3&gt;&#xA;&lt;p&gt;W samym sercu artystycznej dzielnicy Dongjiao Memory w Chengdu znajduje się miejsce, które na nowo zdefiniowało pojęcie kolacji z widowiskiem – Shu Yan Fu (蜀宴赋). To pierwszy w Chinach na tak wielką skalę immersyjny teatr kulinarny (Dinner Show), który przenosi gości wprost na starożytne cesarskie dwory dynastii Han, Tang oraz Song. Podczas wielodaniowego wykwintnego posiłku, inspirowanego historycznymi recepturami kuchni syczuańskiej, na scenie oraz pośród stolików rozgrywa się oszałamiający spektakl łączący tradycyjny taniec, muzykalia, spektakularną grę świateł, a także ikoniczne dla tego regionu elementy Opery Syczuańskiej (w tym widowiskową sztukę błyskawicznej zmiany masek – Bian Lian). Całości dopełnia opcja przebrania się w pełny historyczny strój Hanfu wraz z profesjonalną stylizacją fryzury i makijażu.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Universal Studios - Harry Potter, Kung Fu Panda, Transformers</title>
       <link>http://localhost:1313/asia-compass/atrakcja/universal-studio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

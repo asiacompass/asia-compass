@@ -5,7 +5,7 @@ miasto: "dongyang"
 kategoria: "historia"
 tag: ["drama"]
 type: "atrakcja"
-lat: 29.3524
+lat: 29.3524 
 lng: 120.3175
 image_url: "https://images.pexels.com/photos/14828720/pexels-photo-14828720.jpeg"
 cena: "srednio $$, drogo $$$"

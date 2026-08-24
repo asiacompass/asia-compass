@@ -65,16 +65,20 @@
     {{ end }}
 
     
- <!-- Galeria zdjęć w układzie Pinterest -->
+<!-- Galeria zdjęć w układzie Pinterest -->
 {{ if .Params.galeria_zdjec }}
 <section style="margin-top: 40px;">
     <h3 class="gallery-title">Galeria inspiracji</h3>
     <div class="pinterest-gallery">
         {{ range .Params.galeria_zdjec }}
+        {{ $caption := index . "caption" }}
         <div class="gallery-item">
             <a href="{{ index . "url" }}" target="_blank">
-                <img src="{{ index . "url" }}" alt="Zdjęcie z galerii" loading="lazy">
+                <img src="{{ index . "url" }}" alt="{{ $caption | default "Zdjęcie z galerii" }}" loading="lazy">
             </a>
+            {{ if $caption }}
+            <p class="gallery-caption">{{ $caption }}</p>
+            {{ end }}
         </div>
         {{ end }}
     </div>
