@@ -7,7 +7,7 @@ title = 'Asia Compass'
 kraj = "kraj"
 miasto = "miasto"
 kategoria = "kategoria"
-tag = "tags"
+tag = "tag"
 
 [markup]
   [markup.goldmark]

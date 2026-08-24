@@ -12,4 +12,4 @@ Furong to magiczne, zawieszone nad wodą miasteczko w chińskiej prowincji Hunan
 **- Wodospad Wielkiego Wąwozu (Furong Waterfall):** Potężny, podwójny wodospad, przez który można przejść suchą stopą pod strumieniami wody, stanowiący naturalne serce i tło całego miasteczka.
 **- Starożytna ulica Wulishi:** Malowniczy, wybrukowany starożytnymi płytami trakt handlowy, wijący się wzdłuż klifu i pełen małych sklepików z lokalnymi rarytasami oraz wyrobami mniejszości Tujia. 
 **- Pałac Królów Tujia (Tujia King Palace):** Majestatyczny kompleks architektoniczny wzniesiony na skale, który dumnie przypomina o dawnych tradycjach i potędze lokalnych władców.
-**- Nocne iluminacje i herbaciarnie nad klifem:** Malownicza strefa twórcza zagubiona pośród sosnowych lasów, w której tradycyjne warsztaty rzemieślnicze łączą się z nowoczesnym designem i klimatycznymi kawiariami.
+**- Nocne iluminacje i herbaciarnie nad klifem:** Magiczny czas, gdy po zmroku miasteczko rozbłyska tysiącami ciepłych świateł, a z drewnianych tarasów tradycyjnych herbaciarni roztacza się widok na spienioną wodę.

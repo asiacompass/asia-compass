@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="list-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+    <h1 style="font-size: 2.5rem; margin-bottom: 25px; color: var(--text-color);">
+        Atrakcje z tagiem: <span style="color: var(--primary-red);">#{{ .Title }}</span>
+    </h1>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px;">
+        {{ range .Pages }}
+        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+            <div>
+                {{ $img := .Params.image_url | default .Params.img | default .Params.image }}
+                {{ if $img }}
+                <a href="{{ .RelPermalink }}" style="display: block; overflow: hidden; border-radius: 8px; margin-bottom: 12px;">
+                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 210px; object-fit: cover; display: block; transition: transform 0.3s ease;">
+                </a>
+                {{ end }}
+                
+                <h3 style="margin: 0 0 8px 0; font-size: 1.2rem; line-height: 1.4;">
+                    <a href="{{ .RelPermalink }}" style="text-decoration: none; color: var(--primary-red);">{{ .Title }}</a>
+                </h3>
+                
+                <div style="font-size: 0.88rem; color: #666; margin-bottom: 14px; display: flex; gap: 6px; align-items: center;">
+                    {{ if .Params.miasto }}
+                    <span style="font-weight: 600; text-transform: capitalize;">📍 {{ .Params.miasto }}</span>
+                    {{ end }}
+                    {{ if and .Params.miasto .Params.kraj }}<span>•</span>{{ end }}
+                    {{ if .Params.kraj }}
+                    <span style="text-transform: capitalize;">{{ .Params.kraj }}</span>
+                    {{ end }}
+                </div>
+            </div>
+            
+            <a href="{{ .RelPermalink }}" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
+        </div>
+        {{ end }}
+    </div>
+
+</div>
+
+<style>
+.tag-item-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+}
+.tag-item-tile:hover img {
+    transform: scale(1.03);
+}
+.tag-btn:hover {
+    opacity: 0.9;
+}
+</style>
+{{ end }}

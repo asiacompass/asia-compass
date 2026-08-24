@@ -3,7 +3,7 @@ title: "Zakazane Miasto (The Palace Museum)"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "pekin"
-
+tag: ["drama"]
 kategoria: "historia"
 image_url: "https://images.pexels.com/photos/18549556/pexels-photo-18549556.jpeg"
 cena: "tanio"

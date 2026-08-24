@@ -23,6 +23,7 @@
 
     {{ $currentCountrySlug := .Title | urlize | lower }}
 
+    
     {{/* 3. Ważne informacje - Kafelki jeden pod drugim na pełną szerokość */}}
     <section class="country-info-section" style="margin-bottom: 40px;">
         <h2 style="color: var(--primary-red); margin-bottom: 20px;">Przydatne informacje</h2>
@@ -101,7 +102,7 @@
     
     {{ $kategorieFound = $kategorieFound | uniq | sort }}
 
-     {{ if gt (len $kategorieFound) 0 }}
+    {{ if gt (len $kategorieFound) 0 }}
     <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Co chcesz zobaczyć?</h2>
     <div class="kategorie-grid-center" style="margin-bottom: 40px;">
         {{ range $kategorieFound }}
@@ -157,6 +158,47 @@
         });
     </script>
 
+{{/* SEKCJA TAGÓW DLA KRAJU */}}
+{{ $tagsFound := slice }}
+
+{{ range where .Site.RegularPages "Section" "atrakcja" }}
+    {{ if .Params.tag }}
+        {{ range .Params.tag }}
+            {{ $tagsFound = $tagsFound | append . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ $tagsFound = $tagsFound | uniq | sort }}
+
+{{ if gt (len $tagsFound) 0 }}
+<div class="country-tags-section" style="margin-bottom: 40px;">
+    <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--primary-red);">Odkrywaj według tagów</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        {{ range $tagsFound }}
+            {{ $tagName := . }}
+            {{/* Pobieranie właściwej strony taksonomii (podmienia spacji/wielkie litery na poprawny URL) */}}
+            {{ $tagPage := site.GetPage (printf "/tag/%s" ($tagName | urlize)) | default (site.GetPage (printf "/tags/%s" ($tagName | urlize))) }}
+            {{ $tagUrl := cond $tagPage $tagPage.RelPermalink (printf "/tags/%s/" ($tagName | urlize)) }}
+            
+            <a href="{{ $tagUrl }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
+                #{{ $tagName }}
+            </a>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.country-tag-badge:hover {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-red) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+{{ end }}
+
     {{/* 5. Nagłówek i kafelki miast */}}
     <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Zobacz atrakcje w mieście i zainspiruj się!</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
@@ -203,6 +245,13 @@ details summary::-webkit-details-marker {
 }
 .country-city-btn:hover {
     background: #a2e8a9 !important;
+}
+.country-tag-badge:hover {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-red) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 </style>
 {{ end }}

@@ -8,11 +8,53 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/kraj/chiny/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CHENGDU</title>
+      <link>http://localhost:1313/asia-compass/miasto/chengdu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/chengdu/</guid>
+      <description>&lt;p&gt;Chengdu to zielona stolica chińskiej prowincji Syczuan i miasto niespiesznego rytmu, w którym nowoczesne wieżowce sąsiadują z setkami spokojnych herbaciarni, a aromatyczny dym z tradycyjnych nocnych targów miesza się z zapachem wszechobecnego bambusa. Ta niezwykła metropolia zachwyca unikalnym balansem między dynamicznym rozwojem a filozofią celebrowania każdej chwili. Otoczone mglistymi wzgórzami miasto jest światowym centrum ochrony pand wielkich i kolebką jednej z najbardziej wyrazistych kuchni Azji. Chengdu tętni życiem od poranka spędzanego na tańcach i grach w parkach aż po późne wieczory przy parującym, pikantnym garnku hot pot.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CHINY</title>
       <link>http://localhost:1313/asia-compass/kraj/chiny/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/kraj/chiny/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>CHONGQING</title>
+      <link>http://localhost:1313/asia-compass/miasto/chongqing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/chongqing/</guid>
+      <description>&lt;p&gt;Chongqing to gigantyczna, cyberpunkowa stolica chińskiego interioru i miasto-labirynt, w którym futurystyczne pociągi metro przelatują na wylot przez mieszkalne wieżowce, a mosty zawieszone są wysoko w chmurach nad dwoma potężnymi rzekami. Ta pionowa metropolia zachwyca niesamowitą topografią i rozświetloną neonami architekturą, która sprawia, że krajobraz bywa nazywany „chińskim Cyberpunkiem” lub „górskim miastem”. Chongqing tętni życiem od parnych, spowitych mgłą poranków w górskich zaułkach aż po głęboką noc na nadrzecznych bulwarach i w gwarnych knajpkach.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DONGYANG</title>
+      <link>http://localhost:1313/asia-compass/miasto/dongyang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/dongyang/</guid>
+      <description>&lt;p&gt;Dongyang to niezwykła stolica chińskiego rzemiosła i miasto-atelier w prowincji Zhejiang, w którym stulecia tradycji artystycznego snycerstwa przeplatają się z rozmachem gigantycznego miasteczka filmowego. To unikalne centrum chińskiej kultury zachwyca kunsztem detalu ukrytym w każdym fragmencie architektury oraz atmosferą żywej scenografii. Otoczone łagodnymi wzgórzami miasto słynie na całym świecie jako królestwo drewna i miejsce, gdzie rodzą się kinowe światy. Dongyang tętni życiem od porannej krzątaniny w pracowniach mistrzów rzeźbiarstwa aż po wieczorne pokazy i spektakle świetlne w filmowych gigantycznych plenerach.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FURONG</title>
+      <link>http://localhost:1313/asia-compass/miasto/furong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/furong/</guid>
+      <description>&lt;p&gt;Furong to magiczne, zawieszone nad wodą miasteczko w chińskiej prowincji Hunan i niezwykła perła dynastii Tujia, w której tradycyjne, drewniane domy na palach wyrastają wprost ze stromych klifów, a spektakularny wodospad huczy w samym sercu dawnej osady. Ta licząca ponad dwa tysiące lat historyczna miejscowość zachwyca niezwykłym położeniem i mistycznym klimatem, który ożywa na dużym ekranie i w pamięci każdego podróżnika. Otoczone bujnymi, zielonymi górami miasto słynie z unikalnego dziedzictwa mniejszości narodowych i labiryntu wybrukowanych kamieniem uliczek. Furong tętni życiem od rześkich, mglistych poranków, gdy wodą niesie się dźwięk tradycyjnych bębnów, aż po głęboką noc, gdy złote iluminacje zamieniają starożytne budowle w kadr rodem z baśni.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GEIXAN</title>
+      <link>http://localhost:1313/asia-compass/miasto/gexian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/gexian/</guid>
+      <description>&lt;p&gt;Gexian to mistyczna, ukryta wśród mglistych wzgórz wioska w chińskiej prowincji Jiangxi i żywa baśń taoistyczna, w której tradycyjna architektura dynastii Ming i Qing stapia się z dziką naturą starych gór. To niezwykłe miejsce, spowite legendami o alchemikach i poszukiwaczach nieśmiertelności, zachwyca surrealistycznym klimatem żywej scenografii z chińskich dramatów historycznych. Otoczone bujnymi lasami i potokami miasteczko tętni spokojnym rytmem od rześkich, spowitych sztuczną mgłą poranków na kamiennych uliczkach aż po wieczory, gdy tysiące tradycyjnych lampionów rozświetla dolinę niczym niebiański pałac.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HUANGLONG</title>
+      <link>http://localhost:1313/asia-compass/miasto/huanglong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/huanglong/</guid>
+      <description>&lt;p&gt;Huanglong to zapierający dech w piersiach, wysokogórski cud natury w chińskiej prowincji Syczuan, w którym tysiące mieniących się kolorami wapiennych tarasów układa się w grzbiet gigantycznego, złotego smoka spływającego pośród ośnieżonych szczytów. Ten niezwykły rejon, wpisany na listę UNESCO, zachwyca surrealistycznym, baśniowym pejzażem stworzonym przez wiekową ewolucję geologiczną i krystalicznie czyste strumienie. Otoczone bujnymi lasami i strzelistymi górami miejsce tętni niespiesznym rytmem natury – od rześkich, zamglonych poranków muskających lodowcowe szczyty aż po popołudnia, gdy słońce zapala tysiące barw w tutejszych mineralnych basenach.&lt;/p&gt;</description>
     </item>
     <item>
       <title>PEKIN</title>
