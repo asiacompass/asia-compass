@@ -20,21 +20,28 @@
         <div class="meta-container">
             <h3 class="meta-title">Informacje o atrakcji</h3>
             <div class="meta-grid">
-                {{ if .Params.kraj }}<div><strong>Kraj:</strong> <a href="/kraj/{{ .Params.kraj | urlize }}/">{{ .Params.kraj }}</a></div>{{ end }}
-                {{ if .Params.miasto }}<div><strong>Miejscowość:</strong> <a href="/miasto/{{ .Params.miasto | urlize }}/">{{ .Params.miasto }}</a></div>{{ end }}
-                {{ if .Params.kategoria }}<div><strong>Kategoria:</strong> <a href="/kategoria/{{ .Params.kategoria | urlize }}/">{{ .Params.kategoria }}</a></div>{{ end }}
+            {{ if .Params.kraj }}
+              {{ $krajPage := site.GetPage (printf "/kraj/%s" (.Params.kraj | urlize)) }}
+              <div><strong>Kraj:</strong> <a href="{{ if $krajPage }}{{ $krajPage.RelPermalink }}{{ else }}#/{{ end }}">{{ .Params.kraj }}</a></div>
+            {{ end }}
+
+           {{ if .Params.miasto }}
+             {{ $miastoPage := site.GetPage (printf "/miasto/%s" (.Params.miasto | urlize)) }}
+              <div><strong>Miejscowość:</strong> <a href="{{ if $miastoPage }}{{ $miastoPage.RelPermalink }}{{ else }}#/{{ end }}">{{ .Params.miasto }}</a></div>
+           {{ end }}
+    
+           {{ if .Params.kategoria }}
+            {{ $katPage := site.GetPage (printf "/kategoria/%s" (.Params.kategoria | urlize)) }}
+             <div><strong>Kategoria:</strong> <a href="{{ if $katPage }}{{ $katPage.RelPermalink }}{{ else }}#/{{ end }}">{{ .Params.kategoria }}</a></div>
+           {{ end }}
+    
                 {{ if .Params.cena }}<div><strong>Ceny:</strong> {{ .Params.cena }}</div>{{ end }}
                 {{ if .Params.rezerwacja }}<div><strong>Rezerwacja:</strong> {{ .Params.rezerwacja }}</div>{{ end }}
                 {{ if .Params.sezon }}<div><strong>Sezon:</strong> {{ .Params.sezon }}</div>{{ end }}
                 {{ if .Params.adres }}<div><strong>Adres:</strong> {{ .Params.adres }}</div>{{ end }}
                 {{ if .Params.link }}<div><strong>Oficjalna strona:</strong> <a href="{{ .Params.link }}" target="_blank">Odwiedź link</a></div>{{ end }}
                 {{ if .Params.tag }}
-                <div class="meta-tags-item">
-                    <strong>Tagi:</strong> 
-                    {{ range .Params.tag }}
-                        <a href="/tags/{{ . | urlize }}/" class="tag-badge">#{{ . }}</a>
-                    {{ end }}
-                </div>
+                
                 {{ end }}
             </div>
         </div>
@@ -58,22 +65,31 @@
     {{ end }}
 
     
-  <!-- Galeria zdjęć w układzie Pinterest (obsługa formatu z kluczem .url) -->
-    {{ if .Params.galeria_zdjec }}
-    <section style="margin-top: 40px;">
-        <h3 class="gallery-title">Galeria inspiracji</h3>
-        <div class="pinterest-gallery">
-            {{ range .Params.galeria_zdjec }}
-            <div class="gallery-item">
-                <a href="{{ .url }}" target="_blank">
-                    <img src="{{ .url }}" alt="Zdjęcie z galerii" loading="lazy">
-                </a>
-            </div>
-            {{ end }}
+ <!-- Galeria zdjęć w układzie Pinterest -->
+{{ if .Params.galeria_zdjec }}
+<section style="margin-top: 40px;">
+    <h3 class="gallery-title">Galeria inspiracji</h3>
+    <div class="pinterest-gallery">
+        {{ range .Params.galeria_zdjec }}
+        <div class="gallery-item">
+            <a href="{{ index . "url" }}" target="_blank">
+                <img src="{{ index . "url" }}" alt="Zdjęcie z galerii" loading="lazy">
+            </a>
         </div>
-    </section>
-    {{ end }}
-</article>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+<!-- Odtwarzacz Instagram Reel -->
+{{ if .Params.instagram_reel }}
+<section style="margin-top: 30px; text-align: center;">
+    <div style="max-width: 360px; margin: 0 auto;">
+        <blockquote class="instagram-media" data-instgrm-permalink="{{ .Params.instagram_reel }}" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; width:100%; min-width:280px; padding:0;"></blockquote>
+    </div>
+    <script async src="//www.instagram.com/embed.js"></script>
+</section>
+{{ end }}
 
 <style>
 .attraction-page {

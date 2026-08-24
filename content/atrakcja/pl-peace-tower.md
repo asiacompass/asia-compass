@@ -3,8 +3,10 @@ title: "Great Peace Prayer Tower"
 kraj: "japonia"
 miasto: "tondabayashi"
 kategoria: "historia"
-tag: ["Anime"]
+
 type: "atrakcja"
+lat: 34.5028
+lng: 126.9770
 image_url: "https://offbeatjapan.com/wp-content/uploads/2021/11/great-peace-tower-monument-to-war-victims.jpg"
 cena: "darmowe"
 rezerwacja: "Nie"
@@ -48,6 +50,8 @@ galeria_zdjec:
   - url: "https://img.atlasobscura.com/k51xTIMNoj3gSaSOuCKCxvlTQ-OXyq3pSHai6eYRKmo/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9wbHBl/YWNldG93ZXIuanBn.webp"
   - url: "https://img.atlasobscura.com/iXyAneQI9SYmyCSoapgBsMd1us30QqHSWZE_x812beQ/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9wbHBl/YWNldG93ZXIzLmpw/Zw.webp"
 
+instagram_reel: "https://www.instagram.com/reel/DbYYw7nIRpL/?igsi=MzRlODBiNWFlZA=="
+
 ---
 
 ### Wieża Pokoju PL
@@ -66,3 +70,7 @@ Wyrastająca ponad spokojne przedmieścia Tondabayashi w prefekturze Osaka, Wie�
 * **Najsłynniejszy pokaz fajerwerków:** Co roku 1 sierpnia pod wieżą odbywał się festiwal PL Art Fireworks (PL Hanabi Taikai), uznawany za jeden z najpotężniejszych i najbardziej widowiskowych pokazów sztucznych ogni na świecie.
 
 * **Wspólna pamięć historyczna:** Wewnątrz wieży zamurowano księgi z nazwiskami bezimiennych ofiar konfliktów zbrojnych z całego świata, łącząc intencję pokoju ponad podziałami.
+
+#### Zobacz poradnik:
+
+<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> 

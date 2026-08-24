@@ -3,8 +3,10 @@ title: "Pałac Gyeongbokgung"
 kraj: "korea"
 miasto: "seoul"
 kategoria: "historia"
-tag: ["Anime"]
+tag: ["drama"]
 type: "atrakcja"
+lat: 37.5796
+lng: 126.9770
 image_url: "https://images.pexels.com/photos/37968751/pexels-photo-37968751.jpeg"
 cena: "tanio $"
 rezerwacja: "Wymagana wcześniej online"
@@ -75,6 +77,9 @@ galeria_zdjec:
   - url: "https://images.pexels.com/photos/12176008/pexels-photo-12176008.jpeg"
   - url: "https://images.pexels.com/photos/6427161/pexels-photo-6427161.jpeg"
   - url: "https://images.pexels.com/photos/19474886/pexels-photo-19474886.jpeg"
+
+instagram_reel: "https://www.instagram.com/reel/Da-o1gdodo1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+
 ---
 
 ### Podróż do dynastii Joseon
@@ -89,4 +94,6 @@ Wkraczając przez monumentalną Bramę Gwanghwamun na dziedziniec pałacu Gyeong
 * **Pawillon na wodzie:** Pawilon Gyeonghoeru, w którym odbywały się państwowe uczty i przyjmowano zagranicznych posłów, stoi na 48 kunsztownie rzeźbionych kamiennych filarach usytuowanych w sztucznym stawie. Jego konstrukcja opiera się na symbolice I Ching (Księgi Zmian).
 * **Ogrzewanie podłogowe sprzed wieków:** Rezydencje królewskie wykorzystywały tradycyjny koreański system ondol – gorący dym z pieców prowadzono kanałami pod kamienną podłogą, ogrzewając komnaty w mroźne seulskie zimy. 
 
- 
+#### Zobacz poradnik:
+
+<a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Korei?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Korea jak się poruszać?</a> 

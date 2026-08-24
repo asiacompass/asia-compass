@@ -3,7 +3,8 @@ title: "Cafe Obibi Panda Milk"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "chengdu"
-
+lat: 30.6622
+lng: 104.0538
 kategoria: "jedzenie"
 image_url: "https://ak-d.tripcdn.com/images/0104k120009plvj8oE815.jpg"
 rezerwacja: "Nie"
@@ -29,7 +30,7 @@ rozwijalne_listy:
     tresc: |
       <ul>
         <li><b>Ceny biletów:</b><br>
-         Wstęp jest wolny. Napoje i herbaty kosztują średnio 18 – 30 CNY za sztukę (ok. 10 – 17 PLN) – kategoria cenowa: tanio.
+         Wstęp jest wolny. Napoje i herbaty kosztują średnio 18 – 30 CNY za sztukę (ok. 10 – 17 PLN).
         </li><br>
 
         <li><b>Godziny otwarcia</b><br>
@@ -74,7 +75,10 @@ galeria_zdjec:
   - url: "https://ak-d.tripcdn.com/images/01A3f12000a2s84tiAD81.jpg"
   - url: "https://ak-d.tripcdn.com/images/1me4e12000e3czfexC78D.jpg"
   - url: "https://ak-d.tripcdn.com/images/1mh2612000cnetzha76BE.jpg"
-  - url: "https://images.pexels.com/photos/22609440/pexels-photo-22609440.jpeg"
+  - url: "https://ak-d.tripcdn.com/images/01A3c12000a2s8cwiA350.jpg"
+
+instagram_reel: "https://www.instagram.com/reel/Da-o1gdodo1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+
 ---
 
 ### Kawiarnia Obibi
@@ -87,3 +91,9 @@ Wstępując do kawiarni Obibi na kultowej ulicy Kui Xing Lou w Chengdu, natychmi
 * **Akcenty z węgla bambusowego:** W menu znajdziesz Bamboo Charcoal Latte – napój o delikatnie dymnym smaku, nawiązujący do ulubionego przysmaku pand, zdobiony wzorem łapki z jadalnego pyłku.
 * **Pandy w każdym detalu:** Oprócz napojów kupisz tu dedykowane, kolekcjonerskie uchwyty na kubki z materiału z napisem „Chengdu”, uszka pandy na słomki oraz oryginalne gadżety, które służą za świetną pamiątkę z podróży. 
 * **Deserowe mochi i tiramisu:** Do napojów serwowane są tradycyjne, miękkie roladki mochi nadziewane kremem ze czarnego sezamu oraz limitowana seria płynnego Tiramisu Milk Tea, na które lokalni mieszkańcy często robią wcześniejsze rezerwacje.
+
+
+
+#### Zobacz poradnik:
+
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 

@@ -3,7 +3,9 @@ title: "Zakazane Miasto (The Palace Museum)"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "pekin"
-tag: ["drama"]
+tag: ["unesco"]
+lat: 39.9163
+lng: 116.3972
 kategoria: "historia"
 image_url: "https://images.pexels.com/photos/18549556/pexels-photo-18549556.jpeg"
 cena: "tanio"
@@ -95,3 +97,7 @@ Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Mias
 * **Architektura bez ani jednego gwoździa:** Ogromne drewniane hale pałacowe wzniesiono bez użycia chociażby jednego metalowego gwoździa. Całość opiera się na genialnym, elastycznym systemie drewnianych połączeń zwanym dougong, który sprawił, że budowle przetrwały wieki silnych trzęsień ziemi.
 * **Koty na cesarskim żołdzie:** Na terenie pałacu mieszka ponad 200 bezdomnych i dbanych przez muzeum kotów. Część z nich to prawdopodobnie bezpośredni potomkowie ulubieńców cesarskich nałożnic i eunuchów. Pełnią one niezwykle ważną rolę – pilnują kompleksu przed gryzoniami.
 * **Cesarzowa Cixi i zegary:** W Galerii Zegarów (Clock Hall) można podziwiać niezwykłą kolekcję mechanicznych zegarów z XVIII i XIX wieku przywiezionych z Europy. Imponujące automaty tworzyły muzykę, poruszały figurkami i zachwycały dwór cesarski.
+
+### Zobacz poradnik:
+
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 

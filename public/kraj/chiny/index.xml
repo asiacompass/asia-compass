@@ -8,6 +8,13 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/kraj/chiny/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cafe Obibi Panda Milk</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</guid>
+      <description>&lt;h3 id=&#34;kawiarnia-obibi&#34;&gt;Kawiarnia Obibi&lt;/h3&gt;&#xA;&lt;p&gt;Wstępując do kawiarni Obibi na kultowej ulicy Kui Xing Lou w Chengdu, natychmiast trafiasz do najsłodszego zakątka stolicy prowincji Syczuan. Chengdu to światowa stolica wielkich pand, a Obibi mistrzowsko przenosi tę miłość na kulinarną mapę miasta. Lokalne herbaty z mlekiem, kremowe pianki i kawy zamieniają się tu w małe dzieła sztuki – od puszystych pianek w kształcie uszu i pyszczków pand, po posypki z węgla bambusowego w formie śladów łapek. To miejsce pachnie świeżo parzoną chińską herbatą, palonym cukrem i słodkim tiramisu, oferując estetykę, obok której żaden miłośnik trendów i podróży nie przejdzie obojętnie.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CHENGDU</title>
       <link>http://localhost:1313/asia-compass/miasto/chengdu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -69,6 +76,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/miasto/shanghai/</guid>
       <description>&lt;p&gt;Szanghaj to kosmiczna metropolia przyszłości i Paryż Wschodu w jednym, gdzie kolonialna historia przegląda się w lustrzanych fasadach najwyższych wieżowców świata. To miasto oszałamia architektonicznym rozmachem.&lt;br&gt;&#xA;Spacerując wzdłuż rzeki Huangpu, masz przed sobą dwa skrajne światy: z jednej strony XIX-wieczne, europejskie gmachy na promenadzie Bund, z drugiej – neonowy, cyberpunkowy krajobraz dzielnicy Pudong. Szanghaj żyje w zawrotnym tempie, dyktuje trendy w modzie i sztuce, a jednocześnie ukrywa w swoich zaułkach ciche, pachnące jaśminem herbaciarnie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>System Irygacyjny Dujiangyan i Most Nanqiao</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</guid>
+      <description>&lt;h3 id=&#34;system-irygacyjny-dujiangyan-i-most-nanqiao&#34;&gt;System Irygacyjny Dujiangyan i Most Nanqiao&lt;/h3&gt;&#xA;&lt;p&gt;Zaledwie godzinę drogi od tętniącego życiem Chengdu leży Dujiangyan – fascynujący majstersztyk antycznej inżynierii, który dosłownie zmienił bieg historii Chin. Wybudowany około 256 roku p.n.e. przez zarządcę Li Binga, jest najstarszym na świecie wciąż działającym systemem irygacyjnym funkcjonującym bez użycia jakichkolwiek zapór wodnych. Zamiast budować tamę, genialnie wykorzystano naturalne ukształtowanie terenu i siłę grawitacji, aby opanować groźne wylewy rzeki Minjiang i skierować jej wody do nawadniania pól. To właśnie dzięki temu przełomowemu projektowi cała równina Syczuanu zyskała miano „Krainy Obfitości”. Tuż obok tego cudu techniki znajduje się Most Nanqiao (South Bridge) – bajkowa, bogato rzeźbiona konstrukcja, która po zmroku zamienia się w jedno z najbardziej widowiskowych miejsc w całej Azji.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xi Yue He Zi - Tea House</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/tea-house/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/tea-house/</guid>
+      <description>&lt;h3 id=&#34;herbaciarnia-xi-yue-he-zi&#34;&gt;Herbaciarnia Xi Yue He Zi&lt;/h3&gt;&#xA;&lt;p&gt;Ukryta pośród zabytkowych uliczek dawnego miasteczka Xiahaoli w Chongqing, herbaciarnia Xi Yue He Zi (Moon Opera Box) to jedno z najbardziej bajkowych i poetyckich miejsc na współczesnej mapie kulinarno-kulturalnej Chin. Połączenie tradycyjnej estetki, kojącego szumu wody oraz nowatorskiego podejścia do serwowania deserów sprawiło, że to niezwykłe miejsce błyskawicznie stało się wiralowym hitem w mediach społecznościowych. Przekraczając jej drewniane progi, zostawiasz za sobą zgiełk kilkunastomilionowej metropolii i wkraczasz w świat, gdzie czas płynie wolniej, a woda niesie ze sobą kulinarne minidzieła sztuki.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zakazane Miasto (The Palace Museum)</title>

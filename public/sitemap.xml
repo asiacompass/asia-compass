@@ -35,11 +35,11 @@
     <loc>http://localhost:1313/asia-compass/blog/china-pay/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/tag/anime/</loc>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/busan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/chengdu/</loc>
   </url><url>
@@ -50,6 +50,8 @@
     <loc>http://localhost:1313/asia-compass/miasto/dongducheon/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/dongyang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/drama/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/furong/</loc>
   </url><url>
@@ -74,6 +76,8 @@
     <loc>http://localhost:1313/asia-compass/miasto/ichinoseki/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kraj/japonia/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/kategoria/jedzenie/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/</loc>
   </url><url>
@@ -119,6 +123,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/suwon/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/tag/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/tokyo/</loc>
@@ -128,6 +134,10 @@
     <loc>http://localhost:1313/asia-compass/miasto/uda/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/ulubione/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/unesco/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/tea-house/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/yongin/</loc>
   </url><url>

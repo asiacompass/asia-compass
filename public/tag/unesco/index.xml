@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CHENGDU on Asia Compass</title>
-    <link>http://localhost:1313/asia-compass/miasto/chengdu/</link>
-    <description>Recent content in CHENGDU on Asia Compass</description>
+    <title>Unesco on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/tag/unesco/</link>
+    <description>Recent content in Unesco on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <atom:link href="http://localhost:1313/asia-compass/miasto/chengdu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cafe Obibi Panda Milk</title>
-      <link>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</guid>
-      <description>&lt;h3 id=&#34;kawiarnia-obibi&#34;&gt;Kawiarnia Obibi&lt;/h3&gt;&#xA;&lt;p&gt;Wstępując do kawiarni Obibi na kultowej ulicy Kui Xing Lou w Chengdu, natychmiast trafiasz do najsłodszego zakątka stolicy prowincji Syczuan. Chengdu to światowa stolica wielkich pand, a Obibi mistrzowsko przenosi tę miłość na kulinarną mapę miasta. Lokalne herbaty z mlekiem, kremowe pianki i kawy zamieniają się tu w małe dzieła sztuki – od puszystych pianek w kształcie uszu i pyszczków pand, po posypki z węgla bambusowego w formie śladów łapek. To miejsce pachnie świeżo parzoną chińską herbatą, palonym cukrem i słodkim tiramisu, oferując estetykę, obok której żaden miłośnik trendów i podróży nie przejdzie obojętnie.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/asia-compass/tag/unesco/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>System Irygacyjny Dujiangyan i Most Nanqiao</title>
       <link>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</guid>
       <description>&lt;h3 id=&#34;system-irygacyjny-dujiangyan-i-most-nanqiao&#34;&gt;System Irygacyjny Dujiangyan i Most Nanqiao&lt;/h3&gt;&#xA;&lt;p&gt;Zaledwie godzinę drogi od tętniącego życiem Chengdu leży Dujiangyan – fascynujący majstersztyk antycznej inżynierii, który dosłownie zmienił bieg historii Chin. Wybudowany około 256 roku p.n.e. przez zarządcę Li Binga, jest najstarszym na świecie wciąż działającym systemem irygacyjnym funkcjonującym bez użycia jakichkolwiek zapór wodnych. Zamiast budować tamę, genialnie wykorzystano naturalne ukształtowanie terenu i siłę grawitacji, aby opanować groźne wylewy rzeki Minjiang i skierować jej wody do nawadniania pól. To właśnie dzięki temu przełomowemu projektowi cała równina Syczuanu zyskała miano „Krainy Obfitości”. Tuż obok tego cudu techniki znajduje się Most Nanqiao (South Bridge) – bajkowa, bogato rzeźbiona konstrukcja, która po zmroku zamienia się w jedno z najbardziej widowiskowych miejsc w całej Azji.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zakazane Miasto (The Palace Museum)</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</guid>
+      <description>&lt;h3 id=&#34;the-palace-museum&#34;&gt;The Palace Museum&lt;/h3&gt;&#xA;&lt;p&gt;Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Miasta, wkraczasz do największego i najlepiej zachowanego kompleksu pałacowego na świecie. Przez ponad 500 lat ten majestatyczny labirynt czerwonych murów, złoconych dachów i marmurowych dziedzińców służył jako samowystarczalne serce Imperium Chińskiego, niedostępne dla zwykłych śmiertelników. To tutaj 24 cesarzy z dynastii Ming i Qing sprawowało władzę absolutną, żyjąc pośród niewyobrażalnego przepychu, dworskiej etykiety i sekretnych intryg. Spacer po Zakazanym Mieście to bezprecedensowa podróż w czasie do epoki potęgi i mistycznego symbolizmu starożytnych Chin.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

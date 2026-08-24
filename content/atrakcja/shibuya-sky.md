@@ -4,6 +4,8 @@ type: "atrakcja"
 kraj: "japonia"
 miasto: "tokyo"
 kategoria: "historia"
+lat: 35.6590
+lng: 139.7006
 image_url: "https://images.pexels.com/photos/38751618/pexels-photo-38751618.jpeg"
 cena: "średnio $$"
 rezerwacja: "Wymagana wcześniej online"
@@ -83,3 +85,7 @@ Zawieszony niemal 230 metrów nad ziemią taras widokowy Shibuya Sky to absolutn
 * **Geatwa świetlna "Crossing Light":** Po zmroku z dachu w niebo wzbijają się potężne reflektory świetlne, których promienie przecinają nocne niebo w rytm dedykowanej muzyki, tworząc futurystyczną atmosferę.
 * **Ruchome schody w chmurach::** Wjazd na samą górę zewnętrznymi, w pełni przeszklonymi schodami ruchomymi zapewnia wrażenie unoszenia się w powietrzu nad panoramą metropolii.
 * **Podniebne leżaki (Cloud Hammocks):** Na otwartym dachu zainstalowano specjalne siatki-hamaki, na których można się położyć i obserwować niebo oraz przeatujące samoloty w samym sercu Tokio.
+
+
+#### Zobacz poradnik:
+<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> 
