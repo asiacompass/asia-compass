@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head><script src="/asia-compass/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=asia-compass/livereload" data-no-instant defer></script>
+    <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrldtp.cc/NTY0MzA5.js?t=564309';
+      document.head.appendChild(script);
+  })();
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nijimori Studio - wioska z okresu Edo | Asia Compass</title>
+    <link rel="stylesheet" href="/asia-compass/css/style.css">
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+
+    
+    <header class="site-header">
+    <div class="logo">
+        <a href="/asia-compass/">Asia Compass</a>
+    </div>
+    <nav>
+        <ul class="nav-menu">
+            
+ 
+<li class="dropdown">
+    <a href="/asia-compass/kraj/">Kraje</a>
+    <ul class="dropdown-content">
+        
+        
+            
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/chiny/">CHINY &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/japonia/">JAPONIA &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/korea/">KOREA &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+        
+    </ul>
+</li>
+
+            
+            <li><a href="/asia-compass/blog/">Blog</a></li>
+
+            
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<style>
+ 
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    padding-top: 75px;
+}
+
+ 
+.site-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-red, #d9534f);
+    text-decoration: none;
+}
+
+.site-header nav ul.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.site-header nav ul.nav-menu > li > a {
+    font-size: 1.15rem !important;
+    font-weight: 500;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+ 
+.dropdown {
+    position: relative;
+}
+
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ 
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a {
+    display: block;
+    padding: 10px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-submenu > a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+
+ 
+.dropdown-sub-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    left: auto;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1001;
+}
+
+ 
+.dropdown-submenu:hover .dropdown-sub-content {
+    display: block !important;
+}
+
+ 
+.dropdown-sub-content li a {
+    display: block;
+    padding: 8px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-sub-content li a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+</style>
+
+    
+    <main>
+        
+<article class="attraction-page">
+    
+    <header class="attraction-header">
+        <h1>Nijimori Studio - wioska z okresu Edo</h1>
+        <button id="favorite-btn" onclick="toggleFavorite('http:\/\/localhost:1313\/asia-compass\/atrakcja\/nijimori\/', 'Nijimori Studio - wioska z okresu Edo')">
+            ⭐ Dodaj do ulubionych
+        </button>
+    </header>
+
+    
+    
+    <div class="attraction-banner">
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgL8jbjFN6O9XUcqLMsk4U0hJVOD6h7RTGnA658m7Px3UlZCh-LVDr71VMXf0rVKwuQX62lW76OOXMLFPWJDPPPjb4w32w_z8A_dynnSbat-kmtRWIU3CSsFvuqEkD7bTNqnGebfDJVupew6B8qQl7Uqax05AB6r1r4tpS6vWJyhIjhG0fMp39bJulYrw=s1600" alt="Nijimori Studio - wioska z okresu Edo" loading="lazy">
+    </div>
+    
+
+    
+    <section class="attraction-info-tile">
+        <div class="meta-container">
+            <h3 class="meta-title">Informacje o atrakcji</h3>
+            <div class="meta-grid">
+            
+              
+              
+              <div>
+                <strong>Kraj:</strong> 
+                <a href="/asia-compass/kraj/korea/">
+                  korea
+                </a>
+              </div>
+            
+
+           
+             
+             
+              <div>
+                <strong>Miejscowość:</strong> 
+                <a href="/asia-compass/miasto/dongducheon/">
+                  dongducheon
+                </a>
+              </div>
+           
+    
+           
+            
+            
+             <div>
+               <strong>Kategoria:</strong> 
+               <a href="/asia-compass/kategoria/historia/">
+                 historia
+               </a>
+             </div>
+           
+    
+                <div><strong>Ceny:</strong> Średnio $$</div>
+                <div><strong>Rezerwacja:</strong> Nie</div>
+                <div><strong>Sezon:</strong> Cały rok</div>
+                <div><strong>Adres:</strong> 374-45 Cheonbo-ro, Dongducheon-si, Gyeonggi-do, Korea Południowa (경기도 동두천시 천보로 374-45 니지모리 스튜디오)</div>
+                <div><strong>Oficjalna strona:</strong> <a href="https://nijimori.com/" target="_blank">Odwiedź link</a></div>
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="attraction-content">
+        <h3 id="przenieś-się-w-czasie-do-okresu-edo">Przenieś się w czasie do okresu Edo</h3>
+<p>Wyobraź sobie, że wsiadasz w metro w centrum Seulu, a po godzinie wysiadasz w samym sercu dawnej, XIX-wiecznej Japonii z okresu Edo. Nijimori Studio to niezwykły, wybudowany z dbałością o najmniejsze detale park tematyczny i plan zdjęciowy w Dongducheon. Miejsce powstało pierwotnie jako profesjonalna sceneria dla koreańskich dram historycznych i filmów, ale szybko przekształciło się w pełnoprawną, magiczną wioskę. Znajdziesz tu tradycyjne japońskie ryokany, świątynie szintoistyczne, lampiony rozświetlające uliczki po zmroku oraz urokliwe herbaciarnie i restauracje serwujące ramen.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i ciekawostki</h3>
+<ul>
+<li><strong>Odnalezione dziedzictwo w Korei:</strong> Wszystkie elementy architektoniczne, drewniane wykończenia, meble, a nawet dachówki i antologiczne rekwizyty zostały sprowadzone bezpośrednio z Japonii, aby zapewnić absolutną autentyczność planu filmowego.</li>
+<li><strong>Kraina pięciu kotów-strażników:</strong> Wioska ma własną unikalną mitologię. Zamieszkuje ją pięć kotów, z których każdy symbolizuje innego ducha-opiekuna (dobrej doli, zdrowia, miłości, bogactwa i szczęścia). Zwiedzający mogą kupić specjalne stemplowane mapy i szukać ich śladów.</li>
+<li><strong>Tradycja ubitnictwa i strojów:</strong> Na miejscu działa wypożyczalnia kimon oraz yukat. Spacer w tradycyjnym stroju po oświetlonym lampionami moście nad jeziorem Kanagawa to główna atrakcja dla zakochanych i fotografów.</li>
+<li><strong>Strefa wolna od dzieci (19+):</strong> Z uwagi na bezpieczeństwo (strome drewniane schody, otwarte zbiorniki wodne oraz cenne, oryginalne rekwizyty), wstęp do lokacji mają wyłącznie osoby pełnoletnie (powyżej 19. roku życia).</li>
+</ul>
+<h4 id="zobacz-poradnik">Zobacz poradnik:</h4>
+<p><a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Korei?</a>   |   <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Korea jak się poruszać?</a>   |   <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Internet w Korei</a>   |   <a href="/asia-compass/atrakcja/cafe-vinyl/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Cafe z winylami w Starfield</a></p>
+
+    </section>
+
+    
+    
+    <div class="dropdown-sections">
+        
+        <details class="dropdown-item">
+            <summary>Rezerwacja</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Rezerwacja: </strong> 
+   Nie jest bezwzględnie wymagana, ale wysoce zalecana, zwłaszcza jeśli planujesz nocleg w tutejszym ryokanie lub wizytę w weekend. Pokoje w ryokanie wyprzedają się z kilkumiesięcznym wyprzedzeniem. Jeśli planujesz nocleg, rezerwuj minimum 30–60 dni wcześniej.
+  </li><p>
+
+  <li><strong>Gdzie rezerwować: </strong> 
+   Noclegi w ryokanach oraz bilety wstępu na okoliczne atrakcje i transport w Korei najtaniej i bez kolejki zarezerwujesz na platformach turystycznych: Zarezerwuj wejście i atrakcje w Korei z wyprzedzeniem na Klook.
+  </li>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Wejście i ceny</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Ceny biletów:</strong><p>
+   - Wstęp do parku: ok. 20 000 KRW (ok. 58 PLN) za osobę <br>
+   - Wypożyczenie kimona / yukaty: ok. 30 000 – 35 000 KRW (ok. 87 – 102 PLN)
+  </li>
+
+  <li><strong>Godziny otwarcia:</strong><p>
+   Codziennie 11:00 – 21:00 (ostatnie wejście o 20:00)
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Dojazd</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Z centrum Seulu (np. ze stacji Seoul Station lub Myeongdong):</strong><p>
+   - Wsiądź w Linię 1 metra i jedź do stacji Jiyeongsu Station (지행역)
+   <br>
+   - Wyjdź Wyjściem 1 lub 4, a następnie przesiądź się w lokalny autobus (nr 60-3) lub weź taksówkę bezpośrednio pod bramę Nijimori Studio (czas przejazdu taksówką ze stacji to ok. 15 minut, koszt ok. 10 000 – 12 000 KRW) 
+   <br>
+   - Jeśli podróżujesz z innych miast Korei do Seulu (np. z Busan), najszybciej przejedziesz pociągiem KTX: Kup bilet na pociąg KTX na Trip.com.
+   </li><p>
+
+  <li><strong>Aplikacje do przejazdów:</strong><p>
+   Trasy sprawdzaj w Naver Map lub KakaoMap. Taksówkę zamówisz przez Kakao T, a opłaty za metro i autobus zrealizujesz kartą T-Money lub NAMANE.
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Przydatne informacje</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Ograniczenie wiekowe (STRICT 19+):</strong><p>
+   Pamiętaj, że do Nijimori Studio nie są wpuszczane osoby poniżej 19. roku życia (wymagany dokument tożsamości ze zdjęciem i datą urodzenia przy kasie).
+  </li>
+
+  <li><strong>Zakaz wnoszenia własnego jedzenia:</strong><p>
+   Na terenie parku znajduje się wiele restauracji serwujących ramen, sushi, dango oraz tradycyjne japońskie desery.
+  </li>
+
+  <li><strong>Obuwie na zmianę:</strong><p>
+   Jeśli wypożyczasz kimono, dostaniesz tradycyjne klapki geta – jeśli wolisz własne buty, załóż wygodne obuwie sportowe ze względu na kamienne ścieżki i schody.
+  </li>
+</ul>
+</div>
+        </details>
+        
+    </div>
+    
+
+    
+
+
+<section style="margin-top: 40px;">
+    <h3 class="gallery-title">Galeria inspiracji</h3>
+    <div class="pinterest-gallery">
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/1200x/b8/90/5a/b8905a8cb6a9ccb848e363e7a8de5282.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/1200x/b8/90/5a/b8905a8cb6a9ccb848e363e7a8de5282.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjc2YWQzMDAyN2QzMTE2Mjg1OWVkMzhiLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODQsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19fQ==" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjc2YWQzMDAyN2QzMTE2Mjg1OWVkMzhiLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODQsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19fQ==" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjZmM2JkMzJkM2UzZmY2MGUyY2VjNjJhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4NCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjZmM2JkMzJkM2UzZmY2MGUyY2VjNjJhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4NCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjZmM2JkMzIxOTRhMzc3MTAwOTY0YzdhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4NCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjZmM2JkMzIxOTRhMzc3MTAwOTY0YzdhLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4NCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjZmM2JkMzI0OWRiOTM3NDRkNjlmMDkxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4NCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjZmM2JkMzI0OWRiOTM3NDRkNjlmMDkxLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTI4NCwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjc2YWQzMDBmODU0NjA5ZTA3MGI0ZDE4LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODQsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19fQ==" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJwbGFjZXMvNjc2YWQzMDBmODU0NjA5ZTA3MGI0ZDE4LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyODQsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX19fQ==" alt="fot. https://mom-mom.net/" loading="lazy">
+                    </a>
+                
+
+                
+                    <p class="gallery-caption">fot. https://mom-mom.net/</p>
+                
+            </div>
+        
+    </div>
+</section>
+
+
+
+
+
+<style>
+.attraction-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attraction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.attraction-page h1 {
+    color: var(--primary-red);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.attraction-banner {
+    margin: 20px 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.attraction-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ 
+.attraction-info-tile {
+    background-color: var(--tile-bg);
+    color: var(--text-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 20px 0;
+}
+
+.meta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-title {
+    color: var(--primary-red);
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+}
+
+ 
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.attraction-info-tile a, .attraction-content a {
+    color: var(--primary-red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attraction-info-tile a:hover, .attraction-content a:hover {
+    color: var(--hover-color);
+}
+
+.tag-badge {
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+ 
+.attraction-content {
+    margin: 30px 0;
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: left;
+}
+
+.attraction-content h3 {
+    color: var(--primary-red);
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.attraction-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.attraction-content li {
+    margin-bottom: 8px;
+}
+
+ 
+.dropdown-sections {
+    margin: 25px 0;
+}
+
+.dropdown-item {
+    background: var(--tile-bg);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    text-align: left;
+}
+
+.dropdown-item summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-red);
+    font-size: 1.05rem;
+}
+
+.dropdown-item p {
+    margin-top: 10px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+#favorite-btn {
+    background-color: var(--bg-color);
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#favorite-btn:hover {
+    opacity: 0.9;
+}
+
+ 
+.gallery-title {
+    color: var(--primary-red);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.pinterest-gallery {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .pinterest-gallery {
+        column-count: 1;
+    }
+}
+</style>
+
+<script>
+function toggleFavorite(url, title) {
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const index = favorites.findIndex(fav => fav.url === url);
+    
+    if (index > -1) {
+        favorites.splice(index, 1);
+    } else {
+        const kraj = "korea".trim();
+        const miasto = "dongducheon".trim();
+        const kategoria = "historia".trim();
+        const image_url = "https:\/\/blogger.googleusercontent.com\/img\/a\/AVvXsEgL8jbjFN6O9XUcqLMsk4U0hJVOD6h7RTGnA658m7Px3UlZCh-LVDr71VMXf0rVKwuQX62lW76OOXMLFPWJDPPPjb4w32w_z8A_dynnSbat-kmtRWIU3CSsFvuqEkD7bTNqnGebfDJVupew6B8qQl7Uqax05AB6r1r4tpS6vWJyhIjhG0fMp39bJulYrw=s1600";
+
+        favorites.push({ url, title, kraj, miasto, kategoria, image_url });
+    }
+    localStorage.setItem('asia_compass_favorites', JSON.stringify(favorites));
+    updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+    const btn = document.getElementById('favorite-btn');
+    if (!btn) return;
+    
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    
+    const currentUrl = "http:\/\/localhost:1313\/asia-compass\/atrakcja\/nijimori\/";
+    const exists = favorites.some(fav => fav.url === currentUrl);
+
+    if (exists) {
+        btn.innerText = '❤️ Dodano do ulubionych';
+        btn.style.backgroundColor = 'var(--primary-red)';
+        btn.style.color = '#fff';
+    } else {
+        btn.innerText = '⭐ Dodaj do ulubionych';
+        btn.style.backgroundColor = 'var(--bg-color)';
+        btn.style.color = 'var(--primary-red)';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', updateFavoriteButton);
+</script>
+
+    </main>
+
+</body>
+</html>

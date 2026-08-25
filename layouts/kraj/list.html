@@ -84,7 +84,7 @@
         </div>
     </section>
 
-    {{/* 4. Dynamiczne kafelki Kategorii */}}
+   {{/* 4. Dynamiczne kafelki Kategorii */}}
     {{ $currentSlug := .Title | urlize | lower }}
     {{ $kategorieFound := slice }}
     
@@ -107,7 +107,19 @@
     <div class="kategorie-grid-center" style="margin-bottom: 40px;">
         {{ range $kategorieFound }}
             {{ $katName := . }}
-            {{ $targetUrl := printf "/kategoria/%s/" ($katName | urlize) }}
+            {{ $katSlug := $katName | urlize }}
+            
+            {{/* Dynamiczne wyszukiwanie poprawnej strony taksonomii z fallbackiem */}}
+            {{ $katPage := site.GetPage (printf "/kategoria/%s" $katSlug) }}
+            {{ if not $katPage }}
+                {{ $katPage = site.GetPage (printf "/kategorie/%s" $katSlug) }}
+            {{ end }}
+            {{ if not $katPage }}
+                {{ $katPage = site.GetPage (printf "/categories/%s" $katSlug) }}
+            {{ end }}
+
+            {{/* Jeśli strona istnieje, użyj jej RelPermalink, w przeciwnym razie wygeneruj relLangURL */}}
+            {{ $targetUrl := cond $katPage $katPage.RelPermalink (printf "/kategoria/%s/" $katSlug | relLangURL) }}
             
             <a href="{{ $targetUrl }}" class="kategoria-tile-center">
                 {{ $katName }}

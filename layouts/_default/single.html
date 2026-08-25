@@ -15,24 +15,48 @@
     </div>
     {{ end }}
 
-    <!-- Sekcja z głównymi cechami atrakcji (używamy dedykowanej klasy atrakcji zamiast ogólnego .tile) -->
+    <!-- Sekcja z głównymi cechami atrakcji -->
     <section class="attraction-info-tile">
         <div class="meta-container">
             <h3 class="meta-title">Informacje o atrakcji</h3>
             <div class="meta-grid">
             {{ if .Params.kraj }}
               {{ $krajPage := site.GetPage (printf "/kraj/%s" (.Params.kraj | urlize)) }}
-              <div><strong>Kraj:</strong> <a href="{{ if $krajPage }}{{ $krajPage.RelPermalink }}{{ else }}#/{{ end }}">{{ .Params.kraj }}</a></div>
+              {{ if not $krajPage }}
+                {{ $krajPage = site.GetPage (printf "/kraje/%s" (.Params.kraj | urlize)) }}
+              {{ end }}
+              <div>
+                <strong>Kraj:</strong> 
+                <a href="{{ if $krajPage }}{{ $krajPage.RelPermalink }}{{ else }}{{ printf "/kraj/%s/" (.Params.kraj | urlize) | relLangURL }}{{ end }}">
+                  {{ .Params.kraj }}
+                </a>
+              </div>
             {{ end }}
 
            {{ if .Params.miasto }}
              {{ $miastoPage := site.GetPage (printf "/miasto/%s" (.Params.miasto | urlize)) }}
-              <div><strong>Miejscowość:</strong> <a href="{{ if $miastoPage }}{{ $miastoPage.RelPermalink }}{{ else }}#/{{ end }}">{{ .Params.miasto }}</a></div>
+             {{ if not $miastoPage }}
+               {{ $miastoPage = site.GetPage (printf "/miasta/%s" (.Params.miasto | urlize)) }}
+             {{ end }}
+              <div>
+                <strong>Miejscowość:</strong> 
+                <a href="{{ if $miastoPage }}{{ $miastoPage.RelPermalink }}{{ else }}{{ printf "/miasto/%s/" (.Params.miasto | urlize) | relLangURL }}{{ end }}">
+                  {{ .Params.miasto }}
+                </a>
+              </div>
            {{ end }}
     
            {{ if .Params.kategoria }}
             {{ $katPage := site.GetPage (printf "/kategoria/%s" (.Params.kategoria | urlize)) }}
-             <div><strong>Kategoria:</strong> <a href="{{ if $katPage }}{{ $katPage.RelPermalink }}{{ else }}#/{{ end }}">{{ .Params.kategoria }}</a></div>
+            {{ if not $katPage }}
+              {{ $katPage = site.GetPage (printf "/kategorie/%s" (.Params.kategoria | urlize)) }}
+            {{ end }}
+             <div>
+               <strong>Kategoria:</strong> 
+               <a href="{{ if $katPage }}{{ $katPage.RelPermalink }}{{ else }}{{ printf "/kategoria/%s/" (.Params.kategoria | urlize) | relLangURL }}{{ end }}">
+                 {{ .Params.kategoria }}
+               </a>
+             </div>
            {{ end }}
     
                 {{ if .Params.cena }}<div><strong>Ceny:</strong> {{ .Params.cena }}</div>{{ end }}
@@ -65,21 +89,38 @@
     {{ end }}
 
     
-<!-- Galeria zdjęć w układzie Pinterest -->
+<!-- Galeria zdjęć w układzie Pinterest (z obsługą tradycyjnych zdjęć i prostych linków z Instagrama) -->
 {{ if .Params.galeria_zdjec }}
 <section style="margin-top: 40px;">
     <h3 class="gallery-title">Galeria inspiracji</h3>
     <div class="pinterest-gallery">
         {{ range .Params.galeria_zdjec }}
-        {{ $caption := index . "caption" }}
-        <div class="gallery-item">
-            <a href="{{ index . "url" }}" target="_blank">
-                <img src="{{ index . "url" }}" alt="{{ $caption | default "Zdjęcie z galerii" }}" loading="lazy">
-            </a>
-            {{ if $caption }}
-            <p class="gallery-caption">{{ $caption }}</p>
-            {{ end }}
-        </div>
+            {{ $caption := index . "caption" }}
+            {{ $url := index . "url" }}
+            {{ $ig := index . "instagram_photo" }}
+
+            <div class="gallery-item">
+                {{ if $ig }}
+                    <!-- Automatyczne czyszczenie linku z parametrów ?igsi=... i tworzenie ramki Embed -->
+                    {{ $cleanParts := split $ig "?" }}
+                    {{ $baseUrl := index $cleanParts 0 }}
+                    {{ if not (hasSuffix $baseUrl "/") }}
+                        {{ $baseUrl = printf "%s/" $baseUrl }}
+                    {{ end }}
+                    {{ $embedUrl := printf "%sembed" $baseUrl }}
+
+                    <iframe src="{{ $embedUrl }}" width="100%" height="420" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy"></iframe>
+                {{ else if $url }}
+                    <!-- Zwykły plik obrazu (.jpg, .png, .webp) -->
+                    <a href="{{ $url }}" target="_blank" rel="noopener">
+                        <img src="{{ $url }}" alt="{{ $caption | default "Zdjęcie z galerii" }}" loading="lazy">
+                    </a>
+                {{ end }}
+
+                {{ if $caption }}
+                    <p class="gallery-caption">{{ $caption }}</p>
+                {{ end }}
+            </div>
         {{ end }}
     </div>
 </section>

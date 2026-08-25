@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head><script src="/asia-compass/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=asia-compass/livereload" data-no-instant defer></script>
+    <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrldtp.cc/NTY0MzA5.js?t=564309';
+      document.head.appendChild(script);
+  })();
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimhae Hanok Experience Center | Asia Compass</title>
+    <link rel="stylesheet" href="/asia-compass/css/style.css">
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+
+    
+    <header class="site-header">
+    <div class="logo">
+        <a href="/asia-compass/">Asia Compass</a>
+    </div>
+    <nav>
+        <ul class="nav-menu">
+            
+ 
+<li class="dropdown">
+    <a href="/asia-compass/kraj/">Kraje</a>
+    <ul class="dropdown-content">
+        
+        
+            
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/chiny/">CHINY &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/japonia/">JAPONIA &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/korea/">KOREA &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+        
+    </ul>
+</li>
+
+            
+            <li><a href="/asia-compass/blog/">Blog</a></li>
+
+            
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<style>
+ 
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    padding-top: 75px;
+}
+
+ 
+.site-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-red, #d9534f);
+    text-decoration: none;
+}
+
+.site-header nav ul.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.site-header nav ul.nav-menu > li > a {
+    font-size: 1.15rem !important;
+    font-weight: 500;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+ 
+.dropdown {
+    position: relative;
+}
+
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ 
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a {
+    display: block;
+    padding: 10px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-submenu > a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+
+ 
+.dropdown-sub-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    left: auto;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1001;
+}
+
+ 
+.dropdown-submenu:hover .dropdown-sub-content {
+    display: block !important;
+}
+
+ 
+.dropdown-sub-content li a {
+    display: block;
+    padding: 8px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-sub-content li a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+</style>
+
+    
+    <main>
+        
+<article class="attraction-page">
+    
+    <header class="attraction-header">
+        <h1>Gimhae Hanok Experience Center</h1>
+        <button id="favorite-btn" onclick="toggleFavorite('http:\/\/localhost:1313\/asia-compass\/atrakcja\/hanok-center\/', 'Gimhae Hanok Experience Center')">
+            ⭐ Dodaj do ulubionych
+        </button>
+    </header>
+
+    
+    
+    <div class="attraction-banner">
+        <img src="https://i.pinimg.com/736x/90/95/07/909507e7f39229331c69bf5966b47243.jpg" alt="Gimhae Hanok Experience Center" loading="lazy">
+    </div>
+    
+
+    
+    <section class="attraction-info-tile">
+        <div class="meta-container">
+            <h3 class="meta-title">Informacje o atrakcji</h3>
+            <div class="meta-grid">
+            
+              
+              
+              <div>
+                <strong>Kraj:</strong> 
+                <a href="/asia-compass/kraj/korea/">
+                  korea
+                </a>
+              </div>
+            
+
+           
+             
+             
+              <div>
+                <strong>Miejscowość:</strong> 
+                <a href="/asia-compass/miasto/gimhae/">
+                  gimhae
+                </a>
+              </div>
+           
+    
+           
+            
+            
+             <div>
+               <strong>Kategoria:</strong> 
+               <a href="/asia-compass/kategoria/historia/">
+                 historia
+               </a>
+             </div>
+           
+    
+                <div><strong>Ceny:</strong> Darmowe, Średnio $$</div>
+                <div><strong>Rezerwacja:</strong> Nocleg tak, zwiedzanie nie</div>
+                <div><strong>Sezon:</strong> Cały rok</div>
+                <div><strong>Adres:</strong> 40 Garak-ro 93beon-gil, Gimhae-si, Gyeongsangnam-do, Korea Południowa (경상남도 김해시 가락로93번길 40 김해한옥체험관)</div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="attraction-content">
+        <h3 id="kompleks-rekreacyjno-edukacyjny">Kompleks rekreacyjno-edukacyjny</h3>
+<p>Wyobraź sobie przestrzeń, w której czas wyraźnie zwalnia, a tradycyjna architektura królestwa Geumgwan Gaya przenosi Cię wprost do dawnej Korei. Gimhae Hanok Experience Center to unikalny, tradycyjny kompleks rekreacyjno-edukacyjny położony w sercu zabytkowego miasta Gimhae, tuż obok Busan. Misternie rzeźbione, drewniane konstrukcje, dachówki giwa oraz kameralne dziedzińce tworzą idealne tło do zanurzenia się w autentycznym koreańskim dziedzictwie. To jedno z niewielu miejsc w regionie, gdzie można nie tylko podziwiać tradycyjny dom hanok, ale również przespać się na ogrzewanej podłodze ondol, skosztować królewskiej kuchni i spróbować swoich sił w dawnych rzemiosłach.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i ciekawostki</h3>
+<ul>
+<li><strong>Architektura inspirowana potęgą Gaya:</strong> Budynki kompleksu zostały wzniesione według ścisłych reguł architektury z okresu królestwa Gaya i dynastii Joseon, ukazując podział na strefę męską (Sarangchae), żeńską (* Anchae*) oraz reprezentacyjne pawilony.</li>
+<li><strong>Ogrzewanie systemem Ondol:</strong> Wszystkie pokoje gościnne wyposażone są w tradycyjne podłogowe ogrzewanie ondol, które dawniej zasilane było dymem z pieców kuchennych, a dziś gwarantuje niezwykły komfort podczas chłodniejszych nocy.</li>
+<li><strong>Królewska kuchnia Hanjeongsik:</strong> Na terenie kompleksu działa uznana restauracja serwująca Hanjeongsik – wielodaniowy, tradycyjny posiłek składający się z kilkunastu miseczek z lokalnymi specjałami, serwowany w sposób, w jaki jadali dawni koreańscy arystokraci (yangban).</li>
+<li><strong>Warsztaty dawnej kultury:</strong> Goście mogą przebrać się w tradycyjne stroje hanbok, wziąć udział w ceremonialnym parzeniu herbaty (Darye) lub spróbować swoich sił w tradycyjnej kaligrafii i tworzeniu ceramiki.</li>
+</ul>
+<hr>
+<h4 id="zobacz-poradnik">Zobacz poradnik:</h4>
+<p><a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Korei?</a>   |   <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Korea jak się poruszać?</a>   |   <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Internet w Korei</a></p>
+
+    </section>
+
+    
+    
+    <div class="dropdown-sections">
+        
+        <details class="dropdown-item">
+            <summary>Rezerwacja</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Rezerwacja: </strong> <br>
+   Tak, na noclegi oraz warsztaty rezerwacja jest bezwzględnie wymagana. Spacer po otwartych dziedzińcach w ciągu dnia nie wymaga rezerwacji.
+  </li><p>
+
+  <li>
+   Noclegi w pokojach typu hanok wyprzedają się bardzo szybko – warto rezerwować z 1-2 miesięcznym wyprzedzeniem.
+  </li><p>
+
+  <li><b>Gdzie rezerwować </b> <p>
+   Noclegi oraz bilety na okoliczne atrakcje regionu Gimhae i Busan najwygodniej zarezerwujesz przez platformy internetowe, np. Klook: Zarezerwuj atrakcje i noclegi w Korei na Klook.
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Wejście i ceny</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Ceny biletów:</strong><p>
+   - Wstęp na teren dziedzińca: Darmowy. <br>
+   - Warsztaty kulturowe (np. Hanbok, ceremonia herbaty): ok. 10 000 – 20 000 KRW (ok. 29 – 58 PLN) <br>
+   - Nocleg w domu Hanok: ok. 70 000 – 150 000 KRW (ok. 200 – 440 PLN) za noc
+  </li>
+
+  <li><strong>Godziny otwarcia:</strong><p>
+   Dziedziniec dostępny codziennie 09:00 – 18:00. Zameldowanie w części noclegowej od 15:00.
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Dojazd</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Z centrum Busan (np. stacja Sasang lub dworzec Busan Station):</strong><p>
+   - Wsiądź w lekką kolej miejską Busan-Gimhae Light Rail Transit (BGLRT) na stacji Sasang i jedź do stacji Surobuwangneung Station (Wyjście 2).
+   <br>
+   - Po wyjściu ze stacji przejdź pieszo około 10–15 minut przez urokliwy park w stronę królestwa Suro (Tomb of King Suro).
+   <br>
+   - Jeśli podróżujesz z Seulu do Busan/Gimhae, najszybciej przejedziesz pociągiem KTX: Kup bilet na pociąg KTX na Trip.com.
+   </li><p>
+
+  <li><strong>Aplikacje do przejazdów:</strong><p>
+   Do poruszania się po regionie używaj Naver Map lub KakaoMap. Taksówkę zamówisz przez Kakao T, a opłaty za przejazdy kolejką zrealizujesz kartą T-Money lub NAMANE.
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Przydatne informacje</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Szacunek dla nocujących gości:</strong><p>
+   Część budynków służy jako tradycyjny hotel – podczas zwiedzania ciągu dnia zachowaj ciszę i nie zaglądaj do prywatnych pokojów.
+  </li>
+
+  <li><strong>Zdejmowanie obuwia:</strong><p>
+   Przed wejściem na drewniane podesty maru oraz do pomieszczeń warsztatowych bezwzględnie należy zdjąć obuwie.
+  </li>
+
+  <li><strong>Lokalny hak:</strong><p>
+   Tuż obok kompleksu znajduje się majestatyczny park i grobowiec króla Suro (Tomb of King Suro) – warto połączyć obie atrakcje w trakcie jednego spaceru.
+  </li>
+</ul>
+</div>
+        </details>
+        
+    </div>
+    
+
+    
+
+
+<section style="margin-top: 40px;">
+    <h3 class="gallery-title">Galeria inspiracji</h3>
+    <div class="pinterest-gallery">
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474680134_9494223500622888_7309364335691909304_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=rkwt-OGUqE4Q7kNvwE9H1r6&amp;_nc_oc=Adrm--jUNZ47L4kjyb6NR19in7vY5OO_ITVzHbC1YR_3xHl4ZbWbdgQywzM4nvQOwIM&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=BBtZI8LcYmKAtLf3b3FjcQ&amp;_nc_ss=7b2a8&amp;oh=00_AQEHUKLDNAcTRTyLhfO1ypBjzMiChF0aywHq__rEoYfvpw&amp;oe=6A934093" target="_blank" rel="noopener">
+                        <img src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474680134_9494223500622888_7309364335691909304_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=108&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=rkwt-OGUqE4Q7kNvwE9H1r6&amp;_nc_oc=Adrm--jUNZ47L4kjyb6NR19in7vY5OO_ITVzHbC1YR_3xHl4ZbWbdgQywzM4nvQOwIM&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=BBtZI8LcYmKAtLf3b3FjcQ&amp;_nc_ss=7b2a8&amp;oh=00_AQEHUKLDNAcTRTyLhfO1ypBjzMiChF0aywHq__rEoYfvpw&amp;oe=6A934093" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474745692_9494223477289557_2230574717207108536_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=5A6u2CLog5kQ7kNvwEXztLH&amp;_nc_oc=AdqM80ItFFSTpt9qwnBa14odKs5iHhlLV1ZwFCKlsygCJHzvv048lKqcWyMjL8DZs2g&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=ksfJevT7_WvKpjABci89rQ&amp;_nc_ss=7b2a8&amp;oh=00_AQFs-cpYRJrJUJKSlr67yvXfGhMU-dtSNOEuDnxatRHo3w&amp;oe=6A9349CA" target="_blank" rel="noopener">
+                        <img src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474745692_9494223477289557_2230574717207108536_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=5A6u2CLog5kQ7kNvwEXztLH&amp;_nc_oc=AdqM80ItFFSTpt9qwnBa14odKs5iHhlLV1ZwFCKlsygCJHzvv048lKqcWyMjL8DZs2g&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=ksfJevT7_WvKpjABci89rQ&amp;_nc_ss=7b2a8&amp;oh=00_AQFs-cpYRJrJUJKSlr67yvXfGhMU-dtSNOEuDnxatRHo3w&amp;oe=6A9349CA" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474760269_9494223507289554_1985388670535858125_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=45u4DqDST_cQ7kNvwGv4VgA&amp;_nc_oc=AdppR31VnfVfOgg2VzBi01WwPXmPojkJTckaPZLHuF0vuiVcobfOi35s3Snlf2K0drI&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=LEXioRdrmIdmf6WGeh53tw&amp;_nc_ss=7b2a8&amp;oh=00_AQHLnCDt8Bo3hNVrxLee6lS_UFwWo5HeSTrjWtv1DC1fOQ&amp;oe=6A933CA8" target="_blank" rel="noopener">
+                        <img src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474760269_9494223507289554_1985388670535858125_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=45u4DqDST_cQ7kNvwGv4VgA&amp;_nc_oc=AdppR31VnfVfOgg2VzBi01WwPXmPojkJTckaPZLHuF0vuiVcobfOi35s3Snlf2K0drI&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=LEXioRdrmIdmf6WGeh53tw&amp;_nc_ss=7b2a8&amp;oh=00_AQHLnCDt8Bo3hNVrxLee6lS_UFwWo5HeSTrjWtv1DC1fOQ&amp;oe=6A933CA8" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474635776_9494223517289553_8964660974954256365_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=JNzjb3ja-GEQ7kNvwH0HQTz&amp;_nc_oc=AdqmxP0hQSBCfVHG-51U3d36VkFCRsfIck_HNSehfquu7toTpf4FzWmB7akc-xqa4lM&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=U_mIYO9KfE6mZv-OP1M3Yg&amp;_nc_ss=7b2a8&amp;oh=00_AQHQoXDp7mNBEgLi_dEvrPkA65lwMdiOcUXEn-P37SAzaA&amp;oe=6A934502" target="_blank" rel="noopener">
+                        <img src="https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474635776_9494223517289553_8964660974954256365_n.jpg?stp=dst-jpg_tt6&amp;cstp=mx800x800&amp;ctp=s800x800&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=JNzjb3ja-GEQ7kNvwH0HQTz&amp;_nc_oc=AdqmxP0hQSBCfVHG-51U3d36VkFCRsfIck_HNSehfquu7toTpf4FzWmB7akc-xqa4lM&amp;_nc_zt=23&amp;_nc_ht=scontent.fktw1-1.fna&amp;_nc_gid=U_mIYO9KfE6mZv-OP1M3Yg&amp;_nc_ss=7b2a8&amp;oh=00_AQHQoXDp7mNBEgLi_dEvrPkA65lwMdiOcUXEn-P37SAzaA&amp;oe=6A934502" alt="fot. FB: Travel Korea-Gyeongnam" loading="lazy">
+                    </a>
+                
+
+                
+                    <p class="gallery-caption">fot. FB: Travel Korea-Gyeongnam</p>
+                
+            </div>
+        
+    </div>
+</section>
+
+
+
+
+<section style="margin-top: 30px; text-align: center;">
+    <div style="max-width: 360px; margin: 0 auto;">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbV0ADcBEgf/?igsi=MzRlODBiNWFlZA==" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; width:100%; min-width:280px; padding:0;"></blockquote>
+    </div>
+    <script async src="//www.instagram.com/embed.js"></script>
+</section>
+
+
+<style>
+.attraction-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attraction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.attraction-page h1 {
+    color: var(--primary-red);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.attraction-banner {
+    margin: 20px 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.attraction-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ 
+.attraction-info-tile {
+    background-color: var(--tile-bg);
+    color: var(--text-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 20px 0;
+}
+
+.meta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-title {
+    color: var(--primary-red);
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+}
+
+ 
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.attraction-info-tile a, .attraction-content a {
+    color: var(--primary-red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attraction-info-tile a:hover, .attraction-content a:hover {
+    color: var(--hover-color);
+}
+
+.tag-badge {
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+ 
+.attraction-content {
+    margin: 30px 0;
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: left;
+}
+
+.attraction-content h3 {
+    color: var(--primary-red);
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.attraction-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.attraction-content li {
+    margin-bottom: 8px;
+}
+
+ 
+.dropdown-sections {
+    margin: 25px 0;
+}
+
+.dropdown-item {
+    background: var(--tile-bg);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    text-align: left;
+}
+
+.dropdown-item summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-red);
+    font-size: 1.05rem;
+}
+
+.dropdown-item p {
+    margin-top: 10px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+#favorite-btn {
+    background-color: var(--bg-color);
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#favorite-btn:hover {
+    opacity: 0.9;
+}
+
+ 
+.gallery-title {
+    color: var(--primary-red);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.pinterest-gallery {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .pinterest-gallery {
+        column-count: 1;
+    }
+}
+</style>
+
+<script>
+function toggleFavorite(url, title) {
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const index = favorites.findIndex(fav => fav.url === url);
+    
+    if (index > -1) {
+        favorites.splice(index, 1);
+    } else {
+        const kraj = "korea".trim();
+        const miasto = "gimhae".trim();
+        const kategoria = "historia".trim();
+        const image_url = "https:\/\/i.pinimg.com\/736x\/90\/95\/07\/909507e7f39229331c69bf5966b47243.jpg";
+
+        favorites.push({ url, title, kraj, miasto, kategoria, image_url });
+    }
+    localStorage.setItem('asia_compass_favorites', JSON.stringify(favorites));
+    updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+    const btn = document.getElementById('favorite-btn');
+    if (!btn) return;
+    
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    
+    const currentUrl = "http:\/\/localhost:1313\/asia-compass\/atrakcja\/hanok-center\/";
+    const exists = favorites.some(fav => fav.url === currentUrl);
+
+    if (exists) {
+        btn.innerText = '❤️ Dodano do ulubionych';
+        btn.style.backgroundColor = 'var(--primary-red)';
+        btn.style.color = '#fff';
+    } else {
+        btn.innerText = '⭐ Dodaj do ulubionych';
+        btn.style.backgroundColor = 'var(--bg-color)';
+        btn.style.color = 'var(--primary-red)';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', updateFavoriteButton);
+</script>
+
+    </main>
+
+</body>
+</html>

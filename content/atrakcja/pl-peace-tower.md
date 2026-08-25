@@ -3,7 +3,7 @@ title: "Great Peace Prayer Tower"
 kraj: "japonia"
 miasto: "tondabayashi"
 kategoria: "historia"
-
+tag:
 type: "atrakcja"
 lat: 34.5028
 lng: 126.9770

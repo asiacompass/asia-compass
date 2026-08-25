@@ -8,11 +8,46 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/miasto/seoul/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cafe Popko z widokiem na wodospad</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</guid>
+      <description>&lt;h3 id=&#34;kawiarnia-z-widokiem-na-wodospad&#34;&gt;Kawiarnia z widokiem na wodospad&lt;/h3&gt;&#xA;&lt;p&gt;Wyobraź sobie przestrzeń, w której estetyka koreańskiego minimalizmu spotyka się z pasją do serwowania rzemieślniczych deserów i parzenia dopracowanej w każdym detalu kawy. Cafe Popko to kameralna, zachwycająca kawiarnia ukryta w modnej i tętniącej życiem dzielnicy Seulu. Lokal zdobył serca mieszkańców oraz wtajemniczonych podróżników wyjątkowym podejściem do autorskich wypieków, subtelną oprawą wizualną wnętrza oraz atmosferą, która pozwala na chwilę wytchnienia w samym środku szumnego miasta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gwangjang Market</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/gwangjang-market/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/gwangjang-market/</guid>
+      <description>&lt;h3 id=&#34;bazar-pełen-ciekawych-rzeczy&#34;&gt;Bazar pełen ciekawych rzeczy&lt;/h3&gt;&#xA;&lt;p&gt;Gwar, parujące kotły, zapach wysmażanych na złocisto placków i unoszący się w powietrzu aromat aromatycznego bulionu – Gwangjang Market to żywy, tętniący życiem żołądek Seulu i jeden z najstarszych, wciąż działających targów w całej Korei Południowej. Przekroczenie jego bram to natychmiastowe zanurzenie się w autentycznej, koreańskiej kulturze kulinarnej street food. Od tradycyjnych stoisk ze świeżym tatarem z wołowiny po ikoniczne babcie serwujące gorące kluski w bulionie – to miejsce, w którym tradycja kulinarna przeplata się z miejską energią metropolii.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kensington Hotel Yeouido</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/kensington-hotel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/kensington-hotel/</guid>
+      <description>&lt;h3 id=&#34;hotel-retro---elegancja-i-nowojorski-szyk-nad-rzeką-han&#34;&gt;Hotel retro - elegancja i nowojorski szyk nad rzeką Han&lt;/h3&gt;&#xA;&lt;p&gt;Kensington Hotel Yeouido to luksusowy hotel butikowy, który przenosi swoich gości w czasie, oferując unikalne połączenie klasycznej, nowojorskiej elegancji w stylu vintage z nowoczesną koreańską gościnnością. Zamiast surowego minimalizmu znajdziesz tu głębokie brązy, skórzane fotele, złote detale i niezwykłą dbałość o historyczny detal, co czyni go jednym z najbardziej fotogenicznych i klimatycznych hoteli w stolicy Korei.&lt;/p&gt;&#xA;&lt;p&gt;Hotel skrywa w swoich progach dwie kulinarne ikony Seulu, które przyciągają smakoszy z całego miasta.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Pałac Gyeongbokgung</title>
       <link>http://localhost:1313/asia-compass/atrakcja/gyeongbokgung-palace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/gyeongbokgung-palace/</guid>
       <description>&lt;h3 id=&#34;podróż-do-dynastii-joseon&#34;&gt;Podróż do dynastii Joseon&lt;/h3&gt;&#xA;&lt;p&gt;Wkraczając przez monumentalną Bramę Gwanghwamun na dziedziniec pałacu Gyeongbokgung, przenosisz się wprost do złotego wieku dynastii Joseon. Wzniesiony w 1395 roku jako główny i największy z Pięciu Wielkich Pałaców Seulu, Gyeongbokgung – którego nazwa oznacza „Pałac Wielce Błogosławiony przez Niebo” – to absolutne serce koreańskiej historii i kultury. Zbudowany u podnóża majestatycznej góry Bugaksan, urzeka niezwykłą harmonią tradycyjnej architektury, misterne zdobionych dachów dancheong oraz rozległych ogrodów i pawilonów zawieszonych nad lustrem wody.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Park Narodowy Bukhansan</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/bukhansan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/bukhansan/</guid>
+      <description>&lt;h3 id=&#34;widoki-ze-szczytu-baegundae&#34;&gt;Widoki ze szczytu Baegundae&lt;/h3&gt;&#xA;&lt;p&gt;Wyobraź sobie potężne, granitowe skały wyrastające tuż nad nowoczesną, tętniącą życiem metropolią. Bukhansan National Park to zielone płuca Seulu i jeden z najbardziej wyjątkowych parków narodowych na świecie – unikalne miejsce, gdzie w zaledwie kilkadziesiąt minut z podziemnego metra przenosisz się na surowe, górskie szczyty, leśne ścieżki oraz do ukrytych pośród chmur starożytnych świątyń buddyjskich. Wznoszący się na wysokość 836 m n.p.m. szczyt Baegundae oferuje spektakularne, wręcz metafizyczne widoki na całą panoramę Seulu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yongmasan Skywalk taras widokowy</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/yongmang-skywalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/yongmang-skywalk/</guid>
+      <description>&lt;h3 id=&#34;taras-widokowy&#34;&gt;Taras widokowy&lt;/h3&gt;&#xA;&lt;p&gt;Wyobraź sobie spacer po podwieszonej w powietrzu tarasowej platformie, z której rozpościera się absolutnie zachwycający, panoramiczny widok na całą wschodnią część Seulu, majestatyczną rzekę Han oraz strzelisty wieżowiec Lotte World Tower. Yongmasan Skywalk to jedna z najnowszych i najbardziej fotogenicznych ukrytych perełek stolicy Korei Południowej. Zbudowany na zboczu góry Yongmasan punkt widokowy pozwala poczuć się, jakby się lewitowało nad miastem, oferując spektakularną przestrzeń do odpoczynku z dala od utartych szlaków turystycznych.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

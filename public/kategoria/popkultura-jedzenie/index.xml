@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Popkultura, Jedzenie on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/kategoria/popkultura-jedzenie/</link>
+    <description>Recent content in Popkultura, Jedzenie on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/kategoria/popkultura-jedzenie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kawiarnia Vinyl Starfield</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/cafe-vinyl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-vinyl/</guid>
+      <description>&lt;h3 id=&#34;kawiarnia-z-duszą-dźwięku&#34;&gt;Kawiarnia z duszą dźwięku&lt;/h3&gt;&#xA;&lt;p&gt;Wyobraź sobie przestrzeń, w której dźwięk analogowej płyty winylowej łączy się z monumentalną, wręcz futurystyczną architekturą nowej generacji. Vinyl Starfield Suwon to jedna z najbardziej spektakularnych kawiarni muzycznych w Korei Południowej. Zamiast standardowych stolików, każde stanowisko zostało tu zaprojektowane jako prywatna strefa odsłuchowa wyposażona w osobny gramofon, najwyższej klasy słuchawki oraz dostęp do ogromnej kolekcji płyty winylowych. Wisienką na torcie jest przeszklony widok na panoramiczne wnętrze centrum handlowego Starfield Suwon oraz bezpośrednie sąsiedztwo słynnej, wielopiętrowej biblioteki Suwon Starfield Byeolmadang Library.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

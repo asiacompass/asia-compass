@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head><script src="/asia-compass/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=asia-compass/livereload" data-no-instant defer></script>
+    <script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrldtp.cc/NTY0MzA5.js?t=564309';
+      document.head.appendChild(script);
+  })();
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Kirotti | Asia Compass</title>
+    <link rel="stylesheet" href="/asia-compass/css/style.css">
+    
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+
+    
+    <header class="site-header">
+    <div class="logo">
+        <a href="/asia-compass/">Asia Compass</a>
+    </div>
+    <nav>
+        <ul class="nav-menu">
+            
+ 
+<li class="dropdown">
+    <a href="/asia-compass/kraj/">Kraje</a>
+    <ul class="dropdown-content">
+        
+        
+            
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/chiny/">CHINY &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/japonia/">JAPONIA &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+                
+                
+                
+                <li class="dropdown-submenu" style="position: relative;">
+                    <a href="/asia-compass/kraj/korea/">KOREA &raquo;</a>
+                    
+                    
+                    <ul class="dropdown-sub-content">
+                        
+                    </ul>
+                </li>
+            
+        
+    </ul>
+</li>
+
+            
+            <li><a href="/asia-compass/blog/">Blog</a></li>
+
+            
+            <li class="dropdown">
+                <a href="#">Sociale</a>
+                <ul class="dropdown-content">
+                    <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
+                </ul>
+            </li>
+
+            
+            <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
+
+        </ul>
+    </nav>
+</header>
+
+<style>
+ 
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    padding-top: 75px;
+}
+
+ 
+.site-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-red, #d9534f);
+    text-decoration: none;
+}
+
+.site-header nav ul.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.site-header nav ul.nav-menu > li > a {
+    font-size: 1.15rem !important;
+    font-weight: 500;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+ 
+.dropdown {
+    position: relative;
+}
+
+ 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 180px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ 
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > a {
+    display: block;
+    padding: 10px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s, color 0.2s;
+}
+
+.dropdown-submenu > a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+
+ 
+.dropdown-sub-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 100%;
+    left: auto;
+    background: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 8px 0;
+    list-style: none;
+    z-index: 1001;
+}
+
+ 
+.dropdown-submenu:hover .dropdown-sub-content {
+    display: block !important;
+}
+
+ 
+.dropdown-sub-content li a {
+    display: block;
+    padding: 8px 16px;
+    color: var(--text-color, #333);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.dropdown-sub-content li a:hover {
+    background: #fce8ec;
+    color: var(--primary-red);
+}
+</style>
+
+    
+    <main>
+        
+<article class="attraction-page">
+    
+    <header class="attraction-header">
+        <h1>Cafe Kirotti</h1>
+        <button id="favorite-btn" onclick="toggleFavorite('http:\/\/localhost:1313\/asia-compass\/atrakcja\/cafe-gilotti\/', 'Cafe Kirotti')">
+            ⭐ Dodaj do ulubionych
+        </button>
+    </header>
+
+    
+    
+    <div class="attraction-banner">
+        <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjODc1YTI0YzcwNmM5MTY4NjRiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Cafe Kirotti" loading="lazy">
+    </div>
+    
+
+    
+    <section class="attraction-info-tile">
+        <div class="meta-container">
+            <h3 class="meta-title">Informacje o atrakcji</h3>
+            <div class="meta-grid">
+            
+              
+              
+              <div>
+                <strong>Kraj:</strong> 
+                <a href="/asia-compass/kraj/korea/">
+                  korea
+                </a>
+              </div>
+            
+
+           
+             
+             
+              <div>
+                <strong>Miejscowość:</strong> 
+                <a href="/asia-compass/miasto/yongin/">
+                  yongin
+                </a>
+              </div>
+           
+    
+           
+            
+            
+             <div>
+               <strong>Kategoria:</strong> 
+               <a href="/asia-compass/kategoria/jedzenie/">
+                 jedzenie
+               </a>
+             </div>
+           
+    
+                <div><strong>Ceny:</strong> Średnio $$</div>
+                <div><strong>Rezerwacja:</strong> Nie</div>
+                <div><strong>Sezon:</strong> Cały rok</div>
+                <div><strong>Adres:</strong> 15 Gwanggyohosu-gongwon-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, Korea Południowa (경기 수원시 영통구 광교호수공원로 15 카페 그루비)</div>
+                <div><strong>Oficjalna strona:</strong> <a href="https://www.instagram.com/cafe.groovy/" target="_blank">Odwiedź link</a></div>
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="attraction-content">
+        <h3 id="cafe-kirottigilotti">Cafe Kirotti/Gilotti</h3>
+<p>Wyobraź sobie tradycyjny koreański dom hanok, w którego zabytkowe wnętrze tchnięto pasję do włoskiego kolarstwa szosowego. Cafe Kirotti (카페 지로티) to wyjątkowa kawiarnia konceptualna w Yongin pod Seulem, gdzie drewniane belki stropowe i klasyczna dachówka giwa współgrają z profesjonalnymi rowerami, kultowymi rekwizytami oraz duchem legendarnego wyścigu Giro d&rsquo;Italia. To nie tylko gratka dla miłośników dwóch kółek, ale przede wszystkim niezwykle fotogeniczna oaza, w której zapach świeżo palonej kawy miesza się z aromatem rzemieślniczego pieczywa.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i ciekawostki</h3>
+<ul>
+<li><strong>Hołd dla wyścigu Giro d&rsquo;Italia:</strong> Nazwa oraz wystrój lokalu są bezpośrednim nawiązaniem do słynnego włoskiego wyścigu. Wewnątrz kawiarni można podziwiać unikalne rowery szosowe z włókna węglowego, oryginalne kaski oraz wyścigowe koszulki.</li>
+<li><strong>Architektoniczny fuzjonizm:</strong> Kawiarnia mieści się w tradycyjnym budynku hanok. Połączenie starych, drewnianych konstrukcji z nowoczesnym, sportowym designem i meblami w stylu vintage tworzy unikalny visual.</li>
+<li><strong>Rzemieślnicza piekarnia na miejscu:</strong> Kirotti słynie z codzienne wypiekanego, świeżego pieczywa. Bestsellerem lokalu są maślane bułeczki salt bread (소금빵) oraz francuskie wypieki z kremem ze słodkich ziemniaków.</li>
+<li><strong>Oaza dla kolarzy::</strong> Z racji swojego charakteru kawiarnia posiada specjalne stojaki na rowery i jest popularnym punktem postojowym dla kolarzy pokonujących trasy krajobrazowe wokół Yongin.</li>
+</ul>
+<hr>
+<h4 id="zobacz-poradnik">Zobacz poradnik:</h4>
+<p><a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Korei?</a>   |   <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Korea jak się poruszać?</a>   |   <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Internet w Korei</a></p>
+
+    </section>
+
+    
+    
+    <div class="dropdown-sections">
+        
+        <details class="dropdown-item">
+            <summary>Rezerwacja</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Rezerwacja: </strong> 
+   Nie jest wymagana. Miejsca przyznawane są na miejscu na zasadzie first come, first served.
+  </li>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Wejście i ceny</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Ceny biletów:</strong><p>
+   Wstęp wolny – obowiązuje zasada zamówienia co najmniej jednego napoju lub deseru na osobę.
+   <br>
+   - Autorska kawa i napoje: ok. 5 500 – 7 500 KRW (ok. 16 – 22 PLN)
+   <br>
+   - Świeże wypieki i desery: ok. 4 500 – 8 500 KRW (ok. 13 – 25 PLN)
+  </li>
+
+  <li><strong>Godziny otwarcia:</strong><p>
+   Codziennie 10:00 – 21:00 (ostatnie zamówienie o 20:30)
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Dojazd</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Z Seulu (np. ze stacji Gangnam lub Seoul Station) do Yongin:</strong><p>
+   - Najszybciej dojedziesz czerwonym autobusem ekspresowym (np. nr 5001 lub 5002) ze stacji Gangnam do Yongin.
+   <br>
+   - Alternatywnie pojedź pociągiem KTX ze stacji Seoul Station do stacji Suwon Station (ok. 30 minut). Bilet kupisz wygodnie bez kolejki: Kup bilet na pociąg KTX na Trip.com.
+   <br>
+   - Ze stacji metra Giheung Station (Linia Suin-Bundang) najwygodniej dojechać do kawiarni taksówką (ok. 10–15 minut jazdy).
+   </li><p>
+
+  <li><strong>Aplikacje do przejazdów:</strong><p>
+   Do planowania trasy używaj wyłącznie Naver Map lub KakaoMap. Taksówkę zamówisz przez Kakao T, a opłaty w autobusach i metrze zrealizujesz kartą T-Money lub NAMANE.
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Przydatne informacje</summary>
+            <div class="dropdown-body"><ul>
+  <li><strong>Miejsca w ogrodzie:</strong><p>
+   W pogodne dni warto zająć stolik na zewnątrz na zielonym dziedzińcu.
+  </li>
+
+  <li><strong>Lokalny hak:</strong><p>
+   Zamów ich autorską kawę przelewową (hand drip) oraz zajmij stolik przy oknie wychodzącym na ogród – to najbardziej klimatyczny kadr w kawiarni.
+  </li>
+
+  <li><strong>Ostrzeżenia:</strong><p>
+   Lokal nie nadaje się na głośne spotkania w dużych grupach.
+  </li>
+</ul>
+</div>
+        </details>
+        
+    </div>
+    
+
+    
+
+
+<section style="margin-top: 40px;">
+    <h3 class="gallery-title">Galeria inspiracji</h3>
+    <div class="pinterest-gallery">
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOGM1YTI0YzcwNmM5MTY4NjRkIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOGM1YTI0YzcwNmM5MTY4NjRkIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTM1YTI0YzcwNmM5MTY4NjU5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTM1YTI0YzcwNmM5MTY4NjU5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTQ1YTI0YzcwNmM5MTY4NjViIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTQ1YTI0YzcwNmM5MTY4NjViIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTg1YTI0YzcwNmM5MTY4NjYzIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" target="_blank" rel="noopener">
+                        <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTg1YTI0YzcwNmM5MTY4NjYzIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="fot. https://mom-mom.net/" loading="lazy">
+                    </a>
+                
+
+                
+                    <p class="gallery-caption">fot. https://mom-mom.net/</p>
+                
+            </div>
+        
+    </div>
+</section>
+
+
+
+
+<section style="margin-top: 30px; text-align: center;">
+    <div style="max-width: 360px; margin: 0 auto;">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbLgyohIitS/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; width:100%; min-width:280px; padding:0;"></blockquote>
+    </div>
+    <script async src="//www.instagram.com/embed.js"></script>
+</section>
+
+
+<style>
+.attraction-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.attraction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.attraction-page h1 {
+    color: var(--primary-red);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.attraction-banner {
+    margin: 20px 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.attraction-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ 
+.attraction-info-tile {
+    background-color: var(--tile-bg);
+    color: var(--text-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 20px 0;
+}
+
+.meta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-title {
+    color: var(--primary-red);
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+}
+
+ 
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.attraction-info-tile a, .attraction-content a {
+    color: var(--primary-red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attraction-info-tile a:hover, .attraction-content a:hover {
+    color: var(--hover-color);
+}
+
+.tag-badge {
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+ 
+.attraction-content {
+    margin: 30px 0;
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: left;
+}
+
+.attraction-content h3 {
+    color: var(--primary-red);
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.attraction-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.attraction-content li {
+    margin-bottom: 8px;
+}
+
+ 
+.dropdown-sections {
+    margin: 25px 0;
+}
+
+.dropdown-item {
+    background: var(--tile-bg);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    text-align: left;
+}
+
+.dropdown-item summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-red);
+    font-size: 1.05rem;
+}
+
+.dropdown-item p {
+    margin-top: 10px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+#favorite-btn {
+    background-color: var(--bg-color);
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#favorite-btn:hover {
+    opacity: 0.9;
+}
+
+ 
+.gallery-title {
+    color: var(--primary-red);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.pinterest-gallery {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .pinterest-gallery {
+        column-count: 1;
+    }
+}
+</style>
+
+<script>
+function toggleFavorite(url, title) {
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const index = favorites.findIndex(fav => fav.url === url);
+    
+    if (index > -1) {
+        favorites.splice(index, 1);
+    } else {
+        const kraj = "korea".trim();
+        const miasto = "yongin".trim();
+        const kategoria = "jedzenie".trim();
+        const image_url = "https:\/\/image.mom-mom.net\/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjODc1YTI0YzcwNmM5MTY4NjRiIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=";
+
+        favorites.push({ url, title, kraj, miasto, kategoria, image_url });
+    }
+    localStorage.setItem('asia_compass_favorites', JSON.stringify(favorites));
+    updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+    const btn = document.getElementById('favorite-btn');
+    if (!btn) return;
+    
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    
+    const currentUrl = "http:\/\/localhost:1313\/asia-compass\/atrakcja\/cafe-gilotti\/";
+    const exists = favorites.some(fav => fav.url === currentUrl);
+
+    if (exists) {
+        btn.innerText = '❤️ Dodano do ulubionych';
+        btn.style.backgroundColor = 'var(--primary-red)';
+        btn.style.color = '#fff';
+    } else {
+        btn.innerText = '⭐ Dodaj do ulubionych';
+        btn.style.backgroundColor = 'var(--bg-color)';
+        btn.style.color = 'var(--primary-red)';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', updateFavoriteButton);
+</script>
+
+    </main>
+
+</body>
+</html>
