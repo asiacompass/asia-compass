@@ -13,4 +13,4 @@ Kawasaki to elektryzujące miasto industrialnych kontrastów, w którym futuryst
 **- Świątynia Kawasaki Daishi:** Imponujący, tętniący życiem kompleks buddyjski z XII wieku, do którego prowadzi klimatyczna ulica pełna rzemieślników sprzedających tradycyjne lalki Daruma i lokalne słodycze.  
 **- Industrialne rejsy nocne (Factory Night View):** Spektakularne, nocne wycieczki łodzią po kanałach strefy przemysłowej, oferujące surrealistyczny widok potężnych, neonowo oświetlonych fabryk i rafinerii.  
 **- Skansen Nihon Minka-en:** Wyjątkowy park na świeżym powietrzu, w którym uratowano i zgromadzono 25 oryginalnych, krytych strzechą tradycyjnych domów rolniczych z różnych regionów Japonii.  
-**- Muzeum Doraemona (Fujiko F. Fujio):** Magiczna przestrzeń poświęcona twórcy kultowego, niebieskiego robota-kota Doraemona, będąca absolutną mekką dla fanów klasycznej japońskiej animacji.
+[**- Muzeum Doraemona (Fujiko F. Fujio):**]({{< relref "/atrakcja/doraemon-museum" >}}) Magiczna przestrzeń poświęcona twórcy kultowego, niebieskiego robota-kota Doraemona, będąca absolutną mekką dla fanów klasycznej japońskiej animacji.

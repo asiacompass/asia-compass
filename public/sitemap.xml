@@ -37,6 +37,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/animals/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/anime/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/bambo-cafe/</loc>
@@ -51,6 +53,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-groovy/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-gilotti/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-obibi/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</loc>
@@ -63,15 +67,21 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/chongqing/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/sugitora/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/dongducheon/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/dongyang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/doraemon-museum/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/drama/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/furong/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/furong-city/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/fushimi/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/game/</loc>
   </url><url>
@@ -82,6 +92,8 @@
     <loc>http://localhost:1313/asia-compass/atrakcja/gexian-village/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gimhae/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/hanok-center/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gimpo/</loc>
   </url><url>
@@ -113,6 +125,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/kawasaki/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/saryo/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-vinyl/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/kensington-hotel/</loc>
@@ -124,6 +138,8 @@
     <loc>http://localhost:1313/asia-compass/miasto/kyoto/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/legoland/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/arashiyama/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/</loc>
   </url><url>
@@ -141,6 +157,10 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/natura/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/natura/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/nijimori/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/nocleg/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/oita/</loc>
@@ -155,9 +175,17 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/pekin/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/pokemon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/pokemon-train/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/popkultura/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/hohojang/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/kibunesou/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/restaurant/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/seoul/</loc>
   </url><url>
@@ -183,6 +211,10 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/shu-yan-fu/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/temple/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/narrow-cafe/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/tokyo/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/tondabayashi/</loc>
@@ -195,13 +227,23 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/universal-studio/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/pokemon-footbath/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/gamcheon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/nachi-waterfall/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/tea-house/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/yokokuji-temple/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/yongin/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/yongmang-skywalk/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/yu-garden/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/floral-village/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</loc>
   </url>

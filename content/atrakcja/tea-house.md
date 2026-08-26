@@ -3,7 +3,7 @@ title: "Xi Yue He Zi - Tea House"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "chongqing"
-tag: ["sweets"]
+tag: ["sweets", "restaurant"]
 lat: 29.5528
 lng: 106.5750
 kategoria: "jedzenie"

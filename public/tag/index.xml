@@ -15,6 +15,13 @@
       <description></description>
     </item>
     <item>
+      <title>Anime</title>
+      <link>http://localhost:1313/asia-compass/tag/anime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/tag/anime/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Drama</title>
       <link>http://localhost:1313/asia-compass/tag/drama/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,6 +43,27 @@
       <description></description>
     </item>
     <item>
+      <title>Natura</title>
+      <link>http://localhost:1313/asia-compass/tag/natura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/tag/natura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pokemon</title>
+      <link>http://localhost:1313/asia-compass/tag/pokemon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/tag/pokemon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Restaurant</title>
+      <link>http://localhost:1313/asia-compass/tag/restaurant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/tag/restaurant/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Sweetes</title>
       <link>http://localhost:1313/asia-compass/tag/sweetes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -47,6 +75,13 @@
       <link>http://localhost:1313/asia-compass/tag/sweets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/tag/sweets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Temple</title>
+      <link>http://localhost:1313/asia-compass/tag/temple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/tag/temple/</guid>
       <description></description>
     </item>
     <item>

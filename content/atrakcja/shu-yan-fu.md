@@ -6,7 +6,7 @@ miasto: "chengdu"
 lat: 31.0000
 lng: 103.6167
 kategoria: "popkultura"
-tag: 
+tag: ["restaurant"]
 cena: "Drogo $$$"
 image_url: "https://ak-d.tripcdn.com/images/1lo6n12000ra4jeeiCF5F_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
 rezerwacja: "Wymagana online"
