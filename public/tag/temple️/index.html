@@ -663,13 +663,42 @@ body {
         
 <div class="list-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     
-    <h1 style="font-size: 2.5rem; margin-bottom: 25px; color: var(--text-color);">
+    <h1 style="font-size: 2.5rem; margin-bottom: 20px; color: var(--text-color);">
         Atrakcje z tagiem: <span style="color: var(--primary-red);">#Temple⛩️</span>
     </h1>
+
+    
+    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+    
+
+    
+    
+    <div class="country-filter-container" style="display: flex; gap: 12px; margin-bottom: 30px; flex-wrap: wrap;">
+        <button class="country-filter-btn active" onclick="filterByCountry('all', this)" style="padding: 8px 18px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: var(--primary-red); color: #fff; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">
+            Wszystkie
+        </button>
+        
+            <button class="country-filter-btn" onclick="filterByCountry('japonia', this)" style="padding: 8px 18px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: #f0f2f5; color: var(--text-color); font-weight: 600; cursor: pointer; transition: all 0.2s ease; text-transform: capitalize;">
+                japonia
+            </button>
+        
+    </div>
+    
+    
     
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px;">
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="japonia" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -696,7 +725,8 @@ body {
             <a href="/asia-compass/atrakcja/temple-sensoji/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
         </div>
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="japonia" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -727,6 +757,30 @@ body {
 
 </div>
 
+
+<script>
+function filterByCountry(countrySlug, btnElement) {
+    
+    document.querySelectorAll('.country-filter-btn').forEach(btn => {
+        btn.style.background = '#f0f2f5';
+        btn.style.color = 'var(--text-color)';
+    });
+    btnElement.style.background = 'var(--primary-red)';
+    btnElement.style.color = '#ffffff';
+
+    
+    const items = document.querySelectorAll('.tag-item-tile');
+    items.forEach(item => {
+        const itemKraj = item.getAttribute('data-kraj');
+        if (countrySlug === 'all' || itemKraj === countrySlug) {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+</script>
+
 <style>
 .tag-item-tile:hover {
     transform: translateY(-4px);
@@ -742,5 +796,45 @@ body {
 
     </main>
 
+    <footer style="background-color: #ffffff; border-top: 1px solid rgba(0,0,0,0.08); padding: 50px 20px 20px 20px; margin-top: 60px;">
+    <div style="max-width: 960px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; text-align: left;">
+        
+        
+        <div>
+            <h3 style="color: var(--primary-red); margin-top: 0; margin-bottom: 15px; font-size: 1.3rem; font-weight: bold;">Asia Compass</h3>
+            <p style="color: #666; font-size: 0.92rem; line-height: 1.6; margin: 0;">
+                Odkrywaj kultowe zabytki, sekrety lokalnej kultury oraz wyjątkowe kawiarnie w Chinach, Japonii i Korei Południowej. Autorski przewodnik po Azji Wschodniej widzianej wszystkimi zmysłami[cite: 4].
+            </p>
+        </div>
+
+        
+        <div>
+            <h4 style="color: var(--text-color); margin-top: 0; margin-bottom: 15px; font-size: 1.1rem; font-weight: 600;">Poznajmy się! 🌸</h4>
+            <p style="color: #666; font-size: 0.92rem; line-height: 1.6; margin-bottom: 15px;">
+                Chcesz wiedzieć, kto stoi za projektowaniem tras i zbieraniem najciekawszych perełek Azji?
+            </p>
+            <a href="/o-mnie/" style="display: inline-block; padding: 8px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: all 0.2s ease;">
+                Poznaj autora / O mnie &rarr;
+            </a>
+        </div>
+
+    </div>
+
+    
+    <div style="max-width: 960px; margin: 40px auto 0 auto; padding-top: 20px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; color: #999; font-size: 0.85rem;">
+        <div>
+            &copy; 2026 Asia Compass. Wszystkie prawa zastrzeżone.
+        </div>
+        <div>
+            <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" style="color: var(--primary-red); text-decoration: none; font-weight: 600;">Wróć na górę strony &uarr;</a>
+        </div>
+    </div>
+</footer>
+
+<style>
+footer a:hover {
+    opacity: 0.85;
+}
+</style>
 </body>
 </html>
