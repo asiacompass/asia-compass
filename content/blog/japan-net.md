@@ -10,6 +10,8 @@ Japonia słynie z nowinek technologicznych, ale rzeczywistość na miejscu potra
 ## 1. eSIM (Najwygodniejsza dla pojedynczych podróżnych)
 eSIM to cyfrowa karta SIM, którą instalujesz na telefonie jeszcze przed wylotem z Polski.
 
+<script async src="https://tpwidg.com/content?trs=564309&shmarker=760698&locale=en&country=Japan&powered_by=true&color_button=%23f2685f&color_focused=%23f2685f&secondary=%23FFFFFF&dark=%2311100f&light=%23FFFFFF&special=%23C4C4C4&border_radius=5&plain=false&no_labels=true&promo_id=8588&campaign_id=541" charset="utf-8"></script>
+
 ### Jak zamontować i uruchomić eSIM w Japonii:
 
 * Upewnij się, że Twój telefon nie ma blokady SIM-lock i wspiera technologię eSIM.

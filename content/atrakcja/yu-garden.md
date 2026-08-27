@@ -65,6 +65,7 @@ rozwijalne_listy:
         <li><b>Aplikacje do przejazdów i biletów:</b><br>
          Do nawigacji używaj Amap (Gaode Maps). Przejazdy metrem opłacisz kodem QR w aplikacji Alipay, a bilety na pociągi po Chinach zarezerwujesz tutaj: Kup bilet na pociąg w Chinach na Trip.com.
         </li><br>
+      </ul>
 
   - tytul: "Przydatne informacje"
     tresc: |
@@ -80,7 +81,32 @@ rozwijalne_listy:
         <li><b>Spróbuj Nanxiang Xiaolongbao:</b><br>
          Tuż obok ogrodu znajduje się historyczna restauracja serwująca kultowe szanghajskie pierożki z gorącym rosołem w środku (Xiaolongbao). Kolejka po wersję na wynos jest długa, ale absolutnie warta świeczki!
         </li>
-       </ul>
+      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         WeChat Pay <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         Alipay <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikacje </a>
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          Amap (Gaode) <a href="https://play.google.com/store/apps/details?id=com.autonavi.minimap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | piesza nawigacja<br>
+          Baidu Maps <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+          
+        </li>
+
+        <li><b>Transport:</b><p>
+          Trip.com <a href="https://www.trip.com/trains/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | komunikacja miejska <br> 
+          Alipay Didi <a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+          Trip.com <a href="https://www.trip.com/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          Klook <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/18332508/pexels-photo-18332508.jpeg"
@@ -104,8 +130,8 @@ Ukryty w samym sercu tętniącej życiem metropolii, Ogród Yuyuan to prawdziwa 
 * **Mur ze Smoczymi Grzbietami:** gród podzielony jest na kilka stref przez unikalne, falujące mury zwane „Murem Smoka”. Zwieńczone są one kunsztownie rzeźbionymi głowami smoków z otwartymi paszczami – w dawnych Chinach użycie motywu smoka (symbolu cesarza) groziło karą śmierci, więc inwestor sprytnie dodał do rzeźb dodatkowe pazury, by uniknąć oskarżeń o zdradę stanu.     
 * **Skała Niebiańskiego Jadeitu:** To 3,3-metrowy, porowaty kamień krasowy wyłowiony z jeziora Taihu. Legenda głosi, że gdy u jego podstawy zapali się kadzidło, dym wydobywa się ze wszystkich otworów jednocześnie, a gdy poleje się go wodą – wypływa ona niczym z setki miniaturowych źródełek.  
 * **Most Dziewięciu Zakrętów:** Prowadzący do słynnej herbaciarni Huxinting mostek ma dokładnie dziewięć załamań. W chińskiej kulturze cyfra 9 symbolizuje wieczność, a same zakręty miały zatrzymać złe duchy, które według podań potrafią poruszać się wyłącznie w liniach prostych.     
-* **erbaciarnia Huxinting:** Najstarsza herbaciarnia w Szanghaju, stojąca na środku stawu przy ogrodzie, gościła w swoich progach m.in. brytyjską królową Elżbietę II.  
+* **Herbaciarnia Huxinting:** Najstarsza herbaciarnia w Szanghaju, stojąca na środku stawu przy ogrodzie, gościła w swoich progach m.in. brytyjską królową Elżbietę II.  
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a> 

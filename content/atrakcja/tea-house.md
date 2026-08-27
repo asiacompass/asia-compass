@@ -70,6 +70,32 @@ rozwijalne_listy:
         <li><b>Lokalny hak:</b><br>
          Po wizycie w herbaciarni nie wracaj od razu do metra – przespaceruj się po całej uliczce Xiahaoli, która jest jedną z najlepiej odrestaurowanych, klimatycznych starych dzielnic w Chongqing z dala od typowych drapaczy chmur.
         </li>
+      </ul>
+      
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         WeChat Pay <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         Alipay <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikacje </a>
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          Amap (Gaode) <a href="https://play.google.com/store/apps/details?id=com.autonavi.minimap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | piesza nawigacja<br>
+          Baidu Maps <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+          
+        </li>
+
+        <li><b>Transport:</b><p>
+          Trip.com <a href="https://www.trip.com/trains/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | komunikacja miejska <br> 
+          Alipay Didi <a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+          Trip.com <a href="https://www.trip.com/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          Klook <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=1920%2Cdpr=1/tour_img/0508bbacd2e59dd4e7a9f4c8fe57b98ef6591ecc88f0409dddf90f0a043496cc.jpg"
@@ -94,4 +120,4 @@ Ukryta pośród zabytkowych uliczek dawnego miasteczka Xiahaoli w Chongqing, her
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a> 

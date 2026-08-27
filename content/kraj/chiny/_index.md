@@ -20,10 +20,10 @@ info_pl_desc: |
 
   <p><h3> Najważniejsze aplikacje: </h3>
   <ul>
-     <li><b>Alipay: </b>Podstawowa i najbardziej przyjazna dla obcokrajowców aplikacja płatnicza. Umożliwia płatności QR, rezerwację taksówek, zakup biletów na komunikację miejską oraz do atrakcji.
+     <li><b><a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Alipay: </a></b>Podstawowa i najbardziej przyjazna dla obcokrajowców aplikacja płatnicza. Umożliwia płatności QR, rezerwację taksówek, zakup biletów na komunikację miejską oraz do atrakcji.
      </li><br>
 
-     <li><b> WeChat (WeChat Pay):</b> Główny chiński komunikator z wbudowanym portfelem cyfrowym. Warto skonfigurować go jako drugą opcję płatniczą.
+     <li><b><a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> WeChat (WeChat Pay):</a></b> Główny chiński komunikator z wbudowanym portfelem cyfrowym. Warto skonfigurować go jako drugą opcję płatniczą.
      </li><br>
 
      <h><a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Zobacz więcej jak pobrać i zainstalować aplikacje płatnicze</a></h3>
@@ -41,10 +41,10 @@ info_net_desc: |
 
   <h3> Najważniejsze aplikacje: </h3>
   <ul>
-     <li><b>Airalo / Nomad / Holafly: </b> Aplikacje do zakupu i zarządzania kartami eSIM.
+     <li><b><a href="https://airalo.tpk.mx/KfiWGDjb" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Airalo</a>/ <a href="https://www.nomadesim.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Nomad</a> / <a href="https://esim.holafly.com/pl/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Holafly</a>: </b> Aplikacje do zakupu i zarządzania kartami eSIM.
      </li><br>
 
-     <li><b> Astrill VPN / Mullvad VPN: </b> Jedne z najbardziej niezawodnych usług VPN działających na terenie Chin.
+     <li><b><a href="https://www.astrill.com/pl/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Astrill VPN</a>  / <a href="https://mullvad.net/pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Mullvad VPN</a>: </b> Jedne z najbardziej niezawodnych usług VPN działających na terenie Chin.
      </li>
       <h3><a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Zobacz jak wybrać operatora i internet</a></h3>
   </ul>
@@ -68,10 +68,10 @@ info_trans_desc: |
      <li><b> Trip.com: </b> Najlepsza aplikacja do rezerwacji biletów kolejowych, lotów krajowych oraz hoteli w Chinach w języku angielskim/polskim.
      </li><br>
 
-     <li><b DiDi: </b> Chiński odpowiednik Ubera (dostępny również jako mini-aplikacja wewnątrz Alipay).
+     <li><b><a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">DiDi</a> : </b> Chiński odpowiednik Ubera (dostępny również jako mini-aplikacja wewnątrz Alipay).
      </li><br>
 
-     <li><b> Apple Maps / Baidu Maps:</b> Apple Maps działa w Chinach dobrze i pokazuje aktualny transport publiczny. Baidu Maps to chiński standard, wymagający jednak znajomości znaków.
+     <li><b> Apple Maps / <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Baidu Maps</a>:</b> Apple Maps działa w Chinach dobrze i pokazuje aktualny transport publiczny. Baidu Maps to chiński standard, wymagający jednak znajomości znaków.
      </li>
      <h3><a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Zobacz jak zainstalować i obsługiwać aplikacje</a></h3>
   </ul>

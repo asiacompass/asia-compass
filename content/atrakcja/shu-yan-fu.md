@@ -84,6 +84,31 @@ rozwijalne_listy:
         </li>
        </ul>
 
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         WeChat Pay <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         Alipay <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikacje </a>
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          Amap (Gaode) <a href="https://play.google.com/store/apps/details?id=com.autonavi.minimap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | piesza nawigacja<br>
+          Baidu Maps <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+          
+        </li>
+
+        <li><b>Transport:</b><p>
+          Trip.com <a href="https://www.trip.com/trains/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | komunikacja miejska <br> 
+          Alipay Didi <a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+          Trip.com <a href="https://www.trip.com/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          Klook <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
+
 galeria_zdjec:
   - url: "https://ak-d.tripcdn.com/images/1lo1r12000sbnejzz8F78_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
   - url: "https://ak-d.tripcdn.com/images/1lo1q12000sbne7og68F2_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
@@ -110,4 +135,4 @@ W samym sercu artystycznej dzielnicy Dongjiao Memory w Chengdu znajduje się mie
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a>

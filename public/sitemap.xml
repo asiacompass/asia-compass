@@ -175,8 +175,6 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/night-sasayuri/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/o-mnie/</loc>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/oita/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/okagaki/</loc>
@@ -258,6 +256,8 @@
     <loc>http://localhost:1313/asia-compass/atrakcja/yu-garden/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/floral-village/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/o-mnie/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/shirakawa/</loc>
   </url><url>

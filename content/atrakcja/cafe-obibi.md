@@ -19,7 +19,7 @@ rozwijalne_listy:
     tresc: |
       <ul>
         <li><strong>Rezerwacja</strong><br>
-         Niewymagana na standardowe napoje – zakupu dokonuje się bezpośrednio przy ladzie lub przez chińską aplikację (np. WeChat / Alipay miniapp)
+         Niewymagana na standardowe napoje – zakupu dokonuje się bezpośrednio przy ladzie lub przez chińską aplikację (np. <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> WeChat (WeChat Pay):</a> / <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Alipay miniapp </a>)
         </li><br>
 
         <li><b>Wyprzedzenie</b><br>
@@ -35,11 +35,11 @@ rozwijalne_listy:
         </li><br>
 
         <li><b>Godziny otwarcia</b><br>
-        Codziennie od 10:00 do 22:00
+         Codziennie od 10:00 do 22:00
         </li><br>
 
         <li><b>Gdzie kupić</b><br>
-        Bilet na dojazd do Chengdu oraz pociągi superszybkie w Chinach najwygodniej i bez kolejki zarezerwujesz przez Trip.com – Zarezerwuj przejazd z wyprzedzeniem.
+         Bilet na dojazd do Chengdu oraz pociągi superszybkie w Chinach najwygodniej i bez kolejki zarezerwujesz przez Trip.com – Zarezerwuj przejazd z wyprzedzeniem.
         </li>
       </ul>
 
@@ -52,7 +52,7 @@ rozwijalne_listy:
         </li><br>
 
         <li><b>Aplikacje do przejazdów i biletów:</b><br>
-        Do nawigacji pieszej używaj Amap (Gaode) lub Google Maps, a za napoje w lokalu zapłacisz najwygodniej zbliżeniowo przez Alipay lub WeChat Pay.
+         Do nawigacji pieszej używaj Amap (Gaode) lub Google Maps, a za napoje w lokalu zapłacisz najwygodniej zbliżeniowo przez Alipay lub WeChat Pay.
         </li><br>
 
   - tytul: "Przydatne informacje"
@@ -69,6 +69,33 @@ rozwijalne_listy:
         <li><b>Bariera językowa</b><br>
         Personel jest bardzo pomocny, a menu na miejscu posiada czytelne zdjęcia i oznaczenia, więc bez problemu złożysz zamówienie wskazując palcem ulubioną pandę!
         </li>
+        </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         WeChat Pay <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         Alipay <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikacje </a>
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          Amap (Gaode) <a href="https://play.google.com/store/apps/details?id=com.autonavi.minimap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | piesza nawigacja<br>
+          Baidu Maps <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+          
+        </li>
+
+        <li><b>Transport:</b><p>
+          Trip.com <a href="https://www.trip.com/trains/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | komunikacja miejska <br> 
+          Alipay Didi <a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+          Trip.com <a href="https://www.trip.com/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          Klook <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
+    
 
 galeria_zdjec:
   - url: "https://ak-d.tripcdn.com/images/01A22120008wxu43yBFE9.jpg"
@@ -97,4 +124,4 @@ Wstępując do kawiarni Obibi na kultowej ulicy Kui Xing Lou w Chengdu, natychmi
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a> 

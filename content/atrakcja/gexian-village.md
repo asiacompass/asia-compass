@@ -3,8 +3,8 @@ title: "Gexian Village"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "gexian"
-lat: 28.0935
-lng: 117.6930
+lat: 28.4411
+lng: 117.7014
 kategoria: "historia"
 tag: ["drama🎎"]
 cena: "srednio $$"
@@ -70,6 +70,31 @@ rozwijalne_listy:
          Mimo obecności nowocześnie przygotowanych ścieżek, poruszanie się po wiosce i kompleksie świątynnym wymaga pokonania wielu kamiennych stopni.
         </li>
 
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         WeChat Pay <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         Alipay <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikacje </a>
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          Amap (Gaode) <a href="https://play.google.com/store/apps/details?id=com.autonavi.minimap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | piesza nawigacja<br>
+          Baidu Maps <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+          
+        </li>
+
+        <li><b>Transport:</b><p>
+          Trip.com <a href="https://www.trip.com/trains/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | komunikacja miejska <br> 
+          Alipay Didi <a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+          Trip.com <a href="https://www.trip.com/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          Klook <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
+
 galeria_zdjec:
   - url: "https://ak-d.tripcdn.com/images/1mc1212000exasmarD795_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F"
   - url: "https://ak-d.tripcdn.com/images/1mc2d12000ckoxuyb1317_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F"
@@ -95,4 +120,4 @@ Ukryta u podnóża świętej taoistycznej góry Gexian w prowincji Jiangxi, Wios
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> 
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a> 
