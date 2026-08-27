@@ -13,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon | Asia Compass</title>
+    <title>Cafe 2d | Asia Compass</title>
     <link rel="stylesheet" href="/asia-compass/css/style.css">
     
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
@@ -661,84 +661,532 @@ body {
     
     <main>
         
-<div class="list-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+<article class="attraction-page">
     
-    <h1 style="font-size: 2.5rem; margin-bottom: 25px; color: var(--text-color);">
-        Atrakcje z tagiem: <span style="color: var(--primary-red);">#Pokemon</span>
-    </h1>
+    <header class="attraction-header">
+        <h1>Cafe 2d</h1>
+        <button id="favorite-btn" onclick="toggleFavorite('http:\/\/localhost:1313\/asia-compass\/atrakcja\/cafe-2d\/', 'Cafe 2d')">
+            ⭐ Dodaj do ulubionych
+        </button>
+    </header>
+
     
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px;">
-        
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
-            <div>
-                
-                
-                <a href="/asia-compass/atrakcja/pokemon-train/" style="display: block; overflow: hidden; border-radius: 8px; margin-bottom: 12px;">
-                    <img src="https://i.pinimg.com/736x/c1/b6/a0/c1b6a0d9eae89832b5b2fbf639cc53a8.jpg" alt="Pokemon Pikachu Train" style="width: 100%; height: 210px; object-fit: cover; display: block; transition: transform 0.3s ease;">
-                </a>
-                
-                
-                <h3 style="margin: 0 0 8px 0; font-size: 1.2rem; line-height: 1.4;">
-                    <a href="/asia-compass/atrakcja/pokemon-train/" style="text-decoration: none; color: var(--primary-red);">Pokemon Pikachu Train</a>
-                </h3>
-                
-                <div style="font-size: 0.88rem; color: #666; margin-bottom: 14px; display: flex; gap: 6px; align-items: center;">
-                    
-                    <span style="font-weight: 600; text-transform: capitalize;">📍 ichinoseki</span>
-                    
-                    <span>•</span>
-                    
-                    <span style="text-transform: capitalize;">japonia</span>
-                    
-                </div>
-            </div>
+    
+    <div class="attraction-banner">
+        <img src="https://i.pinimg.com/1200x/2f/17/8d/2f178d4d0368558120a47f09d5f1b9d5.jpg" alt="Cafe 2d" loading="lazy">
+    </div>
+    
+
+    
+    <section class="attraction-info-tile">
+        <div class="meta-container">
+            <h3 class="meta-title">Informacje o atrakcji</h3>
+            <div class="meta-grid">
             
-            <a href="/asia-compass/atrakcja/pokemon-train/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
-        </div>
-        
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
-            <div>
-                
-                
-                <a href="/asia-compass/atrakcja/pokemon-footbath/" style="display: block; overflow: hidden; border-radius: 8px; margin-bottom: 12px;">
-                    <img src="https://www.wakura.or.jp/_kanri/wp-content/uploads/2026/05/130cea030e1638c9972980f0ddc4dacb.jpg" alt="Wakura Pokemon Footbath - darmowa gorąca kąpiel" style="width: 100%; height: 210px; object-fit: cover; display: block; transition: transform 0.3s ease;">
+              
+              
+              <div>
+                <strong>Kraj:</strong> 
+                <a href="/asia-compass/kraj/japonia/">
+                  japonia
                 </a>
-                
-                
-                <h3 style="margin: 0 0 8px 0; font-size: 1.2rem; line-height: 1.4;">
-                    <a href="/asia-compass/atrakcja/pokemon-footbath/" style="text-decoration: none; color: var(--primary-red);">Wakura Pokemon Footbath - darmowa gorąca kąpiel</a>
-                </h3>
-                
-                <div style="font-size: 0.88rem; color: #666; margin-bottom: 14px; display: flex; gap: 6px; align-items: center;">
-                    
-                    <span style="font-weight: 600; text-transform: capitalize;">📍 nanao</span>
-                    
-                    <span>•</span>
-                    
-                    <span style="text-transform: capitalize;">japonia</span>
-                    
-                </div>
-            </div>
+              </div>
             
-            <a href="/asia-compass/atrakcja/pokemon-footbath/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
+
+           
+             
+             
+              <div>
+                <strong>Miejscowość:</strong> 
+                <a href="/asia-compass/miasto/tokyo/">
+                  tokyo
+                </a>
+              </div>
+           
+    
+           
+            
+            
+             <div>
+               <strong>Kategoria:</strong> 
+               <a href="/asia-compass/kategoria/jedzenie/">
+                 jedzenie
+               </a>
+             </div>
+           
+    
+                <div><strong>Ceny:</strong> Średnio $$</div>
+                <div><strong>Rezerwacja:</strong> Tak</div>
+                <div><strong>Sezon:</strong> Cały rok</div>
+                <div><strong>Adres:</strong> 1 Chome-7-19 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japonia</div>
+                <div><strong>Oficjalna strona:</strong> <a href="https://www.instagram.com/2dcafe_shinokubo/" target="_blank">Odwiedź link</a></div>
+                
+                
+                
+            </div>
         </div>
+    </section>
+
+    
+    <section class="attraction-content">
+        <h3 id="kawiarnia-jak-z-mangi">Kawiarnia jak z mangi</h3>
+<p>Przenieś się wprost do kart japońskiego komiksu! 2D Café położona w tętniącej życiem dzielnicy Shin-Okubo w Tokio to kawiarnia, która w sekundę zmieni Twoje postrzeganie rzeczywistości. Całe wnętrze zostało wykończone w taki sposób, aby stwarzać dwuwymiarowe złudzenie optyczne – wchodząc do środka, masz nieodparte wrażenie, że wskakujesz prosto na płaskie strony czarno-białego szkicownika lub mangi.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Oszustwo wzroku i ręczne wykończenie:</strong> Cały koncept opiera się na sprytnej iluzji optycznej. Meble, ściany, podłogi, a nawet firanki są całkowicie białe, natomiast wszystkie krawędzie, cienie i detale zostały ręcznie odmalowane czarną farbą, tworząc charakterystyczny kreskówkowy kontur.</p>
+</li>
+<li>
+<p><strong>Jedzenie jako jedyny akcent kolorystyczny:</strong> Jedynym elementem przełamującym monochromatyczny, dwuwymiarowy świat jest prawdziwe jedzenie i napoje! Dzięki temu owoce, bita śmietana i kolorowe syropy w deserach wyglądają na zdjęciach niezwykle soczyście i wręcz hipnotyzująco.</p>
+</li>
+<li>
+<p><strong>Serce tokijskiego Shin-Okubo:</strong> Kawiarnia zlokalizowana jest w Shin-Okubo – słynnym japońskim &ldquo;K-Town&rdquo; (dzielnicy koreańskiej). Dzięki temu w menu znajdziesz połączenie japońskiej estetyki z popularnymi koreańskimi deserami, takimi jak puszysty grawerowany lód bingsu.</p>
+</li>
+<li>
+<p><strong>Światowy trend rodem z Azji:</strong> Choć pomysł na dwuwymiarowe kawiarnie zyskał ogromną popularność w Azji Wschodniej (pierwsze koncepty powstawały w Korei Południowej), to właśnie wersja z Shin-Okubo stała się jedną z najbardziej rozpoznawalnych i fotografowanych kawiarni w całym Tokio.</p>
+</li>
+</ul>
+<hr>
+<h4 id="zobacz-poradnik">Zobacz poradnik:</h4>
+<p><a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a>   |   <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a>   |   <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a></p>
+
+    </section>
+
+    
+    
+    <div class="dropdown-sections">
+        
+        <details class="dropdown-item">
+            <summary>Rezerwacja</summary>
+            <div class="dropdown-body"><ul>
+  <li><b>Rezerwacja:</b><p>
+   Brak możliwości rezerwacji online: Kawiarnia działa na zasadzie pierwszej kolejności przybycia (first-come, first-served).
+  </li>
+
+  <li><b>Gdzie zarezerwować:</b><p>
+   Rezerwacja wstępu nie jest wymagana, ale w weekendy i popołudniami tworzą się kolejki. Aby uniknąć dłuższego oczekiwania na wolny stolik, najlepiej zjawić się tuż przed otwarciem.
+  </li>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Wejście i ceny</summary>
+            <div class="dropdown-body">
+<ul>
+ <li><b>Ceny:</b><p>
+   Wstęp jest darmowy (opłacasz jedynie swoje zamówienie). W kawiarni obowiązuje zasada zamówienia co najmniej jednego napoju lub deseru na osobę (1 item order per person). Ceny napojów i deserów kształtują się w przedziale 600–1500 JPY (ok. 16–40 PLN).
+ </li>
+  
+ <li><b>Godziny:</b><p>
+   Codziennie od 11:00 do 22:00 (ostatnie zamówienie ok. 21:30)
+   
+ </li><p>
+
+ <li><b>Najlepsza pora na wizytę:</b><p>
+   Dni powszednie rano (między 11:00 a 12:30), kiedy jest najmniej gości i można swobodnie robić zdjęcia bez obcych osób w kadrze.
+ </li><p>
+</ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Dojazd</summary>
+            <div class="dropdown-body">
+Kawiarnia znajduje się w dzielnicy Shinjuku / Shin-Okubo w Tokio
+
+  <ul>
+  <li><b>Z głównej stacji Shinjuku lub Tokyo Station:</b><br>
+    Wsiądź w pociąg zielonej linii okrężnej JR Yamanote Line i wysiądź na stacji Shin-Okubo Station. Podróż ze stacji Shinjuku zajmuje zaledwie 2 minuty (1 przystanek).
+  </li>
+
+  <li><b>Ze stacji Shin-Okubo do kawiarni::</b><br>
+    Ze stacji Shin-Okubo wyjdź jedynym głównym wyjściem, skręć w prawo i idź spacerem ok. 3–5 minut ulicą Okubo-dori. Kawiarnia znajduje się po prawej stronie.
+  </li>
+
+  <li><b>Gdzie kupić bilety:</b><br>
+    Bilety na przejazdy po Tokio najwygodniej opłacisz japońską kartą prepaid IC (Suica/Pasmo). Jeśli podróżujesz między miastami (np. Shinkansenem z Kioto do Tokio), bilety zarezerwujesz na Trip.com lub Klook.
+  </li>
+
+ </ul>
+</div>
+        </details>
+        
+        <details class="dropdown-item">
+            <summary>Przydatne wskazówki</summary>
+            <div class="dropdown-body"><ul>
+ <li><b>Wymóg zamówienia:</b><br>
+    Pamiętaj, że każdy gość przy stoliku musi zamówić przynajmniej jeden produkt z karty (napój lub deser).
+ </li><br>
+
+ <li><b>Szacunek dla innych gości:</b><br>
+    Ponieważ kawiarnia jest bardzo fotogeniczna, wszyscy chcą zrobić idealne zdjęcie na Instagrama. Staraj się nie blokować przejść i kadrów innym odwiedzającym.
+ </li><br>
+
+ <li><b>Gotówka i Płatności:</b><br>
+    Kawiarnia akceptuje karty płatnicze oraz japońskie karty IC (Suica/Pasmo), ale zawsze warto mieć przy sobie nieco jenów w gotówce na wszelki wypadek.
+ </li><br>
+
+ <li><b>Najlepszy deser na zdjęcie:</b><br>
+    Zamów puszysty bingsu truskawkowy lub kolorowe Bubble Tea – ich żywe Barwy idealnie kontrastują z czarno-białym, komiksowym tłem!
+</ul>
+</div>
+        </details>
         
     </div>
+    
 
-</div>
+    
+
+
+<section style="margin-top: 40px;">
+    <h3 class="gallery-title">Galeria inspiracji</h3>
+    <div class="pinterest-gallery">
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/1200x/f6/ed/3f/f6ed3f308243dcaddda3b1fedec363f5.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/1200x/f6/ed/3f/f6ed3f308243dcaddda3b1fedec363f5.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/736x/41/1b/a4/411ba404154676290a1cf3c19d681de2.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/736x/41/1b/a4/411ba404154676290a1cf3c19d681de2.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/736x/70/38/2a/70382a1ba3a0b67f022b5932d191b9a7.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/736x/70/38/2a/70382a1ba3a0b67f022b5932d191b9a7.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/1200x/ce/a3/4a/cea34a5ff6c8dae87e621d237b681a9f.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/1200x/ce/a3/4a/cea34a5ff6c8dae87e621d237b681a9f.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/736x/41/89/4c/41894c66a0e8f97311d124831de39bde.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/736x/41/89/4c/41894c66a0e8f97311d124831de39bde.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+            
+            
+            
+
+            <div class="gallery-item">
+                
+                    
+                    <a href="https://i.pinimg.com/736x/c3/ed/4f/c3ed4f5fbb6fd29b07c766be9a805aa8.jpg" target="_blank" rel="noopener">
+                        <img src="https://i.pinimg.com/736x/c3/ed/4f/c3ed4f5fbb6fd29b07c766be9a805aa8.jpg" alt="Zdjęcie z galerii" loading="lazy">
+                    </a>
+                
+
+                
+            </div>
+        
+    </div>
+</section>
+
+
+
+
+<section style="margin-top: 30px; text-align: center;">
+    <div style="max-width: 360px; margin: 0 auto;">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DaC4RiqNeam/?igsh=MWlxMDFoaWtmbjF5Ng==" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:12px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; width:100%; min-width:280px; padding:0;"></blockquote>
+    </div>
+    <script async src="//www.instagram.com/embed.js"></script>
+</section>
+
 
 <style>
-.tag-item-tile:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1) !important;
+.attraction-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
-.tag-item-tile:hover img {
-    transform: scale(1.03);
+
+.attraction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
 }
-.tag-btn:hover {
+
+.attraction-page h1 {
+    color: var(--primary-red);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.attraction-banner {
+    margin: 20px 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.attraction-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+ 
+.attraction-info-tile {
+    background-color: var(--tile-bg);
+    color: var(--text-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 20px 0;
+}
+
+.meta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.meta-title {
+    color: var(--primary-red);
+    font-size: 1.3rem;
+    margin: 0;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: left;
+}
+
+ 
+.meta-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px 20px;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .meta-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.attraction-info-tile a, .attraction-content a {
+    color: var(--primary-red);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.attraction-info-tile a:hover, .attraction-content a:hover {
+    color: var(--hover-color);
+}
+
+.tag-badge {
+    background-color: rgba(0, 0, 0, 0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+ 
+.attraction-content {
+    margin: 30px 0;
+    color: var(--text-color);
+    line-height: 1.6;
+    text-align: left;
+}
+
+.attraction-content h3 {
+    color: var(--primary-red);
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.attraction-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.attraction-content li {
+    margin-bottom: 8px;
+}
+
+ 
+.dropdown-sections {
+    margin: 25px 0;
+}
+
+.dropdown-item {
+    background: var(--tile-bg);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 12px 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    text-align: left;
+}
+
+.dropdown-item summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--primary-red);
+    font-size: 1.05rem;
+}
+
+.dropdown-item p {
+    margin-top: 10px;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+#favorite-btn {
+    background-color: var(--bg-color);
+    color: var(--primary-red);
+    border: 2px solid var(--primary-red);
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#favorite-btn:hover {
     opacity: 0.9;
 }
+
+ 
+.gallery-title {
+    color: var(--primary-red);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.pinterest-gallery {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 768px) {
+    .pinterest-gallery {
+        column-count: 1;
+    }
+}
 </style>
+
+<script>
+function toggleFavorite(url, title) {
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    const index = favorites.findIndex(fav => fav.url === url);
+    
+    if (index > -1) {
+        favorites.splice(index, 1);
+    } else {
+        const kraj = "japonia".trim();
+        const miasto = "tokyo".trim();
+        const kategoria = "jedzenie".trim();
+        const image_url = "https:\/\/i.pinimg.com\/1200x\/2f\/17\/8d\/2f178d4d0368558120a47f09d5f1b9d5.jpg";
+
+        favorites.push({ url, title, kraj, miasto, kategoria, image_url });
+    }
+    localStorage.setItem('asia_compass_favorites', JSON.stringify(favorites));
+    updateFavoriteButton();
+}
+
+function updateFavoriteButton() {
+    const btn = document.getElementById('favorite-btn');
+    if (!btn) return;
+    
+    let favorites = JSON.parse(localStorage.getItem('asia_compass_favorites')) || [];
+    
+    const currentUrl = "http:\/\/localhost:1313\/asia-compass\/atrakcja\/cafe-2d\/";
+    const exists = favorites.some(fav => fav.url === currentUrl);
+
+    if (exists) {
+        btn.innerText = '❤️ Dodano do ulubionych';
+        btn.style.backgroundColor = 'var(--primary-red)';
+        btn.style.color = '#fff';
+    } else {
+        btn.innerText = '⭐ Dodaj do ulubionych';
+        btn.style.backgroundColor = 'var(--bg-color)';
+        btn.style.color = 'var(--primary-red)';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', updateFavoriteButton);
+</script>
 
     </main>
 

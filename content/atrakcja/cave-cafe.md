@@ -3,7 +3,7 @@ title: "Cave Wine Cafe w jaskini"
 kraj: "korea"
 miasto: "gwangmyeong"
 kategoria: "natura"
-tag: ["drama"]
+tag: ["drama🎎"]
 type: "atrakcja"
 lat: 37.426758954145384
 lng: 126.86597229624297

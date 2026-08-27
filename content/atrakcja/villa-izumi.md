@@ -3,7 +3,7 @@ title: "Prywatna Oaza w Japońskim Stylu"
 kraj: "japonia"
 miasto: "osaka"
 kategoria: "nocleg"
-tag: ["natura"]
+tag: ["natura🍀"]
 type: "atrakcja"
 lat: 34.41420022438349
 lng: 135.49104010194657

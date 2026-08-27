@@ -47,6 +47,54 @@
     </div>
 </section>
 
+{{/* SEKCJA TAGÓW DLA KRAJU */}}
+{{ $tagsMap := dict }}
+
+{{ range where site.RegularPages "Section" "atrakcja" }}
+    {{ range .GetTerms "tag" }}
+        {{ $termObj := . }}
+        {{ $cleanKey := $termObj.Title | urlize }}
+        {{ $tagOriginal := $termObj.LinkTitle | default $termObj.Title }}
+        
+        {{ if ne $cleanKey "" }}
+            {{ $existing := index $tagsMap $cleanKey }}
+            {{ if not $existing }}
+                {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+            {{ else }}
+                {{ $currentName := index $existing "name" }}
+                {{ if gt (len $tagOriginal) (len $currentName) }}
+                    {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if gt (len $tagsMap) 0 }}
+<section class="section-container" style="margin-bottom: 40px;">
+    <div style="max-width: 960px; margin: 0 auto; text-align: center;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Odkrywaj według tagów</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+            {{ range $key, $data := $tagsMap }}
+                <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
+                    #{{ index $data "name" }}
+                </a>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<style>
+.country-tag-badge:hover {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-red) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+{{ end }}
+
 <!-- Sekcja Blog (zamknięta w max-width, żeby nie wystawała) -->
 <section class="section-container" style="margin-bottom: 40px;">
     <div style="max-width: 960px; margin: 0 auto;">
@@ -58,7 +106,7 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px;">
             {{ $blogPage := site.GetPage "/blog" }}
             {{ if $blogPage }}
-                {{ range first 4 $blogPage.Pages.ByDate.Reverse }}
+                {{ range first 6 $blogPage.Pages.ByDate.Reverse }}
                 <div style="border-radius: 12px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                     <div>
                         {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
@@ -83,6 +131,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- Sekcja Atrakcje -->
 {{ if $krajPageObj }}

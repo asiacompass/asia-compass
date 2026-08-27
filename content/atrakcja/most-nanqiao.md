@@ -3,7 +3,7 @@ title: "System Irygacyjny Dujiangyan i Most Nanqiao"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "chengdu"
-tag: ["unesco"]
+tag: ["unesco🏯"]
 lat: 31.0000
 lng: 103.6167
 kategoria: "historia"

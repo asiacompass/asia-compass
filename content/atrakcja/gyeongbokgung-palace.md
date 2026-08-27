@@ -3,7 +3,7 @@ title: "Pałac Gyeongbokgung"
 kraj: "korea"
 miasto: "seoul"
 kategoria: "historia"
-tag: ["drama"]
+tag: ["drama🎎"]
 type: "atrakcja"
 lat: 37.58036523153356
 lng: 126.97661184721943

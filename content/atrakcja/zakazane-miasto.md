@@ -3,7 +3,7 @@ title: "Zakazane Miasto (The Palace Museum)"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "pekin"
-tag: ["unesco"]
+tag: ["unesco🏯"]
 lat: 39.9163
 lng: 116.3972
 kategoria: "historia"
@@ -94,8 +94,11 @@ Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Mias
 ### Fakty i Ciekawostki
 
 * **Symbolika cyfry 9:** Według chińskiej numerologii cyfra 9 symbolizuje wieczność oraz najwyższą władzę cesarską. Legenda głosi, że pałac mieści aż 9 999 i pół pomieszczenia (w rzeczywistości jest ich około 8 700), ponieważ pełne 10 000 komnat zarezerwowane było wyłącznie dla Nieba. Wiele drzwi ma również układy 9 na 9 mosiężnych ćwieków.
+
 * **Architektura bez ani jednego gwoździa:** Ogromne drewniane hale pałacowe wzniesiono bez użycia chociażby jednego metalowego gwoździa. Całość opiera się na genialnym, elastycznym systemie drewnianych połączeń zwanym dougong, który sprawił, że budowle przetrwały wieki silnych trzęsień ziemi.
+
 * **Koty na cesarskim żołdzie:** Na terenie pałacu mieszka ponad 200 bezdomnych i dbanych przez muzeum kotów. Część z nich to prawdopodobnie bezpośredni potomkowie ulubieńców cesarskich nałożnic i eunuchów. Pełnią one niezwykle ważną rolę – pilnują kompleksu przed gryzoniami.
+
 * **Cesarzowa Cixi i zegary:** W Galerii Zegarów (Clock Hall) można podziwiać niezwykłą kolekcję mechanicznych zegarów z XVIII i XIX wieku przywiezionych z Europy. Imponujące automaty tworzyły muzykę, poruszały figurkami i zachwycały dwór cesarski.
 
 ### Zobacz poradnik:

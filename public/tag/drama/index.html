@@ -13,7 +13,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drama | Asia Compass</title>
+    <title>Drama🎎 | Asia Compass</title>
     <link rel="stylesheet" href="/asia-compass/css/style.css">
     
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
@@ -663,13 +663,62 @@ body {
         
 <div class="list-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     
-    <h1 style="font-size: 2.5rem; margin-bottom: 25px; color: var(--text-color);">
-        Atrakcje z tagiem: <span style="color: var(--primary-red);">#Drama</span>
+    <h1 style="font-size: 2.5rem; margin-bottom: 20px; color: var(--text-color);">
+        Atrakcje z tagiem: <span style="color: var(--primary-red);">#Drama🎎</span>
     </h1>
+
+    
+    
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+        
+            
+        
+    
+    
+
+    
+    
+    <div class="country-filter-container" style="display: flex; gap: 12px; margin-bottom: 30px; flex-wrap: wrap;">
+        <button class="country-filter-btn active" onclick="filterByCountry('all', this)" style="padding: 8px 18px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: var(--primary-red); color: #fff; font-weight: 600; cursor: pointer; transition: all 0.2s ease;">
+            Wszystkie
+        </button>
+        
+            <button class="country-filter-btn" onclick="filterByCountry('chiny', this)" style="padding: 8px 18px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: #f0f2f5; color: var(--text-color); font-weight: 600; cursor: pointer; transition: all 0.2s ease; text-transform: capitalize;">
+                chiny
+            </button>
+        
+            <button class="country-filter-btn" onclick="filterByCountry('korea', this)" style="padding: 8px 18px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: #f0f2f5; color: var(--text-color); font-weight: 600; cursor: pointer; transition: all 0.2s ease; text-transform: capitalize;">
+                korea
+            </button>
+        
+    </div>
+    
+    
     
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px;">
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="korea" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -696,7 +745,8 @@ body {
             <a href="/asia-compass/atrakcja/cave-cafe/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
         </div>
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="chiny" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -723,7 +773,8 @@ body {
             <a href="/asia-compass/atrakcja/furong-city/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
         </div>
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="chiny" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -750,7 +801,8 @@ body {
             <a href="/asia-compass/atrakcja/gexian-village/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
         </div>
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="chiny" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -777,7 +829,8 @@ body {
             <a href="/asia-compass/atrakcja/hengdian-world-studio/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
         </div>
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="korea" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -804,7 +857,8 @@ body {
             <a href="/asia-compass/atrakcja/kensington-hotel/" class="tag-btn" style="display: block; text-align: center; padding: 10px 14px; background: var(--primary-red); color: #ffffff; text-decoration: none; border-radius: 6px; font-weight: 600; font-size: 0.95rem; transition: opacity 0.2s ease;">Zobacz więcej</a>
         </div>
         
-        <div class="tag-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
+        
+        <div class="tag-item-tile" data-kraj="korea" style="border: 1px solid rgba(0,0,0,0.08); padding: 12px; border-radius: 12px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease, box-shadow 0.2s ease;">
             <div>
                 
                 
@@ -834,6 +888,30 @@ body {
     </div>
 
 </div>
+
+
+<script>
+function filterByCountry(countrySlug, btnElement) {
+    
+    document.querySelectorAll('.country-filter-btn').forEach(btn => {
+        btn.style.background = '#f0f2f5';
+        btn.style.color = 'var(--text-color)';
+    });
+    btnElement.style.background = 'var(--primary-red)';
+    btnElement.style.color = '#ffffff';
+
+    
+    const items = document.querySelectorAll('.tag-item-tile');
+    items.forEach(item => {
+        const itemKraj = item.getAttribute('data-kraj');
+        if (countrySlug === 'all' || itemKraj === countrySlug) {
+            item.style.display = 'flex';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+</script>
 
 <style>
 .tag-item-tile:hover {

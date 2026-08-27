@@ -6,9 +6,9 @@ miasto: "huanglong"
 lat: 28.7490
 lng: 109.9320
 kategoria: "natura"
-tag: ["unesco", "game",]
+tag: ["unesco🏯", "game🎮",]
 cena: "srednio $$"
-image_url: "https://images.pexels.com/photos/38495061/pexels-photo-38495061.jpeg"
+image_url: "https://images.pexels.com/photos/29702069/pexels-photo-29702069.jpeg"
 rezerwacja: "Wymagana online"
 sezon: "Cały rok"
 adres: "Furong Ancient Town, Yongshun County, Xiangxi Tujia and Miao Autonomous Prefecture, Hunan, China"
@@ -80,13 +80,13 @@ rozwijalne_listy:
         </li>
 
 galeria_zdjec:
-  - url: "https://images.pexels.com/photos/13471324/pexels-photo-13471324.jpeg"
-  - url: "https://images.pexels.com/photos/25000608/pexels-photo-25000608.jpeg"
-  - url: "https://ak-d.tripcdn.com/images/0106u120009q5ndbt7E23_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
-  - url: "https://ak-d.tripcdn.com/images/0105v120009q5nbyp6389_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
-  - url: "https://ak-d.tripcdn.com/images/0101512000rqga4l19432_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
+  - url: "https://images.pexels.com/photos/34222098/pexels-photo-34222098.jpeg"
+  - url: "https://images.pexels.com/photos/29767791/pexels-photo-29767791.jpeg"
+  - url: "https://images.pexels.com/photos/29767796/pexels-photo-29767796.jpeg"
+  - url: "https://images.pexels.com/photos/31654300/pexels-photo-31654300.jpeg"
+  - url: "https://images.pexels.com/photos/29767800/pexels-photo-29767800.jpeg"
 
-instagram_reel: "https://www.instagram.com/reel/DaQSeCuor50/?igsi=MzRlODBiNWFlZA=="
+instagram_reel: "https://www.instagram.com/reel/Dak43a-o-Jc/?igsi=MzRlODBiNWFlZA=="
 
 ---
 

@@ -3,7 +3,7 @@ title: "Yufuin Floral Village - bajkowa wioska"
 kraj: "japonia"
 miasto: "oita"
 kategoria: "popkultura"
-tag: ["anime", "movies"]
+tag: ["anime🎐", "movies🎬"]
 type: "atrakcja"
 lat: 33.267594720369146
 lng: 131.36551423836642

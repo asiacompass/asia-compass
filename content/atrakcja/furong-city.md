@@ -6,7 +6,7 @@ miasto: "furong"
 lat: 28.7490
 lng: 109.9320
 kategoria: "historia"
-tag: ["drama"]
+tag: ["drama🎎"]
 cena: "srednio $$"
 image_url: "https://images.pexels.com/photos/38495061/pexels-photo-38495061.jpeg"
 rezerwacja: "Zalecana online"

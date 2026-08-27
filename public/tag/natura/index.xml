@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Natura on Asia Compass</title>
+    <title>Natura🍀 on Asia Compass</title>
     <link>http://localhost:1313/asia-compass/tag/natura/</link>
-    <description>Recent content in Natura on Asia Compass</description>
+    <description>Recent content in Natura🍀 on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/tag/natura/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prywatna Oaza w Japońskim Stylu</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/villa-izumi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/villa-izumi/</guid>
+      <description>&lt;h3 id=&#34;oukai-villa-izumi&#34;&gt;Oukai Villa Izumi&lt;/h3&gt;&#xA;&lt;p&gt;Szukasz miejsca w Japonii, gdzie zgiełk wielkich miast natychmiast cichnie, a jedynym dźwiękiem staje się szum wiatru w koronach drzew i plusk wody w stawie? Oukai Villa Izumi, położona na malowniczych wzgórzach miasta Izumi w prefekturze Osaka, to ukryty skarb japońskiego hotelarstwa. Ta luksusowa willa w stylu tradycyjnego zajazdu (ryokan) oferuje coś niespotykanego na masową skalę – absolutną prywatność. Pierwotnie zbudowana w latach 80. jako elitarna posiadłość prywatna, dziś pozwala gościom poczuć się jak w luksusowym domu z dala od domu, otoczonym monumentalnym ogrodem.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Yōkoku-ji Temple (Yanagidani Kannon)</title>
       <link>http://localhost:1313/asia-compass/atrakcja/yokokuji-temple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/yokokuji-temple/</guid>
       <description>&lt;h3 id=&#34;świątynia-yokoku-ji&#34;&gt;Świątynia Yokoku-ji&lt;/h3&gt;&#xA;&lt;p&gt;Ukryta w spokojnych wzgórzach Nagaokakyo na skraju Kioto, Yokoku-ji (znana również jako Yanagidani Kannon) to urokliwa świątynia Shingon, która zdobyła serca podróżników swoją niezwykłą estetyką. Miejsce to jest ucieleśnieniem japońskiej harmonii natury i duchowości, słynącym z niezwykłych dekoracji wodnych oraz uzdrawiającej energii.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Kolebka tradycji Hanachozu:&lt;/strong&gt; Yokoku-ji uważana jest za jedno z głównych miejsc, które zapoczątkowały współczesny trend Hanachozu w całej Japonii. Tradycyjne kamienne poidełka do przemywania rąk (tsumizuya) są tu co tydzień artystycznie układane ze świeżych kwiatów – od feerii barw hortensji latem, przez różowe płatki wiśni wiosną, aż po krwistoczerwone liście klonów jesienią.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Zabytkowa wieś Shirakawa</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/shirakawa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/shirakawa/</guid>
+      <description>&lt;h3 id=&#34;malownicza-wieś-jak-z-bajki&#34;&gt;Malownicza wieś jak z bajki&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się do baśniowej krainy otoczonej wysokimi, majestatycznymi szczytami górskimi w prefekturze Gifu. Wioska Shirakawa-go (ze słynną osadą Ogimachi na czele) to wpisany na listę światowego dziedzictwa UNESCO żywy skansen, który wygląda dokładnie tak, jakby czas zatrzymał się w nim kilkaset lat temu. Znana z charakterystycznych, krytych strzechą domów w stylu gassho-zukuri, wioska zachwyca o każdej porze roku – od soczystej zieleni lata, przez złotawe barwy jesieni, aż po puszyste, wielometrowe zaspy śnieżne zimą.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

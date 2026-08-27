@@ -3,7 +3,7 @@ title: "Yōkoku-ji Temple (Yanagidani Kannon)"
 kraj: "japonia"
 miasto: "nagaokakyo"
 kategoria: "historia"
-tag: ["natura", "temple"]
+tag: ["natura🍀", "temple⛩️"]
 type: "atrakcja"
 lat: 
 lng: 

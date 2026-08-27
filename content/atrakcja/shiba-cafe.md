@@ -3,7 +3,7 @@ title: "Shiba Nouchi Cafe"
 kraj: "korea"
 miasto: "gimpo"
 kategoria: "jedzenie"
-tag: ["animals"]
+tag: ["animals🐶"]
 type: "atrakcja"
 lat: 37.6153
 lng: 126.7156

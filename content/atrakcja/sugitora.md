@@ -3,7 +3,7 @@ title: "Cukiernia / Lodziarnia Sugitora"
 kraj: "japonia"
 miasto: "kyoto"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 34.990177412386366
 lng: 135.75946930185393

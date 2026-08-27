@@ -3,7 +3,7 @@ title: "The Narrow Garden Cafe"
 kraj: "japonia"
 miasto: "okagaki"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 33.84615531759291
 lng: 130.62312470194658

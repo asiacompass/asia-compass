@@ -6,7 +6,7 @@ miasto: "pekin"
 lat: 39.8556
 lng: 116.7128
 kategoria: "popkultura"
-tag: ["movies"]
+tag: ["movies🎬"]
 cena: "drogo $$$"
 image_url: "https://i.pinimg.com/1200x/c8/dd/65/c8dd659ba3e3ffe52c4e464aa5953c20.jpg"
 rezerwacja: "Wymagana online"

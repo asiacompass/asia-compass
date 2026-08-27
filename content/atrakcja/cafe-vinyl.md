@@ -3,7 +3,7 @@ title: "Kawiarnia Vinyl Starfield"
 kraj: "korea"
 miasto: "suwon"
 kategoria: "popkultura"
-tag: ["restaurant"]
+tag: ["restaurant🍜"]
 type: "atrakcja"
 lat: 37.2871
 lng: 126.9916

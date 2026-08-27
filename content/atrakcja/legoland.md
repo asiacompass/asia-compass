@@ -6,7 +6,7 @@ miasto: "shanghai"
 lat: 30.8750
 lng: 121.1600
 kategoria: "popkultura"
-tag: ["movies"]
+tag: ["movies🎬"]
 cena: "drogo $$$"
 image_url: "https://i.pinimg.com/1200x/16/80/95/16809552c767de8da1ddf3f864abce0b.jpg"
 rezerwacja: "Wymagana online"

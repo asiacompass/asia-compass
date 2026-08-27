@@ -3,7 +3,7 @@ title: "Cafe de Chelsea"
 kraj: "korea"
 miasto: "gimpo"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 37.69219617664259 
 lng: 126.57776692779305

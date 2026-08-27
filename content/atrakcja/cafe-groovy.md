@@ -3,7 +3,7 @@ title: "Cafe Groovy&Books w stylu vintage"
 kraj: "korea"
 miasto: "suwon"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 37.29403181874033
 lng: 127.05538847639554

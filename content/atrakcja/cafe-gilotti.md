@@ -3,7 +3,7 @@ title: "Cafe Kirotti"
 kraj: "korea"
 miasto: "yongin"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 37.22635145742429
 lng: 127.19963765776437

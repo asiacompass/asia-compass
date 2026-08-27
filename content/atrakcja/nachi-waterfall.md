@@ -3,7 +3,7 @@ title: "Wodospad Nachi"
 kraj: "japonia"
 miasto: "nachikatsuura"
 kategoria: "natura"
-tag: ["unesco"]
+tag: ["unesco🏯"]
 type: "atrakcja"
 lat: 33.67553599920829 
 lng: 135.88753299420338

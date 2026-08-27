@@ -3,7 +3,7 @@ title: "Kensington Hotel Yeouido"
 kraj: "korea"
 miasto: "seoul"
 kategoria: "nocleg"
-tag: ["sweetes" , "drama"]
+tag: ["sweets🍰" , "drama🎎"]
 type: "atrakcja"
 lat: 37.53037964642558
 lng: 126.92187035206615

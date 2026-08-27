@@ -3,7 +3,7 @@ title: "Wakura Pokemon Footbath - darmowa gorąca kąpiel"
 kraj: "japonia"
 miasto: "nanao"
 kategoria: "natura"
-tag: ["anime", "pokemon"]
+tag: ["anime🎐"]
 type: "atrakcja"
 lat: 37.08809885920534
 lng: 136.9234364943705

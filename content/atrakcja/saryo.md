@@ -3,7 +3,7 @@ title: "Kawiarnia Saryo Kiriyama"
 kraj: "japonia"
 miasto: "kyoto"
 kategoria: "jedzenie"
-tag: ["sweetes", "restaurant"]
+tag: ["sweets🍰", "restaurant🍜"]
 type: "atrakcja"
 lat: 35.022284112675074
 lng: 135.79469626998554

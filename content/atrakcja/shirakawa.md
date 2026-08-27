@@ -3,7 +3,7 @@ title: "Zabytkowa wieś Shirakawa"
 kraj: "japonia"
 miasto: "shirakawa"
 kategoria: "historia"
-tag: ["natura"]
+tag: ["natura🍀"]
 type: "atrakcja"
 lat: 36.27449594067136
 lng: 136.89796221087855

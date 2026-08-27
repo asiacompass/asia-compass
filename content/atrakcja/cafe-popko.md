@@ -3,7 +3,7 @@ title: "Cafe Popko z widokiem na wodospad"
 kraj: "korea"
 miasto: "seoul"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 37.58157486918694
 lng: 126.93702319612568

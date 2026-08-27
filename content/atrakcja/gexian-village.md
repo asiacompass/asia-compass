@@ -6,7 +6,7 @@ miasto: "gexian"
 lat: 28.0935
 lng: 117.6930
 kategoria: "historia"
-tag: ["drama"]
+tag: ["drama🎎"]
 cena: "srednio $$"
 image_url: "https://ak-d.tripcdn.com/images/1mc6912000cw9csw4ACA3_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F"
 rezerwacja: "Zalecana online"

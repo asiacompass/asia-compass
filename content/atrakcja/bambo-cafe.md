@@ -3,7 +3,7 @@ title: "Bamboo Cafe - Silladang"
 kraj: "korea"
 miasto: "gyeongju"
 kategoria: "jedzenie"
-tag: ["sweetes", "restaurant"]
+tag: ["sweets🍰", "restaurant🍜"]
 type: "atrakcja"
 lat: 35.83804115460651
 lng: 129.20906044047203

@@ -3,7 +3,7 @@ title: "Basilla cafe"
 kraj: "korea"
 miasto: "gyeongju"
 kategoria: "jedzenie"
-tag: ["sweetes"]
+tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 35.80211027964931 
 lng: 129.31160676455877

@@ -3,7 +3,7 @@ title: "Restauracja nad wodą Kibunesou"
 kraj: "japonia"
 miasto: "kyoto"
 kategoria: "jedzenie"
-tag: ["restaurant"]
+tag: ["restaurant🍜"]
 type: "atrakcja"
 lat: 35.121896002624055
 lng: 135.76328138263685

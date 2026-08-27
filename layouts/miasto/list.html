@@ -95,6 +95,55 @@
         });
     </script>
 
+{{/* SEKCJA TAGÓW DLA KRAJU */}}
+{{ $tagsMap := dict }}
+
+{{ range where site.RegularPages "Section" "atrakcja" }}
+    {{/* Pobieramy wygenerowane obiekty taksonomii Hugo po ścieżce "tag" z hugo.toml */}}
+    {{ range .GetTerms "tag" }}
+        {{ $termObj := . }}
+        {{/* Tworzymy znormalizowany klucz do usuwania duplikatów */}}
+        {{ $cleanKey := $termObj.Title | urlize }}
+        {{ $tagOriginal := $termObj.LinkTitle | default $termObj.Title }}
+        
+        {{ if ne $cleanKey "" }}
+            {{ $existing := index $tagsMap $cleanKey }}
+            {{ if not $existing }}
+                {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+            {{ else }}
+                {{/* Jeśli znajdzie wersję tekstu z emotką (dłuższą), podmienia samą nazwę na przycisku */}}
+                {{ $currentName := index $existing "name" }}
+                {{ if gt (len $tagOriginal) (len $currentName) }}
+                    {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if gt (len $tagsMap) 0 }}
+<div class="country-tags-section" style="margin-bottom: 40px;">
+    <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--primary-red);">Odkrywaj według tagów</h2>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        {{ range $key, $data := $tagsMap }}
+            <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
+                #{{ index $data "name" }}
+            </a>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.country-tag-badge:hover {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-red) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+</style>
+{{ end }}
+
     {{/* 4. Siatka atrakcji */}}
     <h2 style="margin-bottom: 20px; color: var(--primary-red);">{{ .Title }} - odkryj niezwykłe miejsca!</h2>
 

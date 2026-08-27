@@ -3,7 +3,7 @@ title: "Cinnamoroll Cafe"
 kraj: "japonia"
 miasto: "osaka"
 kategoria: "jedzenie"
-tag: ["anime", "sweetes"]
+tag: ["anime🎐", "sweets🍰"]
 type: "atrakcja"
 lat: 34.66774853431309 
 lng: 135.50134769425063

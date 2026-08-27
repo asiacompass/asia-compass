@@ -3,7 +3,7 @@ title: "Hengdian World Studio"
 kraj: "chiny"
 miasto: "dongyang"
 kategoria: "historia"
-tag: ["drama"]
+tag: ["drama🎎"]
 type: "atrakcja"
 lat: 29.3524 
 lng: 120.3175

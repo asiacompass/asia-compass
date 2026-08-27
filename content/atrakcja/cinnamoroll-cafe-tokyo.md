@@ -3,7 +3,7 @@ title: "Cinnamoroll Cafe"
 kraj: "japonia"
 miasto: "tokyo"
 kategoria: "jedzenie"
-tag: ["anime", "sweetes"]
+tag: ["anime🎐", "sweets🍰"]
 type: "atrakcja"
 lat: 35.690227775942624
 lng: 139.7057565538283

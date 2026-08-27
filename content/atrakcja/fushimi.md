@@ -3,7 +3,7 @@ title: "Fushimi Inari Taisha"
 kraj: "japonia"
 miasto: "kyoto"
 kategoria: "popkultura"
-tag: ["anime"]
+tag: ["anime🎐"]
 type: "atrakcja"
 lat: 34.96782635296251
 lng: 135.77916613844712

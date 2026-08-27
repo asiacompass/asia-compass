@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/miasto/shirakawa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zabytkowa wieś Shirakawa</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/shirakawa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/shirakawa/</guid>
+      <description>&lt;h3 id=&#34;malownicza-wieś-jak-z-bajki&#34;&gt;Malownicza wieś jak z bajki&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się do baśniowej krainy otoczonej wysokimi, majestatycznymi szczytami górskimi w prefekturze Gifu. Wioska Shirakawa-go (ze słynną osadą Ogimachi na czele) to wpisany na listę światowego dziedzictwa UNESCO żywy skansen, który wygląda dokładnie tak, jakby czas zatrzymał się w nim kilkaset lat temu. Znana z charakterystycznych, krytych strzechą domów w stylu gassho-zukuri, wioska zachwyca o każdej porze roku – od soczystej zieleni lata, przez złotawe barwy jesieni, aż po puszyste, wielometrowe zaspy śnieżne zimą.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

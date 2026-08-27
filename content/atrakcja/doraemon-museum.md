@@ -3,7 +3,7 @@ title: "Doraemon Museum i twórczość Hiroshiego Fujimoto"
 kraj: "japonia"
 miasto: "kawasaki"
 kategoria: "popkultura"
-tag: ["anime"]
+tag: ["anime🎐"]
 type: "atrakcja"
 lat: 35.609931595152624
 lng: 139.57358302498787

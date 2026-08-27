@@ -3,7 +3,7 @@ title: "Wioska Kultury Gamcheon i Mały Książę"
 kraj: "korea"
 miasto: "busan"
 kategoria: "historia"
-tag: ["movies"]
+tag: ["movies🎬"]
 type: "atrakcja"
 lat: 35.179345151314564
 lng: 129.00656855785496

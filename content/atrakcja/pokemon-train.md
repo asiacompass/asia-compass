@@ -3,7 +3,7 @@ title: "Pokemon Pikachu Train"
 kraj: "japonia"
 miasto: "ichinoseki"
 kategoria: "popkultura"
-tag: ["anime", "pokemon"]
+tag: ["anime🎐"]
 type: "atrakcja"
 lat: 38.92639916300369
 lng: 141.1380349767603
