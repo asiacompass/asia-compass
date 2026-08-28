@@ -2,6 +2,7 @@
 title: "Jak płacić w Chinach?"
 description: "Przewodnik po Alipay i WeChat Pay - aplikacje do płatności"
 date: 2026-08-18
+country: "chiny"
 image_url: "https://images.pexels.com/photos/4199526/pexels-photo-4199526.jpeg"
 ---
 

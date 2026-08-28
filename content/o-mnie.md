@@ -17,3 +17,7 @@ Tak powstał Asia Compass!
 Znajdziesz tu sprawdzone trasy, wyjątkowe miejscówki, sekrety lokalnej kultury oraz praktyczne wskazówki, które ułatwią Ci zaplanowanie własnej wyprawy. Niezależnie od tego, czy szukasz podróżniczych inspiracji, czy konkretnych porad organizacyjnych – mam nadzieję, że ten przewodnik stanie się również Twoim kompasem!
 
 Rozgość się wygodnie i odkrywaj ze mną najpiękniejsze zakątki Azji ⛩️✨
+
+---
+
+<i> ❣️ Wskazówka: Niektóre odnośniki na tej stronie to linki partnerskie (afiliacyjne).<br> Jeśli dokonasz zakupu lub rezerwacji za ich pośrednictwem, mogę otrzymać niewielką prowizję — bez żadnych dodatkowych kosztów dla Ciebie! Pomaga mi to tworzyć kolejne bezpłatne przewodniki. Dziękuję za wsparcie! ❣️</i>

@@ -2,6 +2,7 @@
 title: "Japonia jak się poruszać?"
 description: "Transport i aplikacje do przewozu w Japonii"
 date: 2026-08-23
+country: "japonia"
 image_url: "https://images.pexels.com/photos/5346851/pexels-photo-5346851.jpeg"
 ---
 

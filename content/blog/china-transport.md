@@ -2,6 +2,7 @@
 title: "Chiny i transport"
 description: "Nawigacja, pociągi i taksówki"
 date: 2026-08-18
+country: "chiny"
 image_url: "https://images.pexels.com/photos/16759167/pexels-photo-16759167.jpeg"
 ---
 

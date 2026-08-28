@@ -2,6 +2,7 @@
 title: "Korea jak się poruszać?"
 description: "Karty kredytowe czy prepaid? Co wybrać?"
 date: 2026-08-20
+country: "korea"
 image_url: "https://images.pexels.com/photos/37394219/pexels-photo-37394219.jpeg"
 ---
 

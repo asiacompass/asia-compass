@@ -1,0 +1,100 @@
+{{ define "main" }}
+<div class="blog-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
+    
+    <header style="margin-bottom: 30px; text-align: center;">
+        <h1 style="font-size: 2.5rem; color: var(--primary-red); margin-bottom: 10px; text-transform: capitalize;">
+            Posty z kraju: {{ .Title }}
+        </h1>
+        <p style="font-size: 1.1rem; color: var(--text-color); opacity: 0.8; max-width: 700px; margin: 0 auto;">
+            Przeglądasz artykuły i przewodniki przefiltrowane dla: <strong>{{ .Title | title }}</strong>
+        </p>
+    </header>
+
+    <!-- KAFELKI FILTROWANIA KRAJÓW -->
+    <!-- KAFELKI FILTROWANIA KRAJÓW -->
+<nav class="country-filter-nav" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; flex-wrap: wrap;">
+    <a href="{{ "blog/" | relURL }}" class="country-filter-btn {{ if not .Data.Term }}active{{ end }}">🌸 Wszystkie</a>
+    <a href="{{ "country/chiny/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "chiny" }}active{{ end }}">🇨🇳 Chiny</a>
+    <a href="{{ "country/japonia/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "japonia" }}active{{ end }}">🇯🇵 Japonia</a>
+    <a href="{{ "country/korea/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "korea" }}active{{ end }}">🇰🇷 Korea</a>
+</nav>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px;">
+        {{ range .Pages }}
+        <article class="blog-post-tile" style="background: var(--tile-bg); border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
+            
+            <div>
+                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                {{ if $img }}
+                <a href="{{ .RelPermalink }}" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
+                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    {{ if .Params.country }}
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        {{ .Params.country }}
+                    </span>
+                    {{ end }}
+                </a>
+                {{ end }}
+
+                <div style="padding: 20px;">
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 {{ .Date.Format "02.01.2006" }}
+                    </div>
+                    
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
+                        <a href="{{ .RelPermalink }}" style="color: var(--primary-red); text-decoration: none;">{{ .Title }}</a>
+                    </h2>
+                    
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
+                        {{ .Params.description | default .Summary }}
+                    </p>
+                </div>
+            </div>
+            
+            <div style="padding: 0 20px 20px 20px;">
+                <a href="{{ .RelPermalink }}" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+            </div>
+            
+        </article>
+        {{ end }}
+    </div>
+
+</div>
+
+<style>
+.country-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 22px;
+    background-color: var(--tile-bg);
+    color: var(--text-color);
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    transition: all 0.2s ease;
+}
+
+.country-filter-btn:hover, .country-filter-btn.active {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-red) !important;
+}
+
+.blog-post-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+}
+
+.blog-post-tile:hover img {
+    transform: scale(1.04);
+}
+
+.blog-read-more:hover {
+    opacity: 0.85;
+}
+</style>
+{{ end }}

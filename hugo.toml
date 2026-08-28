@@ -8,6 +8,7 @@ kraj = "kraj"
 miasto = "miasto"
 kategoria = "kategoria"
 tag = "tag"
+country = "country"
 
 [markup]
   [markup.goldmark]

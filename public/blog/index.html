@@ -9,17 +9,17 @@
       script.src = 'https://emrldtp.cc/NTY0MzA5.js?t=564309';
       document.head.appendChild(script);
   })();
-</script>
+    </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog i Porady | Asia Compass</title>
     <link rel="stylesheet" href="/asia-compass/css/style.css">
     
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+     
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 </head>
 <body>
 
@@ -664,290 +664,361 @@ body {
         
 <div class="blog-container" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     
-    <header style="margin-bottom: 40px; text-align: center;">
+    <header style="margin-bottom: 30px; text-align: center;">
         <h1 style="font-size: 2.5rem; color: var(--primary-red); margin-bottom: 10px;">Blog i Porady</h1>
         
         <p style="font-size: 1.1rem; color: var(--text-color); opacity: 0.8; max-width: 700px; margin: 0 auto;">Odkryj ciekawostki, przewodniki podróżnicze oraz praktyczne wskazówki dotyczące wypraw do Chin, Japonii i Korei.</p>
         
     </header>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); gap: 25px;">
+    
+    <nav class="country-filter-nav" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; flex-wrap: wrap;">
+        <button class="country-filter-btn active" onclick="filterCountry('all', this)">🌸 Wszystkie</button>
+        <button class="country-filter-btn" onclick="filterCountry('chiny', this)">🇨🇳 Chiny</button>
+        <button class="country-filter-btn" onclick="filterCountry('japonia', this)">🇯🇵 Japonia</button>
+        <button class="country-filter-btn" onclick="filterCountry('korea', this)">🇰🇷 Korea</button>
+    </nav>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px;">
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="japonia" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/japan-transport/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/japan-transport/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/5346851/pexels-photo-5346851.jpeg" alt="Japonia jak się poruszać?" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        japonia
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        23.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 23.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/japan-transport/" style="color: var(--primary-red); text-decoration: none;">Japonia jak się poruszać?</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Transport i aplikacje do przewozu w Japonii
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/japan-transport/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/japan-transport/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="japonia" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/japan-net/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/japan-net/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/16094263/pexels-photo-16094263.jpeg" alt="Internet w Japonii" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        japonia
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        22.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 22.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/japan-net/" style="color: var(--primary-red); text-decoration: none;">Internet w Japonii</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         eSim, Pocket Wi-Fi czy fizyczna SIM? Co wybrać i jak zainstalować?
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/japan-net/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/japan-net/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="japonia" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/japan-pay/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/japan-pay/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/29916084/pexels-photo-29916084.jpeg" alt="Japonia i płatności" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        japonia
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        22.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 22.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/japan-pay/" style="color: var(--primary-red); text-decoration: none;">Japonia i płatności</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Dlaczego warto mieć gotówkę? Czy karty są potrzebne?
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/japan-pay/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/japan-pay/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="korea" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/korea-net/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/korea-net/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg" alt="Internet w Korei" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        korea
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        20.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 20.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/korea-net/" style="color: var(--primary-red); text-decoration: none;">Internet w Korei</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Internet w Korei Południowej: eSIM, Karta SIM czy Pocket Wi-Fi?
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/korea-net/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/korea-net/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="korea" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/korea-pay/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/korea-pay/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg" alt="Jak płacić w Korei?" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        korea
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        20.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 20.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/korea-pay/" style="color: var(--primary-red); text-decoration: none;">Jak płacić w Korei?</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Karty kredytowe czy prepaid? Co wybrać?
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/korea-pay/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/korea-pay/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="korea" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/korea-transport/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/korea-transport/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/37394219/pexels-photo-37394219.jpeg" alt="Korea jak się poruszać?" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        korea
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        20.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 20.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/korea-transport/" style="color: var(--primary-red); text-decoration: none;">Korea jak się poruszać?</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Karty kredytowe czy prepaid? Co wybrać?
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/korea-transport/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/korea-transport/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="chiny" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/china-transport/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/china-transport/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/16759167/pexels-photo-16759167.jpeg" alt="Chiny i transport" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        chiny
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        18.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 18.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/china-transport/" style="color: var(--primary-red); text-decoration: none;">Chiny i transport</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Nawigacja, pociągi i taksówki
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/china-transport/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/china-transport/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="chiny" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/china-net/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/china-net/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/270283/pexels-photo-270283.jpeg" alt="Internet w Chinach?" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        chiny
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        18.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 18.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/china-net/" style="color: var(--primary-red); text-decoration: none;">Internet w Chinach?</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Skąd i jaki internet do działania aplikacji
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/china-net/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/china-net/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
         
-        <article class="blog-post-tile" style="background: transparent; border: 2px solid #2ecc71; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.2s ease;">
+        
+        <article class="blog-post-tile" data-country="chiny" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
             
             <div>
                 
                 
-                <a href="/asia-compass/blog/china-pay/" style="display: block; width: 100%; height: 180px; overflow: hidden;">
+                <a href="/asia-compass/blog/china-pay/" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
                     <img src="https://images.pexels.com/photos/4199526/pexels-photo-4199526.jpeg" alt="Jak płacić w Chinach?" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    
+                    
+                    <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
+                        chiny
+                    </span>
+                    
                 </a>
                 
 
                 <div style="padding: 20px;">
-                    <div style="font-size: 0.85rem; color: rgba(0,0,0,0.6); margin-bottom: 8px;">
-                        18.08.2026
+                    <div style="font-size: 0.85rem; color: var(--text-color); opacity: 0.6; margin-bottom: 8px;">
+                        📅 18.08.2026
                     </div>
                     
-                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem;">
+                    <h2 style="margin: 0 0 10px 0; font-size: 1.35rem; line-height: 1.3;">
                         <a href="/asia-compass/blog/china-pay/" style="color: var(--primary-red); text-decoration: none;">Jak płacić w Chinach?</a>
                     </h2>
                     
-                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+                    <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 0; opacity: 0.9;">
                         Przewodnik po Alipay i WeChat Pay - aplikacje do płatności
                     </p>
                 </div>
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="/asia-compass/blog/china-pay/" class="blog-read-more" style="display: inline-block; padding: 8px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; font-size: 0.9rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="/asia-compass/blog/china-pay/" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
@@ -957,14 +1028,62 @@ body {
 </div>
 
 <style>
-.blog-post-tile:hover {
-    background-color: rgba(252, 232, 236, 0.4) !important;
-    transform: translateY(-2px);
+ 
+.country-filter-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 22px;
+    background-color: #fff;
+    color: var(--text-color);
+    border: 2px solid var(--primary-red);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    cursor: pointer;
+    transition: all 0.2s ease;
 }
+
+.country-filter-btn:hover, .country-filter-btn.active {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+ 
+.blog-post-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+}
+
+.blog-post-tile:hover img {
+    transform: scale(1.04);
+}
+
 .blog-read-more:hover {
     opacity: 0.85;
 }
 </style>
+
+<script>
+function filterCountry(country, element) {
+    
+    document.querySelectorAll('.country-filter-btn').forEach(btn => btn.classList.remove('active'));
+    element.classList.add('active');
+
+    
+    const posts = document.querySelectorAll('.blog-post-tile');
+    posts.forEach(post => {
+        const postCountry = post.getAttribute('data-country');
+        if (country === 'all' || postCountry === country) {
+            post.style.display = 'flex';
+        } else {
+            post.style.display = 'none';
+        }
+    });
+}
+</script>
 
     </main>
 
@@ -1008,7 +1127,6 @@ footer a:hover {
 }
 </style>
 
-    <script data-goatcounter="https://asia-compass.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+    <script data-goatcounter="https://asia-compass.goatcounter.com/count"  async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>

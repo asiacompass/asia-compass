@@ -2,6 +2,7 @@
 title: "Japonia i płatności"
 description: "Dlaczego warto mieć gotówkę? Czy karty są potrzebne?"
 date: 2026-08-22
+country: "japonia"
 image_url: "https://images.pexels.com/photos/29916084/pexels-photo-29916084.jpeg"
 ---
 

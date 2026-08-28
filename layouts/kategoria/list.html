@@ -17,7 +17,7 @@
     <div class="category-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
         {{ range .Pages }}
         {{ $krajSlug := .Params.kraj | default "inne" | urlize | lower }}
-        <div class="category-card" data-country="{{ $krajSlug }}" style="background: var(--tile-bg); border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease;">
+        <div class="category-card" data-country="{{ $krajSlug }}" style="background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 4px 10px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: transform 0.2s ease;">
             
             <div>
                 <!-- Zdjęcie -->

@@ -2,6 +2,7 @@
 title: "Internet w Chinach?"
 description: "Skąd i jaki internet do działania aplikacji"
 date: 2026-08-18
+country: "chiny"
 image_url: "https://images.pexels.com/photos/270283/pexels-photo-270283.jpeg"
 ---
 

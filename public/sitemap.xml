@@ -8,6 +8,12 @@
     <loc>http://localhost:1313/asia-compass/blog/</loc>
     <lastmod>2026-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/country/</loc>
+    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/country/japonia/</loc>
+    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/blog/japan-transport/</loc>
     <lastmod>2026-08-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,8 +29,14 @@
     <loc>http://localhost:1313/asia-compass/blog/korea-pay/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/country/korea/</loc>
+    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/blog/korea-transport/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/country/chiny/</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/blog/china-transport/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>

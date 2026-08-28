@@ -2,6 +2,7 @@
 title: "Internet w Japonii"
 description: "eSim, Pocket Wi-Fi czy fizyczna SIM? Co wybrać i jak zainstalować?"
 date: 2026-08-22
+country: "japonia"
 image_url: "https://images.pexels.com/photos/16094263/pexels-photo-16094263.jpeg"
 ---
 

@@ -8,6 +8,35 @@
         </div>
     </header>
 
+<div style="max-width: 800px; margin: 0 auto 15px auto; padding: 0 20px;">
+    <button onclick="history.back()" class="back-link">
+        &larr; Wróć
+    </button>
+</div>
+
+<style>
+.back-link {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.back-link:hover {
+    color: var(--primary-red);
+    opacity: 1;
+    transform: translateX(-3px);
+}
+</style>
+    
     {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
     {{ if $img }}
     <div style="margin: 0 auto 30px auto; max-width: 600px; border-radius: 10px; overflow: hidden;">

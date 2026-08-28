@@ -2,6 +2,7 @@
 title: "Jak płacić w Korei?"
 description: "Karty kredytowe czy prepaid? Co wybrać?"
 date: 2026-08-20
+country: "korea"
 image_url: "https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg"
 ---
 

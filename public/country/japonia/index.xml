@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Japonia on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/country/japonia/</link>
+    <description>Recent content in Japonia on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/asia-compass/country/japonia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japonia jak się poruszać?</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-transport/</link>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-transport/</guid>
+      <description>&lt;p&gt;Poruszanie się po Japonii wymaga dwóch rzeczy: odpowiednich aplikacji w telefonie oraz cyfrowej lub fizycznej karty IC. Poniżej znajdziesz kompletny instruktaż, jak ogarnąć transport miejski i dalekobieżny.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-nawigacja-po-kolejach-i-metrze-google-maps-vs-navitime&#34;&gt;1. Nawigacja po kolejach i metrze (Google Maps vs NAVITIME)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;jak-bezbłędnie-planować-trasy-w-japan-travel-by-navitime&#34;&gt;Jak bezbłędnie planować trasy w Japan Travel by NAVITIME&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://japantravel.navitime.com/en/&#34; target=&#34;_blank&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; Pobierz aplikację &lt;/a&gt; Japan Travel by NAVITIME (najlepsza alternatywa dla Google Maps, stworzona specjalnie dla turystów).&lt;/li&gt;&#xA;&lt;li&gt;Wybierz opcję Route Search.&lt;/li&gt;&#xA;&lt;li&gt;W filtrowaniu trasy (Option Settings) zaznacz, czy posiadasz bilet JR Pass lub bilet metra Tokyo Subway Ticket – aplikacja wyznaczy trasę darmową w ramach Twojego karnetu.&lt;/li&gt;&#xA;&lt;li&gt;Zwracaj uwagę na oznaczenia:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Car Position for Transfer:&lt;/strong&gt; Pokazuje, do którego wagonu wsiąść, aby przesiąść się najszybciej.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Platform Number:&lt;/strong&gt; Numer peronu, z którego odjeżdża pociąg (kluczowe na dużych dworcach).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-aplikacje-do-zamawiania-taksówek-go-oraz-uber&#34;&gt;2. Aplikacje do zamawiania taksówek (GO oraz Uber)&lt;/h2&gt;&#xA;&lt;p&gt;Zwykły Uber w Japonii po prostu zamawia lokalną taksówkę i bywa drogi. Najlepszą i najbardziej popularną aplikacją używaną przez Japończyków jest GO (Taxi App).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Internet w Japonii</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-net/</link>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-net/</guid>
+      <description>&lt;p&gt;Japonia słynie z nowinek technologicznych, ale rzeczywistość na miejscu potrafi mocno rozczarować: publiczne sieci Wi-Fi są rzadkie, wymagają uciążliwej rejestracji i często po prostu nie działają. Brak stałego dostępu do sieci oznacza paraliż – od sprawdzania rozkładów jazdy pociągów w Google Maps/Navitime, po korzystanie z translatora przy zamawianiu jedzenia. Ten artykuł rozwiązuje ten kluczowy problem, dając czytelnikowi jasny wybór między eSIM, Pocket Wi-Fi a lokalną kartą SIM, co wygeneruje wysoki ruch z wyszukiwarek przed wyjazdem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Japonia i płatności</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-pay/</link>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-pay/</guid>
+      <description>&lt;p&gt;Mimo że Japonia kojarzy się z nowoczesnością i zaawansowaną technologią, tutejszy system płatności opiera się na unikalnym połączeniu tradycyjnej gotówki, kart prepaid oraz zbliżeniowych kart bankowych.&lt;/p&gt;&#xA;&lt;p&gt;Poniżej znajdziesz poradnik krok po kroku: jak płacić w Japonii, kiedy potrzebna jest gotówka oraz jak wygodnie korzystać z japońskich kart transportowych &lt;strong&gt;IC&lt;/strong&gt; (Suica, Pasmo, ICOCA).&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-gotówka--czy-nadal-jest-potrzebna&#34;&gt;1. Gotówka – Czy nadal jest potrzebna?&lt;/h2&gt;&#xA;&lt;p&gt;Japonia stopniowo odchodzi od gotówki, jednak japoński jen (&lt;strong&gt;JPY&lt;/strong&gt;) w formie papierowej i bilonu nadal odgrywa kluczową rolę podczas podróży.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

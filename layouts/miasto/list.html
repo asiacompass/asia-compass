@@ -21,37 +21,51 @@
     </div>
     {{ end }}
 
-    {{ $currentCitySlug := .Title | urlize | lower }}
-
     {{/* 3. Dynamiczne kafelki Kategorii poniżej opisu miasta */}}
-    {{ $kategorieFound := slice }}
-    {{ $atrakcjaPageObj := site.GetPage "/atrakcja" }}
-    {{ if $atrakcjaPageObj }}
-        {{ range $atrakcjaPageObj.Pages }}
-            {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
-            {{ if eq $atrakcjaMiasto $currentCitySlug }}
-                {{ if .Params.kategoria }}
-                    {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
-                {{ end }}
+{{ $currentCitySlug := .Title | urlize | lower }}
+{{ $currentCountrySlug := .Params.kraj | default "" | urlize | lower }}
+{{ $kategorieFound := slice }}
+
+{{ $atrakcjaPageObj := site.GetPage "/atrakcja" }}
+{{ if $atrakcjaPageObj }}
+    {{ range $atrakcjaPageObj.Pages }}
+        {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
+        {{ if eq $atrakcjaMiasto $currentCitySlug }}
+            {{ if .Params.kategoria }}
+                {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
             {{ end }}
         {{ end }}
     {{ end }}
-    {{ $kategorieFound = $kategorieFound | uniq | sort }}
+{{ end }}
+{{ $kategorieFound = $kategorieFound | uniq | sort }}
 
-    {{ if gt (len $kategorieFound) 0 }}
-    <div style="margin-bottom: 40px;">
-        <h2 style="margin-bottom: 15px; color: var(--primary-red); font-size: 1.4rem;">Co cię najbardziej ciekawi?</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px;">
-            {{ range $kategorieFound }}
-                {{ $katName := . }}
-                {{ $katSlug := $katName | urlize | lower }}
-                <a href="/kategoria/{{ $katSlug }}/?kraj={{ $.Params.kraj | urlize | lower }}" class="city-kat-tile" style="display: block; padding: 15px; background: var(--tile-bg); color: var(--text-color); text-decoration: none; border-radius: 8px; text-align: center; font-weight: bold; border: 1px solid rgba(0,0,0,0.08); transition: all 0.3s ease;">
-                    {{ $katName }}
-                </a>
-            {{ end }} 
-        </div>
+{{ if gt (len $kategorieFound) 0 }}
+<div style="margin-bottom: 40px;">
+    <h2 style="margin-bottom: 15px; color: var(--primary-red); font-size: 1.4rem;">Co cię najbardziej ciekawi?</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px;">
+        {{ range $kategorieFound }}
+            {{ $katName := . }}
+            {{ $katSlug := $katName | urlize }}
+            
+            {{/* Pobranie obiektu taksonomii z Hugo */}}
+            {{ $katPage := site.GetPage (printf "/kategoria/%s" $katSlug) }}
+            {{ if not $katPage }}
+                {{ $katPage = site.GetPage (printf "/kategorie/%s" $katSlug) }}
+            {{ end }}
+
+            {{/* Generowanie bazowego linku z pobranego obiektu */}}
+            {{ $baseUrl := cond $katPage $katPage.RelPermalink (printf "/kategoria/%s/" $katSlug | relLangURL) }}
+            
+            {{/* Dopisanie parametru kraju do query stringa */}}
+            {{ $targetUrl := printf "%s?kraj=%s" $baseUrl $currentCountrySlug }}
+
+            <a href="{{ $targetUrl }}" class="city-kat-tile" style="display: block; padding: 15px; background: var(--tile-bg); color: var(--text-color); text-decoration: none; border-radius: 8px; text-align: center; font-weight: bold; border: 1px solid rgba(0,0,0,0.08); transition: all 0.3s ease;">
+                {{ $katName }}
+            </a>
+        {{ end }} 
     </div>
-    {{ end }}
+</div>
+{{ end }}
 
     {{/* MAPA ATRAKCJI W MIEŚCIE */}}
     <div style="margin-bottom: 40px;">
