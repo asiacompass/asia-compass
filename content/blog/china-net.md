@@ -42,6 +42,7 @@ Instalację karty eSIM warto wykonać **jeszcze w Polsce** (lub przed wylotem), 
 3. **Nomad** / **Maya Mobile** – świetne alternatywy z elastycznymi pakietami danych <br>
 <a href="https://www.nomadesim.com/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> (zobacz ofertę na stronie dostawcy Nomad) </a><br>
 <a href="https://maya.net/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> (zobacz ofertę na stronie dostawcy Maya Mobile) </a>
+4. **KKDAY** - wybierz interesującą Cię ofertę z dostępnych na stronie  (często w promocji) <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz dostępną listę </a>
 
 ### Instrukcja krok po kroku:
 1. **Sprawdź kompatybilność:** Upewnij się, że Twój telefon obsługuje technologię eSIM oraz nie ma blokady SIM-Lock.

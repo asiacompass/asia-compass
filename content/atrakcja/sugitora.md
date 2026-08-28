@@ -77,7 +77,7 @@ rozwijalne_listy:
     tresc: |
       <ul>
         <li><b>Płatności:</b> <p>
-         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         SUICA <a href="https://kkday.tpk.mx/nCHewYjp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
          PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
         ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
         </li>
@@ -96,6 +96,7 @@ rozwijalne_listy:
 
         <li><b>Rezerwacja atrakcji i miejsc:</b><p>
          KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        KKDAY <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz stronę</a><br>
           GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
          BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
         </li>

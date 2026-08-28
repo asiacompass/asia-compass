@@ -31,7 +31,7 @@ Bezdotykowe karty prepaidowe (tzw. **IC Cards**) zostały stworzone z myślą o 
 ### Jak z niej korzystać?
 * **Użytkownicy iPhone (Apple Wallet):** Możesz bezpłatnie dodać cyfrową kartę **Suica** lub **Pasmo** bezpośrednio w aplikacji Portfel w telefonie i doładowywać ją polską kartą Mastercard/Amex bez podchodzenia do automatów.  
 
-* **Użytkownicy Androida / Karty Fizyczne:** Ze względu na niedobory mikrochipów, turyści mogą kupić specjalną fizyczną kartę dla obcokrajowców – **Welcome Suica** <a href="https://www.jreast.co.jp/en/multi/welcomesuica/welcomesuica.html" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;">
+* **Użytkownicy Androida / Karty Fizyczne:** Ze względu na niedobory mikrochipów, turyści mogą kupić specjalną fizyczną kartę dla obcokrajowców – **Welcome Suica** <a href="https://kkday.tpk.mx/nCHewYjp" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;">
  zobacz kartę </a> lub **Pasmo Passport** <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz kartę </a>  (ważne przez 28 dni, bez depozytu).
 
 ---

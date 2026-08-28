@@ -14,7 +14,7 @@ Idealne rozwiązanie, jeśli Twój telefon obsługuje wirtualne karty SIM. Nie m
 
 ### Instrukcja instalacji eSIM przed wylotem
 
-* Kup pakiet danych dla Korei Południowej (np. w Airalo <a href="https://airalo.tpk.mx/KfiWGDjb" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;">zobacz operatora </a> – sieć LG U+ lub SK Telecom).
+* Wybierz interesującą Cię ofertę z dostępnych na stronie **KKDAY** (często w promocji) <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz dostępną listę </a><br> lub kup pakiet danych dla Korei Południowej (np. w Airalo <a href="https://airalo.tpk.mx/KfiWGDjb" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;">zobacz operatora </a> – sieć LG U+ lub SK Telecom).
 * Otwórz aplikację dostawcy lub kod QR przesłany w wiadomości e-mail.
 * W telefonie przejdź do: Ustawienia -> Sieć komórkowa -> Dodaj kartę eSIM i zeskanuj kod QR.
 * Nazwij nowy profil np. „Korea eSIM”.

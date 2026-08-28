@@ -15,7 +15,7 @@ eSIM to cyfrowa karta SIM, którą instalujesz na telefonie jeszcze przed wylote
 ### Jak zamontować i uruchomić eSIM w Japonii:
 
 * Upewnij się, że Twój telefon nie ma blokady SIM-lock i wspiera technologię eSIM.
-* Kup pakiet danych (np. w AIRALO <a href="https://airalo.tpk.mx/KfiWGDjb" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz operatora </a> lub NOMAD <a href="https://www.nomadesim.com/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz operatora </a>) wybierając sieć SoftBank lub NTT Docomo.
+* Wybierz interesującą Cię ofertę z dostępnych na stronie **KKDAY** (często w promocji) <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz dostępną listę </a> lub kup pakiet danych bezpośrednio u operatora (np. w **AIRALO** <a href="https://airalo.tpk.mx/KfiWGDjb" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz operatora </a> lub **NOMAD** <a href="https://www.nomadesim.com/" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz operatora </a>) wybierając sieć SoftBank lub NTT Docomo.
 * Otwórz kod QR z wiadomości e-mail lub przejdź do aplikacji dostawcy.
 * W telefonie przejdź do: Settings -> Cellular/Mobile Data -> Add eSIM (Ustawienia -> Sieć komórkowa -> Dodaj kartę eSIM) i zeskanuj kod QR.
 * Nazwij nową kartę np. "Japonia".

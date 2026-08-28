@@ -14,7 +14,7 @@ info_pl_desc: |
     <li><b>WALUTA </b>Oficjalną walutą Japonii jest jen japoński (JPY). Nie wymieniaj PLN na JPY w Polsce: Polskie kantory narzucają ogromny spread. Wymiana złotówek na miejscu w Japonii również jest nieopłacalna. Załóż konto wielowalutowe przed wylotem: Skonfiguruj Revolut lub Wise. Zamień PLN na JPY bezpośrednio w aplikacji w dni robocze (aby uniknąć weekendowej prowizji bankowej). 
     </li><br>
 
-    <li><b> Karta IC (<a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> SUICA</a> / <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> PASMO </a> / <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ICOCA</a>) </b> Niezbędnik w komunikacji i sklepach <br>
+    <li><b> Karta IC (<a href="https://kkday.tpk.mx/nCHewYjp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> SUICA</a> / <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> PASMO </a> / <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ICOCA</a>) </b> Niezbędnik w komunikacji i sklepach <br>
     Karty IC to przedpłacone zbliżeniowe karty miejskie. Zapłacisz nimi nie tylko za metro, autobusy czy pociągi lokalne, ale również za zakupy w 7-Eleven, FamilyMart, Lawson, automatach z napojami czy w przechowalniach bagażu (lockers).
     </li><br>
 
@@ -46,7 +46,10 @@ info_net_desc: |
 
     <li><b> Fizyczna SIM </b> (Dla telefonów bez eSIM) <br>
     Jeśli Twój telefon nie obsługuje eSIM, możesz zamienić lub dodać fizyczną kartę SIM z samym pakietem danych.
-    </li>
+    </li><p>
+
+      <i>Wybierz interesującą Cię ofertę z dostępnych na stronie <b>KKDAY</b> (często w promocji)</i> <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz dostępną listę </a>
+    
 
     <h3><a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Zobacz więcej jak pobrać i zainstalować aplikacje</a></h3>
   </ul>
@@ -65,7 +68,7 @@ info_trans_desc: |
      Zwykły Uber w Japonii po prostu zamawia lokalną taksówkę i bywa drogi. Najlepszą i najbardziej popularną aplikacją używaną przez Japończyków jest GO (Taxi App)
     </li><p>
 
-    <li><strong>Karty IC (<a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> SUICA</a> / <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> PASMO </a> / <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ICOCA</a>) i <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> SHINKANSEN</a></strong><br>
+    <li><strong>Karty IC (<a href="https://kkday.tpk.mx/nCHewYjp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> SUICA</a> / <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> PASMO </a> / <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ICOCA</a>) i <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> SHINKANSEN</a></strong><br>
      Do poruszania się po miastach nie kupuj biletów papierowych w automatach przy każdym przejeździe – to strata czasu.<br>
      <b> - Pociągi lokalne i metro:</b> Przyłóż telefon z wirtualną kartą Suica/PASMO (Apple Wallet) lub fizyczną kartę Welcome Suica do bramki na wejściu i wyjściu ze stacji. <br>
      <b>- Pociągi szybkiej kolei (Shinkansen):</b> Wyymagają osobnej rezerwacji miejsca i biletu. Zamiast stać w kolejce do kas dworcowych, rezerwuj bilety cyfrowo z kodem QR.
