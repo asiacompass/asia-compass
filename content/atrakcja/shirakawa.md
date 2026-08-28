@@ -20,11 +20,11 @@ rozwijalne_listy:
       <ul>
         <li><b>Rezerwacja:</b><p>
          Brak konieczności rezerwacji, spacer po osadzie Ogimachi jest bezpłatny i ogólnodostępny.
-        </li>
+        </li><p>
 
         <li><b>Wizytacja domów-muzeów & Noclegi:</b><p>
          Wejścia do zabytkowych domów (np. Wada House, Kanda House) nie wymagają wcześniejszej rezerwacji – bilet kupuje się przy wejściu. Jeśli planujesz nocleg w tradycyjnym domu minshuku lub chcesz odwiedzić wioskę w trakcie zimowych iluminacji (Light-up Event), rezerwacja z wielomiesięcznym wyprzedzeniem jest bezwzględnie wymagana (system losowania biletów/miejsc otwiera się jesienią).
-        </li>
+        </li><p>
 
         <li><b>Gdzie zarezerwować:</b><p>
          Zorganizowane jednodniowe wycieczki autobusowe z Kanazawy, Takayamy lub Nagoi zarezerwujesz najtaniej i bezstresowo przez Klook lub Trip.com.
@@ -37,7 +37,7 @@ rozwijalne_listy:
       <ul>
        <li><b>Ceny:</b><p>
          Wstęp na teren wioski jest darmowy. Wejście do pojedynczych domów-muzeów (np. Wada House): ok. 400–500 JPY za obiekt.
-       </li>
+       </li><p>
         
        <li><b>Godziny:</b><p>
          Domy-muzea oraz lokalne sklepy z pamiątkami otwarte są zazwyczaj w godzinach 09:00 – 17:00.
@@ -45,23 +45,23 @@ rozwijalne_listy:
 
        <li><b>Najlepsza pora na wizytę:</b><p>
          Wczesny poranek (przed 09:30), zanim dojadą autokary wycieczkowe z Kanazawy i Takayamy, lub późne popołudnie.
-       </li><p>
+       </li>
       </ul>
 
   - tytul: "Dojazd"
     tresc: |
 
-     Shirakawa-go znajduje się w prefekturze Gifu, a najwygodniejszymi punktami wypadowymi są miasta Takayama oraz Kanazawa.
+     <p> Shirakawa-go znajduje się w prefekturze Gifu, a najwygodniejszymi punktami wypadowymi są miasta Takayama oraz Kanazawa.
 
        <ul>
        <li><b>Z Tokio do Kanazawy / Takayamy:</b><br>
          Najszybciej Shinkansenem do Kanazawy lub pociągiem ekspresowym do Takayamy. Kup bilet online, aby uniknąć kolejek na stacji: Kup bilet na Shinkansen na Trip.com lub na Klook.
-       </li>
+       </li><p>
 
        <li><b>Z Takayamy lub Kanazawy do Shirakawa-go:</b><br>
          Dojeżdżają tu bezpośrednie autobusy ekspresowe (Nohi Bus / Hokutetsu Bus). Z Takayamy podróż trwa ok. 50 minut, a z Kanazawy ok. 1 godz. 15 minut. <br>
          Ważne: Na większość kursów autobusowych obowiązuje wcześniejsza rezerwacja miejsc! Rezerwacji dokonasz online lub na stacjach autobusowych.
-       </li>
+       </li><p>
 
        <li><b>Gdzie kupić bilety:</b><br>
          Rezerwacje na przejazdy autobusowe i kolejowe w regionie zrealizujesz wygodnie przy użyciu karnetów regionalnych JR lub rezerwacji na platformie Klook.
@@ -84,6 +84,34 @@ rozwijalne_listy:
         Najpiękniejszą panoramę całej wioski z góry zrobisz z punktu widokowego Shiroyama Viewpoint. Dostaniesz się tam pieszo (ok. 15–20 minut pod górę) lub dedykowanym busem wahadłowym spod wioski (ok. 200 JPY).
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/38086226/pexels-photo-38086226.jpeg"

@@ -5,8 +5,8 @@ miasto: "nagaokakyo"
 kategoria: "historia"
 tag: ["natura🍀", "temple⛩️"]
 type: "atrakcja"
-lat: 
-lng: 
+lat: 34.91443060989543
+lng: 135.65276160611708
 image_url: "https://www.kyototourism.org/wp/wp-content/uploads/2021/01/e8699e08352cd50ab4e3361cedd9e02d-scaled.jpg"
 cena: "Darmowe"
 rezerwacja: "Nie"
@@ -32,11 +32,11 @@ rozwijalne_listy:
          - standardowy bilet wstępu wynosi zazwyczaj ok. 500 JPY; <br>
          - w sezonie kwitnienia hortensji lub jesiennych liści cena wynosi ok. 800–1000 JPY) <br>
          - Wstęp do specjalnego pawilonu Kamishoin bywa dodatkowo płatny (ok. 500 JPY).
-       </li>
+       </li><p>
         
        <li><b>Godziny:</b><p>
          09:00 – 16:30 (ostatnie wejście o 16:00)
-       </li>
+       </li><p>
 
        <li> Rezerwuj czas na wizytę z samego rana (około 09:00), by cieszyć się świeżo ułożonymi kwiatami w poidełkach Hanachozu i uniknąć tłumów fotografów.
        </li>
@@ -50,16 +50,16 @@ rozwijalne_listy:
       <ul>
        <li><b>Z Tokio do Kioto:</b><br>
          Najszybciej pociągiem Shinkansen. Kup bilet online, aby uniknąć kolejek na stacji: Kup bilet na Shinkansen na Trip.com lub przez aplikację Klook.
-       </li>
+       </li><p>
 
        <li><b>Z centrum Kioto do stacji Nagaokakyo / Nagaoka-Tenjin:</b><br>
          Wsiądź w pociąg linii JR Kyoto Line do stacji Nagaokakyo Station (ok. 15 minut) LUB linię prywatną Hankyu Kyoto Line do stacji Nagaoka-Tenjin Station.
-       </li>
+       </li><p>
 
        <li><b>Ze stacji do Świątyni::</b>
          - Autobus/Taksówka: Ze stacji JR Nagaokakyo lub Hankyu Nagaoka-Tenjin najwygodniej dojechać taksówką (ok. 15 minut, koszt ok. 1500–2000 JPY). <br>
          - Dedykowany Bus: W wybrane dni świąteczne i podczas festiwalu hortensji z przystanku przy stacji Hankyu Nagaoka-Tenjin kursuje bezpośredni bus wahadłowy.
-       </li>
+       </li><p>
 
        <li>
          Do płatności za pociągi i autobusy lokalne używaj karty IC (np. Suica, Pasmo lub Icoca).
@@ -85,6 +85,34 @@ rozwijalne_listy:
          Pamiętaj o zabraniu gotówki (japońskich jenów) na opłatę za bilet wstępu, zakupy amuletów chroniących wzrok (omamori) oraz drobne pamiątki.
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://static.wixstatic.com/media/dd6742_ec00cb4fedcb41d4bcb77d64fd347194~mv2.jpg/v1/fill/w_745,h_559,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/dd6742_ec00cb4fedcb41d4bcb77d64fd347194~mv2.jpg"

@@ -5,8 +5,8 @@ miasto: "tondabayashi"
 kategoria: "historia"
 tag:
 type: "atrakcja"
-lat: 34.5028
-lng: 126.9770
+lat: 34.50232343139748
+lng: 135.5858980383617
 image_url: "https://offbeatjapan.com/wp-content/uploads/2021/11/great-peace-tower-monument-to-war-victims.jpg"
 cena: "darmowe"
 rezerwacja: "Nie"
@@ -38,13 +38,43 @@ rozwijalne_listy:
       <li><b>Miejsce kultu i pamięci:</b><br>
       Pamiętaj, że teren wokół wieży jest miejscem modlitwy i wyciszenia. Zachowaj odpowiedni szacunek.
       </li><br>
+
       <li><b>Fotografowanie:</b><br>
       Najlepsze widoki i najbardziej spektakularne zdjęcia zrobisz z pewnej odległości (np. z kładki przy stacji kolejowej lub okolicznych pól i parków), skąd wieża wyraźnie góruje nad niską zabudową miasta.
       </li><br>
+
       <li><b>Lokalny hak:</b><br>
       Połącz wizytę z wizytą w historycznej dzielnicy Tondabayashi Jinaimachi, gdzie zachowała się urokliwa, tradycyjna zabudowa z okresu Edo.
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://img.atlasobscura.com/k51xTIMNoj3gSaSOuCKCxvlTQ-OXyq3pSHai6eYRKmo/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9wbHBl/YWNldG93ZXIuanBn.webp"
@@ -73,4 +103,4 @@ Wyrastająca ponad spokojne przedmieścia Tondabayashi w prefekturze Osaka, Wie�
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> 
+<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a>

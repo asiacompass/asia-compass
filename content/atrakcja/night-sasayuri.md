@@ -57,16 +57,15 @@ rozwijalne_listy:
        <li><b>Z Osaki lub Kioto do stacji Nabari (najbliższa stacja):</b><br>
          - Z Osaka-Namba Station: Wsiądź w pociąg ekspresowy linii Kintetsu Limited Express do stacji Nabari Station (czas przejazdu: ok. 55 minut). <br>
          - Z Kyoto Station: Wsiądź w pociąg linii Kintetsu Line (z przesiadką na stacji Yamato-Yagi) do stacji Nabari Station (czas przejazdu: ok. 1 godz. 15 minut)..
-       </li>
+       </li><p>
 
        <li><b>Ze stacji Nabari do Sasayuri-ann:</b><br>
          Ze stacji Nabari najwygodniej dojechać taksówką (ok. 20–25 minut). Obiekt oferuje również prywatny transfer dla swoich gości po wcześniejszym uzgodnieniu.
-       </li>
+       </li><p>
 
        <li><b>Gdzie kupić bilety na pociąg:</b><br>
          Bilety na ekspresowe pociągi Kintetsu oraz regionalne karnety zarezerwujesz online przez Trip.com lub Klook. Do przejazdów po regionie używaj karty IC (Suica, Pasmo, Icoca).
        </li>
-
       </ul>
 
   - tytul: "Przydatne wskazówki"
@@ -87,6 +86,35 @@ rozwijalne_listy:
       <li><b>Gotówka:</b><br>
          Płatności za sam pobyt regulowane są z góry online, jednak warto mieć przy sobie japońskie jeny w gotówce na opłacenie ewentualnych drobnych zakupów lokalnego rzemiosła w okolicy.
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
+
 
 galeria_zdjec:
   - url: "https://i.pinimg.com/1200x/82/2a/ec/822aec9a519682bac69398a0a4d90706.jpg"

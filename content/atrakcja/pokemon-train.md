@@ -20,16 +20,17 @@ rozwijalne_listy:
       <ul>
         <li><b>Rezerwacja:</b><p>
          Przejazd pociągiem wymaga bezwzględnej wcześniejszej rezerwacji miejsc siedzących (brak miejsc stojących / nieuregulowanych). Miejsca wyprzedają się bardzo szybko.
-        </li>
+        </li><p>
 
         <li><b>Gdzie rezerwować:</b><p>
          - Rezerwacji można dokonać online przez oficjalny system JR-East Train Reservation (Ekinet) lub w kasach biletowych JR (Midori-no-Madoguchi) na terenie całej Japonii. <br>
          - Bilety na sam przejazd trasą są także dostępne w aplikacjach takich jak Klook w ramach kart regionalnych (np. JR EAST PASS Tohoku Area).
-        </li>
+        </li><p>
 
         <li><b>Z jakim wyprzedzeniem:</b><p>
          Sprzedaż rusza na 1 miesiąc przed datą odjazdu (od godziny 10:00 czasu japońskiego).
         </li>
+      </ul>
 
   - tytul: "Wejście i ceny"
     tresc: |
@@ -37,11 +38,11 @@ rozwijalne_listy:
       <ul>
        <li><b>Ceny:</b><p>
          Koszt to standardowy bilet na przejazd trasą + dopłata za rezerwację miejsca (około 530–840 JPY za rezerwację)
-       </li>
+       </li><p>
         
        <li><b>Godziny:</b><p>
          Pociąg kursuje głównie w weekendy, święta oraz japońskie wakacje szkolne (zazwyczaj jeden kurs dziennie tam i powrót). Najlepsza pora to poranny kurs z Ichinoseki.
-       </li>
+       </li><p>
 
        <li> Z JR Pass / JR East Pass: Przejazd oraz rezerwacja miejsca są bezpłatne w ramach ważnego karnetu JR East Pass (Tohoku Area), ale wymagają wcześniejszego odebrania miejscówki w kasie lub biletomacie.
        </li>
@@ -55,7 +56,8 @@ rozwijalne_listy:
       <ul>
        <li><b>Z Tokio do Ichinoseki:</b><br>
          Najszybciej pociągiem Shinkansen (linia Tohoku Shinkansen, pociągi Hayabusa lub Yamabiko, czas trwania: ok. 2h 15 min). Najtaniej i bez kolejki bilet na Shinkansen lub regionalny pas zarezerwujesz przez aplikację Klook lub Trip.com.
-       </li>
+       </li><p>
+
        <li><b>Trasa pociągu:</b><br>
          Ichinoseki ➔ Rikuchu-Matsukawa ➔ Geibikei ➔ Surisawa ➔ Semmaya ➔ Orikabe ➔ Kesennuma.
        </li>
@@ -74,12 +76,40 @@ rozwijalne_listy:
 
       <li><b>Gotówka na pamiątki:</b><br>
          Warto mieć ze sobą gotówkę (japońskie jeny) na zakup Bento oraz unikalnych gadżetów na stacjach po drodze.
-      </li>
+      </li><p>
 
       <li><b>Geibikei:</b><br>
          Pociąg zatrzymuje się przy stacji Geibikei – to świetne miejsce na wysiadkę i spływ tradycyjnymi łodziami po malowniczym wąwozie!
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://i.pinimg.com/736x/d9/8a/23/d98a23b2d32daf7a97710590648d4283.jpg"

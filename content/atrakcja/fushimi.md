@@ -27,15 +27,15 @@ rozwijalne_listy:
     tresc: |
       
       <ul>
-       <li><b>Ceny:</b><p>
+       <li><b>Ceny:</b><br>
          Darmowe.
-       </li>
+       </li><p>
         
-       <li><b>Godziny:</b><p>
+       <li><b>Godziny:</b><br>
          Kompleks otwarty jest 24 godziny na dobę, 7 dni w tygodniu.
        </li><p>
 
-       <li><b> Najlepsza pora na wizytę:</b><p>
+       <li><b> Najlepsza pora na wizytę:</b><br>
          Aby uniknąć ogromnych tłumów, przyjdź bardzo wcześnie rano (przed 7:30) lub późnym wieczorem (po 20:00). Wizyta nocą gwarantuje niesamowity, lekko mroczny i mistyczny klimat dzięki delikatnemu oświetleniu latarni duž bram.
        </li>
       </ul>
@@ -48,11 +48,11 @@ rozwijalne_listy:
       <ul>
        <li><b>Z głównej stacji JR Kyoto Station:</b><br>
          Najwygodniej i najszybciej dojedziesz pociągiem linii JR Nara Line do stacji JR Inari Station (przejazd trwa zaledwie 5 minut). Wyjście ze stacji znajduje się bezpośrednio naprzeciwko głównej bramy świątyni.
-       </li>
+       </li><p>
 
        <li><b>Z centrum Kioto (np. Gion, Sanjo):</b><br>
          Możesz skorzystać z prywatnej linii Keihan Main Line i wysiąść na stacji Fushimi-Inari Station (ok. 10 minut pieszo do bramy).
-       </li>
+       </li><p>
 
        <li><b>Bilety i transport:</b><br>
          Na przejazdy regionalne najwygodniej używać karty IC (np. Suica/Pasmo/Icoca). Jeśli planujesz dłuższą trasę lub przejazdy Shinkansenem z Tokio do Kioto, bilety zarezerwujesz szybko w aplikacji Trip.com lub Klook.
@@ -73,12 +73,40 @@ rozwijalne_listy:
 
       <li><b>Zasady zachowania:</b><br>
          To ciągle czynne miejsce kultu religious. Pamiętaj o cichym zachowaniu przy głównym pawilonie, przemyciu rąk w tradycyjnym poidełku (Temizuya) przed wejściem i nieukrywanie się pośród ołtarzyków.
-      </li>
+      </li><br>
 
        <li><b>Gotówka na pamiątki i przekąski:</b><br>
          Warto mieć ze sobą japońskie jeny w gotówce na zakup amuletów (omamori), drewnianych tabliczek ema czy przekąsek w urokliwych straganach przy podejściu (spróbuj koniecznie Inarizushi – ryżu zawiniętego w słodkie smażone tofu).
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/3995905/pexels-photo-3995905.jpeg"

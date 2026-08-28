@@ -18,15 +18,15 @@ rozwijalne_listy:
   - tytul: "Rezerwacja"
     tresc: |
       <ul>
-        <li><b>Rezerwacja:</b><p>
+        <li><b>Rezerwacja:</b><br>
          Ze względu na ogromne zainteresowanie (szczególnie w weekendy i w sezonie turystycznym) wizyta niemal zawsze wymaga wcześniejszego zarezerwowania stolika przez oficjalny system rezerwacyjny.
-        </li>
+        </li><p>
 
-        <li><b>Z jakim wyprzedzeniem:</b><p>
+        <li><b>Z jakim wyprzedzeniem:</b><br>
          Okienka rezerwacyjne otwierają się zazwyczaj z 1-miesięcznym wyprzedzeniem.
-        </li>
+        </li><p>
 
-        <li><b>Gdzie zarezerwować:</b><p>
+        <li><b>Gdzie zarezerwować:</b><br>
          Rezerwacji dokonasz bezpośrednio na oficjalnej stronie kawiarni. Dodatkowo bilety wstępu do innych atrakcji Sanrio (np. parku rozrywki Sanrio Puroland w Tokio) kupisz bez kolejki przez Klook lub Trip.com.
         </li>
       </ul>
@@ -35,12 +35,12 @@ rozwijalne_listy:
     tresc: |
       
       <ul>
-       <li><b>Ceny:</b><p>
+       <li><b>Ceny:</b><br>
          Płatne za zamówione dania. Dania główne kosztują zazwyczaj ok. 1400–2000 JPY, napoje tematyczne ok. 800–1200 JPY, a desery ok. 1200–1800 JPY. <br>
          Zasada 1 Order: Zazwyczaj każdy gość (powyżej określonego wieku) zobowiązany jest do zamówienia co najmniej jednego dania lub napoju z menu.
-       </li>
+       </li><p>
         
-       <li><b>Godziny:</b><p>
+       <li><b>Godziny:</b><br>
          - Tokio (Shinjuku): 11:00 – 21:30 (ostatnie zamówienie dań ok. 20:30) <br>
          - Osaka: 11:00 – 21:00
        </li><p>
@@ -52,11 +52,11 @@ rozwijalne_listy:
       <ul>
        <li><b>Do lokalizacji w Tokio (Shinjuku):</b><br>
          Wsiądź w metro lub pociąg JR do stacji Shinjuku Station lub Shinjuku-3chome Station. Kawiarnia znajduje się w odległości krótkiego spaceru (ok. 3–5 minut) od wyjścia ze stacji, w kompleksie handlowym Shinjuku Marui Annex.
-       </li>
+       </li><p>
 
        <li><b>Do lokalizacji w Osace (Shinsaibashi / Namba):</b><br>
          Wsiądź w metro linii Midosuji Line do stacji Shinsaibashi Station lub Namba Station i przejdź spacerem słynnym pasażem handlowym.
-       </li>
+       </li><p>
 
        <li><b>Przejazdy międzymiastowe (Tokio ↔ Osaka):</b><br>
         Najszybciej przemieścisz się pociągiem Shinkansen. Kup bilet online, aby uniknąć kolejek na stacji: Kup bilet na Shinkansen na Trip.com lub na Klook. Do przejazdów po miastach używaj karty IC (Suica/Pasmo/Icoca).
@@ -79,6 +79,34 @@ rozwijalne_listy:
          W kawiarniach akceptowane są karty płatnicze oraz płatności zbliżeniowe kartami IC, jednak do zakupów w mniejszych automatach z pamiątkami warto posiadać japońskie jeny w gotówce.
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://i.pinimg.com/1200x/16/3d/c4/163dc442d6fad11fddf3a0fae5b14df8.jpg"

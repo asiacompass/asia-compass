@@ -21,7 +21,7 @@ rozwijalne_listy:
         <li><b>Rezerwacja:</b><p>
          - Punkt Nakasujicho: Obowiązuje system kolejkowy na miejscu. Warto zjawić się przed otwarciem (lokal rusza o 10:00), aby zapisać się na listę oczekujących. <br>
          - Punkt Kyoto Tower Sando: Punkt typowo na wynos – brak konieczności rezerwacji, zamówienia realizowane są na bieżąco na miejscu.
-        </li>
+        </li><p>
 
         <li><b>Wskazówka:</b><p>
          Warto pojawić się na miejscu chwilę przed otwarciem lokalu (lub wczesnym popołudniem), aby wpisać się na listę oczekujących lub uniknąć długiego stania w wąskiej uliczce.
@@ -33,12 +33,12 @@ rozwijalne_listy:
       <ul>
        <li><b>Ceny:</b><p>
          Wstęp jest bezpłatny, płaci się za zamówione desery (cena pucharów parfait wahają się zazwyczaj od 1500 do 2500 JPY w zależności od sezonowych składników).
-       </li>
+       </li><p>
         
        <li><b>Godziny:</b><p>
          - Nakasujicho: otwarcie od czwartku do wtorku od 10:00 (uwaga na dni zamknięcia w tygodniu). <br>
          - Kyoto Tower Sando: otwarte codziennie do godziny 21:00.
-       </li>
+       </li><p>
 
        <li> Gdzie kupić przejazdy do Kioto: Najtaniej i bez kolejki bilety na pociągi Shinkansen do Kioto kupisz przez aplikację Trip.com lub Klook.
        </li>
@@ -50,7 +50,7 @@ rozwijalne_listy:
        <li><b>Do punktu w Nakasujicho (488-15 Nakasujicho):</b><br>
          - Z stacji JR Kyoto Station: Najszybciej dojedziesz metrem (linia Karasuma Line) do stacji Shijo Station, skąd dojdziesz pieszo w ok. 8–10 minut przez urokliwe pasażowe uliczki. <br>
          - Z Osaki (Linia Hankyu): Wysiądź na stacji Kyoto-Kawaramachi Station (zaledwie 3–5 minut spacerem).
-       </li>
+       </li><p>
 
        <li><b>Do punktu Kyoto Tower Sando (Higashishiokojicho 721-1):</b><br>
          - Znajduje się bezpośrednio przy stacji JR Kyoto Station w budynku Kyoto Tower Sando na 1. piętrze – idealny przystanek tuż po przyjeździe pociągiem.
@@ -72,6 +72,34 @@ rozwijalne_listy:
          Punkty akceptują płatności kartą i płatności zbliżeniowe, ale warto posiadać przy sobie drobną gotówkę w jenach.
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://i.pinimg.com/1200x/0f/86/35/0f863569b3ed4cb0839793fb70412188.jpg"

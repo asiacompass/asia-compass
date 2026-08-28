@@ -20,11 +20,11 @@ rozwijalne_listy:
       <ul>
         <li><b>Rezerwacja:</b><p>
          Wymagana wcześniejsza rezerwacja online: Pobyt lub prywatna wizyta w łaźniach wymaga bezwzględnej rezerwacji z wyprzedzeniem ze względu na kameralny charakter obiektu i bardzo ograniczoną liczbę miejsc.
-        </li>
+        </li><p>
 
         <li><b>Z jakim wyprzedzeniem:</b><p>
          Rezerwuj z wyprzedzeniem co najmniej 1–3 miesięcy, szczególnie w sezonach sakura (kwiecień) oraz koyo (listopad)
-        </li>
+        </li><p>
 
         <li><b>Gdzie zarezerwować:</b><p>
          Pobyt w wyjątkowych ryokanach oraz bilety na pociągi po regionie Kansai zarezerwujesz wygodnie i bezstresowo przez Klook lub Trip.com.
@@ -37,7 +37,7 @@ rozwijalne_listy:
       <ul>
        <li><b>Ceny:</b><p>
          Drogo (obiekt klasy luksusowej; ceny za nocleg z posiłkami kaiseki zaczynają się od wyższych przedziałów cenowych ryokanów).
-       </li>
+       </li><p>
         
        <li><b>Godziny:</b><p>
          Dla gości hotelowych Check-in zazwyczaj od 15:00, Check-out do 10:00–11:00.
@@ -56,11 +56,11 @@ rozwijalne_listy:
        <ul>
        <li><b>Z centrum Osaki (stacja Namba lub Tennoji):</b><br>
          Ze stacji Namba Station wsiądź w pociąg ekspresowy linii Nankai Koya Line do stacji Izumi-Chuo Station (lub z Tennoji pociągiem JR do stacji Izumi-Fuchu Station)
-       </li>
+       </li><p>
 
        <li><b>Ze stacji do Oukai Villa:</b><br>
          Ze stacji Izumi-Chuo lub Izumi-Fuchu najwygodniej dojechać taksówką (czas przejazdu wynosi ok. 15–20 minut). Obiekt w ramach rezerwacji noclegu oferuje często dedykowany transport dla gości (shuttle bus) po wcześniejszym zgłoszeniu.
-       </li>
+       </li><p>
 
        <li><b>Gdzie kupić bilety na pociąg:</b><br>
          Bilety na pociągi ekspresowe kupisz w automatach na stacji lub online przez Trip.com / Klook. Do przejazdów lokalnych użyj karty IC (Suica/Pasmo/Icoca).
@@ -83,6 +83,34 @@ rozwijalne_listy:
         Karty kredytowe są zazwyczaj akceptowane w obiekcie, ale warto mieć przy sobie japońskie jeny w gotówce na opłatę podatku klimatycznego (onsen tax) lub opłacenie taksówki.
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/855921605.jpg?k=4eedbb2f5c42c49a7609e8adba54df6d01527898af8fa7c923abd9241e89e322&o="

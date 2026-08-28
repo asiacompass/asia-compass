@@ -47,15 +47,15 @@ rozwijalne_listy:
       <ul>
        <li><b>Z Osaki do Kii-Katsuura:</b><br>
          Najwygodniej wsiąść w pociąg ekspresowy JR Kuroshio ze stacji Shin-Osaka lub Tennoji do stacji Kii-Katsuura Station (czas przejazdu: ok. 3,5–4 godziny).
-       </li>
+       </li><p>
 
        <li><b>Z Tokio do Kii-Katsuura:</b><br>
          Najszybciej Shinkansenem do stacji Nagoya, a stamtąd pociągiem ekspresowym JR Nanki do Kii-Katsuura. Bilety na Shinkansen oraz pociągi JR zarezerwujesz wygodnie bez kolejki na Trip.com lub przez aplikację Klook.
-       </li>
+       </li><p>
 
        <li><b>Ze stacji Kii-Katsuura do wodospadu:</b>
          Przed stacją wsiądź w autobus lokalny firmy Kumano Gojo Bus jadący w kierunku Nachisan (ok. 30 minut) i wysiądź na przystanku Nachi-no-Taki-mae (tuż przy wodospadzie) lub Daimon-zaka (jeśli chcesz dojść do wodospadu malowniczym, historycznym podejściem pośród cedrów).
-       </li>
+       </li><p>
 
        <li>
          Przejazdy na całej trasie kolejowej możesz zrealizować w ramach karnetu JR Pass lub regionalnego JR Kansai WIDE Area Pass.
@@ -81,6 +81,34 @@ rozwijalne_listy:
          Pamiętaj o zabraniu japońskich jenów w gotówce na opłatę za bliższy taras widokowy, drobne pamiątki oraz lokalne przekąski (np. lody o smaku czarnego sezamu).
       </li>
      </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://www.jreast.co.jp/en/multi/pass/suica.html" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
 
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/31261588/pexels-photo-31261588.jpeg"
