@@ -6,8 +6,29 @@
     <description>Recent content in Blog i Porady on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/asia-compass/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikacje niezbędne w Chinach</title>
+      <link>http://localhost:1313/asia-compass/blog/china-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/china-app/</guid>
+      <description>&lt;p&gt;W Chinach cyfrowy ekosystem wygląda zupełnie inaczej niż w reszcie świata. Zachodnie aplikacje (Google Maps, WhatsApp, Uber, Instagram) albo nie działają wcale bez VPN-a, albo są bardzo nieprecyzyjne.&lt;/p&gt;&#xA;&lt;p&gt;Aby wyjazd przebiegł gładko, warto podzielić aplikacje na absolutny „pakiet przetrwania” oraz narzędzia ułatwiające codzienne podróżowanie.&lt;/p&gt;&#xA;&lt;h2 id=&#34;płatności&#34;&gt;Płatności&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Alipay&lt;/strong&gt; Najwygodniejszy portfel cyfrowy dla obcokrajowców. Posiada wbudowany tryb międzynarodowy oraz mini-aplikacje do zamawiania taksówek (DiDi), odblokowywania rowerów miejskich czy kupowania biletów do metra &lt;a href=&#34;https://render.alipay.com/p/yuyan/180020040001212700/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikacje &lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aplikacje potrzebne w Korei</title>
+      <link>http://localhost:1313/asia-compass/blog/korea-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/korea-app/</guid>
+      <description>&lt;p&gt;Planujesz wyjazd do Korei Południowej? Pierwsze zaskoczenie na miejscu: Google Maps w Korei niemal nie działa (ze względu na lokalne przepisy i ograniczenia kartograficzne). Aby uniknąć zgubienia się w gąszczu uliczek Seulu czy Busanu, trzeba postawić na lokalne aplikacje.&lt;/p&gt;&#xA;&lt;h2 id=&#34;nawigacja-i-pociągi&#34;&gt;Nawigacja i Pociągi&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Naver Map&lt;/strong&gt; Złoty standard nawigacji w Korei. Działa świetnie po angielsku, precyzyjnie pokazuje trasy piesze, autobusy oraz dokładne wyjścia ze stacji metra &lt;a href=&#34;https://map.naver.com/p/settings?c=15.00,0,0,0,dh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikację&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Niezbędnę aplikacje w Japonii</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-app/</guid>
+      <description>&lt;p&gt;Poruszanie się po Japonii bez odpowiednich aplikacji w telefonie potrafi być wyzwaniem. Aby uniknąć stresu na ogromnych stacjach metra czy podczas zamawiania jedzenia, warto zainstalować sprawdzone narzędzia jeszcze przed wylotem.&lt;/p&gt;&#xA;&lt;h2 id=&#34;transport-i-nawigacja&#34;&gt;Transport i Nawigacja&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Google Maps&lt;/strong&gt; Absolutna baza. W Japonii pokazuje dokładne numery peronów, wagony ułatwiające przesiadkę oraz numery wyjść ze stacji (co w Tokio oszczędza mnóstwo czasu). &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.apps.maps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikację&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Japan Travel by NAVITIME&lt;/strong&gt; Niezastąpiona przy podróżach pociągami Shinkansen. Posiada filtr tras pod kątem posiadanych karnetów (np. JR Pass). &lt;a href=&#34;https://www.navitime.co.jp/pcstorage/html/japan_travel/english/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt;pobierz aplikację&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Japonia jak się poruszać?</title>
       <link>http://localhost:1313/asia-compass/blog/japan-transport/</link>

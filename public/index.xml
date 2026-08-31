@@ -6,8 +6,29 @@
     <description>Recent content on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Sun, 23 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/asia-compass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikacje niezbędne w Chinach</title>
+      <link>http://localhost:1313/asia-compass/blog/china-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/china-app/</guid>
+      <description>&lt;p&gt;W Chinach cyfrowy ekosystem wygląda zupełnie inaczej niż w reszcie świata. Zachodnie aplikacje (Google Maps, WhatsApp, Uber, Instagram) albo nie działają wcale bez VPN-a, albo są bardzo nieprecyzyjne.&lt;/p&gt;&#xA;&lt;p&gt;Aby wyjazd przebiegł gładko, warto podzielić aplikacje na absolutny „pakiet przetrwania” oraz narzędzia ułatwiające codzienne podróżowanie.&lt;/p&gt;&#xA;&lt;h2 id=&#34;płatności&#34;&gt;Płatności&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Alipay&lt;/strong&gt; Najwygodniejszy portfel cyfrowy dla obcokrajowców. Posiada wbudowany tryb międzynarodowy oraz mini-aplikacje do zamawiania taksówek (DiDi), odblokowywania rowerów miejskich czy kupowania biletów do metra &lt;a href=&#34;https://render.alipay.com/p/yuyan/180020040001212700/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikacje &lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aplikacje potrzebne w Korei</title>
+      <link>http://localhost:1313/asia-compass/blog/korea-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/korea-app/</guid>
+      <description>&lt;p&gt;Planujesz wyjazd do Korei Południowej? Pierwsze zaskoczenie na miejscu: Google Maps w Korei niemal nie działa (ze względu na lokalne przepisy i ograniczenia kartograficzne). Aby uniknąć zgubienia się w gąszczu uliczek Seulu czy Busanu, trzeba postawić na lokalne aplikacje.&lt;/p&gt;&#xA;&lt;h2 id=&#34;nawigacja-i-pociągi&#34;&gt;Nawigacja i Pociągi&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Naver Map&lt;/strong&gt; Złoty standard nawigacji w Korei. Działa świetnie po angielsku, precyzyjnie pokazuje trasy piesze, autobusy oraz dokładne wyjścia ze stacji metra &lt;a href=&#34;https://map.naver.com/p/settings?c=15.00,0,0,0,dh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikację&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Niezbędnę aplikacje w Japonii</title>
+      <link>http://localhost:1313/asia-compass/blog/japan-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/japan-app/</guid>
+      <description>&lt;p&gt;Poruszanie się po Japonii bez odpowiednich aplikacji w telefonie potrafi być wyzwaniem. Aby uniknąć stresu na ogromnych stacjach metra czy podczas zamawiania jedzenia, warto zainstalować sprawdzone narzędzia jeszcze przed wylotem.&lt;/p&gt;&#xA;&lt;h2 id=&#34;transport-i-nawigacja&#34;&gt;Transport i Nawigacja&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Google Maps&lt;/strong&gt; Absolutna baza. W Japonii pokazuje dokładne numery peronów, wagony ułatwiające przesiadkę oraz numery wyjść ze stacji (co w Tokio oszczędza mnóstwo czasu). &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.google.android.apps.maps&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikację&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Japan Travel by NAVITIME&lt;/strong&gt; Niezastąpiona przy podróżach pociągami Shinkansen. Posiada filtr tras pod kątem posiadanych karnetów (np. JR Pass). &lt;a href=&#34;https://www.navitime.co.jp/pcstorage/html/japan_travel/english/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt;pobierz aplikację&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Japonia jak się poruszać?</title>
       <link>http://localhost:1313/asia-compass/blog/japan-transport/</link>
@@ -100,6 +121,13 @@
       <description>&lt;h3 id=&#34;kawiarnia-jak-z-mangi&#34;&gt;Kawiarnia jak z mangi&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się wprost do kart japońskiego komiksu! 2D Café położona w tętniącej życiem dzielnicy Shin-Okubo w Tokio to kawiarnia, która w sekundę zmieni Twoje postrzeganie rzeczywistości. Całe wnętrze zostało wykończone w taki sposób, aby stwarzać dwuwymiarowe złudzenie optyczne – wchodząc do środka, masz nieodparte wrażenie, że wskakujesz prosto na płaskie strony czarno-białego szkicownika lub mangi.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oszustwo wzroku i ręczne wykończenie:&lt;/strong&gt; Cały koncept opiera się na sprytnej iluzji optycznej. Meble, ściany, podłogi, a nawet firanki są całkowicie białe, natomiast wszystkie krawędzie, cienie i detale zostały ręcznie odmalowane czarną farbą, tworząc charakterystyczny kreskówkowy kontur.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Cafe Brown Avenue w stylu retro</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/cafe-brown-avenue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-brown-avenue/</guid>
+      <description>&lt;h3 id=&#34;przytulna-kawiarnia-w-stylu-retro&#34;&gt;Przytulna kawiarnia w stylu retro&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się do przytulnej krainy nostalgii w samym sercu Seulu! Brown Avenue (브라운에브뉴) w artystycznej dzielnicy Hyehwa to kameralna, wysoce fotogeniczna kawiarnia w stylu retro, która zachwyca ciepłym, vintage’owym wystrojem. Wypełniona drewnianymi meblami, klasycznymi akcesoriami, książkami i urokliwymi detalami (jak kultowe pluszowe miśki), oferuje odwiedzającym wyjątkowo kameralną atmosferę i chwilę oddechu od zgiełku metropolii.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oaza w kulturalnej dzielnicy Hyehwa:&lt;/strong&gt; Hyehwa (Daehangno) to słynne centrum teatru i sztuki alternatywnej w Seulu. Brown Avenue wpisuje się w ten artystyczny klimat, będąc ulubionym miejscem lokalnych artystów oraz miłośników estetycznych kadrów na Instagrama.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Cafe de Chelsea</title>
       <link>http://localhost:1313/asia-compass/atrakcja/chelsea-cafe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -140,6 +168,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</guid>
       <description>&lt;h3 id=&#34;kawiarnia-z-widokiem-na-wodospad&#34;&gt;Kawiarnia z widokiem na wodospad&lt;/h3&gt;&#xA;&lt;p&gt;Wyobraź sobie przestrzeń, w której estetyka koreańskiego minimalizmu spotyka się z pasją do serwowania rzemieślniczych deserów i parzenia dopracowanej w każdym detalu kawy. Cafe Popko to kameralna, zachwycająca kawiarnia ukryta w modnej i tętniącej życiem dzielnicy Seulu. Lokal zdobył serca mieszkańców oraz wtajemniczonych podróżników wyjątkowym podejściem do autorskich wypieków, subtelną oprawą wizualną wnętrza oraz atmosferą, która pozwala na chwilę wytchnienia w samym środku szumnego miasta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cafe Ruru Shibua z menu na wodzie</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/cafe-ruru/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/cafe-ruru/</guid>
+      <description>&lt;h3 id=&#34;menu-które-pływa-na-wodzie&#34;&gt;Menu które pływa na wodzie&lt;/h3&gt;&#xA;&lt;p&gt;W samym sercu gwarnej Shibuyi, zaledwie parę kroków od słynnego skrzyżowania, kryje się Ruru Shibuya – kawiarnia, która redefiniuje pojęcie miejskiego relaksu. Zamiast klasycznego kawiarnianego wnętrza znajdziesz tu przestrzeń przypominającą japoński ogród zen w nowoczesnym, minimalizmie. Głównym punktem lokalu jest monumentalny, kamienny stół umieszczony na płycie z płynącą wodą, po której pływają delikatne płatki kwiatów i liście.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Strumień wody na Twoim stole:&lt;/strong&gt; Największą atrakcją kawiarni jest unikalny system wodny wbudowany w stoły. Możesz postawić swój napój lub deser bezpośrednio na kamiennej platformie otoczonej powolnym, uspokajającym przepływem wody.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cave Wine Cafe w jaskini</title>
@@ -275,6 +310,20 @@
       <description>&lt;h3 id=&#34;magia-światła-i-liści&#34;&gt;Magia Światła i Liści&lt;/h3&gt;&#xA;&lt;p&gt;Ukryta pośród bambusowych gajów i szumu rzeki Katsura w Kioto, Arashiyama Yusai-tei to miejsce, w którym tradycyjna japońska estetyka spotyka się z magią światła i koloru. Ta ponad 150-letnia historyczna willa, pełniąca dawniej funkcję ekskluzywnej restauracji ryotei, jest dziś pracownią wybitnego mistrza barwienia tkanin Yusaia Okudy. Miejsce to słynie z fascynujących refleksów świetlnych, gdzie krajobraz Arashiyamy odbija się w lustrzanych blatach stołów i czarnych lakierowanych podłogach.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Myeongdong Night Market</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/myeongdong-night-market/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/myeongdong-night-market/</guid>
+      <description>&lt;h3 id=&#34;kulinarne-smaki-korei-na-ulicy&#34;&gt;Kulinarne smaki Korei na ulicy&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się w samo serce kulinarnego zgiełku Seulu! Myeongdong Night Market (명동 street food market) to prawdziwa mekka street foodu, gdzie po zmroku tradycyjne stoiska zamieniają się w spektakl zapachów, smaków i kolorów. Wśród uwielbianych klasyków, takich jak grillowane szaszłyki czy serowe paluszki, absolutnym hitem i gwiazdą koreańskich mediów społecznościowych są Fluffy Soufflé Pancakes – nieziemsko puszyste, wysokie naleśniki sufletowe, które dosłownie rozpływają się w ustach.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natural History Museum</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/natural-museum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/natural-museum/</guid>
+      <description>&lt;h3 id=&#34;muzeum-przyrodnicze&#34;&gt;Muzeum przyrodnicze&lt;/h3&gt;&#xA;&lt;p&gt;W samym sercu nowoczesnej metropolii, w obrębie Parku Rzeźby Jing&amp;rsquo;an, wznosi się Shanghai Natural History Museum (上海自然博物馆) – jeden z największych i najbardziej spektakularnych muzeów przyrodniczych na świecie. Sam budynek to architektoniczne arcydzieło inspirowane strukturą muszli łódtka (Nautilus), w którym natura płynnie łączy się z innowacyjną technologią. To fascynująca podróż przez 4,6 miliarda lat historii Ziemi, rozłożona na pięciu przestronnych kondygnacjach.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Żywa zielona ściana i komórkowa elewacja:&lt;/strong&gt; Struktura budynku czerpie wzorce z natury. Jedna z głównych ścian osłonowych imituje komórkową strukturę roślin i zwierząt, wpuszczając do wnętrza naturalne światło, podczas gdy dach pokryty jest żywą roślinnością, która zbiera deszczówkę i chłodzi budynek.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Nijimori Studio - wioska z okresu Edo</title>
       <link>http://localhost:1313/asia-compass/atrakcja/nijimori/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -301,6 +350,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/bukhansan/</guid>
       <description>&lt;h3 id=&#34;widoki-ze-szczytu-baegundae&#34;&gt;Widoki ze szczytu Baegundae&lt;/h3&gt;&#xA;&lt;p&gt;Wyobraź sobie potężne, granitowe skały wyrastające tuż nad nowoczesną, tętniącą życiem metropolią. Bukhansan National Park to zielone płuca Seulu i jeden z najbardziej wyjątkowych parków narodowych na świecie – unikalne miejsce, gdzie w zaledwie kilkadziesiąt minut z podziemnego metra przenosisz się na surowe, górskie szczyty, leśne ścieżki oraz do ukrytych pośród chmur starożytnych świątyń buddyjskich. Wznoszący się na wysokość 836 m n.p.m. szczyt Baegundae oferuje spektakularne, wręcz metafizyczne widoki na całą panoramę Seulu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Park z jelonkami</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/deer-park/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/deer-park/</guid>
+      <description>&lt;h3 id=&#34;park-w-którym-jelonki-sie-kłaniają&#34;&gt;Park w którym jelonki sie kłaniają&lt;/h3&gt;&#xA;&lt;p&gt;W samym sercu starożytnej stolicy Japonii rozciąga się Nara Park (奈良公園) – wyjątkowe miejsce, w którym wielka historia i duchowość mieszają się ze swobodną obecnością setek oswojonych, wolno żyjących jeleni sikowatych (sika). Przechadzając się alejkami wśród wiekowych świątyń, mchów i cyprysów, możesz spotkać zwierzęta, które bez cienia lęku podchodzą do spacerowiczów.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i Ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Święci wysłannicy bogów:&lt;/strong&gt; Według legendy sintoistycznej bóg Takemikazuchi przybył do Nary na grzbiecie białego jelenia, aby chronić nowo powstałą stolicę. Od tamtego czasu jelenie są uważane za świętych wysłanników bogów (shinroku). Aż do 1637 roku zabicie jelenia w Narze było przestępstwem zagrożonym karą śmierci.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pokemon Pikachu Train</title>

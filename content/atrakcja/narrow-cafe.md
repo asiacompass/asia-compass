@@ -7,7 +7,7 @@ tag: ["sweets🍰"]
 type: "atrakcja"
 lat: 33.84615531759291
 lng: 130.62312470194658
-image_url: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnNMnhbmM8rngNhOePUSLwpMzEX58KLpXy3KzHInVHwCBnmOsOdym9stgs0j1kD8aL-6gqllpnnOBMd4v4GwIQ4O_R_29M5atwMIwDAAS3PL2luix0HdgDFrEIbXdDEguPjZqJIIw=s1360-w1360-h1020-rw"
+image_url: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkg85qh55asVugNl75xj2c8IHkke_Kp5hEn7vZr5AGHTqdhNeiuiQnYcMNf3fdvqfFbw_mN348NuHVS6zUPoCa8beQBJoCED-7HNDbuUNWGPzVv2n5nhpLSm8GfTfgS37_hZ7I3=s1360-w1360-h1020-rw"
 cena: "Średnio $$"
 rezerwacja: "Zalecana"
 sezon: "Cały rok"
@@ -105,7 +105,6 @@ rozwijalne_listy:
       </ul>
 
 galeria_zdjec:
-- url: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk8crLyII_blCQhKvjC52_tQ6VVUQ6a2LJZu9fP8IgevdaM1YMwJOqiwEYKjFA_145fJpAFcFh2Pi_7jWWbRmxuBxBIYtsN4Ty7_fcgW586_UgMBLveLklPJlBp5y3bP8LyEX_5Wd_prsc=s1360-w1360-h1020-rw"
 - url: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnU9gD7wmxQzlAiPVd9TlNI2l7oX0OeOEBfSn6QGic8gBLNtvAaPAJh14ykkm_22NmOHRG_2EkXm6EGohAm_A8bBDuNJUN1_cCg60E8t1Ghc1SqLAKXvArQY0V8t_2JrYei6nD62XpDZigJ=s1360-w1360-h1020-rw"
 - url: "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWloP0Vq3RRP9REmW3QP26ODsjwD8JuKvNp6VWaVfIgHTxYUi1ywwMIjOCQ-MLAgQpBuhhuoCUF7xN1VNZE_IlAuoBa_pXYFKh0auSPNyIbR9GoNBRbHZyfNrhgF5HYChCVhPYTWF0R35N4m=s1360-w1360-h1020-rw"
 

@@ -3,7 +3,7 @@ title: "Internet w Chinach?"
 description: "Skąd i jaki internet do działania aplikacji"
 date: 2026-08-18
 country: "chiny"
-image_url: "https://images.pexels.com/photos/270283/pexels-photo-270283.jpeg"
+image_url: "https://images.pexels.com/photos/29711663/pexels-photo-29711663.jpeg"
 ---
 
 Planujesz wyjazd do Chin? Musisz pamiętać o jednej kluczowej rzeczy: chiński Internet różni się od tego, do którego jesteś przyzwyczajony w Europie. Brak dostępu do Google, WhatsAppa, Instagrama czy Google Maps może całkowicie sparaliżować podróż, jeśli nie przygotujesz się do tego odpowiednio wcześnie.

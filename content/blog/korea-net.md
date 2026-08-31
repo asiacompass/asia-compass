@@ -3,7 +3,7 @@ title: "Internet w Korei"
 description: "Internet w Korei Południowej: eSIM, Karta SIM czy Pocket Wi-Fi?"
 date: 2026-08-20
 country: "korea"
-image_url: "https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg"
+image_url: "https://images.pexels.com/photos/32698507/pexels-photo-32698507.jpeg"
 ---
 W Korei Południowej masz do wyboru trzy sprawdzone metody na stały dostęp do sieci: eSIM, fizyczną kartę SIM oraz Pocket Wi-Fi. Oto jak je wybrać i skonfigurować krok po kroku.
 
