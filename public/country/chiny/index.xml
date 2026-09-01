@@ -6,8 +6,15 @@
     <description>Recent content in Chiny on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/asia-compass/country/chiny/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikacje niezbędne w Chinach</title>
+      <link>http://localhost:1313/asia-compass/blog/china-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/china-app/</guid>
+      <description>&lt;p&gt;W Chinach cyfrowy ekosystem wygląda zupełnie inaczej niż w reszcie świata. Zachodnie aplikacje (Google Maps, WhatsApp, Uber, Instagram) albo nie działają wcale bez VPN-a, albo są bardzo nieprecyzyjne.&lt;/p&gt;&#xA;&lt;p&gt;Aby wyjazd przebiegł gładko, warto podzielić aplikacje na absolutny „pakiet przetrwania” oraz narzędzia ułatwiające codzienne podróżowanie.&lt;/p&gt;&#xA;&lt;h2 id=&#34;płatności&#34;&gt;Płatności&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Alipay&lt;/strong&gt; Najwygodniejszy portfel cyfrowy dla obcokrajowców. Posiada wbudowany tryb międzynarodowy oraz mini-aplikacje do zamawiania taksówek (DiDi), odblokowywania rowerów miejskich czy kupowania biletów do metra &lt;a href=&#34;https://render.alipay.com/p/yuyan/180020040001212700/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikacje &lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chiny i transport</title>
       <link>http://localhost:1313/asia-compass/blog/china-transport/</link>

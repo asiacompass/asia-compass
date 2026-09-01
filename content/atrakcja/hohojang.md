@@ -2,7 +2,7 @@
 title: "Prywatna willa Hohojang"
 kraj: "korea"
 miasto: "gyeongju"
-kategoria: "hotel"
+kategoria: "nocleg"
 tag: 
 type: "atrakcja"
 lat: 35.8402

@@ -3,7 +3,7 @@ title: "JAPONIA"
 kraj: "japonia"
 typ: "kraj"
 banner_image: "https://images.pexels.com/photos/31710067/pexels-photo-31710067.jpeg"
-description: "Japonia, nazywana Krajem Kwitnącej Wiśni, to fascynujące państwo wyspiarskie, w którym tysiącletnia tradycja idealnie współgra z futurystyczną nowoczesnością. To miejsce, gdzie starożytne świątynie w Kioto i tradycyjne domy gejsz sąsiadują z neonowymi wieżowcami oraz ultraszybkimi pociągami Shinkansen w Tokio. Dla podróżników to kraina niezwykłych kontrastów i głębokiego szacunku do natury, czego symbolem jest majestatyczny wulkan Fudżi. Japonia zachwyca unikalną kulturą – od ceremonii picia herbaty matcha, przez sztukę ogrodową i gejsze, aż po nowoczesne anime, mangę i technologię. Lokalna kuchnia, wpisana na listę dziedzictwa UNESCO, oferuje znacznie więcej niż sushi – znajdziesz tu aromatyczny ramen, chrupiącą tempurę i uliczne przysmaki, takie jak takoyaki. Bezpieczeństwo, niezwykła czystość oraz legendarna gościnność mieszkańców (omotenashi) czynią z Japonii jeden z najbardziej pożądanych kierunków podróży na świecie."
+description: "Kraj Wschodzącego Słońca, w którym tradycyjne świątynie i majestatyczne Fudżi spotykają się z kosmiczną technologią Tokio oraz kulturą anime. Poznaj sekretne klimatyczne uliczki, spróbuj prawdziwego ramenu i daj się porwać magii Japonii!"
 
 # Kafel 1: Płatności
 info_pl_title: "Płatności i waluta"

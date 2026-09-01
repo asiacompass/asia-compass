@@ -1,5 +1,5 @@
 ---
-title: "Cafe Kirotti"
+title: "Cafe 'Kirotti'"
 kraj: "korea"
 miasto: "yongin"
 kategoria: "jedzenie"

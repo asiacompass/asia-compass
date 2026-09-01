@@ -1,5 +1,5 @@
 ---
-title: "Cafe Groovy&Books w stylu vintage"
+title: "Cafe 'Groovy&Books' w stylu vintage"
 kraj: "korea"
 miasto: "suwon"
 kategoria: "jedzenie"

@@ -1,5 +1,5 @@
 ---
-title: "Cafe Kissaten Seven z ery Showa"
+title: "Cafe 'Kissaten Seven' z ery Showa"
 kraj: "japonia"
 miasto: "tokyo"
 kategoria: "jedzenie"

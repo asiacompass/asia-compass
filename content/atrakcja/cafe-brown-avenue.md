@@ -1,5 +1,5 @@
 ---
-title: "Cafe Brown Avenue w stylu retro"
+title: "Cafe 'Brown Avenue' w stylu retro"
 kraj: "korea"
 miasto: "seoul"
 kategoria: "jedzenie"

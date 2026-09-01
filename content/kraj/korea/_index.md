@@ -3,7 +3,7 @@ title: "KOREA"
 typ: "kraj"
 kraj: "korea"
 banner_image: "https://images.pexels.com/photos/1898372/pexels-photo-1898372.jpeg"
-description: "Korea Południowa, znana jako KRAJ PORANNEJ ŚWIEŻOŚĆI, to jedno z najbardziej dynamicznych i ekscytujących miejsc na mapie Azji. Ten wyjątkowy kraj zrewolucjonizował globalną popkulturę, zarażając świat muzyką K-pop, wciągającymi serialami K-drama oraz innowacyjną pielęgnacją skóry (K-beauty). Wizyta w Korei to podróż pełna kontrastów, gdzie futurystyczny, neonowy Seul płynnie łączy się z historią. W cieniu ultranowoczesnych wieżowców kryją się majestatyczne, starożytne pałace, takie jak Gyeongbokgung, w których turyści chętnie spacerują w tradycyjnych strojach hanbok. Poza tętniącą życiem stolicą Korea zachwyca zielonymi polami herbaty w Boseong, historycznym miastem Gyeongju oraz wulkaniczną wyspą Jeju, uznawaną za jeden z nowych siedmiu cudów natury.Niezapomnianym elementem podróży jest tutejsza kuchnia. Koreański grill (K-BBQ), pikantne kimchi, chrupiący kurczak w stylu koreańskim czy uliczne jedzenie na targowiskach (jak tteokbokki) to prawdziwa eksplozja smaków, która zachwyci każdego blogera kulinarnego i podróżniczego."
+description: "Korea Południowa to fascynujący świat kontrastów, gdzie wiekowe pałace i ciche świątynie sąsiadują z neonowymi wieżowcami Seulu. Od chrupiącego kurczaka i soczystego K-BBQ na tętniących życiem nocnych targach, po fenomen K-dram, K-popu i wyspę Jeju — ten kraj wciąga wszystkimi zmysłami i nie pozwala o sobie zapomnieć!"
 
 # Kafel 1: Płatności
 info_pl_title: "Płatności i waluta"

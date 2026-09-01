@@ -1,5 +1,5 @@
 ---
-title: "Cafe Ruru Shibua z menu na wodzie"
+title: "Cafe 'Ruru Shibua' z menu na wodzie"
 kraj: "japonia"
 miasto: "tokyo"
 kategoria: "jedzenie"

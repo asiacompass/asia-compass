@@ -4,7 +4,7 @@
     {{/* 1. Baner ze zdjęciem i nazwą kraju */}}
     {{ $banner := .Params.banner_image | default .Params.image }}
     {{ if $banner }}
-    <div style="position: relative; width: 100%; height: 350px; border-radius: 12px; overflow: hidden; margin-bottom: 30px;">
+    <div style="position: relative; width: 100%; height: 300px; border-radius: 12px; overflow: hidden; margin-bottom: 30px;">
         <img src="{{ $banner }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
         <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); padding: 30px 20px 20px;">
             <h1 style="color: #fff; margin: 0; font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">{{ .Title }}</h1>
@@ -14,22 +14,131 @@
     <h1 style="font-size: 2.5rem; margin-bottom: 10px; color: var(--primary-red);">{{ .Title }}</h1>
     {{ end }}
 
+
     {{/* 2. Opis kraju */}}
     {{ if .Params.description }}
-    <div style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 40px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <div style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 80px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
         <p style="margin: 0;">{{ .Params.description }}</p>
     </div>
     {{ end }}
 
     {{ $currentCountrySlug := .Title | urlize | lower }}
 
+   {{/* 4. Dynamiczne kafelki Kategorii */}}
+    {{ $kategorieFound := slice }}
+    {{ with site.GetPage "/atrakcja" }}
+        {{ range .Pages }}
+            {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
+            {{ if eq $atrakcjaKraj $currentCountrySlug }}
+                {{ if .Params.kategoria }}
+                    {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
     
+    {{ $kategorieFound = $kategorieFound | uniq | sort }}
+
+    {{ if gt (len $kategorieFound) 0 }}
+    <h2 style="padding-bottom: 20px; margin-bottom: 20px; color: var(--primary-red);">Co chcesz zobaczyć?</h2>
+    <div class="kategorie-grid-center" style="margin-bottom: 80px;">
+        {{ range $kategorieFound }}
+            {{ $katName := . }}
+            {{ $katSlug := $katName | urlize }}
+            
+            {{ $katPage := site.GetPage (printf "/kategoria/%s" $katSlug) }}
+            {{ if not $katPage }}
+                {{ $katPage = site.GetPage (printf "/kategorie/%s" $katSlug) }}
+            {{ end }}
+            {{ if not $katPage }}
+                {{ $katPage = site.GetPage (printf "/categories/%s" $katSlug) }}
+            {{ end }}
+
+            {{ $targetUrl := cond $katPage $katPage.RelPermalink (printf "/kategoria/%s/" $katSlug | relLangURL) }}
+            
+            <a href="{{ $targetUrl }}" class="kategoria-tile-center">
+                {{ $katName }}
+            </a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+   {{/* 5. Nagłówek i kafelki miast */}}
+    <div style="margin-bottom: 80px;">
+        <h1 style="padding-bottom: 10px; margin-bottom: 40px; color: var(--primary-red);">Do jakiego miasta planujesz podróź?</h1>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            {{ with site.GetPage "/miasto" }}
+                {{ range .Pages }}
+                    {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
+                    {{ if eq $miastoKraj $currentCountrySlug }}
+                    <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div>
+                            {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                            {{ if $img }}
+                            <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                            {{ end }}
+                            <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
+                            </div>
+                        </div>
+                        <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                            <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
+                        </div>
+                    </div>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+
+ {{/* MAPA MIAST W KRAJU */}}
+    <div style="margin-bottom: 80px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Mapa miast</h2>
+        <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var map = L.map('country-map').setView([{{ .Params.lat | default 35.0 }}, {{ .Params.lng | default 105.0 }}], 4);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 18,
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            var cities = [
+                {{ range (site.GetPage "/miasto").Pages }}
+                    {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
+                    {{ if and (eq $miastoKraj $currentCountrySlug) .Params.lat .Params.lng }}
+                        {
+                            title: "{{ .Title }}",
+                            lat: {{ .Params.lat }},
+                            lng: {{ .Params.lng }},
+                            url: "{{ .RelPermalink }}"
+                        },
+                    {{ end }}
+                {{ end }}
+            ];
+
+            var bounds = [];
+            cities.forEach(function(city) {
+                var marker = L.marker([city.lat, city.lng]).addTo(map);
+                marker.bindPopup("<b><a href='" + city.url + "' style='color: var(--primary-red); text-decoration: none; font-weight: bold;'>" + city.title + "</a></b><br><a href='" + city.url + "'>Zobacz miasto &rarr;</a>");
+                bounds.push([city.lat, city.lng]);
+            });
+
+            if(bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [50, 50] });
+            }
+        });
+    </script>
+
+
     {{/* 3. Ważne informacje - Kafelki jeden pod drugim na pełną szerokość */}}
-    <section class="country-info-section" style="margin-bottom: 40px;">
+    <section class="country-info-section" style="margin-bottom: 80px;">
         <h2 style="color: var(--primary-red); margin-bottom: 20px;">Przydatne informacje</h2>
         
         <div style="display: flex; flex-direction: column; gap: 20px;">
-            
             {{/* Kafel 1: Płatności */}}
             {{ if .Params.info_pl_desc }}
             <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
@@ -80,191 +189,148 @@
                 </details>
             </div>
             {{ end }}
-
         </div>
     </section>
 
-   {{/* 4. Dynamiczne kafelki Kategorii */}}
-    {{ $currentSlug := .Title | urlize | lower }}
-    {{ $kategorieFound := slice }}
-    
-    {{/* Przeszukujemy bezpośrednio sekcję atrakcji */}}
-    {{ with site.GetPage "/atrakcja" }}
-        {{ range .Pages }}
-            {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
-            {{ if eq $atrakcjaKraj $currentSlug }}
-                {{ if .Params.kategoria }}
-                    {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
-    {{ end }}
-    
-    {{ $kategorieFound = $kategorieFound | uniq | sort }}
 
-    {{ if gt (len $kategorieFound) 0 }}
-    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Co chcesz zobaczyć?</h2>
-    <div class="kategorie-grid-center" style="margin-bottom: 40px;">
-        {{ range $kategorieFound }}
-            {{ $katName := . }}
-            {{ $katSlug := $katName | urlize }}
-            
-            {{/* Dynamiczne wyszukiwanie poprawnej strony taksonomii z fallbackiem */}}
-            {{ $katPage := site.GetPage (printf "/kategoria/%s" $katSlug) }}
-            {{ if not $katPage }}
-                {{ $katPage = site.GetPage (printf "/kategorie/%s" $katSlug) }}
-            {{ end }}
-            {{ if not $katPage }}
-                {{ $katPage = site.GetPage (printf "/categories/%s" $katSlug) }}
-            {{ end }}
 
-            {{/* Jeśli strona istnieje, użyj jej RelPermalink, w przeciwnym razie wygeneruj relLangURL */}}
-            {{ $targetUrl := cond $katPage $katPage.RelPermalink (printf "/kategoria/%s/" $katSlug | relLangURL) }}
-            
-            <a href="{{ $targetUrl }}" class="kategoria-tile-center">
-                {{ $katName }}
-            </a>
-        {{ end }}
-    </div>
-    {{ end }}
-
-    {{/* MAPA MIAST W KRAJU */}}
-    <div style="margin-bottom: 40px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Mapa miast</h2>
-        <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
-    </div>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var map = L.map('country-map').setView([{{ .Params.lat | default 35.0 }}, {{ .Params.lng | default 105.0 }}], 4);
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 18,
-                attribution: '&copy; OpenStreetMap contributors'
-            }).addTo(map);
-
-            var cities = [
-                {{ range (site.GetPage "/miasto").Pages }}
-                    {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
-                    {{ if and (eq $miastoKraj $currentCountrySlug) .Params.lat .Params.lng }}
-                        {
-                            title: "{{ .Title }}",
-                            lat: {{ .Params.lat }},
-                            lng: {{ .Params.lng }},
-                            url: "{{ .RelPermalink }}"
-                        },
+   
+ 
+    {{/* 6. PRZENIESIONA SEKCJA TAGÓW DLA KRAJU */}}
+    {{ $tagsMap := dict }}
+    {{ range where site.RegularPages "Section" "atrakcja" }}
+        {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
+        {{ if eq $atrakcjaKraj $currentCountrySlug }}
+            {{ range .GetTerms "tag" }}
+                {{ $termObj := . }}
+                {{ $cleanKey := $termObj.Title | urlize }}
+                {{ $tagOriginal := $termObj.LinkTitle | default $termObj.Title }}
+                
+                {{ if ne $cleanKey "" }}
+                    {{ $existing := index $tagsMap $cleanKey }}
+                    {{ if not $existing }}
+                        {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+                    {{ else }}
+                        {{ $currentName := index $existing "name" }}
+                        {{ if gt (len $tagOriginal) (len $currentName) }}
+                            {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
-            ];
-
-            var bounds = [];
-            cities.forEach(function(city) {
-                var marker = L.marker([city.lat, city.lng]).addTo(map);
-                marker.bindPopup("<b><a href='" + city.url + "' style='color: var(--primary-red); text-decoration: none; font-weight: bold;'>" + city.title + "</a></b><br><a href='" + city.url + "'>Zobacz miasto &rarr;</a>");
-                bounds.push([city.lat, city.lng]);
-            });
-
-            if(bounds.length > 0) {
-                map.fitBounds(bounds, { padding: [50, 50] });
-            }
-        });
-    </script>
-
-{{/* SEKCJA TAGÓW DLA KRAJU */}}
-{{ $tagsMap := dict }}
-
-{{ range where site.RegularPages "Section" "atrakcja" }}
-    {{/* Pobieramy wygenerowane obiekty taksonomii Hugo po ścieżce "tag" z hugo.toml */}}
-    {{ range .GetTerms "tag" }}
-        {{ $termObj := . }}
-        {{/* Tworzymy znormalizowany klucz do usuwania duplikatów */}}
-        {{ $cleanKey := $termObj.Title | urlize }}
-        {{ $tagOriginal := $termObj.LinkTitle | default $termObj.Title }}
-        
-        {{ if ne $cleanKey "" }}
-            {{ $existing := index $tagsMap $cleanKey }}
-            {{ if not $existing }}
-                {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
-            {{ else }}
-                {{/* Jeśli znajdzie wersję tekstu z emotką (dłuższą), podmienia samą nazwę na przycisku */}}
-                {{ $currentName := index $existing "name" }}
-                {{ if gt (len $tagOriginal) (len $currentName) }}
-                    {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
-                {{ end }}
             {{ end }}
         {{ end }}
     {{ end }}
-{{ end }}
 
-{{ if gt (len $tagsMap) 0 }}
-<div class="country-tags-section" style="margin-bottom: 40px;">
-    <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--primary-red);">Odkrywaj według tagów</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        {{ range $key, $data := $tagsMap }}
-            <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
-                #{{ index $data "name" }}
-            </a>
-        {{ end }}
+    {{ if gt (len $tagsMap) 0 }}
+    <div class="country-tags-section" style="margin-bottom: 80px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--primary-red);">Odkrywaj według tagów</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            {{ range $key, $data := $tagsMap }}
+                <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
+                    #{{ index $data "name" }}
+                </a>
+            {{ end }}
+        </div>
     </div>
-</div>
+    {{ end }}
 
-<style>
-.country-tag-badge:hover {
-    background-color: var(--primary-red) !important;
-    color: #ffffff !important;
-    border-color: var(--primary-red) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-</style>
-{{ end }}
+    {{/* 7. NOWA SEKCJA: ATRAKCJE DLA KRAJU (MAX 12 KAFELKÓW) */}}
+    <div style="margin-bottom: 80px;">
+        <h1 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h1>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            {{ $counter := 0 }}
+            {{ with site.GetPage "/atrakcja" }}
+                {{ range .Pages }}
+                    {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
+                    {{ if and (eq $atrakcjaKraj $currentCountrySlug) (lt $counter 12) }}
+                        {{ $counter = add $counter 1 }}
+                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                                {{ if $img }}
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                {{ end }}
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">{{ .Title }}</h3>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+    
+ {{/* 8. NOWA SEKCJA: NAJCIEKAWSZE Z BLOGA */}}
+    {{ $blogPosts := slice }}
+    {{ range where site.RegularPages "Section" "blog" }}
+        {{ $postKraj := .Params.country | default "" | urlize | lower }}
+        {{ if eq $postKraj $currentCountrySlug }}
+            {{ $blogPosts = $blogPosts | append . }}
+        {{ end }}
+    {{ end }}
 
-    {{/* 5. Nagłówek i kafelki miast */}}
-    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Zobacz atrakcje w mieście i zainspiruj się!</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
-        {{ with site.GetPage "/miasto" }}
-            {{ range .Pages }}
-                {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
-                {{ if eq $miastoKraj $currentCountrySlug }}
-                <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+    {{ if gt (len $blogPosts) 0 }}
+    <div style="margin-bottom: 40px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Pomocne artykuły w planowaniu podróży</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            {{ range first 6 $blogPosts }}
+                <div class="country-blog-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                     <div>
                         {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
                         {{ if $img }}
-                        <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 180px; object-fit: cover; display: block; margin: 0;">
+                        <div style="width: 100%; height: 160px; overflow: hidden; margin: 0;">
+                            <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                        </div>
                         {{ end }}
-                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                            <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
+                        <div style="padding: 15px;">
+                            <div style="font-size: 0.8rem; color: var(--text-color); opacity: 0.6; margin-bottom: 6px;">
+                                📅 {{ .Date.Format "02.01.2006" }}
+                            </div>
+                            <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.1rem; font-weight: bold; line-height: 1.3;">
+                                <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
+                            </h3>
+                            <p style="color: var(--text-color); font-size: 0.88rem; line-height: 1.4; margin: 0; opacity: 0.85; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                                {{ .Params.description | default .Summary }}
+                            </p>
                         </div>
                     </div>
-                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                        <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
+                    <div style="padding: 0 15px 15px 15px;">
+                        <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem; transition: opacity 0.2s;">Czytaj artykuł &rarr;</a>
                     </div>
                 </div>
-                {{ end }}
             {{ end }}
-        {{ end }}
+        </div>
     </div>
+    {{ end }}
+
 </div>
 
 <style>
 .country-kat-tile:hover, 
-.country-city-tile:hover {
-    background-color: #fce8ec !important;
-    border-color: #fce8ec !important;
-}
-.country-city-btn:hover {
-    opacity: 0.85;
-}
-details summary::-webkit-details-marker {
-    display: none;
-}
-.country-city-tile:hover {
+.country-city-tile:hover,
+.country-attraction-tile:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     border-color: var(--primary-red);
 }
+.country-attraction-tile:hover img {
+    transform: scale(1.03);
+}
 .country-city-btn:hover {
     background: #a2e8a9 !important;
+}
+.country-attraction-btn:hover {
+    background: var(--primary-red) !important;
+    color: #ffffff !important;
+}
+details summary::-webkit-details-marker {
+    display: none;
 }
 .country-tag-badge:hover {
     background-color: var(--primary-red) !important;
@@ -272,6 +338,23 @@ details summary::-webkit-details-marker {
     border-color: var(--primary-red) !important;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.country-kat-tile:hover, 
+.country-city-tile:hover,
+.country-attraction-tile:hover,
+.country-blog-tile:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-color: var(--primary-red);
+}
+
+.country-attraction-tile:hover img,
+.country-blog-tile:hover img {
+    transform: scale(1.03);
+}
+
+.country-blog-btn:hover {
+    opacity: 0.85;
 }
 </style>
 {{ end }}

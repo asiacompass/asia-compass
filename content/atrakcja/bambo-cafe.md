@@ -1,5 +1,5 @@
 ---
-title: "Bamboo Cafe - Silladang"
+title: "Bamboo Cafe - 'Silladang'"
 kraj: "korea"
 miasto: "gyeongju"
 kategoria: "jedzenie"
@@ -7,7 +7,7 @@ tag: ["sweets🍰", "restaurant🍜"]
 type: "atrakcja"
 lat: 35.83804115460651
 lng: 129.20906044047203
-image_url: "https://cultravel.net/wp-content/uploads/2026/06/%EA%B2%BD%EC%A3%BC-%EC%8B%A0%EB%9D%BC%EB%8B%B9-1-1024x683.webp"
+image_url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/d8/77/37/caption.jpg?w=1400&h=800&s=1"
 cena: "Średnio $$"
 rezerwacja: "Nie"
 sezon: "Cały rok"
@@ -85,9 +85,9 @@ galeria_zdjec:
   - url: "https://i.pinimg.com/1200x/ac/f3/16/acf3162529d4fb3c3b1c15a70b68659c.jpg"
   - url: "https://i.pinimg.com/736x/63/91/c4/6391c49a7ec1d56b64ecf61eab94d5be.jpg"
   - url: "https://i.pinimg.com/736x/98/73/cc/9873cca1308783eea832afc6f6b2794d.jpg"
-  - url: "https://cultravel.net/wp-content/uploads/2026/06/%EA%B2%BD%EC%A3%BC-%EC%8B%A0%EB%9D%BC%EB%8B%B9-3-1024x683.webp"
-  - url: "https://cultravel.net/wp-content/uploads/2026/06/%EA%B2%BD%EC%A3%BC-%EC%8B%A0%EB%9D%BC%EB%8B%B9-12-1024x683.webp"
-    caption: "fot. blog: cultravel.net"
+  - instagram_photo: "https://www.instagram.com/p/DU7IcpWk5Tw/?igsi=MzRlODBiNWFlZA=="
+  - instagram_photo: "https://www.instagram.com/p/DXDe3VFCdUl/?igsi=MzRlODBiNWFlZA=="
+  - instagram_photo: "https://www.instagram.com/p/DV8Bm1PiUES/?igsi=MzRlODBiNWFlZA=="
 
 instagram_reel: "https://www.instagram.com/reel/DQIgfQYCX7x/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
 

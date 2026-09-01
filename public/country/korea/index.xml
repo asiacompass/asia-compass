@@ -6,8 +6,15 @@
     <description>Recent content in Korea on Asia Compass</description>
     <generator>Hugo</generator>
     <language>pl-pl</language>
-    <lastBuildDate>Thu, 20 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/asia-compass/country/korea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikacje potrzebne w Korei</title>
+      <link>http://localhost:1313/asia-compass/blog/korea-app/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/blog/korea-app/</guid>
+      <description>&lt;p&gt;Planujesz wyjazd do Korei Południowej? Pierwsze zaskoczenie na miejscu: Google Maps w Korei niemal nie działa (ze względu na lokalne przepisy i ograniczenia kartograficzne). Aby uniknąć zgubienia się w gąszczu uliczek Seulu czy Busanu, trzeba postawić na lokalne aplikacje.&lt;/p&gt;&#xA;&lt;h2 id=&#34;nawigacja-i-pociągi&#34;&gt;Nawigacja i Pociągi&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Naver Map&lt;/strong&gt; Złoty standard nawigacji w Korei. Działa świetnie po angielsku, precyzyjnie pokazuje trasy piesze, autobusy oraz dokładne wyjścia ze stacji metra &lt;a href=&#34;https://map.naver.com/p/settings?c=15.00,0,0,0,dh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;color: #e98a99; font-weight: bold; text-decoration: underline;&#34;&gt; pobierz aplikację&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Internet w Korei</title>
       <link>http://localhost:1313/asia-compass/blog/korea-net/</link>

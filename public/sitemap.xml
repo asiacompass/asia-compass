@@ -2,17 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/asia-compass/blog/china-app/</loc>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/blog/korea-app/</loc>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/</loc>
-    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/blog/</loc>
-    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/country/chiny/</loc>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/country/</loc>
-    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/country/japonia/</loc>
-    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/country/korea/</loc>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/blog/japan-app/</loc>
+    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/blog/japan-transport/</loc>
     <lastmod>2026-08-23T00:00:00+00:00</lastmod>
@@ -23,23 +38,14 @@
     <loc>http://localhost:1313/asia-compass/blog/japan-pay/</loc>
     <lastmod>2026-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/blog/japan-app/</loc>
-    <lastmod>2026-08-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/blog/korea-net/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/blog/korea-pay/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/country/korea/</loc>
-    <lastmod>2026-08-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/blog/korea-transport/</loc>
     <lastmod>2026-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/asia-compass/country/chiny/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/asia-compass/blog/china-transport/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
@@ -50,6 +56,10 @@
     <loc>http://localhost:1313/asia-compass/blog/china-pay/</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-bassila/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cave-cafe/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/tag/animals/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/anime/</loc>
@@ -58,13 +68,11 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/bambo-cafe/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-bassila/</loc>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/starfield-library/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/busan/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-2d/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-brown-avenue/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/chelsea-cafe/</loc>
   </url><url>
@@ -78,7 +86,9 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/atrakcja/cave-cafe/</loc>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-ruru/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-2d/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/chengdu/</loc>
   </url><url>
@@ -132,8 +142,6 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/historia/</loc>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/kategoria/hotel/</loc>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/huanglong/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/huanglong-park/</loc>
@@ -170,6 +178,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/movies/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/myeongdong-night-market/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nachikatsuura/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nagaokakyo/</loc>
@@ -183,6 +193,8 @@
     <loc>http://localhost:1313/asia-compass/kategoria/natura/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/natura/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/natural-museum/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/nijimori/</loc>
   </url><url>
@@ -199,6 +211,8 @@
     <loc>http://localhost:1313/asia-compass/atrakcja/gyeongbokgung-palace/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/bukhansan/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/deer-park/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/pekin/</loc>
   </url><url>

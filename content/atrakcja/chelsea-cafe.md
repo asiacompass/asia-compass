@@ -1,5 +1,5 @@
 ---
-title: "Cafe de Chelsea"
+title: "Cafe 'de Chelsea'"
 kraj: "korea"
 miasto: "gimpo"
 kategoria: "jedzenie"

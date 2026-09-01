@@ -8,14 +8,14 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/miasto/seoul/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cafe Brown Avenue w stylu retro</title>
+      <title>Cafe &#39;Brown Avenue&#39; w stylu retro</title>
       <link>http://localhost:1313/asia-compass/atrakcja/cafe-brown-avenue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/cafe-brown-avenue/</guid>
       <description>&lt;h3 id=&#34;przytulna-kawiarnia-w-stylu-retro&#34;&gt;Przytulna kawiarnia w stylu retro&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się do przytulnej krainy nostalgii w samym sercu Seulu! Brown Avenue (브라운에브뉴) w artystycznej dzielnicy Hyehwa to kameralna, wysoce fotogeniczna kawiarnia w stylu retro, która zachwyca ciepłym, vintage’owym wystrojem. Wypełniona drewnianymi meblami, klasycznymi akcesoriami, książkami i urokliwymi detalami (jak kultowe pluszowe miśki), oferuje odwiedzającym wyjątkowo kameralną atmosferę i chwilę oddechu od zgiełku metropolii.&lt;/p&gt;&#xA;&lt;h3 id=&#34;fakty-i-ciekawostki&#34;&gt;Fakty i ciekawostki&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Oaza w kulturalnej dzielnicy Hyehwa:&lt;/strong&gt; Hyehwa (Daehangno) to słynne centrum teatru i sztuki alternatywnej w Seulu. Brown Avenue wpisuje się w ten artystyczny klimat, będąc ulubionym miejscem lokalnych artystów oraz miłośników estetycznych kadrów na Instagrama.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Cafe Popko z widokiem na wodospad</title>
+      <title>Cafe &#39;Popko&#39; z widokiem na wodospad</title>
       <link>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/cafe-popko/</guid>
@@ -34,6 +34,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/atrakcja/kensington-hotel/</guid>
       <description>&lt;h3 id=&#34;hotel-retro---elegancja-i-nowojorski-szyk-nad-rzeką-han&#34;&gt;Hotel retro - elegancja i nowojorski szyk nad rzeką Han&lt;/h3&gt;&#xA;&lt;p&gt;Kensington Hotel Yeouido to luksusowy hotel butikowy, który przenosi swoich gości w czasie, oferując unikalne połączenie klasycznej, nowojorskiej elegancji w stylu vintage z nowoczesną koreańską gościnnością. Zamiast surowego minimalizmu znajdziesz tu głębokie brązy, skórzane fotele, złote detale i niezwykłą dbałość o historyczny detal, co czyni go jednym z najbardziej fotogenicznych i klimatycznych hoteli w stolicy Korei.&lt;/p&gt;&#xA;&lt;p&gt;Hotel skrywa w swoich progach dwie kulinarne ikony Seulu, które przyciągają smakoszy z całego miasta.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Myeongdong Night Market</title>
+      <link>http://localhost:1313/asia-compass/atrakcja/myeongdong-night-market/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/atrakcja/myeongdong-night-market/</guid>
+      <description>&lt;h3 id=&#34;kulinarne-smaki-korei-na-ulicy&#34;&gt;Kulinarne smaki Korei na ulicy&lt;/h3&gt;&#xA;&lt;p&gt;Przenieś się w samo serce kulinarnego zgiełku Seulu! Myeongdong Night Market (명동 street food market) to prawdziwa mekka street foodu, gdzie po zmroku tradycyjne stoiska zamieniają się w spektakl zapachów, smaków i kolorów. Wśród uwielbianych klasyków, takich jak grillowane szaszłyki czy serowe paluszki, absolutnym hitem i gwiazdą koreańskich mediów społecznościowych są Fluffy Soufflé Pancakes – nieziemsko puszyste, wysokie naleśniki sufletowe, które dosłownie rozpływają się w ustach.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pałac Gyeongbokgung</title>

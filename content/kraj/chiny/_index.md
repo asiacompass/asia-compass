@@ -3,7 +3,7 @@ title: "CHINY"
 typ: "kraj"
 kraj: "chiny"
 banner_image: "https://images.pexels.com/photos/6440083/pexels-photo-6440083.jpeg"
-description: "Chiny, nazywane Państwem Środka, to jeden z najbardziej fascynujących i kontrastowych krajów na świecie. Jako jedna z najstarszych ciągłych cywilizacji, łączą w sobie tysiącletnią tradycję z oszałamiającą, nowoczesną technologią. To tutaj narodził się papier, kompas i jedwab, a dziś chińskie metropolie, takie jak Szanghaj czy Pekin, wyznaczają trendy globalnej przyszłości. Krajobraz Chin zachwyca różnorodnością – od mistycznych, krasowych wzgórz w Guilin, przez majestatyczne pasma Himalajów, aż po monumentalny Wielki Mur ciągnący się przez tysiące kilometrów. Podróż do Chin to także niezwykła wyprawa kulinarna, w której każdy region zaskakuje unikalnymi smakami - od pikantnej kuchni syczuańskiej po aromatyczną kaczkę po pekińsku."
+description: "Obłędne krajobrazy, tysiące lat historii i tętniące życiem metropolie. Od Wielkiego Muru i starożytnych zabytków Pekinu po kosmiczny szyk Szanghaju i lokalny street food — zobacz Chiny w zupełnie nowej, ekscytującej odsłonie!"
 
 # Kafel 1: Płatności
 info_pl_title: "Płatności i waluta"

@@ -78,7 +78,7 @@ galeria_zdjec:
   - url: "https://images.pexels.com/photos/6427161/pexels-photo-6427161.jpeg"
   - url: "https://images.pexels.com/photos/19474886/pexels-photo-19474886.jpeg"
 
-instagram_reel: "https://www.instagram.com/reel/Da-o1gdodo1/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+instagram_reel: ""
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Basilla cafe"
+title: "'Basilla' Cafe"
 kraj: "korea"
 miasto: "gyeongju"
 kategoria: "jedzenie"

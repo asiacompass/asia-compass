@@ -1,29 +1,52 @@
 {{ define "main" }}
 
-<!-- Hero Banner -->
-<section class="hero-banner">
-    <div class="hero-content">
-        <h1>Azja wszchodznia wszystkimi zmysłami</h1>
-        <p>Ruszaj w podróż przez Chiny, Japonię i Koreę, gdzie wiekowe tradycje łączą się z neonowym światem. Odkryj kultowe zabytki, sekrety lokalnej kultury i smaki street foodu, które uzależniają od pierwszego kęsa!</p>
+<!-- Hero Banner ze zdjęciem w tle -->
+<section class="hero-banner" style="
+    position: relative;
+    height: 180px;
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('https://images.pexels.com/photos/32398720/pexels-photo-32398720.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+">
+    <div class="hero-content" style="max-width: 900px; margin: 0 auto;">
+        <h1 style="color: #ffffff; font-size: 2.8rem; margin-bottom: 15px; text-shadow: 0 2px 4px rgba(0,0,0,0.6);">
+            Azja Wschodnia wszystkimi zmysłami
+        </h1>
+        <p style="font-size: 1.2rem; line-height: 1.6; color: #f0f0f0; text-shadow: 0 1px 3px rgba(0,0,0,0.6); margin: 0;">
+            Ruszaj w podróż przez Chiny, Japonię i Koreę, <br> gdzie wiekowe tradycje  łączą się z neonowym światem. <br> Odkryj kultowe zabytki, sekrety lokalnej kultury i smaki street foodu, <br> które uzależniają od pierwszego kęsa!
+        </p>
     </div>
 </section>
 
-<!-- Sekcja Kraje -->
-<section class="section-container" style="text-align: center; margin-bottom: 40px;">
-    <h1 style="color: var(--primary-red); margin-bottom: 30px;">Dokąd lecisz?</h1>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; max-width: 960px; margin: 0 auto;">
+<!-- Sekcja Kraje (Większe kafelki, mniejsze odstępy, pełny opis) -->
+<section class="section-container" style="text-align: center; margin-bottom: 20px;">
+    <h1 style="color: var(--primary-red); margin-bottom: 30px;">Gdzie planujesz polecieć?✈️</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; max-width: 1200px; margin: 0 auto;">
         {{ $krajPageObj := site.GetPage "kraj" }}
         {{ if $krajPageObj }}
             {{ range $krajPageObj.Pages }}
-            <a href="{{ .RelPermalink }}" class="kraj-card-tile" style="border-radius: 12px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; text-decoration: none; transition: all 0.3s ease;">
-                {{ $img := .Params.banner_image | default .Params.img | default .Params.image_url | default .Params.image }}
-                {{ if $img }}
-                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                </div>
-                {{ end }}
-                <div style="padding: 20px; text-align: center;">
-                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
+            <a href="{{ .RelPermalink }}" class="kraj-card-tile" style="width: 320px; text-decoration: none; border-radius: 12px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                <div>
+                    {{ $img := .Params.banner_image | default .Params.img | default .Params.image_url | default .Params.image }}
+                    {{ if $img }}
+                    <div style="width: 100%; height: 210px; overflow: hidden; margin: 0;">
+                        <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                    </div>
+                    {{ end }}
+                    <div style="padding: 20px 20px 15px 20px; text-align: center;">
+                        <h3 style="margin: 0; color: var(--primary-red); font-size: 1.4rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px;">{{ .Title }}</h3>
+                        {{ if .Params.description }}
+                        <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.5; margin: 10px 0 0 0; opacity: 0.85; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                            {{ .Params.description }}
+                        </p>
+                        {{ end }}
+                    </div>
                 </div>
             </a>
             {{ end }}
@@ -32,10 +55,10 @@
 </section>
 
 <!-- Sekcja Kategorii -->
-<section class="section-container" style="text-align: center; margin-bottom: 40px;">
-    <h1 style="margin-bottom: 30px;">Zakochaj się w Azji</h1>
+<section class="section-container" style="text-align: center; margin-bottom: 20px;">
+    <h1 style="margin-bottom: 30px;">Odkrywaj Azję tak jak lubisz❤️ </h1>
     <div class="kategorie-grid-center">
-        {{ $kategorie := slice "jedzenie" "nocleg" "hotel" "historia" "popkultura" "natura" }}
+        {{ $kategorie := slice "historia" "jedzenie"  "natura" "nocleg" "popkultura" }}
         {{ range $kategorie }}
             {{ $katPage := site.GetPage (printf "/kategoria/%s" .) }}
             {{ if $katPage }}
@@ -71,9 +94,9 @@
 {{ end }}
 
 {{ if gt (len $tagsMap) 0 }}
-<section class="section-container" style="margin-bottom: 40px;">
+<section class="section-container" style="margin-bottom: 20px;">
     <div style="max-width: 960px; margin: 0 auto; text-align: center;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Odkrywaj według tagów</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Poszukaj inspiracji według tagów</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
             {{ range $key, $data := $tagsMap }}
                 <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
@@ -96,10 +119,10 @@
 {{ end }}
 
 <!-- Sekcja Blog (zamknięta w max-width, żeby nie wystawała) -->
-<section class="section-container" style="margin-bottom: 40px;">
+<section class="section-container" style="margin-bottom: 20px;">
     <div style="max-width: 960px; margin: 0 auto;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-            <h2 style="margin: 0; color: var(--primary-red);">Najnowsze z bloga</h2>
+            <h2 style="margin: 0; color: var(--primary-red);">Pomocne artykóły z bloga📃 </h2>
             <a href="/asia-compass/blog/" style="color: var(--primary-red); text-decoration: none; font-weight: 600;">Wszystkie wpisy &rarr;</a>
         </div>
 
@@ -132,15 +155,13 @@
     </div>
 </section>
 
-
-
 <!-- Sekcja Atrakcje -->
 {{ if $krajPageObj }}
     {{ range $krajPageObj.Pages }}
         {{ $currentCountryTitle := .Title }}
         {{ $currentCountrySlug := .Title | urlize | lower }}
         
-        <section class="section-container" style="text-align: center; margin-bottom: 40px;">
+        <section class="section-container" style="text-align: center; margin-bottom: 20px;">
             <h1 style="color: var(--primary-red); margin-bottom: 20px;">Odkryj atrakcje w {{ $currentCountryTitle }}</h1>
             <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; max-width: 960px; margin: 0 auto;">
                 {{ $counter := 0 }}
@@ -176,25 +197,25 @@
 {{ end }}
 
 <style>
-.home-attraction-tile:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
-    border-color: var(--primary-red);
-}
-.home-attraction-tile:hover img {
-    transform: scale(1.03);
-}
-.home-attraction-btn:hover {
-    background: #a2e8a9 !important;
-}
-
+.home-attraction-tile:hover,
 .kraj-card-tile:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 24px rgba(0,0,0,0.08);
     border-color: var(--primary-red);
 }
+
+.home-attraction-tile:hover img,
 .kraj-card-tile:hover img {
     transform: scale(1.03);
+}
+
+.home-attraction-btn:hover {
+    background: #a2e8a9 !important;
+}
+
+.kraj-card-btn:hover {
+    background: var(--primary-red) !important;
+    color: #ffffff !important;
 }
 </style>
 {{ end }}

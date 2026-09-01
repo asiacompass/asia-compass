@@ -1,5 +1,5 @@
 ---
-title: "Cafe Obibi Panda Milk"
+title: "Cafe 'Obibi' Panda Milk"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "chengdu"
