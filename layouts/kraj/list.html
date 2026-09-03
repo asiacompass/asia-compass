@@ -40,7 +40,7 @@
     {{ $kategorieFound = $kategorieFound | uniq | sort }}
 
     {{ if gt (len $kategorieFound) 0 }}
-    <h2 style="padding-bottom: 20px; margin-bottom: 20px; color: var(--primary-red);">Co chcesz zobaczyć?</h2>
+    <h2 style="padding-bottom: 20px; margin-bottom: 20px; color: #2c3e50;">Co chcesz zobaczyć?</h2>
     <div class="kategorie-grid-center" style="margin-bottom: 80px;">
         {{ range $kategorieFound }}
             {{ $katName := . }}
@@ -65,7 +65,7 @@
 
    {{/* 5. Nagłówek i kafelki miast */}}
     <div style="margin-bottom: 80px;">
-        <h1 style="padding-bottom: 10px; margin-bottom: 40px; color: var(--primary-red);">Do jakiego miasta planujesz podróź?</h1>
+        <h1 style="padding-bottom: 10px; margin-bottom: 40px; color: #2c3e50;">Do jakiego miasta planujesz podróź?</h1>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
             {{ with site.GetPage "/miasto" }}
                 {{ range .Pages }}
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                            <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
+                            <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                         </div>
                     </div>
                     {{ end }}
@@ -93,7 +93,7 @@
 
  {{/* MAPA MIAST W KRAJU */}}
     <div style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Mapa miast</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Mapa miast</h2>
         <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
     </div>
 
@@ -136,7 +136,7 @@
 
     {{/* 3. Ważne informacje - Kafelki jeden pod drugim na pełną szerokość */}}
     <section class="country-info-section" style="margin-bottom: 80px;">
-        <h2 style="color: var(--primary-red); margin-bottom: 20px;">Przydatne informacje</h2>
+        <h2 style="color: #2c3e50; margin-bottom: 20px;">Przydatne informacje</h2>
         
         <div style="display: flex; flex-direction: column; gap: 20px;">
             {{/* Kafel 1: Płatności */}}
@@ -223,7 +223,7 @@
 
     {{ if gt (len $tagsMap) 0 }}
     <div class="country-tags-section" style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--primary-red);">Odkrywaj według tagów</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: #2c3e50;">Odkrywaj według tagów</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
             {{ range $key, $data := $tagsMap }}
                 <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
@@ -236,7 +236,7 @@
 
     {{/* 7. NOWA SEKCJA: ATRAKCJE DLA KRAJU (MAX 12 KAFELKÓW) */}}
     <div style="margin-bottom: 80px;">
-        <h1 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h1>
+        <h1 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Nie masz pomysłu? Zainspiruj się atrakcjami!</h1>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
             {{ $counter := 0 }}
             {{ with site.GetPage "/atrakcja" }}
@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                             <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #d7f7da; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
                             </div>
                         </div>
                     {{ end }}
@@ -277,7 +277,7 @@
 
     {{ if gt (len $blogPosts) 0 }}
     <div style="margin-bottom: 40px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Pomocne artykuły w planowaniu podróży</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Pomocne artykuły w planowaniu podróży</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
             {{ range first 6 $blogPosts }}
                 <div class="country-blog-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
@@ -301,7 +301,7 @@
                         </div>
                     </div>
                     <div style="padding: 0 15px 15px 15px;">
-                        <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem; transition: opacity 0.2s;">Czytaj artykuł &rarr;</a>
+                        <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: #f9b4bd; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem; transition: opacity 0.2s;">Czytaj artykuł &rarr;</a>
                     </div>
                 </div>
             {{ end }}

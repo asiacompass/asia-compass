@@ -26,7 +26,7 @@
 
 <!-- Sekcja Kraje (Większe kafelki, mniejsze odstępy, pełny opis) -->
 <section class="section-container" style="text-align: center; margin-bottom: 20px;">
-    <h1 style="color: var(--primary-red); margin-bottom: 30px;">Gdzie planujesz polecieć?✈️</h1>
+    <h1 style="color: #2c3e50; margin-bottom: 30px;">Gdzie planujesz polecieć?✈️</h1>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; max-width: 1200px; margin: 0 auto;">
         {{ $krajPageObj := site.GetPage "kraj" }}
         {{ if $krajPageObj }}
@@ -96,7 +96,7 @@
 {{ if gt (len $tagsMap) 0 }}
 <section class="section-container" style="margin-bottom: 20px;">
     <div style="max-width: 960px; margin: 0 auto; text-align: center;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red);">Poszukaj inspiracji według tagów</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Poszukaj inspiracji według tagów</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
             {{ range $key, $data := $tagsMap }}
                 <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
@@ -122,7 +122,7 @@
 <section class="section-container" style="margin-bottom: 20px;">
     <div style="max-width: 960px; margin: 0 auto;">
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-            <h2 style="margin: 0; color: var(--primary-red);">Pomocne artykóły z bloga📃 </h2>
+            <h2 style="margin: 0; color: #2c3e50;">Pomocne artykuły z bloga📃 </h2>
             <a href="/asia-compass/blog/" style="color: var(--primary-red); text-decoration: none; font-weight: 600;">Wszystkie wpisy &rarr;</a>
         </div>
 
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <div style="padding: 15px;">
-                        <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 6px 16px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem;">Czytaj artykuł &rarr;</a>
+                        <a href="{{ .RelPermalink }}" style="display: inline-block; padding: 6px 16px; background: #fce8ec; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem;">Czytaj artykuł &rarr;</a>
                     </div>
                 </div>
                 {{ end }}
@@ -162,7 +162,7 @@
         {{ $currentCountrySlug := .Title | urlize | lower }}
         
         <section class="section-container" style="text-align: center; margin-bottom: 20px;">
-            <h1 style="color: var(--primary-red); margin-bottom: 20px;">Odkryj atrakcje w {{ $currentCountryTitle }}</h1>
+            <h1 style="color: #2c3e50; margin-bottom: 20px;">{{ $currentCountryTitle }} - odkryj najlepsze atrakcje</h1>
             <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 25px; max-width: 960px; margin: 0 auto;">
                 {{ $counter := 0 }}
                 {{ $atrakcjaPageObj := site.GetPage "atrakcja" }}
@@ -185,7 +185,7 @@
                                     </div>
                                 </div>
                                 <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                    <a href="{{ .RelPermalink }}" class="home-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2d5a31; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                                    <a href="{{ .RelPermalink }}" class="home-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
                                 </div>
                             </div>
                         {{ end }}

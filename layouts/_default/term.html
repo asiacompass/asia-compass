@@ -14,9 +14,9 @@
     <!-- KAFELKI FILTROWANIA KRAJÓW -->
 <nav class="country-filter-nav" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; flex-wrap: wrap;">
     <a href="{{ "blog/" | relURL }}" class="country-filter-btn {{ if not .Data.Term }}active{{ end }}">🌸 Wszystkie</a>
-    <a href="{{ "country/chiny/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "chiny" }}active{{ end }}">🇨🇳 Chiny</a>
-    <a href="{{ "country/japonia/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "japonia" }}active{{ end }}">🇯🇵 Japonia</a>
-    <a href="{{ "country/korea/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "korea" }}active{{ end }}">🇰🇷 Korea</a>
+    <a href="{{ "country/chiny/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "chiny" }}active{{ end }}">Chiny</a>
+    <a href="{{ "country/japonia/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "japonia" }}active{{ end }}">Japonia</a>
+    <a href="{{ "country/korea/" | relURL }}" class="country-filter-btn {{ if eq (lower .Title) "korea" }}active{{ end }}">Korea</a>
 </nav>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px;">
