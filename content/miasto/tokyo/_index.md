@@ -13,3 +13,24 @@ Tokio to fascynujący, cyberpunkowy labirynt, w którym najgęstsze skrzyżowani
 **- Duchowe serce:** Najstarsza tokijska świątynia Sensō-ji w dzielnicy Asakusa, do której prowadzi klimatyczna ulica pełna lokalnych pamiątek i przekąsek.  
 **- Gastronomiczny raj:** Od najświeższego sushi z targu Toyosu i parujących misek ramenu po ukryte bary w ciasnych alejkach Omoide Yokocho.    
 **- Widok z góry:** Panorama nieskończonego morza budynków z tarasu Tokyo Skytree, z którego przy dobrej pogodzie widać majestatyczną Górę Fuji.
+
+<!--more-->
+
+Oto popularne atrakcje:
+
+<ins class="klk-aff-widget"  data-adid="1419807" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="28" data-tid="1" data-amount="4" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>
+
