@@ -140,4 +140,4 @@ W samym sercu tradycyjnej dzielnicy Asakusa w Tokio wznosi się Sensō-ji (浅�
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> 
+<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 

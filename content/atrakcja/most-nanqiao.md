@@ -124,4 +124,4 @@ Zaledwie godzinę drogi od tętniącego życiem Chengdu leży Dujiangyan – fas
 
 #### Zobacz poradnik:
 
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a>
+<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; ">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; ">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; ">Chiny i internet</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-app/" style="color: #e98a99; font-weight: bold; ">Aplikacje przydatne w Chinach</a>
