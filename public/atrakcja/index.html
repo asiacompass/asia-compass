@@ -136,6 +136,13 @@
                             
                                 
                                 
+                                    <li>
+                                        <a href="/asia-compass/miasto/nanchang/">NANCHANG</a>
+                                    </li>
+                                
+                            
+                                
+                                
                             
                                 
                                 
@@ -151,6 +158,9 @@
                                     <li>
                                         <a href="/asia-compass/miasto/pekin/">PEKIN</a>
                                     </li>
+                                
+                            
+                                
                                 
                             
                                 
@@ -285,6 +295,9 @@
                             
                                 
                                 
+                            
+                                
+                                
                                     <li>
                                         <a href="/asia-compass/miasto/nara/">NARA</a>
                                     </li>
@@ -315,6 +328,13 @@
                                 
                             
                                 
+                                
+                            
+                                
+                                
+                                    <li>
+                                        <a href="/asia-compass/miasto/shakotan/">SHAKOTAN</a>
+                                    </li>
                                 
                             
                                 
@@ -473,9 +493,15 @@
                             
                                 
                                 
+                            
+                                
+                                
                                     <li>
                                         <a href="/asia-compass/miasto/seoul/">SEOUL</a>
                                     </li>
+                                
+                            
+                                
                                 
                             
                                 
@@ -540,44 +566,43 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     z-index: 9999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 12px 24px !important;
     box-sizing: border-box;
 }
 
  
 body {
-    padding-top: 75px;
+    padding-top: 80px !important;
 }
 
- 
 .site-header .logo a {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    color: var(--primary-red, #d9534f);
+    color: var(--primary-red, #ca041e);
     text-decoration: none;
 }
 
 .site-header nav ul.nav-menu {
     list-style: none;
     display: flex;
-    gap: 25px;
+    gap: 20px;
     margin: 0;
     padding: 0;
     align-items: center;
 }
 
 .site-header nav ul.nav-menu > li > a {
-    font-size: 1.15rem !important;
-    font-weight: 500;
-    color: var(--text-color, #333);
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: var(--text-color, #2c3e50);
     text-decoration: none;
-    padding: 8px 0;
+    padding: 6px 0;
 }
 
  
@@ -585,7 +610,6 @@ body {
     position: relative;
 }
 
- 
 .dropdown-content {
     display: none;
     position: absolute;
@@ -593,7 +617,7 @@ body {
     left: 0;
     background: #ffffff;
     min-width: 180px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
     border-radius: 8px;
     padding: 8px 0;
     list-style: none;
@@ -604,7 +628,6 @@ body {
     display: block;
 }
 
- 
 .dropdown-submenu {
     position: relative;
 }
@@ -612,10 +635,9 @@ body {
 .dropdown-submenu > a {
     display: block;
     padding: 10px 16px;
-    color: var(--text-color, #333);
+    color: var(--text-color, #2c3e50);
     text-decoration: none;
     white-space: nowrap;
-    transition: background 0.2s, color 0.2s;
 }
 
 .dropdown-submenu > a:hover {
@@ -623,7 +645,6 @@ body {
     color: var(--primary-red);
 }
 
- 
 .dropdown-sub-content {
     display: none;
     position: absolute;
@@ -639,12 +660,10 @@ body {
     z-index: 1001;
 }
 
- 
 .dropdown-submenu:hover .dropdown-sub-content {
     display: block !important;
 }
 
- 
 .dropdown-sub-content li a {
     display: block;
     padding: 8px 16px;
@@ -656,6 +675,50 @@ body {
 .dropdown-sub-content li a:hover {
     background: #fce8ec;
     color: var(--primary-red);
+}
+
+ 
+@media (max-width: 768px) {
+     
+    .site-header {
+        flex-direction: row !important;
+        padding: 10px 15px !important;
+    }
+
+    .site-header nav ul.nav-menu {
+        flex-direction: row !important;
+        gap: 12px !important;
+    }
+
+    .site-header nav ul.nav-menu > li > a {
+        font-size: 0.85rem !important;
+    }
+
+     
+    .dropdown-content {
+        position: fixed;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        top: 60px;
+    }
+
+     
+    .hero-banner {
+        height: auto !important;
+        min-height: 260px;
+        padding: 40px 15px !important;
+        margin-top: 10px !important;
+    }
+
+    .hero-banner h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .hero-banner p {
+        font-size: 0.95rem !important;
+        line-height: 1.4 !important;
+    }
 }
 </style>
 
@@ -962,6 +1025,53 @@ body {
             <div>
                 
                 
+                <img src="https://images.pexels.com/photos/38116203/pexels-photo-38116203.jpeg" alt="Cape Kamui - nadmorski szlak" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Cape Kamui - nadmorski szlak</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="nadmorski-fotogeniczny-klif">Nadmorski fotogeniczny klif</h3>
+<p>Dramatyczne, opadające pionowo do morza klify, wąska ścieżka prowadząca grzbietem zielonych wzgórz i hipnotyzujący, turkusowo-szafirowy odcień wody – oto Peleryna Kamui (Cape Kamui / 神威岬), położona na malowniczym półwyspie Shakotan na Hokkaido. To miejsce, gdzie surowość japońskiej przyrody pokazuje swoje najbardziej spektakularne oblicze, oferując panoramy, które na zawsze zapadają w pamięć.</p>
+  <p align="center">
+  <img src="https://i.pinimg.com/1200x/32/a1/9c/32a19cb4abdb4f322f3f1ff9b3693370.jpg" alt="Opis zdjęcia" width="500">
+  </p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Niezwykły odcień &ldquo;Shakotan Blue&rdquo;</strong> Woda wokół Cape Kamui ma niesamowicie przejrzystą, szmaragdowo-szafirową barwę. W Japonii ten specyficzny, krystaliczny odcień zyskał własną nazwę – Shakotan Blue – i uchodzi za najpiękniejszy kolor morza na całej wyspie Hokkaido.</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/cape-kamui/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://urbanvibes.id/wp-content/uploads/2025/04/Cha-Jue-Jue-Jiangxi-teh-viral-dari-China.jpg" alt="Cha Jue Jue - wiralowa herbata" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Cha Jue Jue - wiralowa herbata</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="kultowa-herbata-w-parującym-czajniku">Kultowa herbata w parującym czajniku</h3>
+<p>W chińskim mieście Nanchang (prowincja Jiangxi) narodził się prawdziwy fenomen mediów społecznościowych – kultowa linia herbat od lokalnej sieci Cha Jue Jue (茶珏珏). Serwowana w kubkach ozdobionych tradycyjnymi, niebiesko-białymi wzorami przypominającymi słynną chińską porcelanę z Jingdezhen, skradła serca podróżników i miłośników herbaty na całym świecie. Największym zaskoczeniem jest jednak góra kubka: na specjalnej pokrywce z „dymiącym” suchym lodem spoczywa urocza, miniaturowa porcelanowa czajniczkowa ozdoba.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Hołd dla stolicy porcelany</strong> Design kubków bezpośrednio nawiązuje do tradycyjnej porcelany Qinghua (biało-niebieskiej), łącząc tysiącletnią tradycję rzemiosła z nowoczesnym street foodem.</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/cha-jue-jue/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
                 <img src="https://i.pinimg.com/1200x/da/aa/ae/daaaae17582a330ea34b0f1a83ae85d4.jpg" alt="Cinnamoroll Cafe" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
                 
                 
@@ -1092,6 +1202,24 @@ body {
             <div>
                 
                 
+                <img src="https://i.pinimg.com/1200x/60/7e/8a/607e8a56de47924d874867315a3db30b.jpg" alt="Ghibli park" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Ghibli park</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h2 id="wejdź-do-świata-ghibli">Wejdź do świata Ghibli</h2>
+<p>Położony na terenie Parku Pamięci Expo w prefekturze Aichi Ghibli Park (ジブリパーク) to prawdziwe spełnienie marzeń każdego miłośnika kultowych animacji Studia Ghibli. W przeciwieństwie do tradycyjnych parków rozrywki ze spektakularnymi kolejkami górskimi, Ghibli Park stawia na pełne zanurzenie w naturze i architekturze, zapraszając do spaceru po dokładnie odwzorowanych światach z filmów Hayao Miyazakiego – od ikonicznego domu Satsuki i Mei z „Mój sąsiad Totoro” po majestatyczny „Ruchomy zamek Hauru”.</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/ghibli-park/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
                 <img src="https://i.pinimg.com/736x/90/95/07/909507e7f39229331c69bf5966b47243.jpg" alt="Gimhae Hanok Experience Center" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
                 
                 
@@ -1122,6 +1250,31 @@ body {
             </div>
             
             <a href="/asia-compass/atrakcja/pl-peace-tower/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260318_211%2F1773806992931IqYEH_JPEG%2F0_%25C0%25FC%25B0%25E6_%25283%2529.jpg" alt="Greek Cafe &#39;Calliope&#39;" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Greek Cafe &#39;Calliope&#39;</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h2 id="niezwykła-large-cafe-grecka-restauracja">Niezwykła large cafe grecka restauracja</h2>
+<p>W mieście Yongin, położonym rzut beretem od Seulu, znajduje się niezwykła, wielkoformatowa kawiarnia urządzona w stylu antycznym – inspirowana grecką świątynią architektoniczna perełka. To przestrzeń, w której klasyczne rzeźby, wyrafinowane kolumny i wysokie przeszklone ściany łączą się z kulturą koreańskich kawiarni artystycznych (large aesthetic cafes). Miejsce to zachwyca monumentalnym wnętrzem, ciepłym światłem oraz widokami na malowniczy zachód słońca.</p>
+<p align="center">
+  <img src="https://cdn.restaurants-us.com/calliope/65027-albums-4.jpg" alt="Opis zdjęcia" width="500">
+</p>
+<h3 id="fakty-i-ciekawostki">Fakty i ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Trend &ldquo;Large Cafe&rdquo; w Korei:</strong> Korea Południowa słynie z wielkopowierzchniowych kawiarni tematycznych budowanych na obrzeżach miast. Ten obiekt w Yongin został zaprojektowany niczym Grecka Świątynia, w której centralnym punktem są repliki antycznych posągów i marmurowe wykończenia.</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/cafe-calliope/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
         </div>
         
         <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
@@ -1488,6 +1641,28 @@ Krajobrazy Huanglong (oraz sąsiedniej doliny Jiuzhaigou) były bezpośrednią i
             </div>
             
             <a href="/asia-compass/atrakcja/hohojang/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://i.pinimg.com/1200x/42/07/78/420778fa1eb883ee252a3e35ce1e5252.jpg" alt="Punkt widokowy Hwangryeongsan Bongsudae" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Punkt widokowy Hwangryeongsan Bongsudae</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="punkt-widokowy-na-panoramę-busan">Punkt widokowy na panoramę Busan</h3>
+<p>Wznoszący się w samym sercu Pusan Punkt Widokowy Hwang령san Bongsudae oferuje jedną z najwspanialszych, 360-stopniowych panoram w całej Korei Południowej. Często nazywany przez lokalnych mieszkańców „koreańskim Shibuya Sky”, jest idealnym miejscem do podziwiania zachodu słońca oraz rozświetlonej, tętniącej życiem metropolii i spektakularnego mostu Gwangan Bridge.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Starożytny system ostrzegawczy:</strong> Bongsudae to historyczna wieża sygnałowa (latarnia ogniowa) z czasów dynastii Joseon. Służyła do przekazywania kluczowych wiadomości wojskowych za pomocą dymu w ciągu dnia i ognia nocą, łącząc wybrzeże z pałacem w Seulu.</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/bongsudea/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
         </div>
         
         <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">

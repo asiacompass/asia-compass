@@ -3,7 +3,7 @@ title: "Park Narodowy Bukhansan"
 kraj: "korea"
 miasto: "seoul"
 kategoria: "natura"
-tag: 
+tag: ["szlak⛰️"]
 type: "atrakcja"
 lat: 37.61926394830934
 lng: 126.99690473000685

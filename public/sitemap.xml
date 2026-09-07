@@ -90,6 +90,10 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-2d/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cape-kamui/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cha-jue-jue/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/chengdu/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kraj/chiny/</loc>
@@ -124,6 +128,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/gexian-village/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/ghibli-park/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/gimhae/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/hanok-center/</loc>
@@ -131,6 +137,8 @@
     <loc>http://localhost:1313/asia-compass/miasto/gimpo/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/pl-peace-tower/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-calliope/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/gwangjang-market/</loc>
   </url><url>
@@ -188,6 +196,8 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nanao/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/nanchang/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nara/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/natura/</loc>
@@ -224,11 +234,15 @@
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/hohojang/</loc>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/bongsudea/</loc>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/kibunesou/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/restaurant/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/seoul/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/shakotan/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/shanghai/</loc>
   </url><url>
@@ -247,6 +261,8 @@
     <loc>http://localhost:1313/asia-compass/atrakcja/temple-sensoji/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/most-nanqiao/</loc>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/tag/szlak%EF%B8%8F/</loc>
   </url><url>
     <loc>http://localhost:1313/asia-compass/tag/</loc>
   </url><url>
