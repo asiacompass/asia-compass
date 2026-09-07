@@ -23,6 +23,9 @@ eSIM to cyfrowa karta SIM, którą instalujesz na telefonie jeszcze przed wylote
 * Przed wylotem: Wyłącz nową kartę eSIM.
 * Po wylądowaniu w Japonii: Włącz kartę eSIM, ustaw ją jako główną dla Cellular Data (Dane komórkowe) i włącz opcję Data Roaming (Roaming danych) dla profilu japońskiego.
 
+ #### <a href="https://saily.tpk.mx/Tr4uJ0ye" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ OFERTE ESIM NA SAILY </a><p>
+ #### <a href="https://yesim.tpk.mx/IB1XeLaO" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ OFERTE ESIM NA YESIM </a>
+
 ## 2. Pocket Wi-Fi (Najlepsza opcja dla grup i rodzin)
 
 Przenośny router (wielkości powerbanka), który tworzy prywatną sieć Wi-Fi dla kilku urządzeń jednocześnie.
@@ -46,26 +49,8 @@ Jeśli Twój telefon nie obsługuje eSIM, możesz zamienić lub dodać fizyczną
 * Włóż kartę do slotu SIM w telefonie.
 * Skonfiguruj punkt dostępu APN zgodnie z instrukcją dołączoną do karty (często wymaga pobrania profilu konfiguracji w przypadku iPhone'ów).
 
----
+### Sprawdź i porównaj ofertę
 
-##  `Niezbędne aplikacje na wyjazd do Japonii`
+<a href="https://kkday.tpk.mx/xFFg27ly" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ PEŁNĄ OFERTĘ ESIM / WIFI / SIM NA KKDAY </a>
 
-Przed przekroczeniem granicy koniecznie zainstaluj i skonfiguruj te aplikacje:
-
-### 1. Nawigacja i Transport
-* **Google Maps** – Działa w Japonii wyśmienicie. Pokazuje dokładne godziny odjazdów pociągów, cenę biletu, a co najważniejsze: **numer peronu** oraz **numer wyjścia ze stacji** (np. *Exit A6*).
-* **Japan Travel by NAVITIME** – Najlepsza aplikacja do planowania podróży pociągami (w tym **Japan Rail Pass / JR Pass**). Umożliwia filtrowanie tras pod kątem posiadanych biletów okresowych.
-
-### 2. Tłumaczenie i Język
-* **Google Translate** – Tryb aparatu pozwala na tłumaczenie japońskich znaków na żywo (niezbędne w restauracjach bez angielskiego menu oraz na opakowaniach w sklepach).
-* **Payke** – Skanuje kody kreskowe produktów w sklepach typu *convenience store* lub drogeriach i wyświetla ich opis po angielsku (skład, zastosowanie, alergeny).
-
-### 3. Płatności i Finanse
-* **Apple Wallet (Portfel)** – Dla użytkowników iPhone'a: umożliwia wygenerowanie cyfrowej karty **Suica** lub **Pasmo** i płacenie zbliżeniowe w metrze, autobusach i sklepach.
-* **Revolut / Wise** – Niezbędne do bezpłatnego przeliczania walut i wypłaty jenów (JPY) z bankomatów **7Bank (w sklepach 7-Eleven)**.
-
-### 4. Przechowalnie Bagażu i Taksówki
-* **ecbo cloak** – "Airbnb dla bagażu". Pozwala zarezerwować miejsce na zostawienie walizki w kawiarniach, sklepach czy na stacjach, gdy szafki samoobsługowe (*Coin Lockers*) są zajęte.
-* **GO (GO Ride)** lub **Uber** – Najpopularniejsza aplikacja do zamawiania taksówek w Japonii.
-
----
+<a href="https://affiliate.klook.com/redirect?aid=134179&aff_adid=1420115&k_site=https%3A%2F%2Fwww.klook.com%2Fpl%2Fwifi-sim-card%2F%3Fdest_id%3D1012%26spm%3DWifi_Sim_Vertical.SuggestDestination_LIST%26clickId%3D815926013c" target="_blank" style="color: #e98a99; font-weight: bold; "> ➡️ ZOBACZ PEŁNĄ OFERTĘ ESIM / WIFI / SIM NA 'KLOOK' </a>

@@ -13,3 +13,21 @@ Kioto to kulturalne serce Japonii i ponadczasowe miasto-dzieło sztuki, w który
 **- Złoty Pawilon (Kinkaku-ji):** Olśniewająca buddyjska świątynia, której dwa ostatnie piętra są całkowicie pokryte czystym złotem, idealnie odbijającym się w tafli otaczającego ją stawu.  
 **- Historyczne Gion i Higashiyama:** Tradycyjne dzielnice z drewnianą architekturą machiya, gdzie wieczorami, przy świetle lampionów, można spotkać prawdziwe gejsze i maiko.  
 **- Bambusowy Las Arashiyama:** Spacer pośród monumentalnych, sięgających nieba zielonych pędów bambusa, które kołysząc się na wietrze, wydają charakterystyczny, kojący dźwięk.
+
+<!--more-->
+
+<ins class="klk-aff-widget"  data-adid="1419611" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="30" data-tid="21" data-amount="4" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

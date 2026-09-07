@@ -21,10 +21,16 @@ rozwijalne_listy:
       <ul>
         <li><strong>Rezerwacja online: </strong> Dostępna, ale niewymagana dla turystów indywidualnych w ciągu dnia (bilety bez problemu kupisz w automatach lub kasach na miejscu).
         </li><p>
+
         <li><strong>Nocne zwiedzanie: </strong> Specjalne nocne wstępy wymagają bezwzględnej rezerwacji z wyprzedzeniem ze względu na rygorystyczne limity wejść.
         </li><p>
-        <li><strong>Gdzie rezerwować?</strong> Wygodne bilety wstępu, wycieczki z przewodnikiem lub pakiety z wypożyczeniem stroju Hanbok kupisz przez aplikację Klook lub Trip.com.
-        </li>
+
+        <li><strong>Gdzie rezerwować?</strong> Wygodne bilety wstępu, wycieczki z przewodnikiem lub pakiety z wypożyczeniem stroju Hanbok kupisz przez aplikację Klook lub Trip.com. <p>
+         </li>
+         <a href="https://affiliate.klook.com/redirect?aid=134179&aff_adid=1420081&k_site=https%3A%2F%2Fwww.klook.com%2Fpl%2Fsearch%2Fresult%2F%3Fquery%3DGyeongbokgung%26search_scope%3Dmain_search%26tab_key%3D1%26sort%3Dmost_relevant%26start%3D1%26spm%3DSearchResult.SearchResultTab_LIST%26clickId%3D7262116fdf" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ZOBACZ PAKIETY NA KLOOK</a> <p>
+
+         <a href="https://tiqets.tpk.mx/g7kfliIR" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> KUP BILET NA TIQETS</a>
+        
       </ul>
 
   - tytul: "Wejście i ceny"

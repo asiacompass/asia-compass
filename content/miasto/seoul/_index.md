@@ -15,3 +15,22 @@ Seul to neonowe megamiasto, w którym supernowoczesna technologia i kultura K-po
 **- Futurystyczny design:** Kosmiczna bryła Dongdaemun Design Plaza (DDP) rozświetlająca nocne miasto.  
 **- Uliczny street food:** Pikantne kluseczki tteokbokki i chrupiący kurczak na tętniącym życiem targu Gwangjang.  
 **- Neonowe dzielnice:** Szalone imprezy w Hongdae oraz luksusowe butiki w słynnym cyfrowym Gangnam.
+
+
+<!--more-->
+
+<ins class="klk-aff-widget"  data-adid="1420001" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="13" data-tid="21" data-amount="4" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

@@ -19,8 +19,10 @@ Idealne rozwiązanie, jeśli Twój telefon obsługuje wirtualne karty SIM. Nie m
 * Otwórz aplikację dostawcy lub kod QR przesłany w wiadomości e-mail.
 * W telefonie przejdź do: Ustawienia -> Sieć komórkowa -> Dodaj kartę eSIM i zeskanuj kod QR.
 * Nazwij nowy profil np. „Korea eSIM”.
-* Wyląduj w Seulu: Włącz kartę eSIM w ustawieniach, wybierz ją jako główną dla Danych komórkowych (Cellular Data) i włącz opcję Roaming danych (Data Roaming) dla profilu koreańskiego.
+* Wyląduj w Seulu: Włącz kartę eSIM w ustawieniach, wybierz ją jako główną dla Danych komórkowych (Cellular Data) i włącz opcję Roaming danych 
 
+ #### <a href="https://saily.tpk.mx/4PJQD05t" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ OFERTE ESIM NA SAILY </a> <p>
+ #### <a href="https://yesim.tpk.mx/GVXiCS3k" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ OFERTE ESIM NA YESIM </a>
 ---
 
 ## 2. Fizyczna karta SIM z odbiorem na lotnisku
@@ -45,3 +47,11 @@ Małe urządzenie tworzące prywatną sieć Wi-Fi. Jeden router pozwala na podł
 * Odbierz etui zawierające router, kabel do ładowania i powerbank.
 * Włącz router, wyszukaj sieć SSID na telefonie, wpisz Hasło umieszczone na naklejce urządzenia i gotowe.
 * Przed wylotem oddaj kompletny zestaw w tym samym punkcie na lotnisku (lub wrzuć do dedykowanej skrzynki zwrotnej Drop-box).
+
+---
+
+### Sprawdź i porównaj ofertę
+
+<a href="https://kkday.tpk.mx/rBoUj8g7" target="_blank" style="color: #e98a99; font-weight: bold;"> ➡️ ZOBACZ PEŁNĄ OFERTĘ ESIM / WIFI / SIM NA 'KKDAY' </a>
+
+<a href="https://affiliate.klook.com/sl/2cAl3LZ" target="_blank" style="color: #e98a99; font-weight: bold; "> ➡️ ZOBACZ PEŁNĄ OFERTĘ ESIM / WIFI / SIM NA 'KLOOK' </a>

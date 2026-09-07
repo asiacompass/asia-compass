@@ -12,4 +12,22 @@ Busan to dynamiczna stolica koreańskiego wybrzeża i miasto-energia, w którym 
 **- Plaże Haeundae i Gwangalli:** Piaszczyste, wielokilometrowe wybrzeże z widokiem na ikoniczny, podwieszany most Diamond Bridge, który nocą mieni się milionami barw.    
 **- Wioska Kultury Gamcheon:** Niezwykła, pastelowa dzielnica na zboczu góry, pełna labiryntów wąskich uliczek, murali, rzeźb i artystycznych kawiarni.    
 **- Targ rybny Jagalchi:** Największy rynek owoców morza w Korei, gdzie zobaczysz setki gatunków morskich stworzeń i zjesz najświeższe sashimi przygotowane na Twoich oczach.    
-**- Świątynia Haedong Yonggungsa:** Jedna z nielicznych w Korei buddyjskich świątyń położona bezpośrednio na skalistym klifie nad samym oceanem, gdzie fale rozbijają się o jej mury.  
+**- Świątynia Haedong Yonggungsa:** Jedna z nielicznych w Korei buddyjskich świątyń położona bezpośrednio na skalistym klifie nad samym oceanem, gdzie fale rozbijają się o jej mury. 
+
+<!--more-->
+
+<ins class="klk-aff-widget"  data-adid="1419998" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="46" data-tid="1" data-amount="4" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

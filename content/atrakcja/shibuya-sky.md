@@ -26,7 +26,14 @@ rozwijalne_listy:
        </li><p>
       
        <li><b>Gdzie rezerwować?</b> <br>
-         Najtaniej i najwygodniej bilety kupisz przez Klook lub bezpośrednio na oficjalnej stronie atrakcji.</li>
+         Najtaniej i najwygodniej bilety kupisz przez Klook lub bezpośrednio na oficjalnej stronie atrakcji.
+       </li> <p>
+
+       <h3> Sprawdź i porównaj ofertę: </h3>
+
+         <a href="https://affiliate.klook.com/redirect?aid=134179&aff_adid=1420038&k_site=https%3A%2F%2Fwww.klook.com%2Fpl%2Factivity%2F70672-shibuya-sky-tokyo%2F%3Fspm%3DSearchResult.SearchResult_LIST%26clickId%3D5d7c775cb9" target="_blank" rel="noopener" style="color: #f23451; font-weight: bold; text-decoration: underline;"> ➡️Zarezerwuj bilet na SHIBUYA SKY przez Klook </a><p>
+          <a href="https://kkday.tpk.mx/7aeZPtTf" target="_blank" rel="noopener" style="color: #f23451; font-weight: bold; text-decoration: underline;"> ➡️Zarezerwuj bilet na SHIBUYA SKY przez KKday </a>
+         
       </ul>
 
   - tytul: "Wejście i ceny"
@@ -122,6 +129,7 @@ Zawieszony niemal 230 metrów nad ziemią taras widokowy Shibuya Sky to absolutn
 * **Geatwa świetlna "Crossing Light":** Po zmroku z dachu w niebo wzbijają się potężne reflektory świetlne, których promienie przecinają nocne niebo w rytm dedykowanej muzyki, tworząc futurystyczną atmosferę.
 * **Ruchome schody w chmurach::** Wjazd na samą górę zewnętrznymi, w pełni przeszklonymi schodami ruchomymi zapewnia wrażenie unoszenia się w powietrzu nad panoramą metropolii.
 * **Podniebne leżaki (Cloud Hammocks):** Na otwartym dachu zainstalowano specjalne siatki-hamaki, na których można się położyć i obserwować niebo oraz przeatujące samoloty w samym sercu Tokio.
+
 
 
 #### Zobacz poradnik:

@@ -52,6 +52,8 @@ Instalację karty eSIM warto wykonać **jeszcze w Polsce** (lub przed wylotem), 
 4. **Skonfiguruj przed wylotem:** Nazwij nową kartę (np. *"eSIM Chiny"*), a jako główną kartę do transmisji danych ustaw ją dopiero po wylądowaniu w Chinach.
 5. **Włącz Roaming:** Po przylocie przełącz transmisję danych na eSIM i **włącz roaming danych** dla tej karty.
 
+ #### <a href="https://saily.tpk.mx/1dZTq42T" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ OFERTE ESIM NA SAILY </a> <p>
+ #### <a href="https://yesim.tpk.mx/7EeoXE12" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> ➡️ ZOBACZ OFERTE ESIM NA YESIM </a>
 ---
 ## 3. Astrill VPN vs. Mullvad VPN
 
@@ -95,12 +97,7 @@ Instalację karty eSIM warto wykonać **jeszcze w Polsce** (lub przed wylotem), 
 
 ---
 
-## Niezbędny zestaw aplikacji na wyjazd do Chin
+### Sprawdź i porwnaj oferty
 
-Mając aktywną kartę eSIM i otwarty dostęp do sieci, zainstaluj te aplikacje jeszcze przed przekroczeniem granicy:
+<a href="https://kkday.tpk.mx/6rYT2QT9" target="_blank" style="color: #e98a99; font-weight: bold;"> ➡️ ZOBACZ PEŁNĄ OFERTĘ ESIM / WIFI / SIM NA 'KKDAY' </a><p>
 
-* **Alipay / WeChat** – Niezbędne do płatności kodami QR, zamawiania taksówek (Didi) oraz kupowania biletów.
-<a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Zobacz jak pobrać i zainstalować</a>
-* **Amap (Gaode Maps) / Apple Maps** – Google Maps w Chinach ma nieaktualne mapy i przesunięte punkty GPS. Na iPhone najlepiej sprawdzają się Apple Maps, a na Androidzie lokalne Amap.
-* **Aplikacja tłumaczeniowa (np. Google Translate / Pleco)** – Pobierz **język chiński do trybu offline**, aby tłumaczyć menu w restauracjach czy szyldy za pomocą aparatu.
-* **Aplikacja VPN (jako zapas)** – Jeśli planujesz korzystać z Wi-Fi w hotelu, pobierz sprawdzony VPN (np. *Astrill VPN* lub *Mullvad*) **przed przylotem**, ponieważ strony dostawców VPN są w Chinach zablokowane.
