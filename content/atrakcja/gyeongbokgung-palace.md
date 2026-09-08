@@ -84,7 +84,7 @@ galeria_zdjec:
   - url: "https://images.pexels.com/photos/6427161/pexels-photo-6427161.jpeg"
   - url: "https://images.pexels.com/photos/19474886/pexels-photo-19474886.jpeg"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/Dc6O-ROI0jQ/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

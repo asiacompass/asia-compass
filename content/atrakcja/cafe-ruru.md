@@ -112,7 +112,7 @@ galeria_zdjec:
   - url: "https://i.pinimg.com/736x/c7/0c/6c/c70c6c113ca692047800cf81ce11d478.jpg"
   - url: "https://i.pinimg.com/1200x/d1/9d/5b/d19d5b4f4f831cb57ccb6fd11bbfb67c.jpg"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/Dc1FVIZIXjQ/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

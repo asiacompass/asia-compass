@@ -84,7 +84,7 @@ galeria_zdjec:
   - instagram_photo: "https://www.instagram.com/p/CG1bMErMn-7/?igsi=MzRlODBiNWFlZA=="
   - instagram_photo: "https://www.instagram.com/p/CD-M7u4s8Nu/?igsi=MzRlODBiNWFlZA=="
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DctXACdoVNr/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

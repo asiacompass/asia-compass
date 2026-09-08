@@ -78,11 +78,11 @@ rozwijalne_listy:
       </ul>
 
 galeria_zdjec:
-  - url: "https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474680134_9494223500622888_7309364335691909304_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s800x800&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rkwt-OGUqE4Q7kNvwE9H1r6&_nc_oc=Adrm--jUNZ47L4kjyb6NR19in7vY5OO_ITVzHbC1YR_3xHl4ZbWbdgQywzM4nvQOwIM&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&_nc_gid=BBtZI8LcYmKAtLf3b3FjcQ&_nc_ss=7b2a8&oh=00_AQEHUKLDNAcTRTyLhfO1ypBjzMiChF0aywHq__rEoYfvpw&oe=6A934093"
-  - url: "https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474745692_9494223477289557_2230574717207108536_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s800x800&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5A6u2CLog5kQ7kNvwEXztLH&_nc_oc=AdqM80ItFFSTpt9qwnBa14odKs5iHhlLV1ZwFCKlsygCJHzvv048lKqcWyMjL8DZs2g&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&_nc_gid=ksfJevT7_WvKpjABci89rQ&_nc_ss=7b2a8&oh=00_AQFs-cpYRJrJUJKSlr67yvXfGhMU-dtSNOEuDnxatRHo3w&oe=6A9349CA"
-  - url: "https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474760269_9494223507289554_1985388670535858125_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s800x800&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=45u4DqDST_cQ7kNvwGv4VgA&_nc_oc=AdppR31VnfVfOgg2VzBi01WwPXmPojkJTckaPZLHuF0vuiVcobfOi35s3Snlf2K0drI&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&_nc_gid=LEXioRdrmIdmf6WGeh53tw&_nc_ss=7b2a8&oh=00_AQHLnCDt8Bo3hNVrxLee6lS_UFwWo5HeSTrjWtv1DC1fOQ&oe=6A933CA8"
-  - url: "https://scontent.fktw1-1.fna.fbcdn.net/v/t39.30808-6/474635776_9494223517289553_8964660974954256365_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s800x800&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JNzjb3ja-GEQ7kNvwH0HQTz&_nc_oc=AdqmxP0hQSBCfVHG-51U3d36VkFCRsfIck_HNSehfquu7toTpf4FzWmB7akc-xqa4lM&_nc_zt=23&_nc_ht=scontent.fktw1-1.fna&_nc_gid=U_mIYO9KfE6mZv-OP1M3Yg&_nc_ss=7b2a8&oh=00_AQHQoXDp7mNBEgLi_dEvrPkA65lwMdiOcUXEn-P37SAzaA&oe=6A934502"
-    caption: "fot. FB: Travel Korea-Gyeongnam"
+  - url: "https://en.trippose.com/thum/1050696/800/533"
+  - url: "https://en.trippose.com/thum/1050695/800/533"
+  - url: "https://en.trippose.com/thum/1050694/800/533"
+  - url: "https://en.trippose.com/thum/1050693/800/533"
+    caption: "photo: trippose.com"
 
 instagram_reel: "https://www.instagram.com/reel/DbV0ADcBEgf/?igsi=MzRlODBiNWFlZA=="
 
