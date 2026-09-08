@@ -100,5 +100,10 @@ Przenieś się do przytulnej krainy nostalgii w samym sercu Seulu! Brown Avenue 
 
 #### Zobacz poradnik:
 
+---
+
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

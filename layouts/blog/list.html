@@ -8,24 +8,24 @@
         {{ end }}
     </header>
 
-    <!-- KAFELKI FILTROWANIA KRAJÓW (BEZ PRZEŁADOWANIA STRONY) -->
+    <!-- KAFELKI FILTROWANIA KRAJÓW -->
     <nav class="country-filter-nav" style="display: flex; justify-content: center; gap: 15px; margin-bottom: 40px; flex-wrap: wrap;">
         <button class="country-filter-btn active" onclick="filterCountry('all', this)">🌸 Wszystkie</button>
-        <button class="country-filter-btn" onclick="filterCountry('chiny', this)">🇨🇳 Chiny</button>
-        <button class="country-filter-btn" onclick="filterCountry('japonia', this)">🇯🇵 Japonia</button>
-        <button class="country-filter-btn" onclick="filterCountry('korea', this)">🇰🇷 Korea</button>
+        <button class="country-filter-btn" onclick="filterCountry('chiny', this)">Chiny</button>
+        <button class="country-filter-btn" onclick="filterCountry('japonia', this)">Japonia</button>
+        <button class="country-filter-btn" onclick="filterCountry('korea', this)">Korea</button>
     </nav>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 25px;">
         {{ range .RegularPages }}
         {{ $country := lower (.Params.country | default "none") }}
-        <article class="blog-post-tile" data-country="{{ $country }}" style="background: #fff; border: 2px solid var(--primary-red); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.25s ease;">
+        <article class="blog-post-tile" data-country="{{ $country }}" style="background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.04); display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
             
             <div>
                 {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
                 {{ if $img }}
                 <a href="{{ .RelPermalink }}" style="display: block; width: 100%; height: 200px; overflow: hidden; position: relative;">
-                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease;">
                     
                     {{ if .Params.country }}
                     <span style="position: absolute; top: 12px; right: 12px; background: rgba(0,0,0,0.65); color: #fff; padding: 4px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 600; backdrop-filter: blur(4px); text-transform: capitalize;">
@@ -51,7 +51,7 @@
             </div>
             
             <div style="padding: 0 20px 20px 20px;">
-                <a href="{{ .RelPermalink }}" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.88rem; transition: opacity 0.2s;">Czytaj dalej &raquo;</a>
+                <a href="{{ .RelPermalink }}" class="blog-read-more" style="display: inline-block; padding: 8px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Czytaj dalej &raquo;</a>
             </div>
             
         </article>
@@ -61,7 +61,6 @@
 </div>
 
 <style>
-/* Style kafelków filtrowania */
 .country-filter-btn {
     display: inline-flex;
     align-items: center;
@@ -84,28 +83,27 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Hover na posty */
 .blog-post-tile:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.08) !important;
+    border-color: var(--primary-red);
 }
 
 .blog-post-tile:hover img {
-    transform: scale(1.04);
+    transform: scale(1.03);
 }
 
 .blog-read-more:hover {
-    opacity: 0.85;
+    background: var(--primary-red) !important;
+    color: #ffffff !important;
 }
 </style>
 
 <script>
 function filterCountry(country, element) {
-    // 1. Zmiana aktywnego przycisku
     document.querySelectorAll('.country-filter-btn').forEach(btn => btn.classList.remove('active'));
     element.classList.add('active');
 
-    // 2. Filtrowanie kart na żywo
     const posts = document.querySelectorAll('.blog-post-tile');
     posts.forEach(post => {
         const postCountry = post.getAttribute('data-country');

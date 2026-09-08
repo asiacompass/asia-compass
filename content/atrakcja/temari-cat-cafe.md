@@ -143,7 +143,9 @@ Przenieś się do baśniowego zamku opanowanego przez puszyście łapki! Temari 
 * **Część miasteczka Kichijōji Petit Mura:** Kawiarnia stanowi serce bajkowego kompleksu budynków Petit Mura – ukrytego podwórka w dzielnicy Kichijōji, które pełne jest miniaturowych uliczek, herbaciarni i butików z rzemiosłem.
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

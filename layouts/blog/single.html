@@ -1,18 +1,93 @@
 {{ define "main" }}
-<article class="blog-post-single" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+<article class="blog-post-single" style="max-width: 1200px; margin: 40px auto; padding: 0 20px;">
     
-    <header style="margin-bottom: 30px; text-align: center;">
-        <h1 style="font-size: 2.2rem; color: var(--primary-red); margin-bottom: 10px;">{{ .Title }}</h1>
-        <div style="font-size: 0.9rem; color: #666;">
-            {{ .Date.Format "02.01.2006" }}
-        </div>
-    </header>
+    <div style="margin-bottom: 15px;">
+        <button onclick="history.back()" class="back-link">
+            &larr; Wróć
+        </button>
+    </div>
 
-<div style="max-width: 800px; margin: 0 auto 15px auto; padding: 0 20px;">
-    <button onclick="history.back()" class="back-link">
-        &larr; Wróć
-    </button>
-</div>
+    {{/* Górny baner – czysty nagłówek bez zielonego tła */}}
+    <div class="country-banner" style="background: none; border: none; box-shadow: none; padding: 10px 0 20px 0; text-align: left;">
+        <div class="country-banner-content" style="background: none; box-shadow: none; padding: 0;">
+            <h1 style="font-size: 2.3rem; color: var(--primary-red); margin: 0 0 5px 0;">{{ .Title }}</h1>
+            <div class="post-date" style="color: #666;">{{ .Date.Format "02.01.2006" }}</div>
+        </div>
+    </div>
+
+    {{/* Układ dwukolumnowy: Główna treść po lewej, panel boczny po prawej */}}
+    <div class="blog-two-columns">
+        
+        <div class="blog-main-column">
+            {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+            {{ if $img }}
+            <div style="margin: 0 auto 30px auto; max-width: 100%; border-radius: 10px; overflow: hidden;">
+                <img src="{{ $img | relURL }}" alt="{{ .Title }}" style="width: 100%; height: auto; display: block; margin: 0 auto;">
+            </div>
+            {{ end }}
+
+            <div class="post-content" style="line-height: 1.8; font-size: 1.05rem; color: var(--text-color);">
+                {{/* Wyświetla część artykułu Znajdującą się PRZED <!--more--> */}}
+                {{ if .Truncated }}
+                    {{ .Summary | safeHTML }}
+                {{ else }}
+                    {{ .Content }}
+                {{ end }}
+            </div>
+        </div>
+
+        <aside class="blog-sidebar">
+
+           
+
+            {{/* 2. Sekcja z artykułami z bloga odpowiednio do kraju */}}
+            <div class="sidebar-box">
+                {{ $currentKraj := .Params.kraj | default .Params.country }}
+                <h3>Inne posty z bloga {{ $currentKraj | title | default "Inne" }}</h3>
+                <div class="sidebar-posts-list">
+                    {{ $currentPath := .RelPermalink }}
+                    {{ $count := 0 }}
+                    {{ range site.RegularPages }}
+                        {{ $pageKraj := .Params.kraj | default .Params.country }}
+                        {{ if and $pageKraj (eq $pageKraj $currentKraj) (eq .Section "blog") (ne .RelPermalink $currentPath) (lt $count 8) }}
+                            {{ $count = add $count 1 }}
+                            <a href="{{ .RelPermalink }}" class="sidebar-post-item">
+                                {{ $sideImg := .Params.image_url | default .Params.image | default .Params.img }}
+                                {{ if $sideImg }}
+                                <img src="{{ $sideImg | relURL }}" alt="{{ .Title }}">
+                                {{ end }}
+                                <div>
+                                    <span class="sidebar-post-title">{{ .Title }}</span>
+                                    <span class="sidebar-post-date">{{ .Date.Format "02.01.2006" }}</span>
+                                </div>
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                    {{ if eq $count 0 }}
+                    <p style="font-size: 0.9rem; color: #666; font-style: italic;">Brak innych artykułów z tego kraju.</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            {{/* 3. Kod z pliku .md umieszczony PO <!--more--> trafia do sidebara */}}
+            {{ if .Truncated }}
+            <div class="sidebar-box affiliate-box" style="text-align: center; overflow: hidden;">
+                <h3>Polecane</h3>
+                <div class="klook-widget-container" style="display: flex; justify-content: center; overflow-x: auto;">
+                    {{/* Zdejmuje tagi <p> generowane wokół summary/more w niektórych wersjach Hugo */}}
+                    {{ $fullContent := .Content }}
+                    {{ $summaryContent := .Summary }}
+                    {{ $widgetPart := replace $fullContent $summaryContent "" }}
+                    {{ $widgetPart | safeHTML }}
+                </div>
+            </div>
+            {{ end }}
+
+        </aside>
+
+    </div>
+
+</article>
 
 <style>
 .back-link {
@@ -35,18 +110,148 @@
     opacity: 1;
     transform: translateX(-3px);
 }
+
+.country-banner {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.04);
+    position: relative;
+}
+
+.country-banner-content {
+    background: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.country-banner-content h1 {
+    font-size: 2.2rem;
+    color: var(--primary-red);
+    margin: 0 0 5px 0;
+}
+
+.post-date {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.blog-two-columns {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.blog-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 20px;
+}
+
+.sidebar-box {
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.sidebar-box h3 {
+    font-size: 1.1rem;
+    color: var(--primary-red);
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed rgba(0,0,0,0.1);
+}
+
+.sidebar-countries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.sidebar-country-pill {
+    background: #f7f9f7;
+    color: var(--text-color);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+}
+
+.sidebar-country-pill:hover {
+    border-color: var(--primary-red);
+    color: var(--primary-red);
+    background: #fff0f3;
+}
+
+.sidebar-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.sidebar-post-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 8px;
+    transition: background 0.2s ease;
+}
+
+.sidebar-post-item:hover {
+    background: #f7f9f7;
+}
+
+.sidebar-post-item img {
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.sidebar-post-title {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--text-color);
+    line-height: 1.2;
+    margin-bottom: 3px;
+}
+
+.sidebar-post-item:hover .sidebar-post-title {
+    color: var(--primary-red);
+}
+
+.sidebar-post-date {
+    font-size: 0.75rem;
+    color: #7f8c8d;
+}
+
+@media (max-width: 900px) {
+    .blog-two-columns {
+        grid-template-columns: 1fr;
+    }
+    .blog-sidebar {
+        position: static;
+    }
+}
 </style>
-    
-    {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
-    {{ if $img }}
-    <div style="margin: 0 auto 30px auto; max-width: 600px; border-radius: 10px; overflow: hidden;">
-        <img src="{{ $img | relURL }}" alt="{{ .Title }}" style="width: 100%; height: auto; display: block; margin: 0 auto;">
-    </div>
-    {{ end }}
-
-    <div class="post-content" style="line-height: 1.8; font-size: 1.05rem; color: var(--text-color);">
-        {{ .Content }}
-    </div>
-
-</article>
 {{ end }}

@@ -93,7 +93,7 @@ instagram_reel: "https://www.instagram.com/reel/DQIgfQYCX7x/?utm_source=ig_web_c
 
 ---
 
-### Bamboo cafe
+## Bamboo cafe
 To miejsce jest zachwycającym połączeniem tradycyjnej architektury dawnego królestwa Silla, bujnego zielonego patio i nowoczesnego cukiernictwa. Wybudowany z ciemnego drewna i zwieńczony klasyczną dachówką giwa lokal przyciąga zapachami świeżo wypiekanego pieczywa oraz unikalnymi desery inspirowanymi tysiącletnią historią miasta.
 
 ### Fakty i ciekawostki
@@ -103,7 +103,27 @@ To miejsce jest zachwycającym połączeniem tradycyjnej architektury dawnego kr
 * **Zielone dziedzińce w stylu Hanok:** Obiekt został zaprojektowany z otwarta strefą patio, gdzie pośród bambusów, drewnianych tarasów i kamiennych ścieżek można degustować napoje w cieniu tradycyjnych okapów.  
 * **Inspiracje królestwem Silla:** Nazwy deserów i napojów bezpośrednio nawiązują do historycznych postaci i miejsc Gyeongju – w menu znajdziesz m.in. chlebek królowej Seondeok czy napój z rokitnika i wiśni Gyeongju.      
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->
+
+<ins class="klk-aff-widget" data-wid="134179" data-adid="1419606" data-actids="70672,695,73977" data-prod="mul_act" data-price="true" data-lang="" data-width="160" data-height="600" data-currency=""><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

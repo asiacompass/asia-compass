@@ -102,6 +102,10 @@ Wyrastająca ponad spokojne przedmieścia Tondabayashi w prefekturze Osaka, Wie�
 
 * **Wspólna pamięć historyczna:** Wewnątrz wieży zamurowano księgi z nazwiskami bezimiennych ofiar konfliktów zbrojnych z całego świata, łącząc intencję pokoju ponad podziałami.
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

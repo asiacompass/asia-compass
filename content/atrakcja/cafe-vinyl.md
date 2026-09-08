@@ -100,7 +100,11 @@ Wyobraź sobie przestrzeń, w której dźwięk analogowej płyty winylowej łąc
 * **Bilet wstępu w cenie napoju:** Kawiarnia działa w unikalnym systemie – bilet wstępu kosztuje stałą kwotę i zawiera w sobie dowolnie wybrany napój z menu oraz nielimitowane korzystanie z kolekcji winyli.    
 * **Widok na architektoniczny cud:** Z okien kawiarni rozpościera się widok na gigantyczne, majestatyczne regały biblioteki Byeolmadang, co czyni to miejsce idealnym punktem na odpoczynek po fotografowaniu strefy kulturalnej.      
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

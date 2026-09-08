@@ -8,6 +8,7 @@ lng: 104.0538
 kategoria: "jedzenie"
 tag: ["sweets🍰"]
 image_url: "https://ak-d.tripcdn.com/images/0104k120009plvj8oE815.jpg"
+cena: "Średnio $$"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "16 Kui Xing Lou Street, Qingyang District, Chengdu, Sichuan, China (成都市青羊区奎星楼街16号)"
@@ -121,7 +122,9 @@ Wstępując do kawiarni Obibi na kultowej ulicy Kui Xing Lou w Chengdu, natychmi
 * **Deserowe mochi i tiramisu:** Do napojów serwowane są tradycyjne, miękkie roladki mochi nadziewane kremem ze czarnego sezamu oraz limitowana seria płynnego Tiramisu Milk Tea, na które lokalni mieszkańcy często robią wcześniejsze rezerwacje.
 
 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; ">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; ">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; ">Chiny i internet</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-app/" style="color: #e98a99; font-weight: bold; ">Aplikacje przydatne w Chinach</a>
+
+
+<!--more-->

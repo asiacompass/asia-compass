@@ -140,7 +140,9 @@ Przenieś się wprost do kart japońskiego komiksu! 2D Café położona w tętni
 * **Światowy trend rodem z Azji:** Choć pomysł na dwuwymiarowe kawiarnie zyskał ogromną popularność w Azji Wschodniej (pierwsze koncepty powstawały w Korei Południowej), to właśnie wersja z Shin-Okubo stała się jedną z najbardziej rozpoznawalnych i fotografowanych kawiarni w całym Tokio.
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

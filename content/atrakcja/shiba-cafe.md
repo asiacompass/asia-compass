@@ -98,7 +98,11 @@ To kameralne miejsce stworzone z miłości do puchatych "pyszczków" łączące 
 * **Japońskie przysmaki i merch:** Poza serwowaniem napojów i deserów, kawiarnia oferuje unikalne, autorskie gadżety z motywem Shiba Inu – od skarpetek i naklejek po ceramikę.
 * **Alternatywa dla Harajuku:** Wielu podróżników uważa to miejsce za znacznie bardziej kameralne i czyste niż słynne kawiarnie z Shibami w Tokio, głównie ze względu na rygorystyczne limity gości i wysoki standard higieny.   
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

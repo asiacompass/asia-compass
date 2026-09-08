@@ -87,8 +87,10 @@ Gwar, parujące kotły, zapach wysmażanych na złocisto placków i unoszący si
 * **Królestwo jedwabiu i vintage:** Choć większość kojarzy targ z jedzeniem, jego piętro to historyczne centrum handlu tradycyjnymi strojami hanbok, materiałami tekstylnymi oraz jednym z największych targów odzieży używanej w Seulu.  
 
 ---
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

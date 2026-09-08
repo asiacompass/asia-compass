@@ -135,6 +135,10 @@ W samym sercu nowoczesnej metropolii, w obrębie Parku Rzeźby Jing'an, wznosi s
 
 * *Interaktywna kraina multi-media:** W przeciwieństwie do tradycyjnych muzeów z zakurzonymi gablotami, znajdziesz tu zaawansowane instalacje AR (rozszerzonej rzeczywistości), kino 4D oraz realistyczne animatroniki dinozaurów, które reagują na ruch zwiedzających.
 
+
 #### Zobacz poradnik na blogu:
 
 <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; ">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; ">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; ">Chiny i internet</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-app/" style="color: #e98a99; font-weight: bold; ">Aplikacje przydatne w Chinach</a>
+
+
+<!--more-->

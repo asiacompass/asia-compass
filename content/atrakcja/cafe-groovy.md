@@ -90,9 +90,11 @@ Ukryta w cichej, zacisznej uliczce w pobliżu parku wokół jeziora Gwanggyo w S
 * **Klimat inspirowany japońskimi jazz kissaten:** Koncept kawiarni silnie nawiązuje do tradycyjnych japońskich lokalików typu Kissaten, gdzie najważniejsza jest celebracja wysokiej jakości parzonej kawy (drip coffee) w akompaniamencie nastrojowego jazzu.  
 * **Przytulne zielone dziedzińce:** Kawiarnia posiada malownicze okna z widokiem na kameralny zielony ogródek, co sprawia, że w deszczowe dni miejsce nabiera niezwykle poetyckiego charakteru.        
 
----
 
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

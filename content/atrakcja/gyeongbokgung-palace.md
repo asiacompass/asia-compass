@@ -100,7 +100,11 @@ Wkraczając przez monumentalną Bramę Gwanghwamun na dziedziniec pałacu Gyeong
 * **Pawillon na wodzie:** Pawilon Gyeonghoeru, w którym odbywały się państwowe uczty i przyjmowano zagranicznych posłów, stoi na 48 kunsztownie rzeźbionych kamiennych filarach usytuowanych w sztucznym stawie. Jego konstrukcja opiera się na symbolice I Ching (Księgi Zmian).
 * **Ogrzewanie podłogowe sprzed wieków:** Rezydencje królewskie wykorzystywały tradycyjny koreański system ondol – gorący dym z pieców prowadzono kanałami pod kamienną podłogą, ogrzewając komnaty w mroźne seulskie zimy. 
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

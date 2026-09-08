@@ -17,7 +17,7 @@
 
     {{/* 2. Opis kraju */}}
     {{ if .Params.description }}
-    <div style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 80px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+    <div style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 80px; background: #fff; padding: 20px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
         <p style="margin: 0;">{{ .Params.description }}</p>
     </div>
     {{ end }}
@@ -40,7 +40,7 @@
     {{ $kategorieFound = $kategorieFound | uniq | sort }}
 
     {{ if gt (len $kategorieFound) 0 }}
-    <h2 style="padding-bottom: 20px; margin-bottom: 20px; color: #2c3e50;">Co chcesz zobaczyć?</h2>
+    <h2 style="padding-bottom: 20px; margin-bottom: 20px; color: var(--text-color);">Co chcesz zobaczyć?</h2>
     <div class="kategorie-grid-center" style="margin-bottom: 80px;">
         {{ range $kategorieFound }}
             {{ $katName := . }}
@@ -65,13 +65,13 @@
 
    {{/* 5. Nagłówek i kafelki miast */}}
     <div style="margin-bottom: 80px;">
-        <h1 style="padding-bottom: 10px; margin-bottom: 40px; color: #2c3e50;">Do jakiego miasta planujesz podróź?</h1>
+        <h2 style="padding-bottom: 10px; margin-bottom: 40px; color: var(--text-color);">Do jakiego miasta planujesz podróż?</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
             {{ with site.GetPage "/miasto" }}
                 {{ range .Pages }}
                     {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
                     {{ if eq $miastoKraj $currentCountrySlug }}
-                    <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    <div class="country-city-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                         <div>
                             {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
                             {{ if $img }}
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                            <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #b7eebc; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
+                            <a href="{{ .RelPermalink }}" class="country-city-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz miasto &rarr;</a>
                         </div>
                     </div>
                     {{ end }}
@@ -93,8 +93,8 @@
 
  {{/* MAPA MIAST W KRAJU */}}
     <div style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Mapa miast</h2>
-        <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid #eaeaea; box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Mapa miast</h2>
+        <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
     </div>
 
     <script>
@@ -136,20 +136,20 @@
 
     {{/* 3. Ważne informacje - Kafelki jeden pod drugim na pełną szerokość */}}
     <section class="country-info-section" style="margin-bottom: 80px;">
-        <h2 style="color: #2c3e50; margin-bottom: 20px;">Przydatne informacje</h2>
+        <h2 style="color: var(--text-color); margin-bottom: 20px;">Przydatne informacje</h2>
         
         <div style="display: flex; flex-direction: column; gap: 20px;">
             {{/* Kafel 1: Płatności */}}
             {{ if .Params.info_pl_desc }}
-            <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
+            <div style="background: #fff; border: 1px solid rgba(0,0,0,0.06); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
                 <details style="cursor: pointer;">
                     <summary style="padding: 20px; display: flex; align-items: center; justify-content: space-between; font-weight: bold; font-size: 1.2rem; color: var(--primary-red); user-select: none; background: #fff;">
                         <span style="display: flex; align-items: center; gap: 15px;">
                             <span style="font-size: 2.2rem;">💳</span> {{ .Params.info_pl_title | default "Płatności i waluta" }}
                         </span>
-                        <span style="font-size: 0.9rem; background: var(--tile-bg); padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
+                        <span style="font-size: 0.9rem; background: #f0f2f5; padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
                     </summary>
-                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid var(--tile-bg); background: #fafafa;">
+                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid rgba(0,0,0,0.06); background: #fafafa;">
                         {{ .Params.info_pl_desc | safeHTML }}
                     </div>
                 </details>
@@ -158,15 +158,15 @@
 
             {{/* Kafel 2: Internet */}}
             {{ if .Params.info_net_desc }}
-            <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
+            <div style="background: #fff; border: 1px solid rgba(0,0,0,0.06); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
                 <details style="cursor: pointer;">
                     <summary style="padding: 20px; display: flex; align-items: center; justify-content: space-between; font-weight: bold; font-size: 1.2rem; color: var(--primary-red); user-select: none; background: #fff;">
                         <span style="display: flex; align-items: center; gap: 15px;">
                             <span style="font-size: 2.2rem;">📱</span> {{ .Params.info_net_title | default "Internet i VPN" }}
                         </span>
-                        <span style="font-size: 0.9rem; background: var(--tile-bg); padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
+                        <span style="font-size: 0.9rem; background: #f0f2f5; padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
                     </summary>
-                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid var(--tile-bg); background: #fafafa;">
+                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid rgba(0,0,0,0.06); background: #fafafa;">
                         {{ .Params.info_net_desc | safeHTML }}
                     </div>
                 </details>
@@ -175,15 +175,15 @@
 
             {{/* Kafel 3: Transport */}}
             {{ if .Params.info_trans_desc }}
-            <div style="background: #fff; border: 2px solid var(--tile-bg); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
+            <div style="background: #fff; border: 1px solid rgba(0,0,0,0.06); border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); overflow: hidden;">
                 <details style="cursor: pointer;">
                     <summary style="padding: 20px; display: flex; align-items: center; justify-content: space-between; font-weight: bold; font-size: 1.2rem; color: var(--primary-red); user-select: none; background: #fff;">
                         <span style="display: flex; align-items: center; gap: 15px;">
                             <span style="font-size: 2.2rem;">🚇</span> {{ .Params.info_trans_title | default "Transport" }}
                         </span>
-                        <span style="font-size: 0.9rem; background: var(--tile-bg); padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
+                        <span style="font-size: 0.9rem; background: #f0f2f5; padding: 6px 14px; border-radius: 4px; color: var(--text-color); font-weight: normal;">Rozwiń szczegóły ▼</span>
                     </summary>
-                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid var(--tile-bg); background: #fafafa;">
+                    <div style="padding: 20px; color: var(--text-color); font-size: 1rem; line-height: 1.6; border-top: 1px solid rgba(0,0,0,0.06); background: #fafafa;">
                         {{ .Params.info_trans_desc | safeHTML }}
                     </div>
                 </details>
@@ -194,7 +194,7 @@
 
     {{/* WIDŻET KLOOK */}}
     <div class="klook-widget-section" style="margin-bottom: 80px; text-align: center;">
-        <h2 style="color: #2c3e50; margin-bottom: 20px; text-align: left;">Rezerwuj atrakcje i bilety</h2>
+        <h2 style="color: var(--text-color); margin-bottom: 20px; text-align: left;">Rezerwuj atrakcje i bilety</h2>
         <ins class="klk-aff-widget" data-wid="134179" data-height="340px" data-adid="1419509" data-lang="" data-prod="search_vertical" data-currency=""><a href="//www.klook.com/?aid=">Klook.com</a></ins>
         <script type="text/javascript">
           (function (d, sc, u) {
@@ -239,7 +239,7 @@
 
     {{ if gt (len $tagsMap) 0 }}
     <div class="country-tags-section" style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: #2c3e50;">Odkrywaj według tagów</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--text-color);">Odkrywaj według tagów</h2>
         <div style="display: flex; flex-wrap: wrap; gap: 10px;">
             {{ range $key, $data := $tagsMap }}
                 <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
@@ -252,7 +252,7 @@
 
     {{/* 7. NOWA SEKCJA: ATRAKCJE DLA KRAJU (MAX 12 KAFELKÓW) */}}
     <div style="margin-bottom: 80px;">
-        <h1 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Nie masz pomysłu? Zainspiruj się atrakcjami!</h1>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
             {{ $counter := 0 }}
             {{ with site.GetPage "/atrakcja" }}
@@ -260,7 +260,7 @@
                     {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
                     {{ if and (eq $atrakcjaKraj $currentCountrySlug) (lt $counter 12) }}
                         {{ $counter = add $counter 1 }}
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
                                 {{ if $img }}
@@ -273,7 +273,7 @@
                                 </div>
                             </div>
                             <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #d7f7da; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
                             </div>
                         </div>
                     {{ end }}
@@ -293,10 +293,10 @@
 
     {{ if gt (len $blogPosts) 0 }}
     <div style="margin-bottom: 40px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: #2c3e50;">Pomocne artykuły w planowaniu podróży</h2>
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Pomocne artykuły w planowaniu podróży</h2>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
             {{ range first 6 $blogPosts }}
-                <div class="country-blog-tile" style="border-radius: 10px; background: #fff; border: 1px solid #eaeaea; box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                <div class="country-blog-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                     <div>
                         {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
                         {{ if $img }}
@@ -317,7 +317,7 @@
                         </div>
                     </div>
                     <div style="padding: 0 15px 15px 15px;">
-                        <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: #f9b4bd; color: #2c3e50; text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem; transition: opacity 0.2s;">Czytaj artykuł &rarr;</a>
+                        <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;">Czytaj artykuł &rarr;</a>
                     </div>
                 </div>
             {{ end }}
@@ -328,33 +328,6 @@
 </div>
 
 <style>
-.country-kat-tile:hover, 
-.country-city-tile:hover,
-.country-attraction-tile:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    border-color: var(--primary-red);
-}
-.country-attraction-tile:hover img {
-    transform: scale(1.03);
-}
-.country-city-btn:hover {
-    background: #a2e8a9 !important;
-}
-.country-attraction-btn:hover {
-    background: var(--primary-red) !important;
-    color: #ffffff !important;
-}
-details summary::-webkit-details-marker {
-    display: none;
-}
-.country-tag-badge:hover {
-    background-color: var(--primary-red) !important;
-    color: #ffffff !important;
-    border-color: var(--primary-red) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
 .country-kat-tile:hover, 
 .country-city-tile:hover,
 .country-attraction-tile:hover,
@@ -369,8 +342,23 @@ details summary::-webkit-details-marker {
     transform: scale(1.03);
 }
 
+.country-city-btn:hover,
+.country-attraction-btn:hover,
 .country-blog-btn:hover {
-    opacity: 0.85;
+    background: var(--primary-red) !important;
+    color: #ffffff !important;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+.country-tag-badge:hover {
+    background-color: var(--primary-red) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-red) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 </style>
 {{ end }}

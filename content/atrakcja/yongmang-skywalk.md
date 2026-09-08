@@ -89,7 +89,11 @@ Wyobraź sobie spacer po podwieszonej w powietrzu tarasowej platformie, z które
 * **Sąsiedztwo najwyższego sztucznego wodospadu w Azji:** Tuż u podnóża ścieżki prowadzącej na Skywalk znajduje się Yongma Waterfall Park, w którym wybudowano trzy potężne sztuczne wodospady wkomponowane w dawną ścianę skalną – główny z nich (Yongma Waterfall) ma aż 51 metrów wysokości!
 * **Ulubiony punkt fotograficzny na wschody i zachody słońca:** W przeciwieństwie do zatłoczonych tarasów N Seoul Tower czy Lotte World Tower, Yongmasan Skywalk oferuje kameralną atmosferę, będąc uwielbianym miejscem przez lokalnych fotografów polujących na złotą godzinę.       
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/atrakcja/cafe-vinyl/" style="color: #e98a99; font-weight: bold;">Cafe z winylami w Starfield</a>
+
+
+<!--more-->

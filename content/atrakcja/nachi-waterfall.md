@@ -137,7 +137,9 @@ Majestatyczny, otoczony gęstym, prastarym lasem i osnuty mgłą – Nachi Water
 * **Festiwal Ognia (Nachi no Hi Matsuri):** Co roku 14 lipca odbywa się tu jeden z najbardziej widowiskowych festiwali w Japonii. Trasa prowadząca do wodospadu jest oczyszczana przez kapłanów niosących 12 płonących, ważących po 50 kg pochodni, co symbolicznie odnawia siły witalne natury.
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

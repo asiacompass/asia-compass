@@ -136,7 +136,9 @@ Najbardziej zatłoczonych ulic. Saryo Kiriyama (茶寮 桐山) to urokliwa, trad
 * **Warsztaty kulturowe:** Lokal to nie tylko kawiarnia – organizowane są tu również kameralne, tradycyjne warsztaty z ceremoniału parzenia herbaty (sado), układania kwiatów (ikebana) oraz robienia sushi.
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

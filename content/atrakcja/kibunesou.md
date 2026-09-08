@@ -140,7 +140,9 @@ Wciśnięty w wąską, gęsto zalesioną dolinę u stóp gór na północ od Kio
 * **Zimowy urok wewnątrz lokalu:** Choć platformy Kawadoko działają od maja do września, restauracja działa przez cały rok. Od października do kwietnia goście przenoszą się na drugie piętro tradycyjnego budynku z widokiem na las, gdzie serwowane są rozgrzewające kociołki Sukiyaki i zimowe odmiany kaiseki.  
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

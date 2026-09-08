@@ -102,7 +102,11 @@ Ogromna kawiarnia i piekarnia konceptualna została zainspirowana najstarszym og
 * **Kultowa strefa bożonarodzeniowa:** Miejsce to bije rekordy popularności w sezonie zimowym – kawiarnia zamienia się wtedy w jedną z najbardziej spektakularnych, zimowych krain w całej Korei Południowej, z gigantyczną choinką i tysiącami romantycznych światełek.  
 * **Oaza z ekranów TV:** Unikalna architektura i estetyka miejsca sprawiły, że kawiarnia gościła w popularnych koreańskich programach telewizyjnych (m.in. w programie Live Tonight stacji MBC).    
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

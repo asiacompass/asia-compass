@@ -133,6 +133,10 @@ W samym sercu artystycznej dzielnicy Dongjiao Memory w Chengdu znajduje się mie
 * **Stylizacja Hanfu:** Ponad 80% gości przychodzi na ucztę w tradycyjnych strojach. Na miejscu znajduje się gigantyczna garderoba z setkami kompletów Hanfu oraz stanowiskami wokalno-charakteryzatorskimi.  
 * **Przenikanie się z Operą Syczuańską:** Poza historycznymi tańcami rejonu Shu, w spektaklu wykorzystywane są najważniejsze techniki aktorskie i akrobatyczne tradycyjnej Opery Syczuańskiej, z zapierającym dech w piersiach „twarzo-zmianem” (Face Changing) na czele.   
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Chiny i internet</a> 
+
+
+<!--more-->

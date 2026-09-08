@@ -94,9 +94,11 @@ Hotel skrywa w swoich progach dwie kulinarne ikony Seulu, które przyciągają s
 * **Prezydencka lokalizacja:** Z uwagi na bliskość Zgromadzenia Narodowego (koreańskiego parlamentu), hotel od lat jest dyskretnym miejscem spotkań lokalnych polityków i dyplomatów, co gwarantuje najwyższy standard prywatności i bezpieczeństwa.    
 * **Ulubieniec twórców filmowych:** zięki swoim unikalnym, eleganckim wnętrzom retro, hotel regularnie służy jako plan zdjęciowy dla popularnych koreańskich dram (K-dramas) oraz sesji zdjęciowych dla prestiżowych magazynów modowych.  
 
----
 
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a>
+
+
+<!--more-->

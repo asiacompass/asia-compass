@@ -87,7 +87,11 @@ Wyobraź sobie przestrzeń, w której architektura zaciera granice między liter
 * **Nazwa pełna poezji:** Słowo Byeolmadang (별마당) składa się z dwóch koreańskich słów: Byeol (gwiazda) oraz Madang (tradycyjny dziedziniec/podwórze). Oznacza dosłownie „Dziedziniec Gwiazd” – przestrzeń, gdzie każdy może usiąść i sięgnąć po własną gwiazdę wiedzy.     
 * **Książki jako żywa sztuka:** Centralne punkty obu bibliotek zdobią cyklicznie zmieniane, monumentalne instalacje artystyczne tworzone przez znanych, światowych rzeźbiarzy oraz architektów.        
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/atrakcja/cafe-vinyl/" style="color: #e98a99; font-weight: bold;">Cafe z winylami w Starfield</a>
+
+
+<!--more-->

@@ -94,7 +94,11 @@ Wyobraź sobie, że wsiadasz w metro w centrum Seulu, a po godzinie wysiadasz w 
 * **Tradycja ubitnictwa i strojów:** Na miejscu działa wypożyczalnia kimon oraz yukat. Spacer w tradycyjnym stroju po oświetlonym lampionami moście nad jeziorem Kanagawa to główna atrakcja dla zakochanych i fotografów.
 * **Strefa wolna od dzieci (19+):** Z uwagi na bezpieczeństwo (strome drewniane schody, otwarte zbiorniki wodne oraz cenne, oryginalne rekwizyty), wstęp do lokacji mają wyłącznie osoby pełnoletnie (powyżej 19. roku życia).        
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold;">Jak płacić w Korei?</a> &nbsp; | &nbsp; 
 <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold;">Internet w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-app/" style="color: #e98a99; font-weight: bold;">Aplikacje przydatne w Korei</a> &nbsp; | &nbsp; <a href="/asia-compass/atrakcja/cafe-vinyl/" style="color: #e98a99; font-weight: bold;">Cafe z winylami w Starfield</a>
+
+
+<!--more-->

@@ -137,7 +137,9 @@ W samym sercu tradycyjnej dzielnicy Asakusa w Tokio wznosi się Sensō-ji (浅�
 * **Losowanie wróżby Omikuji:** Sensō-ji słynie w całej Japonii z tego, że wyjątkowo często losuje się tu "złą wróżbę" (kyō). Jeśli wyciągniesz tabliczkę z niepomyślnym losem, zgodnie z tradycją musisz zawiązać papierek na specjalnym metalowym stojaku, aby bóstwa odgoniły pecha.
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

@@ -141,7 +141,9 @@ Szukasz miejsca w Japonii, gdzie zgiełk wielkich miast natychmiast cichnie, a j
 * **Tradycja na zawołanie:** Właściciele willi z pasją dzielą się japońską kulturą. Na życzenie gości potrafią zaaranżować na miejscu prywatny pokaz i naukę tradycyjnej ceremonii parzenia herbaty oraz sztuki układania kwiatów (ikebana).
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

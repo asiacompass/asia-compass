@@ -140,7 +140,9 @@ Wsiądź do najbardziej elektryzującego pociągu w Japonii! POKÉMON with YOU T
 * **Pikachu Bento:** Na stacji początkowej lub w pociągu można kupić limitowane zestawy obiadowe (bento) podawane w kolekcjonerskich pojemnikach lub torbach z wizerunkiem Pikachu.  
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

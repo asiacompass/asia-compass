@@ -131,6 +131,8 @@ Zawieszony niemal 230 metrów nad ziemią taras widokowy Shibuya Sky to absolutn
 * **Podniebne leżaki (Cloud Hammocks):** Na otwartym dachu zainstalowano specjalne siatki-hamaki, na których można się położyć i obserwować niebo oraz przeatujące samoloty w samym sercu Tokio.
 
 
-
 #### Zobacz poradnik:
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

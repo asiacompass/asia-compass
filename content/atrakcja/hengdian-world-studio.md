@@ -125,6 +125,10 @@ Nazywane powszechnie „Chińskim Hollywood” lub „Chinawood”, Hengdian Wor
 * **Tysiące statystów "Hengpiao":** ompleks stworzył nową grupę społeczną zwaną Hengpiao („dryfujący w Hengdian”) – to ponad 30 000 aspirujących aktorów i statystów, którzy przeprowadzili się w okolice studia, by grać żołnierzy, eunuchów czy wieśniaków w masowych produkcjach. 
 * **Deszcz na życzenie:** Studio posiada największe na świecie stacjonarne systemy do tworzenia efektów pogodowych – na potrzeby scen filmowych można tu w kilka sekund wywołać ulewne deszcze, sztuczną mgłę lub pożary na obszarze całych kwartałów ulic.  
 
+
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; ">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; ">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; ">Chiny i internet</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-app/" style="color: #e98a99; font-weight: bold; ">Aplikacje przydatne w Chinach</a>
+
+
+<!--more-->

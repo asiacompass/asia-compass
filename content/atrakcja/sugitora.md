@@ -127,7 +127,9 @@ Ukryta w cichej, urokliwej uliczce nieopodal gwarnej dzielnicy Shijo-Kawaramachi
 * **Symbol małego tygryska:** Nazwa i logo kawiarni nawiązują do tygrysa (jap. tora), który stał się uroczą maskotką lokalu. Motif tygrysa znajdziesz nie tylko na tabliczkach i opakowaniach, ale również w formie miniaturowych ciasteczek zdobiących wyjątkowe desery.  
 
 --- 
-
 #### Zobacz poradnik:
 
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

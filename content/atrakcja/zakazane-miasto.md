@@ -126,6 +126,10 @@ Przekraczając monumentalną Bramę Południową (Meridian Gate) Zakazanego Mias
 
 * **Cesarzowa Cixi i zegary:** W Galerii Zegarów (Clock Hall) można podziwiać niezwykłą kolekcję mechanicznych zegarów z XVIII i XIX wieku przywiezionych z Europy. Imponujące automaty tworzyły muzykę, poruszały figurkami i zachwycały dwór cesarski.
 
+
 ### Zobacz poradnik:
 
 <a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; ">Jak płacić w Chinach?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; ">Chiny i transport</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; ">Chiny i internet</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/china-app/" style="color: #e98a99; font-weight: bold; ">Aplikacje przydatne w Chinach</a>
+
+
+<!--more-->
