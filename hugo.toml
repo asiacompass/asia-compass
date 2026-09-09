@@ -35,3 +35,9 @@ country = "country"
     name = "Ulubione"
     url = "/ulubione/"
     weight = 4
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+  uglyURLs = false
