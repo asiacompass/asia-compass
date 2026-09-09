@@ -30,15 +30,7 @@ a {
 }
 
 /* Styl dla głównego nagłówka strony i menu */
-header.site-header, .site-header {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-    padding: 20px 40px !important;
-    background-color: #f7f9f7 !important;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
+
 
 .logo a {
     font-size: 1.5rem;

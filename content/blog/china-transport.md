@@ -43,7 +43,6 @@ Google Maps w Chinach nie działa precyzyjnie (błędy przesunięcia GPS). Głó
 * Wybierz ikonę Public Transit (Metro/Autobus) – aplikacja wskaże dokładny numer linii, liczbę przystanków oraz cenę przejazdu.
 
 ---
-
 ## 4. Rezerwacja pociągów szybkiej kolei (High-Speed Rail)
 Chiński oficjalny system rezerwacji (12306) bywa trudny w weryfikacji dla obcokrajowców. Najlepszym i najpewniejszym rozwiązaniem jest rezerwacja przez Trip.com.
 
@@ -54,3 +53,6 @@ Chiński oficjalny system rezerwacji (12306) bywa trudny w weryfikacji dla obcok
 * Wprowadź dane z paszportu: Imię, nazwisko i numer paszportu muszą być w 100% zgodne ze stroną ze zdjęciem.
 * Zapłać bezpośrednio w PLN lub EUR za pomocą polskiej karty Visa/Mastercard.
 * Brak biletu papierowego: Bilet jest powiązany z Twoim paszportem cyfrowo. Na dworcu idź do bramki oznaczonej Manual Lane / Passport Check, pokaż paszport strażnikowi, który zeskanuje go i wpuści Cię na peron.
+
+
+<!--more-->

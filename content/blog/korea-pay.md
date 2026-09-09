@@ -21,14 +21,12 @@ Karty płatnicze są akceptowane w 90% miejsc w Korei – w hotelach, restauracj
 * Płacąc kartą, **zawsze wybieraj płatność w lokalnej walucie (KRW)**, aby uniknąć niekorzystnego przewalutowania (DCC).
 
 ---
-
 ## 2. Karty Prepaid (WOWPASS i NAMANE)
 
 Przedpłacone karty debetowe stworzone z myślą o zagranicznych turystach. Łączą funkcję karty płatniczej z kartą transportową.
 
 #### DLACZEGO?
 To bezpieczny, lokalny substytut karty bankowej. Działają w 100% terminali stacjonarnych w Korei, redukują opłaty transakcyjne i eliminują problem odrzucenia zagranicznych kart Visa/Mastercard.
-
 
 **WOWPASS:**   
 Kupujesz kartę w automatycznym kiosku (np. na lotnisku Incheon, stacjach metra czy w hotelach). Doładowujesz ją gotówką w obcej walucie (EUR, USD, PLN – kiosk przelicza walutę bezpośrednio na KRW bez opłat przewalutowaniowych).
@@ -74,7 +72,6 @@ W Korei **nie kupisz papierowych biletów autobusowych**, a opłata przejazdu w 
 * **Doładowywanie:** Funkcję transportową (T-Money) można doładowywać **wyłącznie gotówką KRW** w automatach na stacjach metra lub przy kasach sklepów convenience (GS25, CU, 7-Eleven).
 
 ---
-
 ### Podsumowanie
 
 | Narzędzie | Co nim opłacisz? | Jak doładować / uruchomić? |
@@ -83,6 +80,9 @@ W Korei **nie kupisz papierowych biletów autobusowych**, a opłata przejazdu w 
 | **Karta WOWPASS** | Wszystkie sklepy, restauracje + transport | Wkładasz obcą gotówkę (EUR/USD/PLN) w kiosku. |
 | **T-Money (lub WOWPASS T-Money)** | Metro, autobusy, taksówki, sklepy typu GS25/CU | **Wyłącznie gotówką w KRW** w automatach lub sklepach. |
 | **Gotówka (KRW)** | Street food, lokalne targowiska, T-Money | Wypłacasz w bankomacie Global ATM lub wymieniasz w kantorze. |
+
+
+<!--more-->
 
 
 

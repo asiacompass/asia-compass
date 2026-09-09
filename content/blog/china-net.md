@@ -96,8 +96,10 @@ Instalację karty eSIM warto wykonać **jeszcze w Polsce** (lub przed wylotem), 
 *Wskazówka: Lokalny chiński numer (+86) przydaje się rzadko, ale może być wymagany np. przy rezerwacji niektórych biletów wstępu do muzeum. Do płatności Alipay i WeChat Pay w zupełności wystarczy polski numer telefonu oraz karta eSIM.*
 
 ---
-
 ### Sprawdź i porwnaj oferty
 
 <a href="https://kkday.tpk.mx/6rYT2QT9" target="_blank" style="color: #e98a99; font-weight: bold;"> ➡️ ZOBACZ PEŁNĄ OFERTĘ ESIM / WIFI / SIM NA 'KKDAY' </a><p>
+
+
+<!--more-->
 

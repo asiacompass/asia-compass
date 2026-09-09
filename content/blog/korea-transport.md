@@ -20,7 +20,6 @@ Korea Południowa jest technologiczną pułapką dla zagranicznego turysty: Goog
   * Zwracaj uwagę na numer wyjścia ze stacji (Exit Number) – stacje metra w Seulu są ogromne i wyjście niewłaściwym numerem może oznaczać nadrobienie 15 minut drogi.
 
 --- 
-
 ## 2. Zamawianie taksówek (Kakao T / Uber)
 Łapanie taksówki z ręki na ulicy bywa trudne. Koreańczycy zamawiają przejazdy wyłącznie przez aplikacje.
 
@@ -35,7 +34,6 @@ Korea Południowa jest technologiczną pułapką dla zagranicznego turysty: Goog
 Standardowa aplikacja Uber automatycznie przełącza się w Korei na sieć taksówek UT. Działa z podpiętą polską kartą, ale liczba dostępnych kierowców poza Seulem bywa mniejsza niż w Kakao T.
 
 ---
-
 ## 3. Płatności za komunikację miejską (Karta T-Money vs. WOWPASS)
 W Korei Południowej nie kupisz biletów jednorazowych na autobus u kierowcy. Do wejścia do metra i autobusu potrzebujesz karty zbliżeniowej.
 * **Fizyczna karta T-Money:** Kupisz ją w każdym sklepie 7-Eleven, CU, GS25 lub MiniStop za ok. 3 000 - 5 000 KRW. Doładowujesz ją wyłącznie gotówką (KRW) w automatach na stacjach metra lub przy kasie w sklepach konbini.
@@ -43,9 +41,12 @@ W Korei Południowej nie kupisz biletów jednorazowych na autobus u kierowcy. Do
 * **Karta WOWPASS (Rekomendowana):** Działa jak karta debetowa prepaid z wbudowanym chipem T-Money. Doładowujesz saldo główne obcą walutą (EUR, USD, PLN) w specjalnych kioskach WOWPASS na lotnisku i stacjach metra. Przelej część środków na saldo T-Money i płać wygodnie bez szukania kantorów.
 
 ---
-
 ## Pociągi dalekobieżne (KTX / SRT)
 Jeśli planujesz trasę Seul – Pusan lub Seul – Gyeongju, superszybka kolej KTX to najlepszy wybór. Bilety na popularne trasy wyprzedają się nawet z 2-tygodniowym wyprzedzeniem.
 * Nie czekaj na zakup biletów w kasie na dworcu Seoul Station.
 * Rezerwuj bilety cyfrowo przez internet.
 * Po zakupie zachowaj bilet w telefonie z kodem QR – w pociągach KTX nie ma bramek, konduktorzy skanują zajęte miejsca systemowo.
+
+
+
+<!--more-->

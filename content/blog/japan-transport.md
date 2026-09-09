@@ -38,11 +38,14 @@ Zwykły Uber w Japonii po prostu zamawia lokalną taksówkę i bywa drogi. Najle
 * Alternatywa (Uber): Jeśli aplikacja GO ma problem z rejestracją polskiego numeru, otwórz standardowy Uber – działa bez problemu w Tokio, Osace i Kioto, pozwalając na zamawianie certyfikowanych taksówek z płatnością bezgotówkową.
 
 ---
-
 ## 3. Karty IC (Suica / PASMO / ICOCA) i Shinkansen
 
 Do poruszania się po miastach nie kupuj biletów papierowych w automatach przy każdym przejeździe – to strata czasu.
 
+
 #### Szybka ściągawka transportowa:
 * Pociągi lokalne i Metro: Przyłóż telefon z wirtualną kartą Suica/PASMO (Apple Wallet) lub fizyczną kartę Welcome Suica do bramki na wejściu i wyjściu ze stacji.
 * Pociągi szybkiej kolei (Shinkansen): Wyymagają osobnej rezerwacji miejsca i biletu. Zamiast stać w kolejce do kas dworcowych, rezerwuj bilety cyfrowo z kodem QR.
+
+
+<!--more-->

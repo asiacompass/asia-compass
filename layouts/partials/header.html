@@ -1,89 +1,192 @@
 <header class="site-header">
     <div class="logo" style="display: flex; align-items: center; gap: 10px;">
-    <img src="{{ "images/logo.png" | relURL }}" alt="Asia Compass Logo" style="height: 35px; width: auto; display: block;">
-    <a href="/asia-compass/" style="text-decoration: none; color: var(--primary-red); font-weight: bold; font-size: 1.4rem; line-height: 1;">Asia Compass</a>
-</div>
+        <img src="{{ "images/logo.png" | relURL }}" alt="Asia Compass Logo" style="height: 35px; width: auto; display: block;">
+        <a href="/asia-compass/">Asia Compass</a>
+    </div>
+
+    <!-- Środkowe pole wyszukiwania -->
+    <div class="header-search-container">
+        <div id="search"></div>
+    </div>
+
     <nav>
         <ul class="nav-menu">
-            
- <!-- Rozwijane menu Kraje -->
-<li class="dropdown">
-    <a href="/asia-compass/kraj/">Kraje</a>
-    <ul class="dropdown-content">
-        {{ $krajPageObj := site.GetPage "kraj" }}
-        {{ if $krajPageObj }}
-            {{/* 1. Iterujemy tylko po głównych krajach */}}
-            {{ range (where $krajPageObj.Pages "Section" "kraj") }}
-                {{ $currentCountryPage := . }}
-                {{ $countrySlug := .Title | urlize | lower }}
-                
-                <li class="dropdown-submenu" style="position: relative;">
-                    <a href="{{ .RelPermalink }}">{{ .Title }} &raquo;</a>
-                    
-                    {{/* 2. Dynamicznie zaciągamy miasta pasujące do tego kraju do podmenu */}}
-                    <ul class="dropdown-sub-content">
-                        {{ with site.GetPage "/miasto" }}
-                            {{ range .Pages }}
-                                {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
-                                {{ if eq $miastoKraj $countrySlug }}
-                                    <li>
-                                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-                                    </li>
-                                {{ end }}
-                            {{ end }}
+            <li class="dropdown">
+                <a href="/asia-compass/kraj/">Kraje</a>
+                <ul class="dropdown-content">
+                    {{ $krajPageObj := site.GetPage "kraj" }}
+                    {{ if $krajPageObj }}
+                        {{ range (where $krajPageObj.Pages "Section" "kraj") }}
+                            {{ $currentCountryPage := . }}
+                            {{ $countrySlug := .Title | urlize | lower }}
+                            
+                            <li class="dropdown-submenu" style="position: relative;">
+                                <a href="{{ .RelPermalink }}">{{ .Title }} &raquo;</a>
+                                <ul class="dropdown-sub-content">
+                                    {{ with site.GetPage "/miasto" }}
+                                        {{ range .Pages }}
+                                            {{ $miastoKraj := .Params.kraj | default "" | urlize | lower }}
+                                            {{ if eq $miastoKraj $countrySlug }}
+                                                <li>
+                                                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                                                </li>
+                                            {{ end }}
+                                        {{ end }}
+                                    {{ end }}
+                                </ul>
+                            </li>
                         {{ end }}
-                    </ul>
-                </li>
-            {{ end }}
-        {{ end }}
-    </ul>
-</li>
-
-            <!-- Blog -->
+                    {{ end }}
+                </ul>
+            </li>
             <li><a href="/asia-compass/blog/">Blog</a></li>
-
-            <!-- Menu Sociale -->
             <li class="dropdown">
                 <a href="#">Sociale</a>
                 <ul class="dropdown-content">
                     <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
                 </ul>
             </li>
-
-            <!-- Ulubione -->
             <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
-
         </ul>
     </nav>
 </header>
 
+<!-- Skrypt inicjalizujący Pagefind wewnątrz poprawnego tagu script -->
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ 
+            element: "#search", 
+            showSubResults: true, 
+            bundlePath: "/asia-compass/pagefind/",
+            translations: {
+                placeholder: "Szukaj..."
+            }
+        });
+    });
+</script>
+
 <style>
-/* === PRZYKLEJONY NAGŁÓWEK === */
+/* === FIX NAGŁÓWKA I WYSZUKIWARKI === */
 .site-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 70px !important;
     background-color: #ffffff !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    z-index: 9999;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 24px !important;
-    box-sizing: border-box;
+    z-index: 9999 !important;
+    display: grid !important;
+    grid-template-columns: auto 1fr auto !important;
+    align-items: center !important;
+    gap: 20px !important;
+    padding: 0 24px !important;
+    box-sizing: border-box !important;
 }
 
-/* Margines dla treści pod przyklejonym headerem */
 body {
-    padding-top: 80px !important;
+    padding-top: 85px !important;
 }
 
 .site-header .logo a {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
     font-weight: bold;
-    color: var(--primary-red, #ca041e);
+    color: var(--primary-red, #ca041e) !important;
     text-decoration: none;
+}
+
+.header-search-container {
+    position: relative !important;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: visible !important;
+    z-index: 10001 !important;
+    
+    --pagefind-ui-primary: #ca041e;
+    --pagefind-ui-text: #2c3e50;
+    --pagefind-ui-background: #ffffff;
+    --pagefind-ui-border: #ca041e;
+    --pagefind-ui-tag: #f1f3f5;
+}
+
+#search {
+    position: relative !important;
+    width: 100%;
+    max-width: 350px;
+}
+
+#search .pagefind-ui__form {
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+#search .pagefind-ui__search-input {
+    display: block !important;
+    padding: 8px 40px 8px 42px !important; /* Prawy i lewy padding na ikonę oraz X */
+    font-size: 0.95rem !important;
+    border: 2px solid #ca041e !important;
+    border-radius: 24px !important;
+    background-color: #f1f3f5 !important;
+    width: 100% !important;
+    box-sizing: border-box;
+    color: #2c3e50 !important;
+}
+
+/* Poprawiona, niezależna szuflada wyników pozycjonowana pod inputem */
+#search .pagefind-ui__drawer {
+    position: absolute !important;
+    top: calc(100% + 12px) !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 420px !important;
+    max-width: 90vw !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18) !important;
+    border-radius: 16px !important;
+    padding: 20px !important;
+    box-sizing: border-box;
+    z-index: 99999 !important;
+    border: 1px solid #eaeaea !important;
+}
+
+#search .pagefind-ui__results-area {
+    background-color: #ffffff !important;
+    max-height: 320px !important;
+    overflow-y: auto !important;
+    margin-top: 10px;
+    padding-right: 4px;
+}
+
+#search .pagefind-ui__search-clear {
+    position: absolute !important;
+    right: 12px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background-color: transparent !important;
+    color: transparent !important;
+    font-size: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    cursor: pointer !important;
+    border: none !important;
+    z-index: 5 !important;
+}
+
+#search .pagefind-ui__search-clear::after {
+    content: "✕" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    font-size: 14px !important;
+    color: #2c3e50 !important;
+    font-weight: bold !important;
+}
+
+.site-header nav {
+    justify-self: end;
 }
 
 .site-header nav ul.nav-menu {
@@ -103,11 +206,8 @@ body {
     padding: 6px 0;
 }
 
-/* === MENU ROZWIJANE === */
-.dropdown {
-    position: relative;
-}
-
+/* Rozwijane menu */
+.dropdown { position: relative; }
 .dropdown-content {
     display: none;
     position: absolute;
@@ -121,15 +221,8 @@ body {
     list-style: none;
     z-index: 1000;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-submenu {
-    position: relative;
-}
-
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown-submenu { position: relative; }
 .dropdown-submenu > a {
     display: block;
     padding: 10px 16px;
@@ -137,18 +230,12 @@ body {
     text-decoration: none;
     white-space: nowrap;
 }
-
-.dropdown-submenu > a:hover {
-    background: #fce8ec;
-    color: var(--primary-red);
-}
-
+.dropdown-submenu > a:hover { background: #fce8ec; color: var(--primary-red); }
 .dropdown-sub-content {
     display: none;
     position: absolute;
     top: 0;
     right: 100%;
-    left: auto;
     background: #ffffff;
     min-width: 160px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -157,11 +244,7 @@ body {
     list-style: none;
     z-index: 1001;
 }
-
-.dropdown-submenu:hover .dropdown-sub-content {
-    display: block !important;
-}
-
+.dropdown-submenu:hover .dropdown-sub-content { display: block !important; }
 .dropdown-sub-content li a {
     display: block;
     padding: 8px 16px;
@@ -169,53 +252,21 @@ body {
     text-decoration: none;
     white-space: nowrap;
 }
+.dropdown-sub-content li a:hover { background: #fce8ec; color: var(--primary-red); }
 
-.dropdown-sub-content li a:hover {
-    background: #fce8ec;
-    color: var(--primary-red);
-}
-
-/* === ROZWIĄZANIE PROBLEMÓW NA TELEFONACH === */
-@media (max-width: 768px) {
-    /* Utrzymanie nagłówka i menu w jednym poziomie na telefonie */
+@media (max-width: 900px) {
     .site-header {
-        flex-direction: row !important;
-        padding: 10px 15px !important;
-    }
-
-    .site-header nav ul.nav-menu {
-        flex-direction: row !important;
-        gap: 12px !important;
-    }
-
-    .site-header nav ul.nav-menu > li > a {
-        font-size: 0.85rem !important;
-    }
-
-    /* Zabezpieczenie nakładania się wbudowanych podmenu */
-    .dropdown-content {
-        position: fixed;
-        left: 5%;
-        right: 5%;
-        width: 90%;
-        top: 60px;
-    }
-
-    /* Poprawka wysokości sekcji Hero i odstępu od góry */
-    .hero-banner {
         height: auto !important;
-        min-height: 260px;
-        padding: 40px 15px !important;
-        margin-top: 10px !important;
+        grid-template-columns: 1fr !important;
+        gap: 10px;
+        padding: 10px !important;
     }
-
-    .hero-banner h1 {
-        font-size: 1.6rem !important;
-    }
-
-    .hero-banner p {
-        font-size: 0.95rem !important;
-        line-height: 1.4 !important;
+    .header-search-container { order: 2; }
+    .site-header nav { order: 3; justify-self: center; }
+    #search .pagefind-ui__drawer {
+        position: absolute !important;
+        top: calc(100% + 10px) !important;
+        width: 92vw !important;
     }
 }
 </style>

@@ -23,7 +23,6 @@ Planujesz wyjazd do Korei Południowej? Pierwsze zaskoczenie na miejscu: Google 
 * **K.ride** Nowsza, dedykowana dla turystów alternatywa od Kakao, stworzona z myślą o bezproblemowej obsłudze zagranicznych kart i numerów telefonów <a href="https://kride.kakaomobility.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>
 
 ---
-
 ## Tłumaczenie i Komunikacja
 
 * **Papago (Naver Papago)** Zdecydowanie przewyższa Tłumacza Google w przypadku języka koreańskiego. Rozumie kontekst, zwroty grzecznościowe oraz bezbłędnie tłumaczy zdjęcia menu i szyldów w czasie rzeczywistym <a href="https://papago-plus.com/about?target=download" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>
@@ -31,13 +30,11 @@ Planujesz wyjazd do Korei Południowej? Pierwsze zaskoczenie na miejscu: Google 
 * **KakaoTalk** Główny komunikator używany przez 90% mieszkańców Korei. Przydaje się do kontaktu z lokalnymi przewodnikami, wypożyczalniami czy guesthousami <a href="https://www.kakaocorp.com/page/service/all?lang=ENG" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>
 
 --- 
-
 ## Jedzenie i Rezerwacje Restauracji
 
 * **Catch Table (Global)** Prawdziwy game-changer w Seulu. Umożliwia rezerwację stolików w modnych restauracjach oraz dołączanie do cyfrowych kolejek bez konieczności posiadania koreańskiego numeru telefonu
 
 ---
-
 ## Bilety, Karty Transportowe i Internet
 
 * **KKday**  Niezastąpione aplikacje do rezerwacji biletów na atrakcje (N Seoul Tower, Lotte World), wycieczek do strefy DMZ, zniżkowych kart transportowych (WOWPASS/T-Money) oraz kart eSIM <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz stronę</a>
@@ -48,3 +45,6 @@ Planujesz wyjazd do Korei Południowej? Pierwsze zaskoczenie na miejscu: Google 
 ### Zobacz poradniki:
 
 <a href="/asia-compass/blog/korea-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jak płacić w Korei?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Korea jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/korea-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Internet w Korei</a>
+
+
+<!--more-->

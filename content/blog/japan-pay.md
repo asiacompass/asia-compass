@@ -43,7 +43,6 @@ Zagraniczne karty zbliżeniowe są powszechnie akceptowane w większości hoteli
 > **💡 Ważne:** Płacąc polską kartą lub Revolutem w terminalu, **zawsze wybieraj rozliczenie w walucie lokalnej (JPY)**, aby uniknąć wysokich prowizji za dynamiczne przeliczanie walut (DCC).
 
 ---
-
 ## Ściągawka płatności w Japonii
 
 | Metoda płatności | Gdzie zapłacisz? | Jak doładować / uruchomić? |
@@ -53,9 +52,11 @@ Zagraniczne karty zbliżeniowe są powszechnie akceptowane w większości hoteli
 | **Visa / Mastercard / Revolut** | Hotele, duże sklepy, centra handlowe, taksówki | Bezpośrednio fizyczną kartą lub przez Apple Pay / Google Pay. |
 
 ---
-
 ## Niezbędne wskazówki na wyjazd
 
 1. **Zawsze miej przy sobie bilon:** W Japonii monety mają spore wartości (100 JPY to ok. 2.50 PLN, a 500 JPY to ok. 13 PLN) – kup małą portmonetkę na monety.
 2. **Karta IC w Apple Wallet:** Jeśli masz iPhone'a, dodaj kartę Suica przed wylotem (`Portfel` -> `+` -> `Karta dojeżdżającego` -> `Suica`).
 3. **Płatności w taksówkach:** Większość taksówek w dużych miastach akceptuje karty płatnicze oraz karty IC, ale warto upewnić się przed wejściem, patrząc na naklejki na szybie pojazdu.
+
+
+<!--more-->
