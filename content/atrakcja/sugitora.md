@@ -116,6 +116,10 @@ instagram_reel: "https://www.instagram.com/reel/DaqCgcAIgXJ/?igsh=c3F4c3lsM3VyYT
 ### Kulinarna poezja w Kioto
 Ukryta w cichej, urokliwej uliczce nieopodal gwarnej dzielnicy Shijo-Kawaramachi, Sugitora to kameralna, rzemieślnicza lodziarnia i cukiernia, która podniosła tradycyjne japońskie puchary parfait do rangi prawdziwych dzieł sztuki. Miejsce to łączy francuskie techniki cukiernicze z japońską precyzją, oferując niepowtarzalne kompozycje smakowe, które zachwycają zarówno podniebienie, jak i oko.
 
+<p align="center">
+  <img src="https://i.pinimg.com/736x/0a/dd/d2/0addd2867f589730d77e358d994c539a.jpg" alt="Opis zdjęcia" width="500">
+</p>
+
 ### Fakty i Ciekawostki
 
 * **Tradycja od czasów Meiji:** Choć dzisiejsza Sugitora kojarzy się z nowoczesnymi deserami, jej historia sięga epoki Meiji, kiedy działała tu ceniona hurtownia owoców. Dawne dziedzictwo i wiedza o najlepszych gatunkach owoców do dziś stanowią fundament niesamowitej jakości serwowanych sorbetów i lodów.

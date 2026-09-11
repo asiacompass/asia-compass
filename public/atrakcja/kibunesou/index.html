@@ -27,7 +27,7 @@
     <header class="site-header">
     <div class="logo" style="display: flex; align-items: center; gap: 10px;">
         <img src="/asia-compass/images/logo.png" alt="Asia Compass Logo" style="height: 35px; width: auto; display: block;">
-        <a href="/asia-compass/" style="text-decoration: none; color: var(--primary-red); font-weight: bold; font-size: 1.4rem; line-height: 1;">Asia Compass</a>
+        <a href="/asia-compass/">Asia Compass</a>
     </div>
 
     
@@ -37,7 +37,6 @@
 
     <nav>
         <ul class="nav-menu">
-            
             <li class="dropdown">
                 <a href="/asia-compass/kraj/">Kraje</a>
                 <ul class="dropdown-content">
@@ -538,31 +537,27 @@
                     
                 </ul>
             </li>
-
-            
             <li><a href="/asia-compass/blog/">Blog</a></li>
-
-            
             <li class="dropdown">
                 <a href="#">Sociale</a>
                 <ul class="dropdown-content">
                     <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
                 </ul>
             </li>
-
-            
             <li><a href="/asia-compass/ulubione/">Ulubione</a></li>
         </ul>
     </nav>
 </header>
+
 
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
         new PagefindUI({ 
             element: "#search", 
             showSubResults: true, 
+            bundlePath: "/asia-compass/pagefind/",
             translations: {
-                placeholder: "Szukaj atrakcji, miast..."
+                placeholder: "Szukaj..."
             }
         });
     });
@@ -571,21 +566,20 @@
 <style>
  
 .site-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
     height: 70px !important;
     background-color: #ffffff !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    z-index: 9999;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    gap: 20px;
+    z-index: 9999 !important;
+    display: grid !important;
+    grid-template-columns: auto 1fr auto !important;
+    align-items: center !important;
+    gap: 20px !important;
     padding: 0 24px !important;
-    box-sizing: border-box;
-    overflow: visible !important;
+    box-sizing: border-box !important;
 }
 
 body {
@@ -593,18 +587,18 @@ body {
 }
 
 .site-header .logo a {
-    font-size: 1.3rem;
+    font-size: 1.3rem !important;
     font-weight: bold;
-    color: var(--primary-red, #ca041e);
+    color: var(--primary-red, #ca041e) !important;
     text-decoration: none;
 }
 
- 
 .header-search-container {
     position: relative !important;
     display: flex;
     justify-content: center;
     width: 100%;
+    overflow: visible !important;
     z-index: 10001 !important;
     
     --pagefind-ui-primary: #ca041e;
@@ -620,7 +614,6 @@ body {
     max-width: 350px;
 }
 
- 
 #search .pagefind-ui__form {
     position: relative !important;
     width: 100% !important;
@@ -629,7 +622,7 @@ body {
 
 #search .pagefind-ui__search-input {
     display: block !important;
-    padding: 8px 16px !important;
+    padding: 8px 40px 8px 42px !important;  
     font-size: 0.95rem !important;
     border: 2px solid #ca041e !important;
     border-radius: 24px !important;
@@ -640,18 +633,14 @@ body {
 }
 
  
-#search .pagefind-ui__search-drawer {
-    position: fixed !important;  
-    top: 75px !important;  
+#search .pagefind-ui__drawer {
+    position: absolute !important;
+    top: calc(100% + 12px) !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
     width: 420px !important;
     max-width: 90vw !important;
-    
     background-color: #ffffff !important;
-    background: #ffffff !important;
-    opacity: 1 !important;
-    
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18) !important;
     border-radius: 16px !important;
     padding: 20px !important;
@@ -660,7 +649,6 @@ body {
     border: 1px solid #eaeaea !important;
 }
 
- 
 #search .pagefind-ui__results-area {
     background-color: #ffffff !important;
     max-height: 320px !important;
@@ -669,7 +657,32 @@ body {
     padding-right: 4px;
 }
 
- 
+#search .pagefind-ui__search-clear {
+    position: absolute !important;
+    right: 12px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    background-color: transparent !important;
+    color: transparent !important;
+    font-size: 0 !important;
+    width: 24px !important;
+    height: 24px !important;
+    cursor: pointer !important;
+    border: none !important;
+    z-index: 5 !important;
+}
+
+#search .pagefind-ui__search-clear::after {
+    content: "✕" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    font-size: 14px !important;
+    color: #2c3e50 !important;
+    font-weight: bold !important;
+}
+
 .site-header nav {
     justify-self: end;
 }
@@ -692,10 +705,7 @@ body {
 }
 
  
-.dropdown {
-    position: relative;
-}
-
+.dropdown { position: relative; }
 .dropdown-content {
     display: none;
     position: absolute;
@@ -709,15 +719,8 @@ body {
     list-style: none;
     z-index: 1000;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-submenu {
-    position: relative;
-}
-
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown-submenu { position: relative; }
 .dropdown-submenu > a {
     display: block;
     padding: 10px 16px;
@@ -725,18 +728,12 @@ body {
     text-decoration: none;
     white-space: nowrap;
 }
-
-.dropdown-submenu > a:hover {
-    background: #fce8ec;
-    color: var(--primary-red);
-}
-
+.dropdown-submenu > a:hover { background: #fce8ec; color: var(--primary-red); }
 .dropdown-sub-content {
     display: none;
     position: absolute;
     top: 0;
     right: 100%;
-    left: auto;
     background: #ffffff;
     min-width: 160px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -745,11 +742,7 @@ body {
     list-style: none;
     z-index: 1001;
 }
-
-.dropdown-submenu:hover .dropdown-sub-content {
-    display: block !important;
-}
-
+.dropdown-submenu:hover .dropdown-sub-content { display: block !important; }
 .dropdown-sub-content li a {
     display: block;
     padding: 8px 16px;
@@ -757,41 +750,23 @@ body {
     text-decoration: none;
     white-space: nowrap;
 }
+.dropdown-sub-content li a:hover { background: #fce8ec; color: var(--primary-red); }
 
-.dropdown-sub-content li a:hover {
-    background: #fce8ec;
-    color: var(--primary-red);
-}
-
- 
 @media (max-width: 900px) {
     .site-header {
         height: auto !important;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
         gap: 10px;
         padding: 10px !important;
     }
-    .header-search-container {
-        order: 2;
-    }
-    .site-header nav {
-        order: 3;
-        justify-self: center;
-    }
-    
-    #search .pagefind-ui__search-drawer {
-        position: fixed !important;
-        top: 120px !important;
+    .header-search-container { order: 2; }
+    .site-header nav { order: 3; justify-self: center; }
+    #search .pagefind-ui__drawer {
+        position: absolute !important;
+        top: calc(100% + 10px) !important;
         width: 92vw !important;
     }
 }
-
-new PagefindUI({ 
-    element: "#search",
-    showSubResults: true,
-    bundlePath: "/asia-compass/pagefind/"
-});
-
 </style>
 
     
@@ -877,6 +852,9 @@ new PagefindUI({
                 
                     <h3 id="chłodna-oaza-kyōto">Chłodna oaza Kyōto</h3>
 <p>Wciśnięty w wąską, gęsto zalesioną dolinę u stóp gór na północ od Kioto kibunesou reprezentuje jedną z najbardziej zachwycających i unikalnych tradycji kulinarnych Japonii – Kawadoko (lub Kawatoko). Od maja do września ta tradycyjna restauracja serwuje wykwintne posiłki wielodaniowe (kaiseki) na drewnianych platformach wzniesionych bezpośrednio nad rzeźwymi, krystalicznie czystymi wodami rzeki Kibune. Posiłek z widokiem na małe wodospady i z szumem górskiego potoku pod stopami to absolutny szczyt japońskiego chłodzenia się w upalne dni.</p>
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/f1/ec/4a/f1ec4abf0575fb3bda28e57c3bad9056.jpg" alt="Opis zdjęcia" width="500">
+</p>
 <h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
 <ul>
 <li>
@@ -892,6 +870,9 @@ new PagefindUI({
 <p><strong>Zimowy urok wewnątrz lokalu:</strong> Choć platformy Kawadoko działają od maja do września, restauracja działa przez cały rok. Od października do kwietnia goście przenoszą się na drugie piętro tradycyjnego budynku z widokiem na las, gdzie serwowane są rozgrzewające kociołki Sukiyaki i zimowe odmiany kaiseki.</p>
 </li>
 </ul>
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/ff/58/b4/ff58b45e559840a0559e62850708db52.jpg" alt="Opis zdjęcia" width="500">
+</p>
 <hr>
 <h4 id="zobacz-poradnik">Zobacz poradnik:</h4>
 <p><a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a>   |   <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a>   |   <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a>   |   <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a></p>

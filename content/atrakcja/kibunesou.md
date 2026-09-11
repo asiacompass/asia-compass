@@ -128,6 +128,9 @@ instagram_reel: "https://www.instagram.com/reel/DbTPK8lo5Gh/?utm_source=ig_web_c
 ### Chłodna oaza Kyōto
 Wciśnięty w wąską, gęsto zalesioną dolinę u stóp gór na północ od Kioto kibunesou reprezentuje jedną z najbardziej zachwycających i unikalnych tradycji kulinarnych Japonii – Kawadoko (lub Kawatoko). Od maja do września ta tradycyjna restauracja serwuje wykwintne posiłki wielodaniowe (kaiseki) na drewnianych platformach wzniesionych bezpośrednio nad rzeźwymi, krystalicznie czystymi wodami rzeki Kibune. Posiłek z widokiem na małe wodospady i z szumem górskiego potoku pod stopami to absolutny szczyt japońskiego chłodzenia się w upalne dni.
 
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/f1/ec/4a/f1ec4abf0575fb3bda28e57c3bad9056.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -138,6 +141,10 @@ Wciśnięty w wąską, gęsto zalesioną dolinę u stóp gór na północ od Kio
 * **Ayu – smak japońskiego lata:** Sercem letniego menu jest Ayu (ryba słodkowodna) pieczona na patyku nad węglem drzewnym i posypana solą morskie. Ryba układana jest w wygięty sposób, by imitować ruch płynięcia w rzece, co w estetyce japońskiej symbolizuje pełną świeżość.
 
 * **Zimowy urok wewnątrz lokalu:** Choć platformy Kawadoko działają od maja do września, restauracja działa przez cały rok. Od października do kwietnia goście przenoszą się na drugie piętro tradycyjnego budynku z widokiem na las, gdzie serwowane są rozgrzewające kociołki Sukiyaki i zimowe odmiany kaiseki.  
+
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/ff/58/b4/ff58b45e559840a0559e62850708db52.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:

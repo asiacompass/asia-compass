@@ -120,6 +120,9 @@ instagram_reel: "https://www.instagram.com/reel/Db53DQzo9z7/?igsi=MzRlODBiNWFlZA
 ### Muzeum Fujiko F. Fujio - zobacz jak powstawał największy hit!
 Wejdź do świata kultowego niebieskiego kota-robota z przyszłości! Fujiko · F · Fujio Museum (znane powszechnie jako Doraemon Museum) w Kawasaki to niezwykłe miejsce poświęcone twórczości Hiroshiego Fujimoto – artysty tworzącego pod pseudonimem Fujiko F. Fujio. Muzeum nie jest tylko klasyczną galerią sztuki, ale interaktywną przestrzenią, w której ożywają marzenia z dzieciństwa, a odwiedzający mogą na własne oczy zobaczyć legendarne rekwizyty z kieszeni Doraemona.
 
+<p align="center">
+  <img src="https://i.pinimg.com/736x/48/5f/43/485f4300eb233b3b771d9833465fee00.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -130,6 +133,10 @@ Wejdź do świata kultowego niebieskiego kota-robota z przyszłości! Fujiko · 
 * **Magiczne Gadżety w skali 1:1:** W ogrodzie na dachu muzeum można spotkać ikoniczne postacie oraz legendarny gadżet Dokodemo Door (Różowe Drzwi Przejścia) czy dinozaura Pisuke z pierwszej pełnometrażowej adaptacji.
 
 * **Kawiarniane dzieła sztuki:** Muzealna kawiarnia serwuje potrawy nawiązujące do mangi – od kawy z pianką i wizerunkiem Doraemona, po słynne Memory Bread (chleb pamięci) i ulubione przysmaki głównego bohatera – Dorayaki.
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/22/86/b8/2286b83904a419ec3dea266de7424990.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:

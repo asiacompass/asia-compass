@@ -127,7 +127,9 @@ instagram_reel: "https://www.instagram.com/reel/DaiUFtdoDYx/?igsh=azc1czU0cnptcH
 ### POKÉMON with YOU Train
 Wsiądź do najbardziej elektryzującego pociągu w Japonii! POKÉMON with YOU Train to wyjątkowy, dwuwagonowy skład JR East przemierzający malownicze tereny regionu Tohoku. Cała linia i wnętrze pociągu są w pełni poświęcone najsłynniejszemu Pokémonowi na świecie – Pikachu. To nie tylko atrakcja dla dzieci, ale niesamowita frajda dla każdego fana popkultury i kolekcjonera niezapomnianych wrażeń z podróży.
 
-<!-- Sekcja rozwijalna (details/summary w czystym HTML) -->
+<p align="center">
+  <img src="https://i.pinimg.com/736x/d9/8a/23/d98a23b2d32daf7a97710590648d4283.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -138,6 +140,10 @@ Wsiądź do najbardziej elektryzującego pociągu w Japonii! POKÉMON with YOU T
 * **Kolekcjonerska pieczątkowa gra:** Podczas 2-godzinnej trasy pociąg zatrzymuje się na wybranych stacjach, gdzie pasażerowie mogą wysiąść na chwilę i zbierać unikalne pamiątkowe pieczątki (Stamp Rally) do specjalnej karty, którą dostaje się wraz z biletem
 
 * **Pikachu Bento:** Na stacji początkowej lub w pociągu można kupić limitowane zestawy obiadowe (bento) podawane w kolekcjonerskich pojemnikach lub torbach z wizerunkiem Pikachu.  
+
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/b1/84/3b/b1843b6571525ec9d05e63d4b5034fba.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:

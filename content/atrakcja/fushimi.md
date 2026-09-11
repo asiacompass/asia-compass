@@ -117,13 +117,16 @@ galeria_zdjec:
   - url: "https://images.pexels.com/photos/20693088/pexels-photo-20693088.jpeg"
   - url: "https://images.pexels.com/photos/31338148/pexels-photo-31338148.jpeg"
 
-instagram_reel: "https://www.instagram.com/reel/Db53DQzo9z7/?igsi=MzRlODBiNWFlZA=="
+instagram_reel: ""
 
 ---
 
 ### Labirynt Tysiąca Cynobrowych Bram
 Kiedy myślisz o tradycyjnej Japonii, jednym z pierwszych obrazów przed oczami jest bez wątpienia kręta ścieżka otoczona tysiącami cynobrowych bram torii. To właśnie Fushimi Inari Taisha – najważniejsze i najbardziej majestatyczne ze wszystkich ponad 30 000 sanktuariów poświęconych bóstwu Inari w całej Japonii. Usytuowana na zboczu świętej góry Inari kompleksowa świątynia Shinto przyciąga nie tylko mistyczną atmosferą, ale też niesamowitą harmonią między architekturą a otaczającym ją bambusowym i cedrowym lasem.
 
+<p align="center">
+  <img src="https://i.pinimg.com/736x/08/07/9d/08079dc3e53edfa11a8c3ed402c80a70.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -134,6 +137,10 @@ Kiedy myślisz o tradycyjnej Japonii, jednym z pierwszych obrazów przed oczami 
 * **Ema w kształcie twarzy lisa:** W odróżnieniu od większości świątyń, w których drewniane tabliczki wotywne (ema) są prostokątne, tutaj mają one kształt głowy lisa. O odwiedzających świadczy niesamowita kreatywność – ludzie dorysowują im zabawne miny, śmieszne oczy czy postacie z anime.
 
 * **Góra pełna mniejszych omiji:** Większość turystów kończy spacer na pierwszym, najbardziej zatłoczonym odcinku tunelu. Tymczasem szlak ciągnie się przez 4 kilometry w górę. Im wyżej wchodzisz, tym bardziej kameralne i tajemnicze stają się małe, obrośnięte mchem ołtarzyki skryte w gęstym lesie.
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/d0/bc/01/d0bc016023519c206f84da37df4107cb.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:

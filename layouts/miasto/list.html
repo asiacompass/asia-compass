@@ -1,263 +1,417 @@
 {{ define "main" }}
 <div class="city-page" style="max-width: 1200px; margin: 0 auto; padding: 20px;">
     
-    {{/* 1. Baner ze zdjęciem i nazwą miasta */}}
-    {{ $banner := .Params.banner_image | default .Params.image | default .Params.img }}
-    {{ if $banner }}
-    <div style="position: relative; width: 100%; height: 350px; border-radius: 12px; overflow: hidden; margin-bottom: 30px;">
-        <img src="{{ $banner }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover;">
-        <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); padding: 30px 20px 20px;">
-            <h1 style="color: #fff; margin: 0; font-size: 2.5rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">{{ .Title }}</h1>
-        </div>
-    </div>
-    {{ else }}
-    <h1 style="font-size: 2.5rem; margin-bottom: 10px; color: var(--primary-red);">{{ .Title }}</h1>
-    {{ end }}
-
-   {{/* 2. Opis miasta z Body (tylko pierwsza część tekstu) */}}
-    {{ if .Summary }}
-    <div class="city-description-content" style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 40px; background: #fff; padding: 25px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-        {{ .Summary }}
-    </div>
-    {{ end }}
-
-    {{/* 3. Dynamiczne kafelki Kategorii */}}
-{{ $currentCitySlug := .Title | urlize | lower }}
-{{ $currentCountrySlug := .Params.kraj | default "" | urlize | lower }}
-{{ $kategorieFound := slice }}
-
-{{ $atrakcjaPageObj := site.GetPage "/atrakcja" }}
-{{ if $atrakcjaPageObj }}
-    {{ range $atrakcjaPageObj.Pages }}
-        {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
-        {{ if eq $atrakcjaMiasto $currentCitySlug }}
-            {{ if .Params.kategoria }}
-                {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
-            {{ end }}
-        {{ end }}
-    {{ end }}
-{{ end }}
-{{ $kategorieFound = $kategorieFound | uniq | sort }}
-
-{{ if gt (len $kategorieFound) 0 }}
-<div style="margin-bottom: 40px;">
-    <h2 style="margin-bottom: 15px; color: var(--text-color); font-size: 1.4rem;">Co cię najbardziej ciekawi?</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px;">
-        {{ range $kategorieFound }}
-            {{ $katName := . }}
-            {{ $katSlug := $katName | urlize }}
-            
-            {{ $katPage := site.GetPage (printf "/kategoria/%s" $katSlug) }}
-            {{ if not $katPage }}
-                {{ $katPage = site.GetPage (printf "/kategorie/%s" $katSlug) }}
-            {{ end }}
-
-            {{ $baseUrl := cond $katPage $katPage.RelPermalink (printf "/kategoria/%s/" $katSlug | relLangURL) }}
-            {{ $targetUrl := printf "%s?kraj=%s" $baseUrl $currentCountrySlug }}
-
-            <a href="{{ $targetUrl }}" class="city-kat-tile" style="display: block; padding: 15px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 8px; text-align: center; font-weight: bold; border: 1px solid rgba(0,0,0,0.06); transition: all 0.3s ease;">
-                {{ $katName }}
-            </a>
-        {{ end }} 
-    </div>
-</div>
-{{ end }}
-
-    {{/* 4. Kafelki Atrakcji w tym mieście (zawierające kategorię, cenę i rezerwację) */}}
-    <div style="margin-bottom: 40px;">
-        <h2 style="margin-bottom: 20px; color: var(--text-color);">Niezwykłe miejsca w {{ .Title }}</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
-        {{ with site.GetPage "/atrakcja" }}
-            {{ range .Pages }}
-                {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
-                {{ $currentCitySlug := $.Title | urlize | lower }}
-                {{ if eq $atrakcjaMiasto $currentCitySlug }}
-                <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                    <div>
-                        {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
-                        {{ if $img }}
-                        <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                            <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                        </div>
-                        {{ end }}
-                        <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                            <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
-                            
-                            {{/* Informacje z pliku .md: kategoria, cena, rezerwacja (bez tła, kolor #2c3e50) */}}
-                            <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
-                                {{ if .Params.kategoria }}
-                                <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">
-                                    📂 Kategoria: {{ .Params.kategoria }}
-                                </span>
-                                {{ end }}
-
-                                {{ if .Params.cena }}
-                                <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">
-                                    💰 Cena: {{ .Params.cena }}
-                                </span>
-                                {{ end }}
-
-                                {{ if .Params.rezerwacja }}
-                                <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">
-                                    🎟️ Rezerwacja: 
-                                    {{ if and (urls.Parse .Params.rezerwacja) (urls.Parse .Params.rezerwacja).Scheme }}
-                                        <a href="{{ .Params.rezerwacja }}" target="_blank" rel="noopener" style="color: #2c3e50; text-decoration: underline;">Wymagana online</a>
-                                    {{ else }}
-                                        {{ .Params.rezerwacja }}
-                                    {{ end }}
-                                </span>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </div>
-                    <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                        <a href="{{ .RelPermalink }}" class="city-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                    </div>
-                </div>
-                {{ end }}
-            {{ end }}
-        {{ end }}
-        </div>
+    {{/* Nagłówek i przycisk powrotu */}}
+    <div style="margin-bottom: 15px;">
+        <button onclick="history.back()" class="back-link">
+            &larr; Wróć
+        </button>
     </div>
 
-    {{/* 5. MAPA ATRAKCJI W MIEŚCIE */}}
-    <div style="margin-bottom: 40px;">
-        <h2 style="margin-bottom: 15px; color: var(--text-color); font-size: 1.4rem;">Mapa atrakcji</h2>
-        <div id="city-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
-    </div>
+    <header class="attraction-header">
+        <h1 style="color: var(--primary-red); font-size: 2.2rem; margin: 0;">{{ .Title }}</h1>
+    </header>
 
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var map = L.map('city-map').setView([{{ .Params.lat | default 35.0 }}, {{ .Params.lng | default 105.0 }}], 12);
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                maxZoom: 18,
-                attribution: '&copy; OpenStreetMap contributors'
-            }).addTo(map);
-
-            var attractions = [
-                {{ range (site.GetPage "/atrakcja").Pages }}
-                    {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
-                    {{ if and (eq $atrakcjaMiasto $currentCitySlug) .Params.lat .Params.lng }}
-                        {
-                            title: "{{ .Title }}",
-                            lat: {{ .Params.lat }},
-                            lng: {{ .Params.lng }},
-                            url: "{{ .RelPermalink }}"
-                        },
-                    {{ end }}
-                {{ end }}
-            ];
-
-            var bounds = [];
-            attractions.forEach(function(item) {
-                var marker = L.marker([item.lat, item.lng]).addTo(map);
-                marker.bindPopup("<b><a href='" + item.url + "' style='color: var(--primary-red); text-decoration: none; font-weight: bold;'>" + item.title + "</a></b><br><a href='" + item.url + "'>Zobacz atrakcję &rarr;</a>");
-                bounds.push([item.lat, item.lng]);
-            });
-
-            if(bounds.length > 0) {
-                map.fitBounds(bounds, { padding: [50, 50] });
-            }
-        });
-    </script>
-
-{{/* SKRYPT Z BODY (PO SEPARATORZE <!--more-->) UMIEJSCOWIONY MIĘDZY MAPĄ A TAGAMI */}}
-    {{ $remainder := replace .Content .Summary "" }}
-    {{ if $remainder }}
-    <div class="klook-bottom-section" style="margin-bottom: 40px; text-align: center;">
-        {{ $remainder | safeHTML }}
-    </div>
-    {{ end }}
-
-{{/* 6. SEKCJA TAGÓW DLA MIEJSCA */}}
-{{ $tagsMap := dict }}
-
-{{ range where site.RegularPages "Section" "atrakcja" }}
-    {{ range .GetTerms "tag" }}
-        {{ $termObj := . }}
-        {{ $cleanKey := $termObj.Title | urlize }}
-        {{ $tagOriginal := $termObj.LinkTitle | default $termObj.Title }}
+    {{/* GŁÓWNY UKŁAD DWUKOLUMNOWY */}}
+    <div class="attraction-layout-grid">
         
-        {{ if ne $cleanKey "" }}
-            {{ $existing := index $tagsMap $cleanKey }}
-            {{ if not $existing }}
-                {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
-            {{ else }}
-                {{ $currentName := index $existing "name" }}
-                {{ if gt (len $tagOriginal) (len $currentName) }}
-                    {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+        {{/* LEWA KOLUMNA: Główna treść miasta */}}
+        <div class="attraction-main-column">
+            
+            {{/* 1. Baner ze zdjęciem i nazwą miasta */}}
+            {{ $banner := .Params.banner_image | default .Params.image | default .Params.img }}
+            {{ if $banner }}
+            <div class="attraction-banner">
+                <img src="{{ $banner }}" alt="{{ .Title }}" loading="lazy">
+            </div>
+            {{ end }}
+
+            {{/* 2. Opis miasta z Body (pierwsza część tekstu) */}}
+            {{ if .Summary }}
+            <div class="city-description-content" style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 40px; background: #fff; padding: 25px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                {{ .Summary }}
+            </div>
+            {{ end }}
+
+            {{/* 3. Dynamiczne kafelki Kategorii */}}
+            {{ $currentCitySlug := .Title | urlize | lower }}
+            {{ $currentCountrySlug := .Params.kraj | default "" | urlize | lower }}
+            {{ $kategorieFound := slice }}
+
+            {{ $atrakcjaPageObj := site.GetPage "/atrakcja" }}
+            {{ if $atrakcjaPageObj }}
+                {{ range $atrakcjaPageObj.Pages }}
+                    {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
+                    {{ if eq $atrakcjaMiasto $currentCitySlug }}
+                        {{ if .Params.kategoria }}
+                            {{ $kategorieFound = $kategorieFound | append .Params.kategoria }}
+                        {{ end }}
+                    {{ end }}
                 {{ end }}
             {{ end }}
-        {{ end }}
-    {{ end }}
-{{ end }}
+            {{ $kategorieFound = $kategorieFound | uniq | sort }}
 
-{{ if gt (len $tagsMap) 0 }}
-<div class="country-tags-section" style="margin-bottom: 40px;">
-    <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--text-color);">Odkrywaj według tagów</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        {{ range $key, $data := $tagsMap }}
-            <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
-                #{{ index $data "name" }}
-            </a>
-        {{ end }}
-    </div>
-</div>
-{{ end }}
+            {{ if gt (len $kategorieFound) 0 }}
+            <div style="margin-bottom: 40px;">
+                <h2 style="margin-bottom: 15px; color: var(--text-color); font-size: 1.4rem;">Co cię najbardziej ciekawi?</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 15px;">
+                    {{ range $kategorieFound }}
+                        {{ $katName := . }}
+                        {{ $katSlug := $katName | urlize }}
+                        
+                        {{ $katPage := site.GetPage (printf "/kategoria/%s" $katSlug) }}
+                        {{ if not $katPage }}
+                            {{ $katPage = site.GetPage (printf "/kategorie/%s" $katSlug) }}
+                        {{ end }}
 
-{{/* SEKCJA: Artykuły z bloga dla danego kraju (max 4) */}}
-{{ $blogPosts := slice }}
-{{ range where site.RegularPages "Section" "blog" }}
-    {{ $postKraj := .Params.country | default .Params.kraj | default "" | urlize | lower }}
-    {{ if eq $postKraj $currentCountrySlug }}
-        {{ $blogPosts = $blogPosts | append . }}
-    {{ end }}
-{{ end }}
+                        {{ $baseUrl := cond $katPage $katPage.RelPermalink (printf "/kategoria/%s/" $katSlug | relLangURL) }}
+                        {{ $targetUrl := printf "%s?kraj=%s" $baseUrl $currentCountrySlug }}
 
-{{ if gt (len $blogPosts) 0 }}
-<div style="margin-bottom: 40px;">
-    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Pomocne artykuły na blogu</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
-        {{ range first 4 $blogPosts }}
-            <div class="country-blog-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                <div>
-                    {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
-                    {{ if $img }}
-                    <div style="width: 100%; height: 160px; overflow: hidden; margin: 0;">
-                        <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                    </div>
-                    {{ end }}
-                    <div style="padding: 15px;">
-                        <div style="font-size: 0.8rem; color: var(--text-color); opacity: 0.6; margin-bottom: 6px;">
-                            📅 {{ .Date.Format "02.01.2006" }}
-                        </div>
-                        <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.1rem; font-weight: bold; line-height: 1.3;">
-                            <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
-                        </h3>
-                        <p style="color: var(--text-color); font-size: 0.88rem; line-height: 1.4; margin: 0; opacity: 0.85; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
-                            {{ .Params.description | default .Summary }}
-                        </p>
-                    </div>
-                </div>
-                <div style="padding: 0 15px 15px 15px;">
-                    <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem; transition: background 0.2s;">Czytaj artykuł &rarr;</a>
+                        <a href="{{ $targetUrl }}" class="city-kat-tile" style="display: block; padding: 15px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 8px; text-align: center; font-weight: bold; border: 1px solid rgba(0,0,0,0.06); transition: all 0.3s ease;">
+                            {{ $katName }}
+                        </a>
+                    {{ end }} 
                 </div>
             </div>
-        {{ end }}
+            {{ end }}
+
+            {{/* 4. Kafelki Atrakcji w tym mieście */}}
+            <div style="margin-bottom: 40px;">
+                <h2 style="margin-bottom: 20px; color: var(--text-color);">Niezwykłe miejsca w {{ .Title }}</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                {{ with site.GetPage "/atrakcja" }}
+                    {{ range .Pages }}
+                        {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
+                        {{ if eq $atrakcjaMiasto $currentCitySlug }}
+                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                                {{ if $img }}
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;" loading="lazy">
+                                </div>
+                                {{ end }}
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.3rem; font-weight: bold;">{{ .Title }}</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        {{ if .Params.kategoria }}
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: {{ .Params.kategoria }}</span>
+                                        {{ end }}
+                                        {{ if .Params.cena }}
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: {{ .Params.cena }}</span>
+                                        {{ end }}
+                                        {{ if .Params.rezerwacja }}
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: {{ .Params.rezerwacja }}</span>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="{{ .RelPermalink }}" class="city-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+                </div>
+            </div>
+
+            {{/* 5. MAPA ATRAKCJI */}}
+            <div style="margin-bottom: 40px;">
+                <h2 style="margin-bottom: 15px; color: var(--text-color); font-size: 1.4rem;">Mapa atrakcji</h2>
+                <div id="city-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function() {
+                    var map = L.map('city-map').setView([{{ .Params.lat | default 35.0 }}, {{ .Params.lng | default 105.0 }}], 12);
+
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        maxZoom: 18,
+                        attribution: '&copy; OpenStreetMap contributors'
+                    }).addTo(map);
+
+                    var attractions = [
+                        {{ range (site.GetPage "/atrakcja").Pages }}
+                            {{ $atrakcjaMiasto := .Params.miasto | default "" | urlize | lower }}
+                            {{ if and (eq $atrakcjaMiasto $currentCitySlug) .Params.lat .Params.lng }}
+                                {
+                                    title: "{{ .Title }}",
+                                    lat: {{ .Params.lat }},
+                                    lng: {{ .Params.lng }},
+                                    url: "{{ .RelPermalink }}"
+                                },
+                            {{ end }}
+                        {{ end }}
+                    ];
+
+                    var bounds = [];
+                    attractions.forEach(function(item) {
+                        var marker = L.marker([item.lat, item.lng]).addTo(map);
+                        marker.bindPopup("<b><a href='" + item.url + "' style='color: var(--primary-red); text-decoration: none; font-weight: bold;'>" + item.title + "</a></b><br><a href='" + item.url + "'>Zobacz atrakcję &rarr;</a>");
+                        bounds.push([item.lat, item.lng]);
+                    });
+
+                    if(bounds.length > 0) {
+                        map.fitBounds(bounds, { padding: [50, 50] });
+                    }
+                });
+            </script>
+
+            {{/* SKRYPT Z BODY PO more */}}
+            {{ $remainder := replace .Content .Summary "" }}
+            {{ if $remainder }}
+            <div class="klook-bottom-section" style="margin-bottom: 40px; text-align: center;">
+                {{ $remainder | safeHTML }}
+            </div>
+            {{ end }}
+
+            {{/* 6. TAGI */}}
+            {{ $tagsMap := dict }}
+            {{ range where site.RegularPages "Section" "atrakcja" }}
+                {{ range .GetTerms "tag" }}
+                    {{ $termObj := . }}
+                    {{ $cleanKey := $termObj.Title | urlize }}
+                    {{ $tagOriginal := $termObj.LinkTitle | default $termObj.Title }}
+                    {{ if ne $cleanKey "" }}
+                        {{ $existing := index $tagsMap $cleanKey }}
+                        {{ if not $existing }}
+                            {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+                        {{ else }}
+                            {{ $currentName := index $existing "name" }}
+                            {{ if gt (len $tagOriginal) (len $currentName) }}
+                                {{ $tagsMap = merge $tagsMap (dict $cleanKey (dict "name" $tagOriginal "permalink" $termObj.RelPermalink)) }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            {{ if gt (len $tagsMap) 0 }}
+            <div class="country-tags-section" style="margin-bottom: 40px;">
+                <h2 style="padding-bottom: 10px; margin-bottom: 15px; color: var(--text-color);">Odkrywaj według tagów</h2>
+                <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+                    {{ range $key, $data := $tagsMap }}
+                        <a href="{{ index $data "permalink" }}" class="country-tag-badge" style="display: inline-flex; align-items: center; padding: 8px 18px; background-color: #f0f2f5; color: var(--text-color); border-radius: 20px; text-decoration: none; font-size: 0.95rem; font-weight: 600; border: 1px solid rgba(0,0,0,0.08); transition: all 0.2s ease;">
+                            #{{ index $data "name" }}
+                        </a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+            {{/* ARTYKUŁY Z BLOGA */}}
+            {{ $blogPosts := slice }}
+            {{ range where site.RegularPages "Section" "blog" }}
+                {{ $postKraj := .Params.country | default .Params.kraj | default "" | urlize | lower }}
+                {{ if eq $postKraj $currentCountrySlug }}
+                    {{ $blogPosts = $blogPosts | append . }}
+                {{ end }}
+            {{ end }}
+
+            {{ if gt (len $blogPosts) 0 }}
+            <div style="margin-bottom: 40px;">
+                <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Pomocne artykuły na blogu</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+                    {{ range first 4 $blogPosts }}
+                        <div class="country-blog-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                                {{ if $img }}
+                                <div style="width: 100%; height: 160px; overflow: hidden; margin: 0;">
+                                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block;" loading="lazy">
+                                </div>
+                                {{ end }}
+                                <div style="padding: 15px;">
+                                    <div style="font-size: 0.8rem; color: var(--text-color); opacity: 0.6; margin-bottom: 6px;">📅 {{ .Date.Format "02.01.2006" }}</div>
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.1rem; font-weight: bold; line-height: 1.3;">
+                                        <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
+                                    </h3>
+                                </div>
+                            </div>
+                            <div style="padding: 0 15px 15px 15px;">
+                                <a href="{{ .RelPermalink }}" class="country-blog-btn" style="display: inline-block; padding: 6px 16px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.85rem;">Czytaj artykuł &rarr;</a>
+                            </div>
+                        </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+
+       {{/* PRAWA KOLUMNA: Lista miast w tym kraju (kafelki) */}}
+        <aside class="attraction-sidebar">
+            <h3 class="sidebar-title">Miasta w tym kraju</h3>
+            <div class="sidebar-items">
+                {{ $currentCountry := .Params.kraj | default "" | lower }}
+                {{ $currentPage := . }}
+                {{ $count := 0 }}
+                
+                {{/* Pobranie stron miast z sekcji /miasto */}}
+                {{ with site.GetPage "/miasto" }}
+                    {{ range .Pages }}
+                        {{ $itemCountry := .Params.kraj | default "" | lower }}
+                        {{ if and (eq $itemCountry $currentCountry) (ne . $currentPage) }}
+                            {{ $count = add $count 1 }}
+                            <a href="{{ .RelPermalink }}" class="sidebar-card">
+                                {{ $sideImg := .Params.banner_image | default .Params.image | default .Params.img }}
+                                {{ if $sideImg }}
+                                <img src="{{ $sideImg }}" alt="{{ .Title }}" loading="lazy">
+                                {{ end }}
+                                <div class="sidebar-card-info">
+                                    <h4>{{ .Title }}</h4>
+                                    {{ if .Params.kraj }}<span class="sidebar-city">{{ .Params.kraj }}</span>{{ end }}
+                                </div>
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+
+                {{ if eq $count 0 }}
+                    <p class="sidebar-empty">Brak innych miast w tym kraju.</p>
+                {{ end }}
+            </div>
+        </aside>
     </div>
-</div>
-{{ end }}
 </div>
 
 <style>
+/* Style układu dwukolumnowego i sidebaru spójne ze stroną atrakcji */
+.attraction-layout-grid {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.attraction-main-column {
+    flex: 1;
+    min-width: 0;
+}
+
+.attraction-sidebar {
+    width: 380px;
+    flex-shrink: 0;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.sidebar-title {
+    font-size: 1.15rem;
+    color: var(--primary-red);
+    margin-top: 0;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.sidebar-card {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #ca041e;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.sidebar-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(202, 4, 30, 0.15);
+}
+
+.sidebar-card img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.sidebar-card-info h4 {
+    font-size: 0.92rem;
+    color: var(--text-color);
+    margin: 0 0 5px 0;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.sidebar-city {
+    font-size: 0.82rem;
+    color: #555555;
+    font-weight: 500;
+}
+
+.sidebar-empty {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media (max-width: 900px) {
+    .attraction-layout-grid {
+        flex-direction: column;
+    }
+    .attraction-sidebar {
+        width: 100%;
+        position: static;
+    }
+}
+
+.back-link {
+    background: none;
+    border: none;
+    color: var(--text-color);
+    opacity: 0.7;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.back-link:hover {
+    color: var(--primary-red);
+    opacity: 1;
+    transform: translateX(-3px);
+}
+
+.attraction-banner {
+    margin: 0 0 20px 0;
+    max-height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.attraction-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .city-description-content a {
     color: var(--primary-red);
     text-decoration: underline;
     font-weight: bold;
-}
-.city-description-content a:hover {
-    color: var(--hover-color);
 }
 
 .city-kat-tile:hover, 

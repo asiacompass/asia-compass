@@ -127,6 +127,10 @@ instagram_reel: "https://www.instagram.com/reel/Db_ArDrIVH5/?igsi=MzRlODBiNWFlZA
 ### Słynny letni parfait serwowany w połówce świeżego melona!
 Najbardziej zatłoczonych ulic. Saryo Kiriyama (茶寮 桐山) to urokliwa, tradycyjna herbaciarnia i restauracja usytuowana w cichej, pełnej zieleni dzielnicy Sakyo-ku, tuż u podnóża wschodnich wzgórz Higashiyama. Oferuje ona wybitne doznania kulinarne połączone z widokiem na misternie zaprojektowany japoński ogród. Zjesz tu nie tylko tradycyjne domowe posiłki z Kioto (obanzai), ale i zachwycające, sezonowe desery – w tym słynny letni parfait serwowany bezpośrednio w połówce świeżego melona!
 
+<p align="center">
+  <img src="https://cdn.r-corona.jp/prd.rb.r-corona.jp/assets/site_files/mu5fsxha/78045698/2338_w250h250.jpg" alt="Opis zdjęcia" width="500">
+</p>
+
 ### Fakty i Ciekawostki
 
 * **Deser w melonowej misie:** Flagowy, letni deser japoński (Wa-Parfait) podawany jest bezpośrednio w drążonej połówce melona, wewnątrz której kryją się lody matcha, kluseczki shiratama dango, galaretka z prażonej herbaty houjicha, deser warabimochi oraz orzeźwiające lodowe akcenty z trawy morskiej kuzu.

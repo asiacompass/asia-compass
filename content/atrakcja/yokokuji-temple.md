@@ -130,6 +130,9 @@ instagram_reel: "https://www.instagram.com/reel/DbGXMd1IxXy/?utm_source=ig_web_c
 ### Świątynia Yokoku-ji 
 Ukryta w spokojnych wzgórzach Nagaokakyo na skraju Kioto, Yokoku-ji (znana również jako Yanagidani Kannon) to urokliwa świątynia Shingon, która zdobyła serca podróżników swoją niezwykłą estetyką. Miejsce to jest ucieleśnieniem japońskiej harmonii natury i duchowości, słynącym z niezwykłych dekoracji wodnych oraz uzdrawiającej energii.
 
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/d7/10/77/d71077cb7ccb86b5ed8a006994f29a90.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -140,6 +143,10 @@ Ukryta w spokojnych wzgórzach Nagaokakyo na skraju Kioto, Yokoku-ji (znana rów
 * **Pałacowe widoki w Kamishoin:** Specjalny pawilon Kamishoin oferuje zapierający dech w piersiach widok na tradycyjny ogród japoński. Widok z okien pawilonu jesienią tworzy naturalny, żywy obraz ramowany przez tradycyjną architekturę.
 
 * **Światło w hortensjach:** Co roku na przełomie czerwca i lipca odbywa się tu słynny festiwal hortensji (Ajisai Matsuri). Na terenie kompleksu rozkwita ponad 5000 krzewów tych kwiatów w dziesiątkach odmian.
+
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/ec/05/b6/ec05b6b7da1eb9d311e2004abe3f35ab.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:

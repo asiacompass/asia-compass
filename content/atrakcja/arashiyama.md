@@ -125,6 +125,9 @@ instagram_reel: "https://www.instagram.com/reel/DblQsKYBDB9/?igsi=MzRlODBiNWFlZA
 ### Magia Światła i Liści
 Ukryta pośród bambusowych gajów i szumu rzeki Katsura w Kioto, Arashiyama Yusai-tei to miejsce, w którym tradycyjna japońska estetyka spotyka się z magią światła i koloru. Ta ponad 150-letnia historyczna willa, pełniąca dawniej funkcję ekskluzywnej restauracji ryotei, jest dziś pracownią wybitnego mistrza barwienia tkanin Yusaia Okudy. Miejsce to słynie z fascynujących refleksów świetlnych, gdzie krajobraz Arashiyamy odbija się w lustrzanych blatach stołów i czarnych lakierowanych podłogach.
 
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/de/ea/f1/deeaf116245f5f67f5f05dab4c7fe410.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -135,6 +138,10 @@ Ukryta pośród bambusowych gajów i szumu rzeki Katsura w Kioto, Arashiyama Yus
 * **Okrągłe okno marzeń:** W obiekcie znajduje się kultowe, okrągłe okno (Yusai-mado), które oprawia widok na naturę niczym żywy obraz. To nawiązanie do tradycyjnej architektury zen, w której okrąg symbolizuje oświecenie i nieskończoność.
 
 * **Pokój z lustrem wodnym:** W jednym z pomieszczeń przygotowano tradycyjne naczynie z wodą, w którym zwiedzający mogą tworzyć własne, unikalne wzory falowe, obserwując odbicia otaczających drzew na powierzchni wody.  
+
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/1f/12/ff/1f12ff504768ea72d221b12cb64d688d.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:

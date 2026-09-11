@@ -125,6 +125,9 @@ instagram_reel: "https://www.instagram.com/reel/Da5fP49oZUo/?utm_source=ig_web_c
 ### Święty wodospad i potęga natury
 Majestatyczny, otoczony gęstym, prastarym lasem i osnuty mgłą – Nachi Waterfall (Nachi no Taki) w prefekturze Wakayama to jeden z najbardziej ikonicznych i poetyckich krajobrazów w całej Japonii. Z wysokością aż 133 metrów jest to najpotężniejszy jednospadowy wodospad w kraju. Widok czerwonej, trójpiętrowej pagody świątyni Seiganto-ji na tle kaskady wody spływającej po ciemnej skale to żywy obraz japońskiej harmonii między naturą a duchowością.
 
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/d1/32/36/d13236c77dd9537b10957a1fe8d54d2e.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 ### Fakty i Ciekawostki
 
@@ -135,6 +138,10 @@ Majestatyczny, otoczony gęstym, prastarym lasem i osnuty mgłą – Nachi Water
 * **Część dziedzictwa UNESCO:** Wodospad wraz z historycznym szlakiem pielgrzymkowym Kumano Kodo został wpisany na Listę Światowego Dziedzictwa UNESCO jako wyjątkowy obszar sacrum, w którym od ponad tysiąca lat mieszają się tradycje Shinto i buddyzmu (tzw. shinbutsu-shūgō).
 
 * **Festiwal Ognia (Nachi no Hi Matsuri):** Co roku 14 lipca odbywa się tu jeden z najbardziej widowiskowych festiwali w Japonii. Trasa prowadząca do wodospadu jest oczyszczana przez kapłanów niosących 12 płonących, ważących po 50 kg pochodni, co symbolicznie odnawia siły witalne natury.
+
+<p align="center">
+  <img src="https://i.pinimg.com/736x/70/a4/8e/70a48eb7c33b82e7f6b7d395c63c3484.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 --- 
 #### Zobacz poradnik:
