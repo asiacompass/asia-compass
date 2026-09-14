@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Kozuki, Shakotan, Shakotan District, Hokkaido 046-0321, Japonia"
 link: "https://www.kanko-shakotan.jp/en/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11608.16460607768!2d140.33607436083335!3d43.334327937900724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0a5c72c32397e7%3A0xf2b6b1dde25bb94f!2sCape%20Kamui!5e0!3m2!1spl!2spl!4v1789384404935!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

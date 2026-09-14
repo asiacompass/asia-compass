@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "TOKYO: Shinjuku Marui Annex 1F, 3 Chome-1-26 Shinjuku, Shinjuku City, Tokyo 160-0022, Japonia"
 link: "https://www.cinnamorollcafe.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4705700740014!2d139.70316017539764!3d35.69003607258444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cdb44df1955%3A0xa8cd25ca2786d19a!2sCinnamoroll%20Cafe!5e0!3m2!1spl!2spl!4v1789384602435!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

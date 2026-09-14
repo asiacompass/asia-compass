@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "5F, Starfield Suwon, 175 Suyeong-ro, Jangan-gu, Suwon-si, Gyeonggi-do, Korea Południowa (경기도 수원시 장안구 수성로 175 스타필드 수원 5층 바이닐)"
 link: "https://www.instagram.com/vinyl_starfield/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b43001548b641%3A0x6431d9cab987900d!2sVinyl%20Starfield%20Suwon!5e0!3m2!1spl!2spl!4v1789384375173!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

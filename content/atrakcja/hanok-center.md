@@ -13,6 +13,8 @@ rezerwacja: "Nocleg tak, zwiedzanie nie"
 sezon: "Cały rok"
 adres: "40 Garak-ro 93beon-gil, Gimhae-si, Gyeongsangnam-do, Korea Południowa (경상남도 김해시 가락로93번길 40 김해한옥체험관)"
 link: 
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x3568c76cb48d0cdd%3A0x819abdccc37967e1!2sGimhae%20Hanok%20Experience%20Hall!5e0!3m2!1spl!2spl!4v1789385161107!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
+
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:
   - tytul: "Rezerwacja"

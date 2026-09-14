@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "175 Suseong-ro, Jangan-gu, Suwon-si, Gyeonggi-do, South Korea (경기도 수원시 장안구 수성로 175 스타필드 수원)"
 link: "https://www.starfield.co.kr/coexmall/starfieldLibrary/library.do"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b4367be4ee657%3A0x8a8b001a29248155!2sStarfield%20Suwon!5e0!3m2!1spl!2spl!4v1789387009688!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

@@ -13,6 +13,7 @@ rezerwacja: "Zalecana online"
 sezon: "Cały rok"
 adres: "Park Road, Dujiangyan, Chengdu, Sichuan, China (四川省成都市都江堰市公园路)"
 link: " "
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d437493.7176389485!2d103.27875148402008!3d31.056335780497776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36f00687821ead4b%3A0xe39237074e70244d!2sDujiangyan%2C%20Chengdu%2C%20Syczuan%2C%20Chiny!5e0!3m2!1spl!2spl!4v1789386330834!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

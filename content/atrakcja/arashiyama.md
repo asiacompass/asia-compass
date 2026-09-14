@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "6 Arashiyama Kagemochichō, Ukyō-ku, Kyoto, 616-8386, Japonia"
 link: "https://yusai.kyoto/gallery"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.7032172816444!2d135.66838067536446!3d35.01413367281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001aa06c66d0acf%3A0x44b6cec3f2416956!2sArashiyama%20Yusai-Tei%20Gallery!5e0!3m2!1spl!2spl!4v1789383458979!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

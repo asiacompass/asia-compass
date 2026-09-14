@@ -12,6 +12,7 @@ rezerwacja: "Wymagana wcześniej online"
 sezon: "Cały rok (najlepiej jesień/wiosna)"
 adres: "2-24-12 Shibuya, Shibuya-ku, Tokyo (Shibuya Scramble Square 14F, 45F, 46F, Rooftop)"
 link: "https://www.shibuya-scramble-square.com/sky/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7442654563743!2d139.6994098753961!3d35.65867187259451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b6825f61ae1%3A0x6ff47ee61e522473!2sShibuya%20Sky!5e0!3m2!1spl!2spl!4v1789386885336!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

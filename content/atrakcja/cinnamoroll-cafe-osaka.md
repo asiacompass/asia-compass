@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Lakazatoku Bld. 1F, 1 Chome-5-2 Shinsaibashisuji, Chuo Ward, Osaka, 542-0085, Japonia"
 link: "https://www.cinnamorollcafe.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.488593987547!2d135.4988478753477!3d34.667616172931446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e738d89293fd%3A0x89178b8164ca33cf!2sCinnamoroll%20Cafe%20Osaka%20Namba%20Ebisubashi%20Store!5e0!3m2!1spl!2spl!4v1789384570694!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

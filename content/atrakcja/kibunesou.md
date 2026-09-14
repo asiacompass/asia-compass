@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok (pomieszczenie), maj-wrzesień (na zewnątrz)"
 adres: "50 Kuramakibunechō, Sakyo Ward, Kyoto, 601-1112, Japonia"
 link: "https://www.kibunesou.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3263.3956276885247!2d135.76067427536955!3d35.12179947277292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a608f12336d9%3A0x6123954d638bddb8!2skibunesou!5e0!3m2!1spl!2spl!4v1789385595234!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

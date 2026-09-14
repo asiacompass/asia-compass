@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "1 Chome-7-19 Hyakunincho, Shinjuku City, Tokyo 169-0073, Japonia"
 link: "https://www.instagram.com/2dcafe_shinokubo/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.079321585574!2d139.6980463793457!3d35.6996656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188db2aa728971%3A0x32cef73eb90e513d!2s2D%20Cafe!5e0!3m2!1spl!2spl!4v1789383664959!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

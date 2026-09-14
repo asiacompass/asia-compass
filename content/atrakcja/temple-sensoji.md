@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "2 Chome-3-1 Asakusa, Taito City, Tokyo 111-0032, Japonia"
 link: "https://www.senso-ji.jp/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.465644513504!2d139.79408037539892!3d35.71476507257638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ec1a4463df1%3A0x6c0d289a8292810d!2zU2Vuc8WNLWpp!5e0!3m2!1spl!2spl!4v1789387259541!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

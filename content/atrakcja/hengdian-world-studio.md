@@ -13,6 +13,7 @@ rezerwacja: "Wymagana wcześniej online"
 sezon: "Cały rok"
 adres: "Hengdian Town, Dongyang, Jinhua City, Zhejiang Province, China (浙江省金华市东阳市横店镇)"
 link: "https://www.hengdianworld.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27879.270752859917!2d120.2787291771878!3d29.137878998696383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344eb0f58f44ab39%3A0x8201718c36db528b!2sHengdian%20World%20Studios!5e0!3m2!1spl!2spl!4v1789385218180!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

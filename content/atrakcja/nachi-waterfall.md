@@ -12,7 +12,8 @@ cena: "Darmowe"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301, Japonia"
-link: "https://kumanonachitaisha.or.jp/pavilion/waterfall/" 
+link: "https://kumanonachitaisha.or.jp/pavilion/waterfall/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.2982918961698!2d135.8850331753003!3d33.675339573301144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60063ff3e5499ef9%3A0xd77c438c6c730e36!2sNachi!5e0!3m2!1spl!2spl!4v1789386405490!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

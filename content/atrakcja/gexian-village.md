@@ -13,6 +13,7 @@ rezerwacja: "Zalecana online"
 sezon: "Cały rok"
 adres: "Gexianshan Town, Yanshan County, Shangrao City, Jiangxi Province, China"
 link: "https://pl.trip.com/hotels/qianshan-1-hotel-detail-67614605/gexian-village-resort-moon-dyeing-xianju-hotel/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14082.18725570387!2d117.70232482599745!3d28.068858842854468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3439a53fc0463c6d%3A0x5ca33c4edb62122b!2sGexian%20Mountain!5e0!3m2!1spl!2spl!4v1789385021892!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

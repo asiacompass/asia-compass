@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "1 Chome Wakuramachi Hibari, Nanao, Ishikawa 926-0176, Japonia (na terenie Yuttari Park"
 link: "https://www.wakura.or.jp/" 
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3182.722712816711!2d136.92093667546806!3d37.08791057216656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff73b004a245299%3A0xaf05bf372556d705!2sWakura%20Pokemon%20Footbath!5e0!3m2!1spl!2spl!4v1789386667783!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

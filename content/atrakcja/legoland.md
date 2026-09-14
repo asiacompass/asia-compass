@@ -13,6 +13,7 @@ rezerwacja: "Wymagana online"
 sezon: "Cały rok"
 adres: "Fengjing Town, Jinshan District, Shanghai, China"
 link: "https://legolandshanghai.cn/#/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.9076094654283!2d121.39226207518864!3d31.22328897435143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b2658349012005%3A0x42bfbf47b9b56604!2sLEGOLAND%20Discovery%20Center%20Shanghai!5e0!3m2!1spl!2spl!4v1789386179011!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

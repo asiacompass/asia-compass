@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Japonia, 〒150-0042 Tokyo, Shibuya City, Udagawacho, 16−15 ＳＲＳビル 1F"
 link: "https://www.instagram.com/ruru_shibuya/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12966.184744535714!2d139.69158405419319!3d35.66355106148317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b08307a126d%3A0xeea0c4ad0734899b!2sRURU%20SHIBUYA!5e0!3m2!1spl!2spl!4v1789384338649!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

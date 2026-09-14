@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "1 Chome-32-13 Sangenjaya, Setagaya City, Tokyo 154-0024, Japonia"
 link: "https://www.google.com/maps/place/Kissaten+Seven/@35.642417,139.670601,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f498a62c5aab:0x1f6388c81bbdcdff!8m2!3d35.642417!4d139.670601!16s%2Fg%2F11h3fr_s04?entry=ttu&g_ep=EgoyMDI2MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.4039923114833!2d139.6680260753953!3d35.64241697259975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f498a62c5aab%3A0x1f6388c81bbdcdff!2sKissaten%20Seven!5e0!3m2!1spl!2spl!4v1789384162402!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

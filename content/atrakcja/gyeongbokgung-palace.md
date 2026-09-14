@@ -13,6 +13,7 @@ rezerwacja: "Wymagana wcześniej online"
 sezon: "Cały rok"
 adres: "161 Sajik-ro, Jongno-gu, Seoul, South Korea (서울특별시 종로구 사직로 161)"
 link: "https://royal.khs.go.kr/ROYAL/contents/menuInfo-gbg.do?grpCode=gbg"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca2c74aeddea1%3A0x8b3046532cc715f6!2sGyeongbokgung!5e0!3m2!1spl!2spl!4v1789385117051!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

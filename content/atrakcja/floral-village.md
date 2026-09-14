@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "1503-3 Yufuincho Kawakami, Yufu, Oita 879-5102, Japonia"
 link: "https://floral-village.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.9620023421803!2d131.36296077528115!3d33.267487073462526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546ae7e6e7eac59%3A0x256cce7aa8e6b278!2sYufuin%20Floral%20Village!5e0!3m2!1spl!2spl!4v1789384712852!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

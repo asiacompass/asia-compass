@@ -13,6 +13,7 @@ rezerwacja: "Wymagana online"
 sezon: "Cały rok"
 adres: "Furong Ancient Town, Yongshun County, Xiangxi Tujia and Miao Autonomous Prefecture, Hunan, China"
 link: "https://pl.trip.com/travel-guide/attraction/yongshun/furong-town-10558754?curr=PLN&locale=pl-PL&poiType=3&scene=ticket&ext-searchpage=1&ext-mixlist=ticket_main&ext-listlocate=0&lasttraceid=1b29adf1-3b22-4833-705c-176df6907066"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.6402900311855!2d103.82061507525727!3d32.748740973675474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36f76bfd0ae5f8a5%3A0x8afc08fba6b1efc!2sHuanglong!5e0!3m2!1spl!2spl!4v1789385346119!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

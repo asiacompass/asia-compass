@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "15 Gwanggyohosu-gongwon-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, Korea Południowa (경기 수원시 영통구 광교호수공원로 15 카페 그루비)"
 link: "https://www.instagram.com/cafe.groovy/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b5b6ebaec3c9b%3A0x243b5af007edabd6!2scafe%20groovy%20%26%20books!5e0!3m2!1spl!2spl!4v1789384022963!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

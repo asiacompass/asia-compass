@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "15 Sajeong-ro 57beon-gil, Gyeongju-si, Gyeongsangbuk-do, South Korea (경상북도 경주시 사정로57번길 15 1층 신라당)"
 link: "https://www.instagram.com/silladang_official/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x35664f0036c3f21d%3A0x22a2ac505f596957!2z7Iug652864u5IOqyveyjvA!5e0!3m2!1spl!2spl!4v1789383534481!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

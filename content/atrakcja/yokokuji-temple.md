@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "3 Jōdodan, Jōdodani, Nagaokakyo, Kyoto 617-0855, Japonia"
 link: "https://www.yanagidani.jp/" 
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.695962481549!2d135.6505192793457!3d34.9140787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600103c752617d21%3A0x8b85ac39a75750cc!2sY%C5%8Dkoku-ji%20Temple%20(Yanagidani%20Kannon)!5e0!3m2!1spl!2spl!4v1789387438661!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

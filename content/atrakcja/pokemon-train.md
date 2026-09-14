@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Stacja początkowa (Ichinoseki Station): Ekimae-mae, Ichinoseki, Iwate 021-0881, Japonia"
 link: "https://www.jreast.co.jp/en/multi/joyful/pokemon.html"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12415.61091895998!2d141.1188381871582!3d38.926200699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f88db6cf88c93cf%3A0x42899b5ef08628c3!2sPOK%C3%89MON%20with%20YOU!5e0!3m2!1spl!2spl!4v1789386765235!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

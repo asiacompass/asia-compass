@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "10 Seoak 3-gil, Gyeongju-si, Gyeongsangbuk-do, Korea Południowa (경상북도 경주시 서악3길 10 호호장)"
 link: "https://www.stayfolio.com/en/findstay/hohojang"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x35664f1b981e2b3d%3A0xa82c8be6454c1023!2shohojang%20-%20Nalsumdong!5e0!3m2!1spl!2spl!4v1789385318456!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

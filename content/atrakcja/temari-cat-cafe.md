@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Japan, 〒180-0004 Tokyo, Musashino, Kichijōji Honchō, 2-chōme−33−２ 吉祥寺プティット村 Cat Cafe てまりのおしろ"
 link: "https://temarinooshiro.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.880861475591!2d139.5721093793457!3d35.70454930000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee494564f00b%3A0xcaeeea4e9ba7c588!2sTemari%20No%20Oshiro!5e0!3m2!1spl!2spl!4v1789387211894!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

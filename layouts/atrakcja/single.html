@@ -89,6 +89,18 @@
                 {{ end }}
             </section>
 
+            <!-- Sekcja Mapy Google -->
+            {{ if .Params.map_embed }}
+            <section class="attraction-map-section" style="margin-bottom: 30px;">
+                <h3 style="color: var(--primary-red); font-size: 1.3rem; margin-bottom: 15px;">Lokalizacja na mapie</h3>
+                <div style="border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.04); width: 100%; line-height: 0;">
+                    {{ $mapHtml := replace .Params.map_embed `width="600"` `width="100%"` }}
+                    {{ $mapHtml = replace $mapHtml `width="400"` `width="100%"` }}
+                    {{ $mapHtml | safeHTML }}
+                </div>
+            </section>
+            {{ end }}
+
             <!-- Listy rozwijalne z frontmatter -->
             {{ if .Params.rozwijalne_listy }}
             <div class="dropdown-sections">
@@ -221,6 +233,61 @@
 </div>
 {{ end }}
 
+{{/* SEKCJA ARTYKUŁÓW Z BLOGA DLA DANEGO KRAJU */}}
+{{ $currentCountry := .Params.kraj | default "" | lower }}
+{{ $blogPages := where site.RegularPages "Section" "blog" }}
+{{ $matchedBlogs := slice }}
+
+{{ range $blogPages }}
+    {{ $blogCountry := (.Params.kraj | default .Params.country) | default "" | lower }}
+    {{ if and (eq $blogCountry $currentCountry) (ne $currentCountry "") }}
+        {{ $matchedBlogs = $matchedBlogs | append . }}
+    {{ end }}
+{{ end }}
+
+{{ if gt (len $matchedBlogs) 0 }}
+<div class="blog-recommendations-section" style="margin-top: 50px; margin-bottom: 40px;">
+    <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--primary-red); font-size: 1.5rem;">Artykuły z bloga {{ .Params.kraj }}</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+        {{ $blogCount := 0 }}
+        {{ range $matchedBlogs }}
+            {{ if lt $blogCount 3 }}
+                {{ $blogCount = add $blogCount 1 }}
+                <a href="{{ .RelPermalink }}" class="blog-card" style="background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid rgba(0,0,0,0.06); text-decoration: none; display: flex; flex-direction: column; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 4px 12px rgba(0,0,0,0.03);">
+                    {{ $blogImg := .Params.image_url | default .Params.image | default .Params.img }}
+                    {{ if $blogImg }}
+                    <div style="height: 160px; overflow: hidden;">
+                        <img src="{{ $blogImg }}" alt="{{ .Title }}" loading="lazy" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    </div>
+                    {{ end }}
+                    <div style="padding: 18px; display: flex; flex-direction: column; flex-grow: 1;">
+                        <h4 style="font-size: 1.05rem; color: var(--text-color); margin: 0 0 8px 0; line-height: 1.4; font-weight: 600;">{{ .Title }}</h4>
+                        {{ if .Description }}
+                        <p style="font-size: 0.88rem; color: #666; margin: 0; line-height: 1.4; flex-grow: 1;">{{ .Description | truncate 90 }}</p>
+                        {{ end }}
+                    </div>
+                </a>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.blog-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+.blog-card:hover img {
+    transform: scale(1.03);
+}
+@media (max-width: 768px) {
+    .blog-recommendations-section > div {
+        grid-template-columns: 1fr !important;
+    }
+}
+</style>
+{{ end }}
+
 <style>
 /* Główny kontener */
 .attraction-page {
@@ -269,21 +336,28 @@
     gap: 14px;
 }
 
+/* Zmodyfikowany styl kafelków w prawej kolumnie (subtelny, bez ciężkiej ramki) */
 .sidebar-card {
     display: flex;
-    gap: 14px;
+    gap: 12px;
     align-items: center;
-    background: #ffffff;
-    padding: 10px;
+    background: transparent;
+    padding: 8px 6px;
     border-radius: 8px;
     text-decoration: none;
-    border: 1px solid #ca041e;
-    transition: transform 0.2s, box-shadow 0.2s;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
 }
 
 .sidebar-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 10px rgba(202, 4, 30, 0.15);
+    transform: none;
+    box-shadow: none;
+    background-color: rgba(202, 4, 30, 0.03);
+}
+
+.sidebar-card:last-child {
+    border-bottom: none;
 }
 
 .sidebar-card img {

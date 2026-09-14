@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "488-15 Nakasujicho, Nakagyo Ward, Kyoto, 604-8047, Japonia | 721-1 Higashishiokojicho, Shimogyo Ward, Kyoto (Kyoto Tower Sando 1F)"
 link: "https://www.sugitora.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.9973044240005!2d135.7643277793457!3d35.006772600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010893ee296ad1%3A0x5df19372b3f2120b!2sSugitora!5e0!3m2!1spl!2spl!4v1789387051643!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

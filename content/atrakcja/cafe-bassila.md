@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "88 Hadongmosan-gil, Gyeongju-si, Gyeongsangbuk-do, Korea Południowa (경상북도 경주시 하동못안길 88 / 하동저수지)"
 link: "https://www.instagram.com/basilla.gyeongju/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x35664d30189b284d%3A0xd954f144e2f5cc95!2z67CU7Iuk6528!5e0!3m2!1spl!2spl!4v1789383813987!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

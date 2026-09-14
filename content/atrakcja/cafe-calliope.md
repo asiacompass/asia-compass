@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "23-1 Seongsan-ro 170beon-gil, Cheoin-gu, Yongin-si, Gyeonggi-do, Korea Południowa"
 link: "https://calliope.restaurants-us.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b51b15a78fc87%3A0xf2fa73b8561db458!2sCalliope!5e0!3m2!1spl!2spl!4v1789383921067!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

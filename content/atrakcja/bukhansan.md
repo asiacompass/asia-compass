@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "262 Bogukmun-ro, Seongbuk-gu, Seoul, Korea Południowa (서울특별시 성북구 보국문로 262 북한산국립공원)"
 link: "https://www.knps.or.kr/front/portal/visit/visitCourseMain.do?parkId=121500&menuNo=7020092"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357cbdd5b945eccf%3A0xfb9486536d6d79f9!2sBukhan-san!5e0!3m2!1spl!2spl!4v1789383606666!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

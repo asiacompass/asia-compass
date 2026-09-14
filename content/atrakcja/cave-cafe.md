@@ -13,6 +13,7 @@ rezerwacja: "Zalecana w sezonie"
 sezon: "Cały rok"
 adres: "142 Gahak-ro 85beon-gil, Gwangmyeong-si, Gyeonggi-do, Korea Południowa (경기도 광명시 가학로85번길 142 광명동굴)"
 link: "https://www.gm.go.kr/cv/index.do"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357b63e221180341%3A0x2deb8fd0ea5359a!2sGwangmyeong%20Cave!5e0!3m2!1spl!2spl!4v1789384450706!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

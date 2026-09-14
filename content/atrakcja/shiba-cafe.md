@@ -11,8 +11,9 @@ image_url: "https://images.pexels.com/photos/37943054/pexels-photo-37943054.jpeg
 cena: "Tanio $"
 rezerwacja: "Wymagana wcześniej online"
 sezon: "Cały rok"
-adres: "201, 142 Gimpo-hangang 9-ro 75beon-gil, Gimpo-si, Gyeonggi-do, Korea Południowa"
+adres: "142 Gimpo-hangang 9-ro 75beon-gil, Gimpo-si, Gyeonggi-do, Korea Południowa"
 link: "https://blog.naver.com/PostView.naver?blogId=snflgg&logNo=224327495281"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c810031959ce1%3A0xd1025368da8d2251!2z7Iuc67CU64W47Jqw7LmY!5e0!3m2!1spl!2spl!4v1789386853854!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

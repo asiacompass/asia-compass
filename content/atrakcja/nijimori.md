@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "374-45 Cheonbo-ro, Dongducheon-si, Gyeonggi-do, Korea Południowa (경기도 동두천시 천보로 374-45 니지모리 스튜디오)"
 link: "https://nijimori.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357cdbfdfd078a13%3A0x38c572e17645282f!2sNijimori%20Studio!5e0!3m2!1spl!2spl!4v1789386578800!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 
 rozwijalne_listy:

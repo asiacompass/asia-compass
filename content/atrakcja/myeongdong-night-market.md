@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Myeongdong-gil, Jongno-gu, Seoul, Korea Południowa (서울 서울특별시 중구 명동길)"
 link: ""
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca2f07ba7bfa9%3A0x738decadf187ec47!2sMyeongdong%20Night%20Market!5e0!3m2!1spl!2spl!4v1789386366408!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "107-20 Gimpo-daero 2435beon-gil, Tongjin-eup, Gimpo-si, Gyeonggi-do, South Korea (경기도 김포시 통진읍 김포대로2435번길 107-20)"
 link: "https://www.instagram.com/cafe_de_chelsea_official/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c7d5c830a1033%3A0x243fd0ff105cf2b1!2sCafe%20De%20Chelsea!5e0!3m2!1spl!2spl!4v1789384494043!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

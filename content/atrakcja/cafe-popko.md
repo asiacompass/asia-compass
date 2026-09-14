@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "262-1 Yeonhui-ro, Seodaemun-gu, Seoul"
 link: "https://www.instagram.com/cafe.pokpo"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c99d933b747a5%3A0x602b595b6dfa9cac!2sCafe%20Pokpo!5e0!3m2!1spl!2spl!4v1789384301570!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

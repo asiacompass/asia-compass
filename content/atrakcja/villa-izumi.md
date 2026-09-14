@@ -1,5 +1,5 @@
 ---
-title: "Prywatna Oaza w Japońskim Stylu"
+title: "Prywatna Oaza w Japońskim Stylu - Oukai Villa Izumi"
 kraj: "japonia"
 miasto: "osaka"
 kategoria: "nocleg"
@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "400-1 Tsuboicho, Izumi, Osaka 594-1135, Japonia"
 link: "https://japanese-onsen.com/ryokans/oukai-villa-izumi/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12251.83454538459!2d116.64148558715819!3d39.85275999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f1a4e37a1281cf%3A0xcc100273efb59aad!2sUniversal%20Studios%20Beijing!5e0!3m2!1spl!2spl!4v1789387292399!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Yongmasan Skywalk, Jungnang-gu, Seoul, Korea Południowa (서울 중랑구 용마산 스카이워크)"
 link: 
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357cbb00215d94e9%3A0xfff05aa49ca1b876!2sYongmasan%20Skywalk!5e0!3m2!1spl!2spl!4v1789387477197!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

@@ -13,6 +13,7 @@ rezerwacja: "Tak zalecana"
 sezon: "Cały rok"
 adres: "16 Gukhoe-daero 76-gil, Yeongdeungpo-gu, Seoul, Korea Południowa (서울특별시 영등포구 국회대로76길 16 켄싱턴호텔 여의도)"
 link: "https://www.kensington.co.kr/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357c9f3ab0306131%3A0x62b7d3561975889f!2sKensington%20Hotel%20Yeouido!5e0!3m2!1spl!2spl!4v1789385370271!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

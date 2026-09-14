@@ -13,6 +13,7 @@ rezerwacja: "Zalecana online"
 sezon: "Cały rok"
 adres: "279 Yuyuan Old Street, Huangpu District, Shanghai, China"
 link: "https://www.yugarden.com.cn/page/articleView/index.html"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13647.33297097517!2d121.47746025086171!3d31.22534908960235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35ad874131d9d389%3A0x84a0e976b888d7db!2sOgr%C3%B3d%20Yuyuan!5e0!3m2!1spl!2spl!4v1789387516262!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

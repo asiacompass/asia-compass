@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "5 Hyehwa-ro 3-gil, Jongno-gu, Seoul (서울 종로구 혜화로3길 5)"
 link: "https://www.instagram.com/brown_avenue/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x357ca32b2f053b89%3A0x3fd37e44c3f19253!2sBrown%20Avenue!5e0!3m2!1spl!2spl!4v1789383888344!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

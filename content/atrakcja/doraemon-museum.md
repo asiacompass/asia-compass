@@ -13,6 +13,7 @@ rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "2-chōme-8-1 Nagao, Tama Ward, Kawasaki, Kanagawa 214-0023, Japonia"
 link: "https://fujiko-museum.com/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.7220264834705!2d139.5709973753937!3d35.60992287261035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f12b615b3309%3A0xf707f79e8f7e3f85!2sFujiko%20%C2%B7%20F%20%C2%B7%20Fujio%20Museum!5e0!3m2!1spl!2spl!4v1789384683636!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 rozwijalne_listy:
   - tytul: "Rezerwacja"

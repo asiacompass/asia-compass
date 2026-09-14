@@ -13,6 +13,7 @@ rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "203 Gamnae 2-ro, Saha-gu, Busan, Korea Południowa (부산광역시 사하구 감내2로 203 감천문화마을)"
 link: "https://www.gamcheon.or.kr/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m5!3m3!1m2!1s0x3568e9b7a3113a51%3A0x977e01d7224cf6a3!2sGamcheon%20Culture%20Village!5e0!3m2!1spl!2spl!4v1789384853365!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
 
 # Listy rozwijalne pobierane dynamicznie z frontmatter:
 rozwijalne_listy:

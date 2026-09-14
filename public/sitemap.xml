@@ -92,6 +92,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/temple-jogyesa/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-bassila/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -133,6 +137,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-groovy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/cafe-kadoya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -208,6 +216,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/shrine-ebisu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/furong/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -280,6 +292,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/onsen-hoshi/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/kategoria/hotel/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/huanglong/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -320,6 +340,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/kitakyushu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/temari-cat-cafe/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -344,7 +368,15 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/masuda/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/minakami/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
