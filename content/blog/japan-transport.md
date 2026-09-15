@@ -49,3 +49,21 @@ Do poruszania się po miastach nie kupuj biletów papierowych w automatach przy 
 
 
 <!--more-->
+<div align="center" style="margin: 20px 0;">
+<h3>Zarezerwuj pociąg</h3> 
+<ins class="klk-aff-widget" data-wid="134179" data-bgtype="Shinkansen" data-adid="1431975" data-lang="en-BS" data-prod="banner" data-width="250" data-height="250"><a href="//www.klook.com/?aid=">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>
+</div>

@@ -150,3 +150,19 @@ Ukryta pośród bambusowych gajów i szumu rzeki Katsura w Kioto, Arashiyama Yus
 <a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a>  &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
 
 <!--more-->
+
+<ins class="klk-aff-widget"  data-adid="1419611" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="30" data-tid="21" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

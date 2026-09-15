@@ -84,6 +84,7 @@ instagram_reel: "https://www.instagram.com/reel/Dbs_JNFot5o/?igsi=MzRlODBiNWFlZA
 ### Cafe Groovy (카페 그루비)
 Ukryta w cichej, zacisznej uliczce w pobliżu parku wokół jeziora Gwanggyo w Suwon, Cafe Groovy to kameralna kawiarnia utrzymana w stylu klasycznego, analogowego antykwariatu. Zamiast krzykliwych nowoczesnych wnętrz, znajdziesz tu ciepłe światło vintage’owych lamp, zapach starannie palonej kawy i surowego drewna oraz ściany uginające się od tysięcy książek i płyt winylowych. To przestrzeń stworzona z myślą o powolnym czytaniu, słuchaniu spokojnej muzyki jazzowej i łapaniu oddechu od zgiełku metropolii.
 
+
 ### Fakty i ciekawostki
 
 * **Kawiarnia absolutnej ciszy (Book Cafe):** Miejsce funkcjonuje pod hasłem powolnego relaksu – goście przychodzą tu głównie czytać książki, pisać w notatnikach lub słuchać muzyki.     

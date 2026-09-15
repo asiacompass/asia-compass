@@ -137,4 +137,21 @@ Położona w samym sercu Seulu świątynia Jogyesa (조계사) to jedno z najwa�
 <p align="center">
   <img src="https://i.pinimg.com/1200x/49/72/38/4972389ad3fbd4ad5af2b04ab3f8ea5b.jpg" alt="Opis zdjęcia" width="500">
 </p>
+
 <!--more-->
+
+<ins class="klk-aff-widget"  data-adid="1431939" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="13" data-tid="3" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

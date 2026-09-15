@@ -26,7 +26,7 @@ rozwijalne_listy:
         </li><br>
 
         <li><b>Gdzie rezerwować:</b><br>
-         Bilety wstępu oraz wjazd kolejką linową najwygodniej, bez kolejki i z natychmiastowym potwierdzeniem zarezerwujesz w aplikacji Trip.com lub Klook.
+         Bilety wstępu oraz wjazd kolejką linową najwygodniej, bez kolejki i z natychmiastowym potwierdzeniem zarezerwujesz w aplikacji Trip.com lub Klook <a href="https://affiliate.klook.com/sl/TIcym2P" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>
         </li>
       </ul>
 

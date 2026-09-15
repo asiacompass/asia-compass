@@ -56,3 +56,9 @@ Chiński oficjalny system rezerwacji (12306) bywa trudny w weryfikacji dla obcok
 
 
 <!--more-->
+
+
+<div align="center" style="margin: 20px 0;">
+<h3>Zarezerwuj pociąg</h3> 
+<iframe border="0" src="https://www.trip.com/partners/ad/S19824275?Allianceid=10561181&SID=331144423&trip_sub1=" style="width:320px;height:320px" frameborder="0" scrolling="no" style="border:none" id="S19824275"></iframe>
+</div>

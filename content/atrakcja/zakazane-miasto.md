@@ -21,10 +21,10 @@ rozwijalne_listy:
     tresc: |
       <ul>
         <li><strong>Rezerwacja online</strong><br>
-         Bezwzględnie wymagana. Na miejscu przy kasach nie ma możliwości zakupu biletów – obowiązuje ścisły limit dzienny zwiedzających.<br> Rezerwacji należy dokonać z 7-dniowym wyprzedzeniem (sprzedaż rusza dokładnie o godzinie 20:00 czasu pekińskiego na 7 dni przed planowaną wizytą). W sezonie wakacyjnym oraz w czasie chińskich świąt bilety wyprzedają się w kilka minut!</li><br>
+         Bezwzględnie wymagana. Na miejscu przy kasach nie ma możliwości zakupu biletów – obowiązuje ścisły limit dzienny zwiedzających.<br> Rezerwacji należy dokonać z 7-dniowym wyprzedzeniem (sprzedaż rusza dokładnie o godzinie 20:00 czasu pekińskiego na 7 dni przed planowaną wizytą). W sezonie wakacyjnym oraz w czasie chińskich świąt bilety wyprzedają się w kilka minut!</li><p>
 
         <li><b> Gdzie rezerwować:</b><br>
-        Oficjalne bilety dla turystów zagranicznych zarezerwujesz na oficjalnej stronie <a href="https://twoj-link-afiliacyjny.com" target="_blank" rel="nofollow"> The Palace Museum Booking </a> lub wygodnie w pakiecie przez aplikację Trip.com albo Klook.
+        Oficjalne bilety dla turystów zagranicznych zarezerwujesz na oficjalnej stronie <a href="https://twoj-link-afiliacyjny.com" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">The Palace Museum Booking</a> lub wygodnie w pakiecie przez aplikację Trip.com albo Klook <a href="https://affiliate.klook.com/sl/erXRfMB" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>. 
         </li>
       </ul>
 
@@ -33,11 +33,11 @@ rozwijalne_listy:
       <ul>
         <li><b>Ceny biletów:</b><br>
          Sezon wysoki (kwiecień – październik): 60 CNY (ok. 33 PLN) <br> Sezon niski (listopad – marzec): 40 CNY (ok. 22 PLN) <br> Wstęp do dodatkowych galerii (np. Skarbiec / Galeria Zegarów): dodatkowo po 10 CNY (ok. 5,50 PLN) za sztukę.
-        </li><br>
+        </li><p>
 
         <li><b>Godziny otwarcia</b><br>
         Sezon wysoki: 08:30 – 17:00 (ostatnie wejście o 16:00) <br> Sezon niski: 08:30 – 16:30 (ostatnie wejście o 15:30) <br><b> Uwaga: </b> Kompleks jest zamknięty w każdy poniedziałek (z wyjątkiem chińskich świąt narodowych).
-        </li><br>
+        </li><p>
 
         <li><b>Gdzie kupić</b><br>
         Najtaniej i bez kolejki oficjalne bilety kupisz przez Trip.com lub Klook – Zarezerwuj wejście z wyprzedzeniem - minimum 7 dni wcześniej – bilety na miejscu szybko się wyprzedają.
@@ -50,60 +50,37 @@ rozwijalne_listy:
         <li><b>Z centrum Pekinu</b><br>
          Najszybciej i najwygodniej dojedziesz pekińskim metrem. 
          <br> Wsiądź w Linię 1 metra i wysiądź na stacji Tian'anmen East (Exit B) lub Tian'anmen West (Exit A). Stamtąd należy przejść pieszo przez Plac Tian'anmen w stronę Południowej Bramy Pałacowej (Meridian Gate) – jest to jedyne wejście dla zwiedzających.
-        </li><br>
+        </li><p>
 
         <li><b>Aplikacje do przejazdów i biletów:</b><br>
-        Do nawigacji i płatności za metro w Chinach używaj aplikacji Alipay (z wbudowaną miniappką do kodu QR metra) oraz Amap (Gaode Maps).
-        </li><br>
+        Do nawigacji i płatności za chinach używaj aplikacji Alipay (z wbudowaną miniappką do kodu QR metra) oraz Amap (Gaode Maps).
+        </li>
+      </ul>
 
   - tytul: "Przydatne informacje"
     tresc: |
       <ul>
         <li><b>Kontrola bezpieczeństwa i paszport:</b><br>
         Przed wejściem na Plac Tian'anmen oraz do samego pałacu przechodzi się szczegółową kontrolę bezpieczeństwa. Obowiązkowo musisz posiadać przy sobie fizyczny paszport!
-        </li><br>
+        </li><p>
 
         <li><b>Kierunek zwiedzania:</b><br>
         Obowiązuje ruch jednokierunkowy – wchodzi się Bramą Południową (Meridian Gate), a wychodzi Bramą Północną (Gate of Divine Prowess).
-        </li><br>
+        </li><p>
 
         <li><b>Lokalny hak (Najlepszy punkt widokowy):</b><br>
         Po wyjściu Północną Bramą przejdź przez ulicę do Parku Jingshan (Jingshan Park). Za opłatą 2 CNY wejdź na szczyt wzgórza do Pawilonu Wanchun – to stamtąd roztacza się kultowa, panoramiczna panorama na całe Zakazane Miasto.
-        </li><br>
+        </li><p>
 
         <li><b>Wygodne obuwie:</b><br>
         Kompleks zajmuje obszar ponad 72 hektarów. Przygotuj się na intensywny spacer i pokonanie kilkunastu kilometrów po kamiennych dziedzińcach.
-        </li><br>
+        </li><p>
 
         <li><b>Jedzenie i woda:</b><br>
         Zabierz ze sobą przekąski oraz butelkę wody. Na terenie pałacu są restauracje i automaty z napojami, ale ceny są wyższe, a kolejki w ciągu dnia bardzo długie.
-        </li><br>
-
-  - tytul: "Aplikacje"
-    tresc: |
-      <ul>
-        <li><b>Płatności:</b> <p>
-         WeChat Pay <a href="https://www.wechat.com/en" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
-         Alipay <a href="https://render.alipay.com/p/yuyan/180020040001212700/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikacje </a>
         </li>
-
-        <li><b>Nawigacja:</b><p>
-          Amap (Gaode) <a href="https://play.google.com/store/apps/details?id=com.autonavi.minimap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | piesza nawigacja<br>
-          Baidu Maps <a href="https://play.google.com/store/apps/details?id=com.baidu.BaiduMap&hl=pl" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
-          
-        </li>
-
-        <li><b>Transport:</b><p>
-          Trip.com <a href="https://www.trip.com/trains/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | komunikacja miejska <br> 
-          Alipay Didi <a href="https://web.didiglobal.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
-        </li>
-
-        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
-          Trip.com <a href="https://www.trip.com/?locale=en-US&curr=PLN" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
-          Klook <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
-        </li>
-      </ul>
-
+       </ul>
+       
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/6754807/pexels-photo-6754807.jpeg"
   - url: "https://images.pexels.com/photos/16141675/pexels-photo-16141675.jpeg"

@@ -92,10 +92,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/asia-compass/atrakcja/temple-jogyesa/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/cafe-bassila/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -317,6 +313,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/jedzenie/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/temple-jogyesa/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -589,6 +589,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/nachi-waterfall/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/wulong-karst/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

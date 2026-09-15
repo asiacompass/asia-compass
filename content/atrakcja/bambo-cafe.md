@@ -113,7 +113,7 @@ To miejsce jest zachwycającym połączeniem tradycyjnej architektury dawnego kr
 
 <!--more-->
 
-<ins class="klk-aff-widget" data-wid="134179" data-adid="1419606" data-actids="70672,695,73977" data-prod="mul_act" data-price="true" data-lang="" data-width="160" data-height="600" data-currency=""><a href="//www.klook.com/">Klook.com</a></ins>
+<ins class="klk-aff-widget"  data-adid="1431875" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="8928" data-tid="1" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
 <script type="text/javascript">
   (function (d, sc, u) {
     var s = d.createElement(sc),
@@ -128,3 +128,4 @@ To miejsce jest zachwycającym połączeniem tradycyjnej architektury dawnego kr
     "https://affiliate.klook.com/widget/fetch-iframe-init.js"
   );
 </script>
+

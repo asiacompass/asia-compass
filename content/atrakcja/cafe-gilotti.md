@@ -87,12 +87,20 @@ instagram_reel: "https://www.instagram.com/reel/DbLgyohIitS/?utm_source=ig_web_c
 ### Cafe Kirotti/Gilotti
 Wyobraź sobie tradycyjny koreański dom hanok, w którego zabytkowe wnętrze tchnięto pasję do włoskiego kolarstwa szosowego. Cafe Kirotti (카페 지로티) to wyjątkowa kawiarnia konceptualna w Yongin pod Seulem, gdzie drewniane belki stropowe i klasyczna dachówka giwa współgrają z profesjonalnymi rowerami, kultowymi rekwizytami oraz duchem legendarnego wyścigu Giro d'Italia. To nie tylko gratka dla miłośników dwóch kółek, ale przede wszystkim niezwykle fotogeniczna oaza, w której zapach świeżo palonej kawy miesza się z aromatem rzemieślniczego pieczywa.
 
+<p align="center">
+  <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTM1YTI0YzcwNmM5MTY4NjU5IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Opis zdjęcia" width="500">
+</p>
+
 ### Fakty i ciekawostki
 
 * **Hołd dla wyścigu Giro d'Italia:** Nazwa oraz wystrój lokalu są bezpośrednim nawiązaniem do słynnego włoskiego wyścigu. Wewnątrz kawiarni można podziwiać unikalne rowery szosowe z włókna węglowego, oryginalne kaski oraz wyścigowe koszulki.    
 * **Architektoniczny fuzjonizm:** Kawiarnia mieści się w tradycyjnym budynku hanok. Połączenie starych, drewnianych konstrukcji z nowoczesnym, sportowym designem i meblami w stylu vintage tworzy unikalny visual. 
 * **Rzemieślnicza piekarnia na miejscu:** Kirotti słynie z codzienne wypiekanego, świeżego pieczywa. Bestsellerem lokalu są maślane bułeczki salt bread (소금빵) oraz francuskie wypieki z kremem ze słodkich ziemniaków.  
-* **Oaza dla kolarzy::** Z racji swojego charakteru kawiarnia posiada specjalne stojaki na rowery i jest popularnym punktem postojowym dla kolarzy pokonujących trasy krajobrazowe wokół Yongin.       
+* **Oaza dla kolarzy::** Z racji swojego charakteru kawiarnia posiada specjalne stojaki na rowery i jest popularnym punktem postojowym dla kolarzy pokonujących trasy krajobrazowe wokół Yongin. 
+
+<p align="center">
+  <img src="https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM2Y2JjOTg1YTI0YzcwNmM5MTY4NjYzIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjg0LCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=" alt="Opis zdjęcia" width="500">
+</p>
 
 ---
 
