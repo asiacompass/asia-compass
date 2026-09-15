@@ -1,5 +1,5 @@
 ---
-title: "Zakazane Miasto (The Palace Museum)"
+title: "Forbidden City (The Palace Museum)"
 type: "atrakcja"
 kraj: "chiny"
 miasto: "pekin"
@@ -24,7 +24,7 @@ rozwijalne_listy:
          Bezwzględnie wymagana. Na miejscu przy kasach nie ma możliwości zakupu biletów – obowiązuje ścisły limit dzienny zwiedzających.<br> Rezerwacji należy dokonać z 7-dniowym wyprzedzeniem (sprzedaż rusza dokładnie o godzinie 20:00 czasu pekińskiego na 7 dni przed planowaną wizytą). W sezonie wakacyjnym oraz w czasie chińskich świąt bilety wyprzedają się w kilka minut!</li><p>
 
         <li><b> Gdzie rezerwować:</b><br>
-        Oficjalne bilety dla turystów zagranicznych zarezerwujesz na oficjalnej stronie <a href="https://twoj-link-afiliacyjny.com" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">The Palace Museum Booking</a> lub wygodnie w pakiecie przez aplikację Trip.com albo Klook <a href="https://affiliate.klook.com/sl/erXRfMB" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>. 
+        Oficjalne bilety dla turystów zagranicznych zarezerwujesz na oficjalnej stronie <a href="https://twoj-link-afiliacyjny.com" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">The Palace Museum Booking</a> lub wygodnie w pakiecie przez aplikację Trip.com <a href="https://www.trip.com/t/X8pno6FQMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> albo Klook <a href="https://affiliate.klook.com/sl/erXRfMB" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>. 
         </li>
       </ul>
 
@@ -80,7 +80,7 @@ rozwijalne_listy:
         Zabierz ze sobą przekąski oraz butelkę wody. Na terenie pałacu są restauracje i automaty z napojami, ale ceny są wyższe, a kolejki w ciągu dnia bardzo długie.
         </li>
        </ul>
-       
+
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/6754807/pexels-photo-6754807.jpeg"
   - url: "https://images.pexels.com/photos/16141675/pexels-photo-16141675.jpeg"

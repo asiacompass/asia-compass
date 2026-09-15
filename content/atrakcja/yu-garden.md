@@ -27,7 +27,7 @@ rozwijalne_listy:
         </li><p>
 
         <li><b>Gdzie rezerwować:</b><br>
-         Oficjalne bilety wstępu z możliwością natychmiastowego potwierdzenia kupisz wygodnie przez aplikację Trip.com lub Klook <a href="https://affiliate.klook.com/sl/0KExBdz" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>
+         Oficjalne bilety wstępu z możliwością natychmiastowego potwierdzenia kupisz wygodnie przez aplikację Trip.com <a href="https://www.trip.com/t/jV52gaaRMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> lub Klook <a href="https://affiliate.klook.com/sl/0KExBdz" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>
         </li>
       </ul>
 

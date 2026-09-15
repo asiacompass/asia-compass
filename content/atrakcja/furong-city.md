@@ -25,7 +25,7 @@ rozwijalne_listy:
         </li><br>
 
         <li><b>Gdzie rezerwować:</b><br>
-         Bilety wstępu do historycznego kompleksu oraz pociągi najwygodniej, bez kolejki i z natychmiastowym potwierdzeniem zarezerwujesz przez aplikację Trip.com lub Klook.
+         Bilety wstępu do historycznego kompleksu oraz pociągi najwygodniej, bez kolejki i z natychmiastowym potwierdzeniem zarezerwujesz przez aplikację Trip.com <a href="https://www.trip.com/t/gqMxq7hQMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> lub Klook.
         </li>
       </ul>
 

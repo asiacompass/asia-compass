@@ -23,6 +23,10 @@ rozwijalne_listy:
         <li><strong>Rezerwacja: </strong> <br>
          Ze względu na ogromną popularność (zarówno wśród fanów seriali, jak i lokalnego biznesu), wcześniejsza rezerwacja stolika jest bezwzględnie wymagana dla obu restauracji. Stoliki najwygodniej rezerwować przez koreańską platformę CATCHTABLE lub dzwoniąc bezpośrednio do hotelu. <br>
          Na weekendowe kolacje stolik należy rezerwować z co najmniej 1–2 tygodniowym wyprzedzeniem.
+        </li><p>
+
+        <li><b>Rezerwacja hotelu:</b>
+         Rezerwacji można dokonać na stronie Trip.com <a href="https://www.trip.com/t/oeicsO3SMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> 
         </li>
       </ul>
 

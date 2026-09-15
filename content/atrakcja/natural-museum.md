@@ -27,7 +27,7 @@ rozwijalne_listy:
         </li><br>
 
         <li><b>Gdzie rezerwować:</b><br>
-         Rezerwacji można dokonać przez oficjalny mini-program w aplikacji WeChat lub oficjalną stronę muzeum. Zobacz też platformy Klook lub Trip.com.
+         Rezerwacji można dokonać przez oficjalny mini-program w aplikacji WeChat lub oficjalną stronę muzeum. Zobacz też platformy Klook lub Trip.com <a href="https://www.trip.com/t/KPHwTWXRMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>
         </li>
       </ul>
 

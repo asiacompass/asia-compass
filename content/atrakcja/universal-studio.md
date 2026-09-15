@@ -26,7 +26,7 @@ rozwijalne_listy:
         </li><br>
 
         <li><b>Gdzie rezerwować:</b><br>
-         Oficjalne bilety wstępu oraz ekspresowe przepustki bez kolejki (Universal Express) najwygodniej, bez stresu i z natychmiastowym potwierdzeniem kupisz przez aplikację Trip.com lub Klook.
+         Oficjalne bilety wstępu oraz ekspresowe przepustki bez kolejki (Universal Express) najwygodniej, bez stresu i z natychmiastowym potwierdzeniem kupisz przez aplikację Trip.com <a href="https://www.trip.com/t/7fz8agJQMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> lub Klook.
         </li>
       </ul>
 

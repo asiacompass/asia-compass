@@ -40,11 +40,11 @@ rozwijalne_listy:
         <li><b>Godziny otwarcia:</b><br>
          Codziennie 09:00 – 18:00 (w sezonie letnim park bywa otwarty do 20:00). 
          <br>
-         Najlepsza pora na wizytę: DDni powszednie (wtorek – czwartek). Najlepiej przyjechać 30 minut przed otwarciem bram.
+         Najlepsza pora na wizytę: Dni powszednie (wtorek – czwartek). Najlepiej przyjechać 30 minut przed otwarciem bram.
         </li><br>
 
         <li><b>Gdzie kupić:</b><br>
-         Najtaniej i bez kolejki oficjalne bilety kupisz przez Klook – Zarezerwuj wejście z wyprzedzeniem.
+         Najtaniej i bez kolejki oficjalne bilety kupisz przez Klook lub Trip <a href="https://www.trip.com/t/JOIah8TRMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a>
          Wskazówka: Rezerwuj minimum 14 dni wcześniej – bilety na miejscu szybko się wyprzedają.
         </li>
       </ul>

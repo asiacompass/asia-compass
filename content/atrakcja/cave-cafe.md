@@ -25,7 +25,7 @@ rozwijalne_listy:
         </li><p>
 
         <li><strong>Gdzie rezerwować: </strong> 
-         Najtaniej i bez kolejki oficjalne bilety wstępu do kompleksu Gwangmyeong Cave kupisz przez platformy turystyczne, np. Klook – <a href="https://www.klook.com/pl/activity/101959-west-korea-tour/?spm=SearchResult.SearchResult_LIST&clickId=5cb6125038" target="_blank" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> Zarezerwuj wejście z wyprzedzeniem. <a>
+         Najtaniej i bez kolejki oficjalne bilety wstępu do kompleksu Gwangmyeong Cave kupisz przez platformy turystyczne, np. Klook – <a href="https://www.klook.com/pl/activity/101959-west-korea-tour/?spm=SearchResult.SearchResult_LIST&clickId=5cb6125038" target="_blank" style="color: #e98a99; font-weight: bold;"> Zarezerwuj wejście z wyprzedzeniem</a> lub Trip.com <a href="https://www.trip.com/t/eMJPQtnRMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> 
         </li><p>
 
         <li><strong>Wskazówka:</strong><p>

@@ -9,7 +9,7 @@ lat: 35.8402
 lng: 129.1985
 image_url: "https://images.stayfolio.com/system/pictures/images/000/423/357/original/0765d4b781a0ecac2217a779f26f1f2ea90764bb.jpg?d=1920&q=75"
 cena: "Drogo $$$"
-rezerwacja: "Nie"
+rezerwacja: "Tak wymagana"
 sezon: "Cały rok"
 adres: "10 Seoak 3-gil, Gyeongju-si, Gyeongsangbuk-do, Korea Południowa (경상북도 경주시 서악3길 10 호호장)"
 link: "https://www.stayfolio.com/en/findstay/hohojang"

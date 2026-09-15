@@ -24,7 +24,7 @@ rozwijalne_listy:
          Wysoce zalecana, zwłaszcza jeśli planujesz zakup biletów łączonych (Combo Ticket) na kilka stref studio. Rezerwuj z 3–7 dniowym wyprzedzeniem. W okresie chińskich świąt narodowych oraz wakacji bilety wyprzedają się bardzo szybko.
         </li><p>
         <li><strong>Gdzie rezerwować?</strong> 
-         Bilety wstępu oraz pakiety hotelowe najwygodniej zarezerwujesz przez aplikację Trip.com lub Klook.
+         Bilety wstępu oraz pakiety hotelowe najwygodniej zarezerwujesz przez aplikację Trip.com <a href="https://www.trip.com/t/NKRAqXJRMW2" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold;">[zarezerwuj bilet]</a> lub Klook
          <a href="https://klook.tpk.mx/Wfa5SadA" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zarezerwuj atrakcję</a>
         </li>
       </ul>
