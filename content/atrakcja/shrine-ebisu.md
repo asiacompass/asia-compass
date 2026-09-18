@@ -85,7 +85,7 @@ galeria_zdjec:
   - url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1f/5a/d4/bd/caption.jpg?w=1400&h=-1&s=1"
   - url: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/6d/1e/9a/photo1jpg.jpg?w=1400&h=-1&s=1"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DdWju5jBt7N/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

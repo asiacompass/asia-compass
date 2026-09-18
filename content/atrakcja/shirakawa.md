@@ -8,8 +8,8 @@ type: "atrakcja"
 lat: 36.27449594067136
 lng: 136.89796221087855
 image_url: "https://images.pexels.com/photos/36920164/pexels-photo-36920164.jpeg"
-cena: "Drogo $$$"
-rezerwacja: "Tak"
+cena: "Free $0"
+rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Ogimachi, Shirakawa, Ono District, Gifu 501-5627, Japonia"
 link: "https://shirakawa-go.gr.jp/en/"

@@ -92,14 +92,14 @@ galeria_zdjec:
   - url: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/479410259.jpg?k=fe8920c7ff53cc2a80d65d243a8eb2f3c1f9fc3f63c950a3fc6d9c34bc8d3177&o="
   - url: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/479413840.jpg?k=0f1182f995026c5447c07588e6e3d074b6354e91c4270a5dded0b6c37d4b9b2d&o="
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DdT-87hh5gq/?stkn=MzRlODBiNWFlZA=="
 
 ---
 
 ## Tradycyjny ryokan z 1875!
 Ukryty w malowniczej, górskiej dolinie w prefekturze Gunma, Hoshi Onsen Chojukan (法師温泉 長寿館) to jeden z najsłynniejszych i najbardziej czarujących tradycyjnych ryokanów w Japonii. Założony w 1875 roku (okres Meiji), ten zabytkowy obiekt oferuje podróż w czasie do minionych epok. Główną gwiazdą tego miejsca jest kultowa łaźnia Hoshi no Yu, wybudowana z drewna bez użycia ani jednego gwoździa, gdzie krystalicznie czysta, gorąca woda źródlana wybija bezpośrednio z kamiennego dna basenu.
 
-<p align="center">
+<p style="text-align: center;">
   <img src="https://i.pinimg.com/736x/4b/9c/57/4b9c579e7fc7763abe70d8a6aedf9cec.jpg" alt="Opis zdjęcia" width="500">
 </p>
 

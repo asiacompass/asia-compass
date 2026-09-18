@@ -481,16 +481,19 @@
 
 .attraction-banner {
     margin: 0 0 20px 0;
-    max-height: 400px;
+    width: 100%;
+    height: 380px; /* Ustalona stała wysokość banera */
     overflow: hidden;
     border-radius: 12px;
+    background-color: #f2f2f2;
 }
 
 .attraction-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;        /* Pokrywa cały kontener bez zniekształceń */
+    object-position: center !important;   /* Środkuje zdjęcie w kadrze */
+    display: block !important;
 }
 
 .city-description-content a {

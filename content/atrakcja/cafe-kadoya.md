@@ -93,7 +93,7 @@ galeria_zdjec:
   - url: "https://tblg.k-img.com/restaurant/images/Rvw/355839/640x640_rect_4db03589dedbf81f8d0e46de17c1e9a0.jpg"
   - url: "https://tblg.k-img.com/restaurant/images/Rvw/367984/640x640_rect_4893d43d1d5b90dfac26f3b6ccc60e71.jpg"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DdRaGwqhoh1/?stkn=MzRlODBiNWFlZA=="
 
 ---
 
