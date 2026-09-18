@@ -38,7 +38,8 @@
     <nav>
         <ul class="nav-menu">
             <li class="dropdown">
-                <a href="/asia-compass/kraj/">Kraje</a>
+                
+                <a href="javascript:void(0);" style="cursor: pointer;">Kraje ▾</a>
                 <ul class="dropdown-content">
                     
                     
@@ -578,7 +579,7 @@
             </li>
             <li><a href="/asia-compass/blog/">Blog</a></li>
             <li class="dropdown">
-                <a href="#">Sociale</a>
+                <a href="javascript:void(0);" style="cursor: pointer;">Sociale ▾</a>
                 <ul class="dropdown-content">
                     <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
                 </ul>
@@ -661,7 +662,7 @@ body {
 
 #search .pagefind-ui__search-input {
     display: block !important;
-    padding: 8px 40px 8px 42px !important;  
+    padding: 8px 40px 8px 42px !important;
     font-size: 0.95rem !important;
     border: 2px solid #ca041e !important;
     border-radius: 24px !important;
@@ -1166,7 +1167,7 @@ body {
         </div>
     </div>
 
- 
+    
     <div style="margin-bottom: 80px;">
         <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Mapa miast</h2>
         <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
@@ -1310,6 +1311,310 @@ body {
                 map.fitBounds(bounds, { padding: [50, 50] });
             }
         });
+    </script>
+
+
+    
+    <div style="margin-bottom: 80px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
+
+        
+        <div class="filter-bar" style="display: flex; gap: 15px; flex-wrap: wrap; background: #fff; padding: 15px 20px; border-radius: 10px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 8px rgba(0,0,0,0.03); margin-bottom: 25px;">
+            
+            
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-category" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">📂 Kategoria:</label>
+                <select id="filter-category" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    
+                </select>
+            </div>
+
+            
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-price" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">💰 Cena:</label>
+                <select id="filter-price" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    <option value="Free $0">Free $0</option>
+                    <option value="Tanio $">Tanio $</option>
+                    <option value="Średnio $$">Średnio $$</option>
+                    <option value="Drogo $$$">Drogo $$$</option>
+                </select>
+            </div>
+
+            
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-booking" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">🎟️ Rezerwacja:</label>
+                <select id="filter-booking" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    <option value="Nie">Nie</option>
+                    <option value="Tak">Tak</option>
+                    <option value="Zalecana">Zalecana</option>
+                </select>
+            </div>
+
+        </div>
+
+        
+        <div id="attractions-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        </div>
+
+        
+        <div id="no-results" style="display: none; text-align: center; padding: 30px; color: #666; font-size: 1.05rem; background: #f9f9f9; border-radius: 8px; margin-top: 20px;">
+            Brak atrakcji spełniających wybrane kryteria.
+        </div>
+    </div>
+
+    
+    <script>
+    function filterAttractions() {
+        const selectedCategory = document.getElementById('filter-category').value.toLowerCase().trim();
+        const selectedPrice = document.getElementById('filter-price').value.toLowerCase().trim();
+        const selectedBooking = document.getElementById('filter-booking').value.toLowerCase().trim();
+        
+        const items = document.querySelectorAll('.country-attraction-tile');
+        const isDefaultState = (selectedCategory === 'all' && selectedPrice === 'all' && selectedBooking === 'all');
+        
+        let visibleCount = 0;
+
+        items.forEach((item) => {
+            const itemCategory = (item.getAttribute('data-kategoria') || '').toLowerCase().trim();
+            const itemPrice = (item.getAttribute('data-cena') || '').toLowerCase().trim();
+            const itemBooking = (item.getAttribute('data-rezerwacja') || '').toLowerCase().trim();
+
+            const matchCategory = (selectedCategory === 'all') || (itemCategory === selectedCategory);
+            const matchPrice = (selectedPrice === 'all') || (itemPrice === selectedPrice);
+            const matchBooking = (selectedBooking === 'all') || (itemBooking === selectedBooking);
+
+            if (matchCategory && matchPrice && matchBooking) {
+                if (isDefaultState && visibleCount >= 12) {
+                    item.style.display = 'none';
+                } else {
+                    item.style.display = 'flex';
+                    visibleCount++;
+                }
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        const noResults = document.getElementById('no-results');
+        if (noResults) {
+            noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", filterAttractions);
     </script>
 
 
@@ -1561,226 +1866,8 @@ body {
     
 
     
-
     
-    <div style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
-            
-            
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        </div>
-    </div>
     
- 
     
     
         

@@ -7,8 +7,8 @@ kategoria: "historia"
 lat: 35.6590
 lng: 139.7006
 image_url: "https://images.pexels.com/photos/38751618/pexels-photo-38751618.jpeg"
-cena: "średnio $$"
-rezerwacja: "Wymagana wcześniej online"
+cena: "Średnio $$"
+rezerwacja: "Tak"
 sezon: "Cały rok (najlepiej jesień/wiosna)"
 adres: "2-24-12 Shibuya, Shibuya-ku, Tokyo (Shibuya Scramble Square 14F, 45F, 46F, Rooftop)"
 link: "https://www.shibuya-scramble-square.com/sky/"

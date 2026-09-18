@@ -12,7 +12,8 @@
     <nav>
         <ul class="nav-menu">
             <li class="dropdown">
-                <a href="/asia-compass/kraj/">Kraje</a>
+                <!-- Podmiana href z /asia-compass/kraj/ na javascript:void(0); uniemożliwia przejście pod pusty adres -->
+                <a href="javascript:void(0);" style="cursor: pointer;">Kraje ▾</a>
                 <ul class="dropdown-content">
                     {{ $krajPageObj := site.GetPage "kraj" }}
                     {{ if $krajPageObj }}
@@ -41,7 +42,7 @@
             </li>
             <li><a href="/asia-compass/blog/">Blog</a></li>
             <li class="dropdown">
-                <a href="#">Sociale</a>
+                <a href="javascript:void(0);" style="cursor: pointer;">Sociale ▾</a>
                 <ul class="dropdown-content">
                     <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
                 </ul>
@@ -124,7 +125,7 @@ body {
 
 #search .pagefind-ui__search-input {
     display: block !important;
-    padding: 8px 40px 8px 42px !important; /* Prawy i lewy padding na ikonę oraz X */
+    padding: 8px 40px 8px 42px !important;
     font-size: 0.95rem !important;
     border: 2px solid #ca041e !important;
     border-radius: 24px !important;

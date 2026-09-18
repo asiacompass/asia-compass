@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 34.68114945649205
 lng: 135.84304883506158
 image_url: "https://i.pinimg.com/1200x/e1/95/92/e195927f528a472bc0c7e67941d9e3c4.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Noborioji-cho, Nara, 630-8211, Japonia"

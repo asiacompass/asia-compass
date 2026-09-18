@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 34.91443060989543
 lng: 135.65276160611708
 image_url: "https://www.kyototourism.org/wp/wp-content/uploads/2021/01/e8699e08352cd50ab4e3361cedd9e02d-scaled.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "3 Jōdodan, Jōdodani, Nagaokakyo, Kyoto 617-0855, Japonia"

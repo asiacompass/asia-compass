@@ -8,8 +8,8 @@ type: "atrakcja"
 lat: 35.23430255008091
 lng:  128.87705411304623
 image_url: "https://i.pinimg.com/736x/90/95/07/909507e7f39229331c69bf5966b47243.jpg"
-cena: "Darmowe, Średnio $$"
-rezerwacja: "Nocleg tak, zwiedzanie nie"
+cena: "Free $0"
+rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "40 Garak-ro 93beon-gil, Gimhae-si, Gyeongsangnam-do, Korea Południowa (경상남도 김해시 가락로93번길 40 김해한옥체험관)"
 link: 

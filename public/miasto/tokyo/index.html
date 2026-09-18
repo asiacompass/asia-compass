@@ -820,30 +820,36 @@ body {
         </button>
     </div>
 
-    <header class="attraction-header">
+    
+    
+    
+    <header class="attraction-header" style="margin-bottom: 20px;">
         <h1 style="color: var(--primary-red); font-size: 2.2rem; margin: 0;">TOKYO</h1>
     </header>
+
+    
+    
+    
+    <div class="attraction-banner" style="margin-bottom: 25px;">
+        <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TOKYO" loading="lazy">
+    </div>
+    
+
+    
+    
+    <div class="city-description-content" style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 40px; background: #fff; padding: 25px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+        <p>Tokio to fascynujący, cyberpunkowy labirynt, w którym najgęstsze skrzyżowania świata sąsiadują z mistycznymi chramami Shintō otoczonymi lasem. Japońska stolica to zorganizowany chaos w najczystszej postaci. Z jednej strony uderzy Cię tu ściana neonów, automaty z napojami na każdym rogu i pociągi sunące nad ziemią, z drugiej – absolutna cisza, kultura szacunku i minimalistyczne ogrody zen. To miasto, które nieustannie redefiniuje pojęcie nowoczesności, pozostając jednocześnie głęboko wierne swoim wielowiekowym tradycjom.</p>
+    </div>
+    
+
+    
+
 
     
     <div class="attraction-layout-grid">
         
         
         <div class="attraction-main-column">
-            
-            
-            
-            
-            <div class="attraction-banner">
-                <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?q=80&amp;w=1170&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="TOKYO" loading="lazy">
-            </div>
-            
-
-            
-            
-            <div class="city-description-content" style="font-size: 1.1rem; line-height: 1.6; color: var(--text-color); margin-bottom: 40px; background: #fff; padding: 25px; border-radius: 8px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-                <p>Tokio to fascynujący, cyberpunkowy labirynt, w którym najgęstsze skrzyżowania świata sąsiadują z mistycznymi chramami Shintō otoczonymi lasem. Japońska stolica to zorganizowany chaos w najczystszej postaci. Z jednej strony uderzy Cię tu ściana neonów, automaty z napojami na każdym rogu i pociągi sunące nad ziemią, z drugiej – absolutna cisza, kultura szacunku i minimalistyczne ogrody zen. To miasto, które nieustannie redefiniuje pojęcie nowoczesności, pozostając jednocześnie głęboko wierne swoim wielowiekowym tradycjom.</p>
-            </div>
-            
 
             
             
@@ -979,55 +985,6 @@ body {
                 
                     
                     
-                        
-                            
-                        
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
                 
                     
                     
@@ -1038,12 +995,61 @@ body {
                 
                     
                     
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
                         
                             
                         
                     
                 
                     
+                    
+                        
+                            
+                        
                     
                 
                     
@@ -1129,7 +1135,37 @@ body {
             
             <div style="margin-bottom: 40px;">
                 <h2 style="margin-bottom: 20px; color: var(--text-color);">Niezwykłe miejsca w TOKYO</h2>
-                <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+
+                
+                <div class="filter-bar" style="display: flex; gap: 15px; flex-wrap: wrap; background: #fff; padding: 15px 20px; border-radius: 10px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 8px rgba(0,0,0,0.03); margin-bottom: 25px;">
+                    
+                    
+                    <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                        <label for="filter-price" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">💰 Cena:</label>
+                        <select id="filter-price" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                            <option value="all">Wszystkie</option>
+                            <option value="Free $0">Free $0</option>
+                            <option value="Tanio $">Tanio $</option>
+                            <option value="Średnio $$">Średnio $$</option>
+                            <option value="Drogo $$$">Drogo $$$</option>
+                        </select>
+                    </div>
+
+                    
+                    <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                        <label for="filter-booking" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">🎟️ Rezerwacja:</label>
+                        <select id="filter-booking" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                            <option value="all">Wszystkie</option>
+                            <option value="Nie">Nie</option>
+                            <option value="Tak">Tak</option>
+                            <option value="Zalecana">Zalecana</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                
+                <div id="attractions-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px;">
                 
                     
                         
@@ -1161,7 +1197,10 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="city-attraction-tile" 
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Nie"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1199,7 +1238,10 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="city-attraction-tile" 
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Nie"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1231,7 +1273,10 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="city-attraction-tile" 
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1272,7 +1317,10 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="city-attraction-tile" 
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1358,7 +1406,13 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                    
+                        
+                        
+                        <div class="city-attraction-tile" 
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1435,7 +1489,10 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="city-attraction-tile" 
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1451,10 +1508,10 @@ body {
                                         <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
                                         
                                         
-                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: średnio $$</span>
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
                                         
                                         
-                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Wymagana wcześniej online</span>
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
                                         
                                     </div>
                                 </div>
@@ -1467,7 +1524,10 @@ body {
                     
                         
                         
-                        <div class="city-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                        <div class="city-attraction-tile" 
+                             data-cena="Free $0" 
+                             data-rezerwacja="Nie"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
                             <div>
                                 
                                 
@@ -1483,7 +1543,7 @@ body {
                                         <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
                                         
                                         
-                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Darmowe</span>
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Free $0</span>
                                         
                                         
                                         <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Nie</span>
@@ -1539,12 +1599,45 @@ body {
                         
                         
                     
-                        
-                        
-                    
                 
                 </div>
+
+                
+                <div id="no-results" style="display: none; text-align: center; padding: 30px; color: #666; font-size: 1.05rem; background: #f9f9f9; border-radius: 8px; margin-top: 20px;">
+                    Brak atrakcji spełniających wybrane kryteria.
+                </div>
             </div>
+
+            
+            <script>
+            function filterAttractions() {
+                const selectedPrice = document.getElementById('filter-price').value.toLowerCase().trim();
+                const selectedBooking = document.getElementById('filter-booking').value.toLowerCase().trim();
+                
+                const items = document.querySelectorAll('.city-attraction-tile');
+                let visibleCount = 0;
+
+                items.forEach(item => {
+                    const itemPrice = (item.getAttribute('data-cena') || '').toLowerCase().trim();
+                    const itemBooking = (item.getAttribute('data-rezerwacja') || '').toLowerCase().trim();
+
+                    const matchPrice = (selectedPrice === 'all') || (itemPrice === selectedPrice);
+                    const matchBooking = (selectedBooking === 'all') || (itemBooking === selectedBooking);
+
+                    if (matchPrice && matchBooking) {
+                        item.style.display = 'flex';
+                        visibleCount++;
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+
+                const noResults = document.getElementById('no-results');
+                if (noResults) {
+                    noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+                }
+            }
+            </script>
 
             
             <div style="margin-bottom: 40px;">
@@ -1701,6 +1794,9 @@ body {
                         
                             
                             
+                        
+                            
+                            
                                 {
                                     title: "Kocie cafe w stylu Ghibli",
                                     lat:  35.70476620672754 ,
@@ -1772,9 +1868,6 @@ body {
                                     lng:  139.79664453456596 ,
                                     url: "\/asia-compass\/atrakcja\/temple-sensoji\/"
                                 },
-                            
-                        
-                            
                             
                         
                             
@@ -2519,234 +2612,8 @@ body {
                 
                 
                     
-                    
                 
             
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-    
-        
-    
         
     
         
@@ -2802,6 +2669,160 @@ body {
         
     
         
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+        
+    
+        
             
             
             
@@ -2829,29 +2850,7 @@ body {
         
     
         
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
     
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
         
     
         
@@ -2916,6 +2915,100 @@ body {
                 
                 
                     
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
                     
                 
             
@@ -2972,6 +3065,19 @@ body {
                 
             
         
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
             
             
             
@@ -3058,19 +3164,6 @@ body {
                     
                 
             
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
         
             
             
@@ -3271,12 +3364,13 @@ body {
     min-width: 0;
 }
 
+ 
 .attraction-sidebar {
-    width: 380px;
+    width: 270px;  
     flex-shrink: 0;
     background: #ffffff;
     border-radius: 12px;
-    padding: 24px;
+    padding: 16px;  
     position: sticky;
     top: 20px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.04);
@@ -3284,26 +3378,26 @@ body {
 }
 
 .sidebar-title {
-    font-size: 1.15rem;
+    font-size: 1.05rem;  
     color: var(--primary-red);
     margin-top: 0;
-    margin-bottom: 16px;
-    padding-bottom: 8px;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
     border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .sidebar-items {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;  
 }
 
 .sidebar-card {
     display: flex;
-    gap: 12px;
+    gap: 10px;
     align-items: center;
     background: transparent;
-    padding: 8px 6px;
+    padding: 6px 4px;  
     border-radius: 8px;
     text-decoration: none;
     border: none;
@@ -3311,38 +3405,28 @@ body {
     transition: background-color 0.2s ease;
 }
 
-.sidebar-card:hover {
-    transform: none;
-    box-shadow: none;
-    background-color: rgba(202, 4, 30, 0.03);
-}
-
-.sidebar-card:last-child {
-    border-bottom: none;
-}
-
+ 
 .sidebar-card img {
-    width: 72px;
-    height: 72px;
+    width: 50px;  
+    height: 50px;  
     object-fit: cover;
     border-radius: 6px;
     flex-shrink: 0;
 }
 
 .sidebar-card-info h4 {
-    font-size: 0.92rem;
+    font-size: 0.85rem;  
     color: var(--text-color);
-    margin: 0 0 5px 0;
-    line-height: 1.3;
+    margin: 0 0 2px 0;
+    line-height: 1.2;
     font-weight: 600;
 }
 
 .sidebar-city {
-    font-size: 0.82rem;
-    color: #555555;
-    font-weight: 500;
+    font-size: 0.78rem;
+    color: #777777;
+    font-weight: 400;
 }
-
 .sidebar-empty {
     font-size: 0.9rem;
     color: #666;

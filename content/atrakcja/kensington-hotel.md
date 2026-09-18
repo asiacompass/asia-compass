@@ -9,7 +9,7 @@ lat: 37.53037964642558
 lng: 126.92187035206615
 image_url: "https://i.pinimg.com/1200x/a9/13/12/a9131253e6891bb82541504d3e0a63b5.jpg"
 cena: "Drogo $$$"
-rezerwacja: "Tak zalecana"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "16 Gukhoe-daero 76-gil, Yeongdeungpo-gu, Seoul, Korea Południowa (서울특별시 영등포구 국회대로76길 16 켄싱턴호텔 여의도)"
 link: "https://www.kensington.co.kr/"

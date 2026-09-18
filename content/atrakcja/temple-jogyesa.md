@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 37.57387
 lng: 126.98258
 image_url: "https://i.pinimg.com/1200x/bc/16/06/bc16066dad0c3f451006afe5aa935709.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok / Festiwal: letnio-jesienny sezon"
 adres: "55 Ujeongguk-ro, Jongno-gu, Seoul, Korea Południowa (서울특별시 종로구 우정국로 55 조계사)"

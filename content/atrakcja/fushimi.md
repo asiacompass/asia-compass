@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 34.96782635296251
 lng: 135.77916613844712
 image_url: "https://images.pexels.com/photos/28052111/pexels-photo-28052111.jpeg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto, 612-0882, Japonia"

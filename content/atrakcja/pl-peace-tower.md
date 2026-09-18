@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 34.50232343139748
 lng: 135.5858980383617
 image_url: "https://offbeatjapan.com/wp-content/uploads/2021/11/great-peace-tower-monument-to-war-victims.jpg"
-cena: "darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "285-1 Tsuzuyama, Tondabayashi, Osaka 584-0081, Japan"

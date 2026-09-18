@@ -9,7 +9,7 @@ lat:
 lng: 
 image_url: "https://urbanvibes.id/wp-content/uploads/2025/04/Cha-Jue-Jue-Jiangxi-teh-viral-dari-China.jpg"
 cena: "Tanio $"
-rezerwacja: "Niekoniecznie"
+rezerwacja: "Zalecana"
 sezon: "Cały rok"
 adres: "Lokalizacje sieci Cha Jue Jue w centrum Nanchang, np. w rejonie Bayi Square lub Wandat Plaza, Nanchang, Jiangxi, Chiny."
 link: ""

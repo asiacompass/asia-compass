@@ -9,7 +9,7 @@ lat: 37.6153
 lng: 126.7156
 image_url: "https://images.pexels.com/photos/37943054/pexels-photo-37943054.jpeg"
 cena: "Tanio $"
-rezerwacja: "Wymagana wcześniej online"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "142 Gimpo-hangang 9-ro 75beon-gil, Gimpo-si, Gyeonggi-do, Korea Południowa"
 link: "https://blog.naver.com/PostView.naver?blogId=snflgg&logNo=224327495281"

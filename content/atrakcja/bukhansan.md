@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 37.61926394830934
 lng: 126.99690473000685
 image_url: "https://i.pinimg.com/1200x/1c/36/78/1c36789aaace2e4b049665a631a8b7a3.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "262 Bogukmun-ro, Seongbuk-gu, Seoul, Korea Południowa (서울특별시 성북구 보국문로 262 북한산국립공원)"

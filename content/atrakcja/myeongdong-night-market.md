@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 37.56183008956314
 lng: 126.9858008847293
 image_url: "https://i.pinimg.com/736x/01/40/be/0140bec9151df8ecbc34f21c8a574c61.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Myeongdong-gil, Jongno-gu, Seoul, Korea Południowa (서울 서울특별시 중구 명동길)"

@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 34.67470822816816 
 lng: 131.72837579684918
 image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX64IVsIZ0n_gWS3nYa36PPcKrO3IJBj6WiplJz-ay2bqJsAYxXszjJPE&s=10"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "630 Kohamacho, Masuda, Shimane 699-3762, Japonia"

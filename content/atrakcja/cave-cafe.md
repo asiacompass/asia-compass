@@ -9,7 +9,7 @@ lat: 37.426758954145384
 lng: 126.86597229624297
 image_url: "https://i.pinimg.com/736x/cc/5a/ff/cc5affcd1f3a272fd690b0fb27c22f85.jpg"
 cena: "Średnio $$"
-rezerwacja: "Zalecana w sezonie"
+rezerwacja: "Zalecana"
 sezon: "Cały rok"
 adres: "142 Gahak-ro 85beon-gil, Gwangmyeong-si, Gyeonggi-do, Korea Południowa (경기도 광명시 가학로85번길 142 광명동굴)"
 link: "https://www.gm.go.kr/cv/index.do"

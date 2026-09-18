@@ -9,7 +9,7 @@ kategoria: "popkultura"
 tag: ["restaurant🍜"]
 cena: "Drogo $$$"
 image_url: "https://ak-d.tripcdn.com/images/1lo6n12000ra4jeeiCF5F_C_1200_800_R5_Q60.webp?proc=source/trip&proc=source/trip"
-rezerwacja: "Wymagana online"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Building 27, No. 4, Jianshe South Branch Road, Chenghua District, Chengdu, Sichuan, China"
 link: "https://pl.trip.com/travel-guide/attraction/chengdu/shuyanfu-143151913?curr=PLN&locale=pl-PL&poiType=66&scene=ticket&ext-searchpage=1&ext-mixlist=ticket_main&ext-listlocate=0&lasttraceid=f4a37901-910d-69e3-6cf4-17875f375654"

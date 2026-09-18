@@ -9,7 +9,7 @@ lat: 35.175247044495414
 lng: 137.0887915536413
 image_url: "https://i.pinimg.com/1200x/60/7e/8a/607e8a56de47924d874867315a3db30b.jpg"
 cena: "Średnio $$"
-rezerwacja: "Wymagana online"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "1533-1 Ibaragawarimaotsu, Nagakute, Aichi 480-1342, Japonia"
 link: "https://ghibli-park.jp/en/"

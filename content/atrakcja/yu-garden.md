@@ -9,7 +9,7 @@ kategoria: "natura"
 tag: 
 cena: "Tanio $"
 image_url: "https://i.pinimg.com/1200x/54/21/30/542130b19eb66bf8893ee66328779de0.jpg"
-rezerwacja: "Zalecana online"
+rezerwacja: "Zalecana"
 sezon: "Cały rok"
 adres: "279 Yuyuan Old Street, Huangpu District, Shanghai, China"
 link: "https://www.yugarden.com.cn/page/articleView/index.html"

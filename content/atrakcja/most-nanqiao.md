@@ -8,8 +8,8 @@ lat: 31.0000
 lng: 103.6167
 kategoria: "historia"
 image_url: "https://i.pinimg.com/1200x/97/be/9c/97be9c323f0cfa0d5a58648b620b9473.jpg"
-cena: "darmowe, średnio $$"
-rezerwacja: "Zalecana online"
+cena: "Średnio $$"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Park Road, Dujiangyan, Chengdu, Sichuan, China (四川省成都市都江堰市公园路)"
 link: " "

@@ -9,7 +9,7 @@ lat: 29.41713584945402
 lng: 107.76677693813318
 image_url: "https://i.pinimg.com/1200x/e3/0c/a2/e30ca2e17b05fdba53b9916cf8e60686.jpg"
 cena: "Średnio $$"
-rezerwacja: "Zalecana z wyprzedzeniem"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "CQ88+QPV, Yinxing Blvd, Wulong District, Chiny, 408513"
 link: "http://www.wlkst.com/"

@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 37.08809885920534
 lng: 136.9234364943705
 image_url: "https://www.wakura.or.jp/_kanri/wp-content/uploads/2026/05/130cea030e1638c9972980f0ddc4dacb.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "1 Chome Wakuramachi Hibari, Nanao, Ishikawa 926-0176, Japonia (na terenie Yuttari Park"

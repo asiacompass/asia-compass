@@ -8,8 +8,8 @@ type: "atrakcja"
 lat: 36.74406943575005 
 lng: 138.83019516730874
 image_url: "https://pix8.agoda.net/hotelImages/10564936/0/97b90345763b72d553de80382b973ff5.jpeg?ce=0&s=1024x"
-cena: "Średnio $$ / Drogo $$$"
-rezerwacja: "Nocleg - tak \ onsen - zalecana"
+cena: "Średnio $$"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "650 Nagai, Minakami, Tone District, Gunma 379-1401, Japonia (〒379-1401 群馬県利根郡みなかみ町永井650)"
 link: "https://hoshi-onsen.com/english/"

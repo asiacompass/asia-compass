@@ -9,7 +9,7 @@ kategoria: "popkultura"
 tag: [""]
 cena: "Tanio $"
 image_url: "https://i.pinimg.com/1200x/75/fe/02/75fe02e209fee6ca5ac119a73037f5db.jpg"
-rezerwacja: "Wymagana online"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "510 Beijing West Road, Jing'an District, Shanghai, Chiny (上海市静安区北京西路510号)"
 link: "https://www.snhm.org.cn/"

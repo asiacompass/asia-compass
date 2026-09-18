@@ -8,8 +8,8 @@ type: "atrakcja"
 lat: 29.3524 
 lng: 120.3175
 image_url: "https://images.pexels.com/photos/14828720/pexels-photo-14828720.jpeg"
-cena: "srednio $$, drogo $$$"
-rezerwacja: "Wymagana wcześniej online"
+cena: "Średnio $$"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Hengdian Town, Dongyang, Jinhua City, Zhejiang Province, China (浙江省金华市东阳市横店镇)"
 link: "https://www.hengdianworld.com/"

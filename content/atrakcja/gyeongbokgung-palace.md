@@ -8,8 +8,8 @@ type: "atrakcja"
 lat: 37.58036523153356
 lng: 126.97661184721943
 image_url: "https://images.pexels.com/photos/37968751/pexels-photo-37968751.jpeg"
-cena: "tanio $"
-rezerwacja: "Wymagana wcześniej online"
+cena: "Tanio $"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "161 Sajik-ro, Jongno-gu, Seoul, South Korea (서울특별시 종로구 사직로 161)"
 link: "https://royal.khs.go.kr/ROYAL/contents/menuInfo-gbg.do?grpCode=gbg"

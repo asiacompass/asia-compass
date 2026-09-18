@@ -7,9 +7,9 @@ lat: 39.8556
 lng: 116.7128
 kategoria: "popkultura"
 tag: ["movies🎬"]
-cena: "drogo $$$"
+cena: "Drogo $$$"
 image_url: "https://i.pinimg.com/1200x/c8/dd/65/c8dd659ba3e3ffe52c4e464aa5953c20.jpg"
-rezerwacja: "Wymagana online"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "Universal Beijing Resort, Tongzhou District, Beijing, China"
 link: "https://www.universalbeijingresort.com/zh_CN"

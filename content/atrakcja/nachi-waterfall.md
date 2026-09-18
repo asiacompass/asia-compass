@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 33.67553599920829 
 lng: 135.88753299420338
 image_url: "https://images.pexels.com/photos/20773239/pexels-photo-20773239.jpeg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Nachisan, Nachikatsuura, Higashimuro District, Wakayama 649-5301, Japonia"

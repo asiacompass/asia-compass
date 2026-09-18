@@ -7,9 +7,9 @@ lat: 28.7490
 lng: 109.9320
 kategoria: "historia"
 tag: ["drama🎎"]
-cena: "srednio $$"
+cena: "Średnio $$"
 image_url: "https://images.pexels.com/photos/38495061/pexels-photo-38495061.jpeg"
-rezerwacja: "Zalecana online"
+rezerwacja: "Zalecana"
 sezon: "Cały rok"
 adres: "Furong Ancient Town, Yongshun County, Xiangxi Tujia and Miao Autonomous Prefecture, Hunan, China"
 link: "https://pl.trip.com/travel-guide/attraction/yongshun/furong-town-10558754?curr=PLN&locale=pl-PL&poiType=3&scene=ticket&ext-searchpage=1&ext-mixlist=ticket_main&ext-listlocate=0&lasttraceid=1b29adf1-3b22-4833-705c-176df6907066"

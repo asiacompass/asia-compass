@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 33.267594720369146
 lng: 131.36551423836642
 image_url: "https://i.pinimg.com/736x/11/46/cc/1146ccae9f5a5de599e32c49aafa50a8.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "1503-3 Yufuincho Kawakami, Yufu, Oita 879-5102, Japonia"

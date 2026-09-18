@@ -91,7 +91,7 @@
         </div>
     </div>
 
- {{/* MAPA MIAST W KRAJU */}}
+    {{/* MAPA MIAST W KRAJU */}}
     <div style="margin-bottom: 80px;">
         <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Mapa miast</h2>
         <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
@@ -131,6 +131,141 @@
                 map.fitBounds(bounds, { padding: [50, 50] });
             }
         });
+    </script>
+
+
+    {{/* PRZENIESIONA SEKCJA: ATRAKCJE DLA KRAJU Z FILTROWANIEM I LIMITOWANIEM */}}
+    <div style="margin-bottom: 80px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
+
+        <!-- PASEK FILTRÓW -->
+        <div class="filter-bar" style="display: flex; gap: 15px; flex-wrap: wrap; background: #fff; padding: 15px 20px; border-radius: 10px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 8px rgba(0,0,0,0.03); margin-bottom: 25px;">
+            
+            <!-- Filtr: Kategoria -->
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-category" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">📂 Kategoria:</label>
+                <select id="filter-category" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    {{ range $kategorieFound }}
+                    <option value="{{ . }}">{{ . }}</option>
+                    {{ end }}
+                </select>
+            </div>
+
+            <!-- Filtr: Cena -->
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-price" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">💰 Cena:</label>
+                <select id="filter-price" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    <option value="Free $0">Free $0</option>
+                    <option value="Tanio $">Tanio $</option>
+                    <option value="Średnio $$">Średnio $$</option>
+                    <option value="Drogo $$$">Drogo $$$</option>
+                </select>
+            </div>
+
+            <!-- Filtr: Rezerwacja -->
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-booking" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">🎟️ Rezerwacja:</label>
+                <select id="filter-booking" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    <option value="Nie">Nie</option>
+                    <option value="Tak">Tak</option>
+                    <option value="Zalecana">Zalecana</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!-- SIATKA ATRAKCJI -->
+        <div id="attractions-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            {{ with site.GetPage "/atrakcja" }}
+                {{ range .Pages }}
+                    {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
+                    {{ if eq $atrakcjaKraj $currentCountrySlug }}
+                        <div class="country-attraction-tile" 
+                             data-kategoria="{{ .Params.kategoria | default "" }}"
+                             data-cena="{{ .Params.cena | default "" }}" 
+                             data-rezerwacja="{{ .Params.rezerwacja | default "" }}"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
+                                {{ if $img }}
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                {{ end }}
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">{{ .Title }}</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        {{ if .Params.kategoria }}
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: {{ .Params.kategoria }}</span>
+                                        {{ end }}
+                                        {{ if .Params.cena }}
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: {{ .Params.cena }}</span>
+                                        {{ end }}
+                                        {{ if .Params.rezerwacja }}
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: {{ .Params.rezerwacja }}</span>
+                                        {{ end }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        </div>
+
+        <!-- KOMUNIKAT O BRAKU WYNIKÓW -->
+        <div id="no-results" style="display: none; text-align: center; padding: 30px; color: #666; font-size: 1.05rem; background: #f9f9f9; border-radius: 8px; margin-top: 20px;">
+            Brak atrakcji spełniających wybrane kryteria.
+        </div>
+    </div>
+
+    <!-- SKRYPT FILTRUJĄCY -->
+    <script>
+    function filterAttractions() {
+        const selectedCategory = document.getElementById('filter-category').value.toLowerCase().trim();
+        const selectedPrice = document.getElementById('filter-price').value.toLowerCase().trim();
+        const selectedBooking = document.getElementById('filter-booking').value.toLowerCase().trim();
+        
+        const items = document.querySelectorAll('.country-attraction-tile');
+        const isDefaultState = (selectedCategory === 'all' && selectedPrice === 'all' && selectedBooking === 'all');
+        
+        let visibleCount = 0;
+
+        items.forEach((item) => {
+            const itemCategory = (item.getAttribute('data-kategoria') || '').toLowerCase().trim();
+            const itemPrice = (item.getAttribute('data-cena') || '').toLowerCase().trim();
+            const itemBooking = (item.getAttribute('data-rezerwacja') || '').toLowerCase().trim();
+
+            const matchCategory = (selectedCategory === 'all') || (itemCategory === selectedCategory);
+            const matchPrice = (selectedPrice === 'all') || (itemPrice === selectedPrice);
+            const matchBooking = (selectedBooking === 'all') || (itemBooking === selectedBooking);
+
+            if (matchCategory && matchPrice && matchBooking) {
+                if (isDefaultState && visibleCount >= 12) {
+                    item.style.display = 'none';
+                } else {
+                    item.style.display = 'flex';
+                    visibleCount++;
+                }
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        const noResults = document.getElementById('no-results');
+        if (noResults) {
+            noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", filterAttractions);
     </script>
 
 
@@ -249,40 +384,8 @@
         </div>
     </div>
     {{ end }}
-
-    {{/* 7. NOWA SEKCJA: ATRAKCJE DLA KRAJU (MAX 12 KAFELKÓW) */}}
-    <div style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
-            {{ $counter := 0 }}
-            {{ with site.GetPage "/atrakcja" }}
-                {{ range .Pages }}
-                    {{ $atrakcjaKraj := .Params.kraj | default "" | urlize | lower }}
-                    {{ if and (eq $atrakcjaKraj $currentCountrySlug) (lt $counter 12) }}
-                        {{ $counter = add $counter 1 }}
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                {{ $img := .Params.image_url | default .Params.image | default .Params.img }}
-                                {{ if $img }}
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="{{ $img }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                {{ end }}
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">{{ .Title }}</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="{{ .RelPermalink }}" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-        </div>
-    </div>
     
- {{/* 8. NOWA SEKCJA: NAJCIEKAWSZE Z BLOGA */}}
+    {{/* 8. SEKCJA: NAJCIEKAWSZE Z BLOGA */}}
     {{ $blogPosts := slice }}
     {{ range where site.RegularPages "Section" "blog" }}
         {{ $postKraj := .Params.country | default "" | urlize | lower }}

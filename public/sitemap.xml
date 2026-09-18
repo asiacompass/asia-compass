@@ -216,6 +216,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/furong/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -625,10 +629,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/shirakawa/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/asia-compass/atrakcja/zakazane-miasto/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -16,11 +16,33 @@ country = "country"
       unsafe = true
 
 [menu]
+  # Element nadrzędny (rozwijany)
   [[menu.main]]
     name = "Kraje"
-    url = "/kraj/"
+    identifier = "kraje"
+    url = "#"
     weight = 1
 
+  # Podmenu - poszczególne kraje
+  [[menu.main]]
+    name = "Chiny"
+    url = "/kraj/chiny/"
+    parent = "kraje"
+    weight = 1
+
+  [[menu.main]]
+    name = "Japonia"
+    url = "/kraj/japonia/"
+    parent = "kraje"
+    weight = 2
+
+  [[menu.main]]
+    name = "Korea"
+    url = "/kraj/korea/"
+    parent = "kraje"
+    weight = 3
+
+  # Pozostałe linki menu
   [[menu.main]]
     name = "Blog"
     url = "/blog/"
@@ -35,7 +57,7 @@ country = "country"
     name = "Ulubione"
     url = "/ulubione/"
     weight = 4
-
+    
 [sitemap]
   changefreq = 'weekly'
   priority = 0.5

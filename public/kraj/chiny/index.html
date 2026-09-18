@@ -38,7 +38,8 @@
     <nav>
         <ul class="nav-menu">
             <li class="dropdown">
-                <a href="/asia-compass/kraj/">Kraje</a>
+                
+                <a href="javascript:void(0);" style="cursor: pointer;">Kraje ▾</a>
                 <ul class="dropdown-content">
                     
                     
@@ -578,7 +579,7 @@
             </li>
             <li><a href="/asia-compass/blog/">Blog</a></li>
             <li class="dropdown">
-                <a href="#">Sociale</a>
+                <a href="javascript:void(0);" style="cursor: pointer;">Sociale ▾</a>
                 <ul class="dropdown-content">
                     <li><a href="https://www.instagram.com/asia_compass_/" target="_blank" rel="noopener">Instagram</a></li>
                 </ul>
@@ -661,7 +662,7 @@ body {
 
 #search .pagefind-ui__search-input {
     display: block !important;
-    padding: 8px 40px 8px 42px !important;  
+    padding: 8px 40px 8px 42px !important;
     font-size: 0.95rem !important;
     border: 2px solid #ca041e !important;
     border-radius: 24px !important;
@@ -918,31 +919,6 @@ body {
         
             
             
-        
-            
-            
-                
-                    
-                
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
                 
                     
                 
@@ -985,9 +961,6 @@ body {
         
             
             
-        
-            
-            
                 
                     
                 
@@ -1006,70 +979,6 @@ body {
             
         
             
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-                
-                    
-                
-            
-        
-            
-            
-                
-                    
-                
-            
-        
-            
-            
-        
-            
-            
-                
-                    
-                
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-                
-                    
-                
             
         
             
@@ -1100,9 +1009,101 @@ body {
         
             
             
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
                 
                     
                 
+            
+        
+            
+            
+                
+                    
+                
+            
+        
+            
+            
+        
+            
+            
+                
+                    
+                
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+                
+                    
+                
+            
+        
+            
+            
+        
+            
             
         
     
@@ -1427,7 +1428,7 @@ body {
         </div>
     </div>
 
- 
+    
     <div style="margin-bottom: 80px;">
         <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Mapa miast</h2>
         <div id="country-map" style="width: 100%; height: 400px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 12px rgba(0,0,0,0.03);"></div>
@@ -1634,6 +1635,813 @@ body {
                 map.fitBounds(bounds, { padding: [50, 50] });
             }
         });
+    </script>
+
+
+    
+    <div style="margin-bottom: 80px;">
+        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
+
+        
+        <div class="filter-bar" style="display: flex; gap: 15px; flex-wrap: wrap; background: #fff; padding: 15px 20px; border-radius: 10px; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 2px 8px rgba(0,0,0,0.03); margin-bottom: 25px;">
+            
+            
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-category" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">📂 Kategoria:</label>
+                <select id="filter-category" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    
+                    <option value="historia">historia</option>
+                    
+                    <option value="jedzenie">jedzenie</option>
+                    
+                    <option value="natura">natura</option>
+                    
+                    <option value="popkultura">popkultura</option>
+                    
+                </select>
+            </div>
+
+            
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-price" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">💰 Cena:</label>
+                <select id="filter-price" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    <option value="Free $0">Free $0</option>
+                    <option value="Tanio $">Tanio $</option>
+                    <option value="Średnio $$">Średnio $$</option>
+                    <option value="Drogo $$$">Drogo $$$</option>
+                </select>
+            </div>
+
+            
+            <div class="filter-group" style="display: flex; flex-direction: column; gap: 5px;">
+                <label for="filter-booking" style="font-size: 0.85rem; font-weight: bold; color: var(--text-color);">🎟️ Rezerwacja:</label>
+                <select id="filter-booking" onchange="filterAttractions()" style="padding: 8px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 0.9rem; cursor: pointer;">
+                    <option value="all">Wszystkie</option>
+                    <option value="Nie">Nie</option>
+                    <option value="Tak">Tak</option>
+                    <option value="Zalecana">Zalecana</option>
+                </select>
+            </div>
+
+        </div>
+
+        
+        <div id="attractions-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+            
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="jedzenie"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Nie"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://ak-d.tripcdn.com/images/0104k120009plvj8oE815.jpg" alt="Cafe &#39;Obibi&#39; Panda Milk" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Cafe &#39;Obibi&#39; Panda Milk</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: jedzenie</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Nie</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/cafe-obibi/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="jedzenie"
+                             data-cena="Tanio $" 
+                             data-rezerwacja="Zalecana"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://urbanvibes.id/wp-content/uploads/2025/04/Cha-Jue-Jue-Jiangxi-teh-viral-dari-China.jpg" alt="Cha Jue Jue - wiralowa herbata" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Cha Jue Jue - wiralowa herbata</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: jedzenie</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Tanio $</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Zalecana</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/cha-jue-jue/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="historia"
+                             data-cena="Tanio $" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://images.pexels.com/photos/18549556/pexels-photo-18549556.jpeg" alt="Forbidden City (The Palace Museum)" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Forbidden City (The Palace Museum)</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Tanio $</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/zakazane-miasto/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="historia"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Zalecana"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://images.pexels.com/photos/38495061/pexels-photo-38495061.jpeg" alt="Furong Ancient Town" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Furong Ancient Town</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Zalecana</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/furong-city/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="historia"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Zalecana"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://ak-d.tripcdn.com/images/1mc6912000cw9csw4ACA3_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F" alt="Gexian Village" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Gexian Village</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Zalecana</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/gexian-village/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="historia"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://images.pexels.com/photos/14828720/pexels-photo-14828720.jpeg" alt="Hengdian World Studio" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Hengdian World Studio</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/hengdian-world-studio/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="natura"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://images.pexels.com/photos/29702069/pexels-photo-29702069.jpeg" alt="Huanglong National Park" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Huanglong National Park</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: natura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/huanglong-park/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="popkultura"
+                             data-cena="Drogo $$$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://i.pinimg.com/1200x/16/80/95/16809552c767de8da1ddf3f864abce0b.jpg" alt="Legoland Shanghai Resort" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Legoland Shanghai Resort</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: popkultura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Drogo $$$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/legoland/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="popkultura"
+                             data-cena="Tanio $" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://i.pinimg.com/1200x/75/fe/02/75fe02e209fee6ca5ac119a73037f5db.jpg" alt="Natural History Museum" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Natural History Museum</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: popkultura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Tanio $</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/natural-museum/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="historia"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://i.pinimg.com/1200x/97/be/9c/97be9c323f0cfa0d5a58648b620b9473.jpg" alt="System Irygacyjny Dujiangyan i Most Nanqiao" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">System Irygacyjny Dujiangyan i Most Nanqiao</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: historia</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/most-nanqiao/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="popkultura"
+                             data-cena="Drogo $$$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://ak-d.tripcdn.com/images/1lo6n12000ra4jeeiCF5F_C_1200_800_R5_Q60.webp?proc=source/trip&amp;proc=source/trip" alt="Teatr Opery Syczuańskiej Shu Yan Fu" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Teatr Opery Syczuańskiej Shu Yan Fu</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: popkultura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Drogo $$$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/shu-yan-fu/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="popkultura"
+                             data-cena="Drogo $$$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://i.pinimg.com/1200x/c8/dd/65/c8dd659ba3e3ffe52c4e464aa5953c20.jpg" alt="Universal Studios - Harry Potter, Kung Fu Panda, Transformers" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Universal Studios - Harry Potter, Kung Fu Panda, Transformers</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: popkultura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Drogo $$$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/universal-studio/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="natura"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Tak"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://i.pinimg.com/1200x/e3/0c/a2/e30ca2e17b05fdba53b9916cf8e60686.jpg" alt="Wulong Karst" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Wulong Karst</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: natura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Tak</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/wulong-karst/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="jedzenie"
+                             data-cena="Średnio $$" 
+                             data-rezerwacja="Zalecana"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=1920%2Cdpr=1/tour_img/eab69c74d7f3aaa7010fd6a632e09db042bdec7fc8c843576abca614bd9a988c.jpg" alt="Xi Yue He Zi - Tea House" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Xi Yue He Zi - Tea House</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: jedzenie</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Średnio $$</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Zalecana</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/tea-house/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                        <div class="country-attraction-tile" 
+                             data-kategoria="natura"
+                             data-cena="Tanio $" 
+                             data-rezerwacja="Zalecana"
+                             style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
+                            <div>
+                                
+                                
+                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
+                                    <img src="https://i.pinimg.com/1200x/54/21/30/542130b19eb66bf8893ee66328779de0.jpg" alt="Yu Garden" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
+                                </div>
+                                
+                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
+                                    <h3 style="margin: 0 0 10px 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Yu Garden</h3>
+                                    
+                                    <div class="attraction-meta-info" style="display: flex; flex-direction: column; gap: 6px; margin: 10px 0; font-size: 0.85rem; text-align: left;">
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">📂 Kategoria: natura</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">💰 Cena: Tanio $</span>
+                                        
+                                        
+                                        <span style="color: #2c3e50; padding: 2px 0; font-weight: 600;">🎟️ Rezerwacja: Zalecana</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
+                                <a href="/asia-compass/atrakcja/yu-garden/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
+                            </div>
+                        </div>
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+            
+        </div>
+
+        
+        <div id="no-results" style="display: none; text-align: center; padding: 30px; color: #666; font-size: 1.05rem; background: #f9f9f9; border-radius: 8px; margin-top: 20px;">
+            Brak atrakcji spełniających wybrane kryteria.
+        </div>
+    </div>
+
+    
+    <script>
+    function filterAttractions() {
+        const selectedCategory = document.getElementById('filter-category').value.toLowerCase().trim();
+        const selectedPrice = document.getElementById('filter-price').value.toLowerCase().trim();
+        const selectedBooking = document.getElementById('filter-booking').value.toLowerCase().trim();
+        
+        const items = document.querySelectorAll('.country-attraction-tile');
+        const isDefaultState = (selectedCategory === 'all' && selectedPrice === 'all' && selectedBooking === 'all');
+        
+        let visibleCount = 0;
+
+        items.forEach((item) => {
+            const itemCategory = (item.getAttribute('data-kategoria') || '').toLowerCase().trim();
+            const itemPrice = (item.getAttribute('data-cena') || '').toLowerCase().trim();
+            const itemBooking = (item.getAttribute('data-rezerwacja') || '').toLowerCase().trim();
+
+            const matchCategory = (selectedCategory === 'all') || (itemCategory === selectedCategory);
+            const matchPrice = (selectedPrice === 'all') || (itemPrice === selectedPrice);
+            const matchBooking = (selectedBooking === 'all') || (itemBooking === selectedBooking);
+
+            if (matchCategory && matchPrice && matchBooking) {
+                if (isDefaultState && visibleCount >= 12) {
+                    item.style.display = 'none';
+                } else {
+                    item.style.display = 'flex';
+                    visibleCount++;
+                }
+            } else {
+                item.style.display = 'none';
+            }
+        });
+
+        const noResults = document.getElementById('no-results');
+        if (noResults) {
+            noResults.style.display = (visibleCount === 0) ? 'block' : 'none';
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", filterAttractions);
     </script>
 
 
@@ -1873,186 +2681,6 @@ body {
     
         
         
-    
-        
-        
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                        
-                    
-                
-            
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                        
-                    
-                
-            
-        
-    
-        
-        
-    
-        
-        
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                    
-                
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                    
-                
-            
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                    
-                
-            
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-            
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-    
-        
-        
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                        
-                    
-                
-            
-        
-    
-        
-        
             
                 
                 
@@ -2098,6 +2726,203 @@ body {
     
         
         
+    
+        
+        
+    
+        
+        
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                        
+                    
+                
+            
+        
+    
+        
+        
+    
+        
+        
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                        
+                    
+                
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+            
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                        
+                    
+                
+            
+        
+    
+        
+        
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+        
+        
+    
+        
+        
+            
+                
+                
+                
+                
+                
+                    
+                    
+                        
+                        
+                    
+                
+            
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
+    
+        
+        
             
                 
                 
@@ -2181,23 +3006,6 @@ body {
         
     
         
-        
-    
-        
-        
-            
-                
-                
-                
-                
-                
-                    
-                    
-                        
-                        
-                    
-                
-            
         
     
 
@@ -2233,442 +3041,8 @@ body {
         </div>
     </div>
     
-
     
-    <div style="margin-bottom: 80px;">
-        <h2 style="padding-bottom: 10px; margin-bottom: 20px; color: var(--text-color);">Nie masz pomysłu? Zainspiruj się atrakcjami!</h2>
-        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
-            
-            
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://ak-d.tripcdn.com/images/0104k120009plvj8oE815.jpg" alt="Cafe &#39;Obibi&#39; Panda Milk" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Cafe &#39;Obibi&#39; Panda Milk</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/cafe-obibi/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://urbanvibes.id/wp-content/uploads/2025/04/Cha-Jue-Jue-Jiangxi-teh-viral-dari-China.jpg" alt="Cha Jue Jue - wiralowa herbata" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Cha Jue Jue - wiralowa herbata</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/cha-jue-jue/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://images.pexels.com/photos/38495061/pexels-photo-38495061.jpeg" alt="Furong Ancient Town" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Furong Ancient Town</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/furong-city/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://ak-d.tripcdn.com/images/1mc6912000cw9csw4ACA3_W_1280_853_R5.webp?proc=watermark/image_trip1,l_ne,x_16,y_16,w_67,h_16;digimark/t_image,logo_tripbinary;ignoredefaultwm,1A8F" alt="Gexian Village" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Gexian Village</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/gexian-village/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://images.pexels.com/photos/14828720/pexels-photo-14828720.jpeg" alt="Hengdian World Studio" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Hengdian World Studio</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/hengdian-world-studio/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://images.pexels.com/photos/29702069/pexels-photo-29702069.jpeg" alt="Huanglong National Park" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Huanglong National Park</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/huanglong-park/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://i.pinimg.com/1200x/16/80/95/16809552c767de8da1ddf3f864abce0b.jpg" alt="Legoland Shanghai Resort" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Legoland Shanghai Resort</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/legoland/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://i.pinimg.com/1200x/75/fe/02/75fe02e209fee6ca5ac119a73037f5db.jpg" alt="Natural History Museum" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Natural History Museum</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/natural-museum/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://i.pinimg.com/1200x/97/be/9c/97be9c323f0cfa0d5a58648b620b9473.jpg" alt="System Irygacyjny Dujiangyan i Most Nanqiao" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">System Irygacyjny Dujiangyan i Most Nanqiao</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/most-nanqiao/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://ak-d.tripcdn.com/images/1lo6n12000ra4jeeiCF5F_C_1200_800_R5_Q60.webp?proc=source/trip&amp;proc=source/trip" alt="Teatr Opery Syczuańskiej Shu Yan Fu" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Teatr Opery Syczuańskiej Shu Yan Fu</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/shu-yan-fu/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://i.pinimg.com/1200x/c8/dd/65/c8dd659ba3e3ffe52c4e464aa5953c20.jpg" alt="Universal Studios - Harry Potter, Kung Fu Panda, Transformers" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Universal Studios - Harry Potter, Kung Fu Panda, Transformers</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/universal-studio/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                        
-                        <div class="country-attraction-tile" style="border-radius: 10px; background: #fff; border: 1px solid rgba(0,0,0,0.06); box-shadow: 0 4px 10px rgba(0,0,0,0.03); overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; transition: all 0.3s ease;">
-                            <div>
-                                
-                                
-                                <div style="width: 100%; height: 180px; overflow: hidden; margin: 0;">
-                                    <img src="https://i.pinimg.com/1200x/e3/0c/a2/e30ca2e17b05fdba53b9916cf8e60686.jpg" alt="Wulong Karst" style="width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease;">
-                                </div>
-                                
-                                <div style="padding: 15px 15px 5px 15px; text-align: center;">
-                                    <h3 style="margin: 0; color: var(--primary-red); font-size: 1.2rem; font-weight: bold;">Wulong Karst</h3>
-                                </div>
-                            </div>
-                            <div style="padding: 10px 15px 15px 15px; text-align: center;">
-                                <a href="/asia-compass/atrakcja/wulong-karst/" class="country-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
-                            </div>
-                        </div>
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-                    
-                    
-                
-            
-        </div>
-    </div>
     
- 
     
     
         

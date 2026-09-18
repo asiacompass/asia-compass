@@ -8,8 +8,8 @@ lat: 39.9163
 lng: 116.3972
 kategoria: "historia"
 image_url: "https://images.pexels.com/photos/18549556/pexels-photo-18549556.jpeg"
-cena: "tanio"
-rezerwacja: "Wymagana wcześniej online"
+cena: "Tanio $"
+rezerwacja: "Tak"
 sezon: "Cały rok"
 adres: "4 Jingshan Qianjie, Dongcheng District, Beijing, China (北京市东城区景山前街4号)"
 link: "https://www.dpm.org.cn/Home.html#"

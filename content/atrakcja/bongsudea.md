@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 35.15715
 lng: 129.08172
 image_url: "https://i.pinimg.com/1200x/42/07/78/420778fa1eb883ee252a3e35ce1e5252.jpg"
-cena: "Darmowe"
+cena: "Free $0 "
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "50-1 Jeonpo-dong, Busanjin-gu, Busan, Korea Południowa"

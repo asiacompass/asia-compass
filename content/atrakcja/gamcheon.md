@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 35.179345151314564
 lng: 129.00656855785496
 image_url: "https://images.pexels.com/photos/31743214/pexels-photo-31743214.jpeg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "203 Gamnae 2-ro, Saha-gu, Busan, Korea Południowa (부산광역시 사하구 감내2로 203 감천문화마을)"

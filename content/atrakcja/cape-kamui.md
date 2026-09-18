@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 43.33042594025311
 lng: 140.3577466100112 
 image_url: "https://images.pexels.com/photos/38116203/pexels-photo-38116203.jpeg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Kozuki, Shakotan, Shakotan District, Hokkaido 046-0321, Japonia"

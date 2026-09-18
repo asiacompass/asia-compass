@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 35.714799956519926
 lng: 139.79664453456596
 image_url: "https://images.pexels.com/photos/33297792/pexels-photo-33297792.jpeg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "2 Chome-3-1 Asakusa, Taito City, Tokyo 111-0032, Japonia"

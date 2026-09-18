@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 37.2871
 lng: 126.9916
 image_url: "https://images.pexels.com/photos/23106808/pexels-photo-23106808.jpeg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "175 Suseong-ro, Jangan-gu, Suwon-si, Gyeonggi-do, South Korea (경기도 수원시 장안구 수성로 175 스타필드 수원)"

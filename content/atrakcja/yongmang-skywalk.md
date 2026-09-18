@@ -8,7 +8,7 @@ type: "atrakcja"
 lat: 37.583043786323245 
 lng: 127.10291568486798
 image_url: "https://english.seoul.go.kr/wp-content/uploads/2025/11/img_skywalk05.jpg"
-cena: "Darmowe"
+cena: "Free $0"
 rezerwacja: "Nie"
 sezon: "Cały rok"
 adres: "Yongmasan Skywalk, Jungnang-gu, Seoul, Korea Południowa (서울 중랑구 용마산 스카이워크)"

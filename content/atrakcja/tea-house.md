@@ -8,8 +8,8 @@ lat: 29.5528
 lng: 106.5750
 kategoria: "jedzenie"
 image_url: "https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=1920%2Cdpr=1/tour_img/eab69c74d7f3aaa7010fd6a632e09db042bdec7fc8c843576abca614bd9a988c.jpg"
-cena: "średnio $$"
-rezerwacja: "Zalecana online"
+cena: "Średnio $$"
+rezerwacja: "Zalecana"
 sezon: "Cały rok"
 adres: "Xiahaoli Old Street, Nan'an District, Chongqing, China (重庆市南岸区下浩里老街)"
 link: "https://www.getyourguide.com/chongqing-l959/chongqing-wizyta-w-eleganckiej-herbaciarni-old-street-t1355248/?ranking_uuid=f6fd0b13-ccad-4059-8643-926e45640050&q=Xi+Yue+He+Zi+chongqing"
