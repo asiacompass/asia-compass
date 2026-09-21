@@ -107,10 +107,9 @@ rozwijalne_listy:
  
 galeria_zdjec:
   - url: "https://images.pexels.com/photos/34222098/pexels-photo-34222098.jpeg"
-  - url: "https://images.pexels.com/photos/29767791/pexels-photo-29767791.jpeg"
-  - url: "https://images.pexels.com/photos/29767796/pexels-photo-29767796.jpeg"
-  - url: "https://images.pexels.com/photos/31654300/pexels-photo-31654300.jpeg"
-  - url: "https://images.pexels.com/photos/29767800/pexels-photo-29767800.jpeg"
+  - url: "https://i.pinimg.com/736x/ef/49/1a/ef491ab3d1eb4e7c51ea6028ec87be2a.jpg"
+  - url: "https://i.pinimg.com/736x/b5/3b/cd/b53bcd5df13bf389e03de0ae700ab7ba.jpg"
+  - url: "https://i.pinimg.com/1200x/be/0b/dd/be0bddabcd452b01c13a2af84059c5fa.jpg"
 
 instagram_reel: "https://www.instagram.com/reel/Dak43a-o-Jc/?igsi=MzRlODBiNWFlZA=="
 
@@ -120,6 +119,10 @@ instagram_reel: "https://www.instagram.com/reel/Dak43a-o-Jc/?igsi=MzRlODBiNWFlZA
 Ukryta w wysokich partiach gór Min Shan w prowincji Syczuan, Park Narodowy Huanglong to wpisana na listę światowego dziedzictwa UNESCO kraina, która wygląda jak wyjęta z sennych marzeń. Słynie przede wszystkim z gigantycznych, uskokowych tarasów trawertynowych, w których krystalicznie czysta, wapienna woda tworzy setki naturalnych basenów. W zależności od pory dnia, kąta padania światła i pory roku, woda mieni się niesamowitą paletą barw – od intensywnego turkusu i szmaragdu, po ciepły błękit i złoto. W tle rozciągają się majestatyczne, ośnieżone szczyty górskie oraz gęste, pierwotne lasy, w których wciąż żyją dzikie pandy wielkie i rokselany złociste.  
 Krajobrazy Huanglong (oraz sąsiedniej doliny Jiuzhaigou) były bezpośrednią inspiracją dla twórców gry **Genshin Impact** przy projektowaniu regionu Liyue (szczególnie Luhua Pool).
 
+<p style="text-align: center;">
+  <img src="https://i.pinimg.com/1200x/be/0b/dd/be0bddabcd452b01c13a2af84059c5fa.jpg" alt="Opis zdjęcia" width="500">
+</p>
+
 ### Fakty i Ciekawostki
 
 * **Legenda o Złotym Smoku:** Nazwa Huanglong dosłownie oznacza „Żółty Smok”. Według lokalnych podań taoistycznych żółty smok pomógł opanować wielką powódź, a po wykonaniu zadania spoczął w tym miejscu. Żółtawo-złote formacje trawertynowe ciągnące się przez 3,6 km doliny wyglądają z lotu ptaka dokładnie jak łuski ogromnego, śpiącego smoka.  
@@ -127,6 +130,9 @@ Krajobrazy Huanglong (oraz sąsiedniej doliny Jiuzhaigou) były bezpośrednią i
 * **Geologiczna unikalność:** rawertyn w Huanglong powstawał przez tysiące lat w wyniku osadzania się węglanu wapnia z wody źródlanej spływającej z lodowca góry Xuebaoding (5588 m n.p.m.). To jeden z najbardziej unikalnych i najlepiej zachowanych krajobrazów krasowych na świecie.   
 * **Świątynia na wysokościach:** U stóp najwyższych basenów stoi zabytkowa, taoistyczna Świątynia Huanglong (Huanglong Ancient Temple), wzniesiona za czasów dynastii Ming, która nadaje całemu krajobrazowi niezwykle mistycznego charakteru.  
 
+<p style="text-align: center;">
+  <img src="https://i.pinimg.com/1200x/b3/49/2f/b3492f5e674e1b31b4aba90b47d3d5a1.jpg" alt="Opis zdjęcia" width="500">
+</p>
 
 #### Zobacz poradnik:
 

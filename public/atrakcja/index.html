@@ -38,7 +38,6 @@
     <nav>
         <ul class="nav-menu">
             <li class="dropdown">
-                
                 <a href="javascript:void(0);" style="cursor: pointer;">Kraje ▾</a>
                 <ul class="dropdown-content">
                     
@@ -77,6 +76,9 @@
                                                 <li>
                                                     <a href="/asia-compass/miasto/dongyang/">DONGYANG</a>
                                                 </li>
+                                            
+                                        
+                                            
                                             
                                         
                                             
@@ -202,6 +204,9 @@
                                             
                                             
                                         
+                                            
+                                            
+                                        
                                     
                                 </ul>
                             </li>
@@ -227,6 +232,13 @@
                                             
                                         
                                             
+                                            
+                                        
+                                            
+                                            
+                                                <li>
+                                                    <a href="/asia-compass/miasto/fuji/">FUJI</a>
+                                                </li>
                                             
                                         
                                             
@@ -397,6 +409,13 @@
                                             
                                             
                                                 <li>
+                                                    <a href="/asia-compass/miasto/toon/">TOON</a>
+                                                </li>
+                                            
+                                        
+                                            
+                                            
+                                                <li>
                                                     <a href="/asia-compass/miasto/uda/">UDA</a>
                                                 </li>
                                             
@@ -434,6 +453,9 @@
                                                 <li>
                                                     <a href="/asia-compass/miasto/dongducheon/">DONGDUCHEON</a>
                                                 </li>
+                                            
+                                        
+                                            
                                             
                                         
                                             
@@ -565,6 +587,9 @@
                                         
                                             
                                             
+                                        
+                                            
+                                            
                                                 <li>
                                                     <a href="/asia-compass/miasto/yongin/">YONGIN</a>
                                                 </li>
@@ -672,7 +697,6 @@ body {
     color: #2c3e50 !important;
 }
 
- 
 #search .pagefind-ui__drawer {
     position: absolute !important;
     top: calc(100% + 12px) !important;
@@ -758,6 +782,7 @@ body {
     padding: 8px 0;
     list-style: none;
     z-index: 1000;
+    overflow: visible !important;
 }
 .dropdown:hover .dropdown-content { display: block; }
 .dropdown-submenu { position: relative; }
@@ -769,19 +794,28 @@ body {
     white-space: nowrap;
 }
 .dropdown-submenu > a:hover { background: #fce8ec; color: var(--primary-red); }
+
 .dropdown-sub-content {
     display: none;
     position: absolute;
     top: 0;
     right: 100%;
     background: #ffffff;
-    min-width: 160px;
+    min-width: 180px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     border-radius: 8px;
     padding: 8px 0;
     list-style: none;
     z-index: 1001;
+    max-height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
+.dropdown-sub-content::-webkit-scrollbar { width: 6px; }
+.dropdown-sub-content::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, 0.2); border-radius: 4px; }
+.dropdown-sub-content::-webkit-scrollbar-track { background: transparent; }
+
 .dropdown-submenu:hover .dropdown-sub-content { display: block !important; }
 .dropdown-sub-content li a {
     display: block;
@@ -792,19 +826,80 @@ body {
 }
 .dropdown-sub-content li a:hover { background: #fce8ec; color: var(--primary-red); }
 
+ 
 @media (max-width: 900px) {
-    .site-header {
-        height: auto !important;
-        grid-template-columns: 1fr !important;
-        gap: 10px;
-        padding: 10px !important;
+    body {
+        padding-top: 0 !important;
     }
-    .header-search-container { order: 2; }
-    .site-header nav { order: 3; justify-self: center; }
+
+    .site-header {
+        position: relative !important;
+        height: auto !important;
+        grid-template-columns: auto 1fr !important;
+        gap: 10px !important;
+        padding: 10px 12px !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .site-header .logo a {
+        font-size: 1rem !important;
+        white-space: nowrap;
+    }
+
+    .header-search-container {
+        order: 2;
+    }
+
+    #search {
+        max-width: 100% !important;
+    }
+
+    .site-header nav {
+        order: 3;
+        grid-column: 1 / -1;
+        justify-self: stretch;
+        border-top: 1px solid #f2f2f2;
+        padding-top: 6px;
+        margin-top: 4px;
+    }
+
+    .site-header nav ul.nav-menu {
+        justify-content: space-around;
+        gap: 8px;
+    }
+
+    .site-header nav ul.nav-menu > li > a {
+        font-size: 0.88rem !important;
+        padding: 4px 0;
+    }
+
     #search .pagefind-ui__drawer {
         position: absolute !important;
-        top: calc(100% + 10px) !important;
+        top: calc(100% + 8px) !important;
         width: 92vw !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+     
+    .hero-banner, .banner-card, [class*="hero"], [class*="banner"] {
+        height: auto !important;
+        min-height: auto !important;
+        padding: 24px 16px !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+
+    .hero-banner h1, .banner-card h1, [class*="hero"] h1, [class*="banner"] h1 {
+        font-size: 1.35rem !important;
+        line-height: 1.25 !important;
+        margin-bottom: 12px !important;
+    }
+
+    .hero-banner p, .banner-card p, [class*="hero"] p, [class*="banner"] p {
+        font-size: 0.88rem !important;
+        line-height: 1.4 !important;
     }
 }
 </style>
@@ -876,6 +971,78 @@ body {
             </div>
             
             <a href="/asia-compass/atrakcja/cave-cafe/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*2NSAv1wJRZ33GTeGYZpjxQ.jpeg" alt="&#39;Kang Seok-jong&#39; Restaurant" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">&#39;Kang Seok-jong&#39; Restaurant</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="ukryta-enklawa-smaku-w-sennej-dzielnicy">Ukryta Enklawa Smaku w Sennej Dzielnicy</h3>
+<p>W urokliwej, spowitej spokojem dzielnicy Buam-dong, z dala od zgiełku wieżowców Seulu, kryje się kameralna izakaya Kang Seok-jong (강석종). To miejsce, w którym czas wydaje się płynąć wolniej, a ciepłe światło wylewające się z wnętrza zaprasza do przekroczenia progu prosto w przestrzeń pełną nostalgii i domowego ciepła. Powietrze wypełnia tu zapach aromatycznych potraw przygotowywanych na bieżąco, a kameralny charakter lokalu sprzyja cichym rozmowom przy szklance tradycyjnego trunku. To prawdziwy azyl dla poszukiwaczy autentycznych, nieprzetartych kulinarnych szlaków.</p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Ukryty na mapach:</strong> Lokal jest tak kameralny i niszowy, że wpisanie samej nazwy w niektórych aplikacjach nawigacyjnych może nie przynieść rezultatu – aby tam trafić, najlepiej wyszukać bezpośredni adres: 254-1 Buam-dong.</p>
+</li>
+<li>
+<p><strong>Wczesne otwarcie:</strong> W przeciwieństwie do większości tradycyjnych koreańskich pubów i izakaya otwieranych późnym wieczorem, Kang Seok-jong otwiera swoje drzwi już o 16:00, co jest prawdziwą rzadkością i świetną opcją na wczesny wieczór.</p>
+</li>
+<li>
+<p><strong>Kameralny klimat dla nielicznych:</strong> Przestrzeń jest niewielka, co tworzy wyjątkową, intymną atmosferę – to idealne miejsce na spokojne spotkanie w małym gronie.</p>
+</li>
+<li>
+<p><strong>Dopracowane menu i przekąski:</strong> Goście chwalą absolutnie każdy element – od bezpłatnych przystawek (anjeu) serwowanych na start, po główne dania kuchni lokalnej i fusion.</p>
+</li>
+</ul></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/restaurant-kank-seok/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://tblg.k-img.com/restaurant/images/Rvw/368420/640x640_rect_3ebe5622a78b2d7309726253d1bf5055.jpg" alt="&#39;Kome Enishi&#39; Restaurant" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">&#39;Kome Enishi&#39; Restaurant</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="poranny-rytuał-ryżowy-u-stóp-fuji">Poranny Rytuał Ryżowy u Stóp Fuji</h3>
+<p>U stóp majestatycznej Góry Fuji kryje się miejsce, w którym poranek zaczyna się od najprostszych, a zarazem najbardziej dopracowanych smaków tradycyjnej Japonii. Kome Enishi (米えにし) w prefekturze Shizuoka to kameralna restauracja teishoku, w której powietrze wypełnia kojący zapach świeżo gotowanego ziarna. Prawdziwym bohaterem tego kulinarnego spektaklu jest ryż przygotowywany w tradycyjnych, glinianych garnkach donabe. Obserwowanie mgły unoszącej się nad stołem i delikatnego blasku Fuji za oknem sprawia, że poranny posiłek zamienia się tu w wyciszający, zmysłowy rytuał, celebrujący głęboki aromat i autentyczny japoński komfort.</p>
+<p style="text-align: center;">
+  <img src="https://tblg.k-img.com/restaurant/images/Rvw/347656/640x640_rect_2153517ecb88a7ef5e07ff8877127160.jpg" alt="Opis zdjęcia" width="500">
+</p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Nielimitowany ryż z glinianego garnka:</strong> Dania z glinianych garnków donabe serwowane są w formule all you can eat – można do woli dokładać miseczki idealnie puszystego, pachnącego ryżu, który dzięki tradycyjnemu sposobowi gotowania zachowuje swój naturalny, lekko słodkawy aromat.</p>
+</li>
+<li>
+<p><strong>Japoński komfort w płynie:</strong> Posiłek wieńczy się polaniem resztki ryżu aksamitnym bulionem dashi, co tworzy aromatyczną i rozgrzewającą potrawę zwaną ochazuke.</p>
+</li>
+<li>
+<p><strong>Śniadanie tylko w weekendy:</strong> Unikalny zestaw śniadaniowy dostępny jest wyłącznie w piątki, soboty oraz niedziele, co czyni go prawdziwym rarytasem dla lokalnych smakorzy i podróżnych.</p>
+</li>
+<li>
+<p><strong>Dodatki pełne umami:</strong> Do ryżu serwowane są klasyczne japońskie dodatki, takie jak suszona płatkowana ryba bonito (katsuobushi), pikantna ikra dorsza (mentaiko) oraz tradycyjne jajka.</p>
+</li>
+</ul>
+<p style="text-align: center;">
+  <img src="https://tblg.k-img.com/restaurant/images/Rvw/368420/640x640_rect_1c6db93bd83759d6112e1f0aa072b56c.jpg" alt="Opis zdjęcia" width="500">
+</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/restaurant-kome-enishi/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
         </div>
         
         <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
@@ -1859,7 +2026,7 @@ W obszarze Ghibli&rsquo;s Grand Warehouse można usiąść na fotelu w pociągu 
                 
                 <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h2 id="tradycyjny-ryokan-z-1875">Tradycyjny ryokan z 1875!</h2>
 <p>Ukryty w malowniczej, górskiej dolinie w prefekturze Gunma, Hoshi Onsen Chojukan (法師温泉 長寿館) to jeden z najsłynniejszych i najbardziej czarujących tradycyjnych ryokanów w Japonii. Założony w 1875 roku (okres Meiji), ten zabytkowy obiekt oferuje podróż w czasie do minionych epok. Główną gwiazdą tego miejsca jest kultowa łaźnia Hoshi no Yu, wybudowana z drewna bez użycia ani jednego gwoździa, gdzie krystalicznie czysta, gorąca woda źródlana wybija bezpośrednio z kamiennego dna basenu.</p>
-<p align="center">
+<p style="text-align: center;">
   <img src="https://i.pinimg.com/736x/4b/9c/57/4b9c579e7fc7763abe70d8a6aedf9cec.jpg" alt="Opis zdjęcia" width="500">
 </p>
 <h3 id="fakty-i-ciekawostki">Fakty i ciekawostki</h3>
@@ -1893,6 +2060,9 @@ W obszarze Ghibli&rsquo;s Grand Warehouse można usiąść na fotelu w pociągu 
                 <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="dolina-żółtego-smoka">Dolina Żółtego Smoka</h3>
 <p>Ukryta w wysokich partiach gór Min Shan w prowincji Syczuan, Park Narodowy Huanglong to wpisana na listę światowego dziedzictwa UNESCO kraina, która wygląda jak wyjęta z sennych marzeń. Słynie przede wszystkim z gigantycznych, uskokowych tarasów trawertynowych, w których krystalicznie czysta, wapienna woda tworzy setki naturalnych basenów. W zależności od pory dnia, kąta padania światła i pory roku, woda mieni się niesamowitą paletą barw – od intensywnego turkusu i szmaragdu, po ciepły błękit i złoto. W tle rozciągają się majestatyczne, ośnieżone szczyty górskie oraz gęste, pierwotne lasy, w których wciąż żyją dzikie pandy wielkie i rokselany złociste.<br>
 Krajobrazy Huanglong (oraz sąsiedniej doliny Jiuzhaigou) były bezpośrednią inspiracją dla twórców gry <strong>Genshin Impact</strong> przy projektowaniu regionu Liyue (szczególnie Luhua Pool).</p>
+<p style="text-align: center;">
+  <img src="https://i.pinimg.com/1200x/be/0b/dd/be0bddabcd452b01c13a2af84059c5fa.jpg" alt="Opis zdjęcia" width="500">
+</p>
 <h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
 <ul>
 <li><strong>Legenda o Złotym Smoku:</strong> Nazwa Huanglong dosłownie oznacza „Żółty Smok”. Według lokalnych podań taoistycznych żółty smok pomógł opanować wielką powódź, a po wykonaniu zadania spoczął w tym miejscu. Żółtawo-złote formacje trawertynowe ciągnące się przez 3,6 km doliny wyglądają z lotu ptaka dokładnie jak łuski ogromnego, śpiącego smoka.</li>
@@ -1900,12 +2070,54 @@ Krajobrazy Huanglong (oraz sąsiedniej doliny Jiuzhaigou) były bezpośrednią i
 <li><strong>Geologiczna unikalność:</strong> rawertyn w Huanglong powstawał przez tysiące lat w wyniku osadzania się węglanu wapnia z wody źródlanej spływającej z lodowca góry Xuebaoding (5588 m n.p.m.). To jeden z najbardziej unikalnych i najlepiej zachowanych krajobrazów krasowych na świecie.</li>
 <li><strong>Świątynia na wysokościach:</strong> U stóp najwyższych basenów stoi zabytkowa, taoistyczna Świątynia Huanglong (Huanglong Ancient Temple), wzniesiona za czasów dynastii Ming, która nadaje całemu krajobrazowi niezwykle mistycznego charakteru.</li>
 </ul>
+<p style="text-align: center;">
+  <img src="https://i.pinimg.com/1200x/b3/49/2f/b3492f5e674e1b31b4aba90b47d3d5a1.jpg" alt="Opis zdjęcia" width="500">
+</p>
 <h4 id="zobacz-poradnik">Zobacz poradnik:</h4>
 <p><a href="/asia-compass/blog/china-pay/" style="color: #e98a99; font-weight: bold; ">Jak płacić w Chinach?</a>   |   <a href="/asia-compass/blog/china-transport/" style="color: #e98a99; font-weight: bold; ">Chiny i transport</a>   |   <a href="/asia-compass/blog/china-net/" style="color: #e98a99; font-weight: bold; ">Chiny i internet</a>   |   <a href="/asia-compass/blog/china-app/" style="color: #e98a99; font-weight: bold; ">Aplikacje przydatne w Chinach</a></p></p>
                 
             </div>
             
             <a href="/asia-compass/atrakcja/huanglong-park/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://i.pinimg.com/1200x/74/cb/41/74cb41483272f63ac9c6837b46db55f0.jpg" alt="Jaskinia Żółtego Smoka (Huanglong Cave)" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Jaskinia Żółtego Smoka (Huanglong Cave)</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="podziemny-pałac-smoczego-króla">Podziemny Pałac Smoczego Króla</h3>
+<p>Ukryta pod zielonymi wzgórzami Zhangjiajie, Jaskinia Żółtego Smoka otwiera przed wędrowcami podwoje baśniowego krainy, rodem z chińskich legend i fantastycznych opowieści. Wkraczając do jej chłodnego wnętrza, wkracza się do monumentalnego, podziemnego świata, gdzie czas płynie według własnych zasad, mierzone kroplami wody drążącymi wapienne skały przez stulecia. Wielopoziomowe trasy, rozległe sale wznoszące się wysoko niczym sklepienia gotyckich katedr oraz krystaliczna rzeka, po której cicho mkną łodzie, tworzą spektakl głębinowej natury podświetlonej tysiącem barw. Mrok przeplatany feerią świateł odbija się w podziemnych akwenach, budząc poczucie pełnego zachwytu odrealnienia.</p>
+<p style="text-align: center;">
+  <img src="https://i.pinimg.com/1200x/1d/e0/33/1de03351e5c1e26418e1d405d050bb37.jpg" alt="Opis zdjęcia" width="500">
+</p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Igła do Szycia Smoka ubezpieczona na miliony:</strong> Najsłynniejszy stalagmit w jaskini, zwany Dinghai Shenzhen (Igłą Uspokajającą Morze), ma niemal 20 metrów wysokości i zaledwie 10 cm średnicy w najwęższym miejscu. W 1998 roku władze ubezpieczyły go na kwotę 100 milionów RMB (ok. 14 mln USD) od uszkodzeń i klęsk żywiołowych.</p>
+</li>
+<li>
+<p><strong>Podziemny rejs łodzią:</strong> Wewnątrz jaskini płynie podziemna rzeka Xiangshui (Rzeka Dźwięku), po której kursują łodzie elektryczne – to stała część trasy zwiedzania zawarta w podstawowym bilecie.</p>
+</li>
+<li>
+<p><strong>4 poziomy i własny mikroklimat:</strong> Jaskinia ma wysokość odpowiadającą 140-piętrowemu wieżowcowi, a w jej wnętrzu panuje stała temperatura około 16°C niezależnie od pory roku.</p>
+</li>
+<li>
+<p><strong>Sala Smoczego Pałacu:</strong> Największa komora jaskini może pomieścić tysiące ludzi, a jej sufit wznosi się tak wysoko, że z łatwością zmieściłby się w niej kilkupiętrowy budynek.</p>
+</li>
+</ul>
+<p style="text-align: center;">
+  <img src="https://i.pinimg.com/1200x/74/cb/41/74cb41483272f63ac9c6837b46db55f0.jpg" alt="Opis zdjęcia" width="500">
+</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/huanglong-cave/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
         </div>
         
         <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
@@ -2184,6 +2396,45 @@ Krajobrazy Huanglong (oraz sąsiedniej doliny Jiuzhaigou) były bezpośrednią i
             </div>
             
             <a href="/asia-compass/atrakcja/myeongdong-night-market/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
+        </div>
+        
+        <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">
+            <div>
+                
+                
+                <img src="https://res.cloudinary.com/dbeud0a7k/image/upload/c_fill,w_800,h_600,q_auto:low,f_auto,fl_progressive/v1753746553/locations/ehime/185-namekawa-valley/185-namekawa-valley_1753746552_4PtJFTeT.jpg" alt="Namekawa Valley" style="width: 100%; height: 160px; object-fit: cover; border-radius: 6px; margin-bottom: 12px;">
+                
+                
+                <h3 style="margin: 0 0 10px 0; color: var(--primary-red);">Namekawa Valley</h3>
+                
+                
+                <p style="color: var(--text-color); font-size: 0.95rem; line-height: 1.4; margin: 0 0 15px 0;"><h3 id="naturalny-park-wodny-w-zielonym-sercu-shikoku">Naturalny Park Wodny w Zielonym Sercu Shikoku</h3>
+<p>W samym sercu wyspy Shikoku, spowita bujną szatą gęstego lasu, kryje się dolina Namekawa wraz z zapierającym dech w piersiach wąwozem Nametoko. To ukryty azyl, w którym krystalicznie czysta woda nieustannie rzeźbi gładkie, granito-piaskowcowe skały, tworząc naturalną, łagodną zjeżdżalnię wodną ciągnącą się przez setki metrów. Szum spadających kaskad, kojący chłód rzeki oraz zapach dzikiej zieleni budzą zmysły i zapraszają do niespiesznego zachwytu nad nieskazitelnym pięknem japońskiej natury. Przemierzanie tych skalnych koryt to prawdziwy powrót do beztroski i żywy kontakt z potęgą żywiołu.</p>
+<p align="center">
+  <img src="https://res.cloudinary.com/dbeud0a7k/image/upload/c_fill,w_800,h_600,q_auto:low,f_auto,fl_progressive/v1753746562/locations/ehime/185-namekawa-valley/185-namekawa-valley_1753746561_U1j6gCBc.jpg" alt="Opis zdjęcia" width="500">
+</p>
+<h3 id="fakty-i-ciekawostki">Fakty i Ciekawostki</h3>
+<ul>
+<li>
+<p><strong>Naturalny park wodny:</strong> Wyglądające jak wyrzeźbione przez człowieka rynny to w rzeczywistości absolutnie naturalne formacje skalne, wygładzone przez przepływającą wodę na przestrzeni tysięcy lat.</p>
+</li>
+<li>
+<p><strong>Canyoning i spływy:</strong> Miejsce to jest japońską stolicą canyoningu – organizowane tu spływy i zjazdy wodne (m.in. przez lokalne agencje takie jak Good River) przyciągają miłośników mocniejszych wrażeń i aktywnego wypoczynku.</p>
+</li>
+<li>
+<p><strong>Świątynia wodospadów:</strong> W sąsiedztwie znajduje się słynny wodospad Yukiwa (Yukiwa Falls), którego nazwa nawiązuje do wzorów płatków śniegu tworzonych przez pieniącą się wodę opadającą po gładkiej skale.</p>
+</li>
+<li>
+<p><strong>Przedłużenie lata:</strong> Jak głosi lokalne powiedzenie agencji turystycznych – „nawet we wrześniu lato tu trwa w najlepsze”, co sprawia, że jest to idealna ucieczka od upałów przez niemal cały sezon od wiosny do wczesnej jesieni.</p>
+</li>
+</ul>
+<p align="center">
+  <img src="https://cdn.zekkei-japan.jp/datas/cache/images/2024/04/11/800x533_ea1e9d427fb5664c32c517a73e421e58_33b003d3b5345f62e613f9bae003fbcbbdeac0ab.jpg" alt="Opis zdjęcia" width="500">
+</p></p>
+                
+            </div>
+            
+            <a href="/asia-compass/atrakcja/namekawa-valley/" class="list-btn" style="display: block; text-align: center; padding: 8px 12px; background: var(--primary-red); color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; transition: opacity 0.2s;">Zobacz więcej</a>
         </div>
         
         <div class="list-item-tile" style="border: 1px solid rgba(0,0,0,0.08); padding: 20px; border-radius: 8px; background: var(--tile-bg); box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; flex-direction: column; justify-content: space-between; transition: background-color 0.3s ease;">

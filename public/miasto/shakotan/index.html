@@ -38,7 +38,6 @@
     <nav>
         <ul class="nav-menu">
             <li class="dropdown">
-                
                 <a href="javascript:void(0);" style="cursor: pointer;">Kraje ▾</a>
                 <ul class="dropdown-content">
                     
@@ -77,6 +76,9 @@
                                                 <li>
                                                     <a href="/asia-compass/miasto/dongyang/">DONGYANG</a>
                                                 </li>
+                                            
+                                        
+                                            
                                             
                                         
                                             
@@ -202,6 +204,9 @@
                                             
                                             
                                         
+                                            
+                                            
+                                        
                                     
                                 </ul>
                             </li>
@@ -227,6 +232,13 @@
                                             
                                         
                                             
+                                            
+                                        
+                                            
+                                            
+                                                <li>
+                                                    <a href="/asia-compass/miasto/fuji/">FUJI</a>
+                                                </li>
                                             
                                         
                                             
@@ -397,6 +409,13 @@
                                             
                                             
                                                 <li>
+                                                    <a href="/asia-compass/miasto/toon/">TOON</a>
+                                                </li>
+                                            
+                                        
+                                            
+                                            
+                                                <li>
                                                     <a href="/asia-compass/miasto/uda/">UDA</a>
                                                 </li>
                                             
@@ -434,6 +453,9 @@
                                                 <li>
                                                     <a href="/asia-compass/miasto/dongducheon/">DONGDUCHEON</a>
                                                 </li>
+                                            
+                                        
+                                            
                                             
                                         
                                             
@@ -565,6 +587,9 @@
                                         
                                             
                                             
+                                        
+                                            
+                                            
                                                 <li>
                                                     <a href="/asia-compass/miasto/yongin/">YONGIN</a>
                                                 </li>
@@ -672,7 +697,6 @@ body {
     color: #2c3e50 !important;
 }
 
- 
 #search .pagefind-ui__drawer {
     position: absolute !important;
     top: calc(100% + 12px) !important;
@@ -758,6 +782,7 @@ body {
     padding: 8px 0;
     list-style: none;
     z-index: 1000;
+    overflow: visible !important;
 }
 .dropdown:hover .dropdown-content { display: block; }
 .dropdown-submenu { position: relative; }
@@ -769,19 +794,28 @@ body {
     white-space: nowrap;
 }
 .dropdown-submenu > a:hover { background: #fce8ec; color: var(--primary-red); }
+
 .dropdown-sub-content {
     display: none;
     position: absolute;
     top: 0;
     right: 100%;
     background: #ffffff;
-    min-width: 160px;
+    min-width: 180px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     border-radius: 8px;
     padding: 8px 0;
     list-style: none;
     z-index: 1001;
+    max-height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
+.dropdown-sub-content::-webkit-scrollbar { width: 6px; }
+.dropdown-sub-content::-webkit-scrollbar-thumb { background-color: rgba(0, 0, 0, 0.2); border-radius: 4px; }
+.dropdown-sub-content::-webkit-scrollbar-track { background: transparent; }
+
 .dropdown-submenu:hover .dropdown-sub-content { display: block !important; }
 .dropdown-sub-content li a {
     display: block;
@@ -792,19 +826,80 @@ body {
 }
 .dropdown-sub-content li a:hover { background: #fce8ec; color: var(--primary-red); }
 
+ 
 @media (max-width: 900px) {
-    .site-header {
-        height: auto !important;
-        grid-template-columns: 1fr !important;
-        gap: 10px;
-        padding: 10px !important;
+    body {
+        padding-top: 0 !important;
     }
-    .header-search-container { order: 2; }
-    .site-header nav { order: 3; justify-self: center; }
+
+    .site-header {
+        position: relative !important;
+        height: auto !important;
+        grid-template-columns: auto 1fr !important;
+        gap: 10px !important;
+        padding: 10px 12px !important;
+        box-shadow: none !important;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .site-header .logo a {
+        font-size: 1rem !important;
+        white-space: nowrap;
+    }
+
+    .header-search-container {
+        order: 2;
+    }
+
+    #search {
+        max-width: 100% !important;
+    }
+
+    .site-header nav {
+        order: 3;
+        grid-column: 1 / -1;
+        justify-self: stretch;
+        border-top: 1px solid #f2f2f2;
+        padding-top: 6px;
+        margin-top: 4px;
+    }
+
+    .site-header nav ul.nav-menu {
+        justify-content: space-around;
+        gap: 8px;
+    }
+
+    .site-header nav ul.nav-menu > li > a {
+        font-size: 0.88rem !important;
+        padding: 4px 0;
+    }
+
     #search .pagefind-ui__drawer {
         position: absolute !important;
-        top: calc(100% + 10px) !important;
+        top: calc(100% + 8px) !important;
         width: 92vw !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+     
+    .hero-banner, .banner-card, [class*="hero"], [class*="banner"] {
+        height: auto !important;
+        min-height: auto !important;
+        padding: 24px 16px !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
+    }
+
+    .hero-banner h1, .banner-card h1, [class*="hero"] h1, [class*="banner"] h1 {
+        font-size: 1.35rem !important;
+        line-height: 1.25 !important;
+        margin-bottom: 12px !important;
+    }
+
+    .hero-banner p, .banner-card p, [class*="hero"] p, [class*="banner"] p {
+        font-size: 0.88rem !important;
+        line-height: 1.4 !important;
     }
 }
 </style>
@@ -904,9 +999,21 @@ body {
                 
                     
                     
+                
+                    
+                    
+                
+                    
+                    
                         
                             
                         
+                    
+                
+                    
+                    
+                
+                    
                     
                 
                     
@@ -1176,6 +1283,12 @@ body {
                     
                         
                         
+                    
+                        
+                        
+                    
+                        
+                        
                         <div class="city-attraction-tile" 
                              data-cena="Free $0" 
                              data-rezerwacja="Nie"
@@ -1207,6 +1320,12 @@ body {
                                 <a href="/asia-compass/atrakcja/cape-kamui/" class="city-attraction-btn" style="display: inline-block; padding: 6px 18px; background: #fce8ec; color: var(--primary-red); text-decoration: none; border-radius: 20px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s;">Zobacz atrakcję &rarr;</a>
                             </div>
                         </div>
+                        
+                    
+                        
+                        
+                    
+                        
                         
                     
                         
@@ -1472,12 +1591,24 @@ body {
                         
                             
                             
+                        
+                            
+                            
+                        
+                            
+                            
                                 {
                                     title: "Cape Kamui - nadmorski szlak",
                                     lat:  43.33042594025311 ,
                                     lng:  140.3577466100112 ,
                                     url: "\/asia-compass\/atrakcja\/cape-kamui\/"
                                 },
+                            
+                        
+                            
+                            
+                        
+                            
                             
                         
                             
@@ -1691,6 +1822,21 @@ body {
                         
                     
                         
+                        
+                    
+                        
+                        
+                            
+                            <a href="/asia-compass/miasto/fuji/" class="sidebar-card">
+                                
+                                
+                                <img src="https://i.pinimg.com/736x/58/9f/07/589f078c030ef9795645d3c0a43425f7.jpg" alt="FUJI" loading="lazy">
+                                
+                                <div class="sidebar-card-info">
+                                    <h4>FUJI</h4>
+                                    <span class="sidebar-city">japonia</span>
+                                </div>
+                            </a>
                         
                     
                         
@@ -1993,6 +2139,21 @@ body {
                         
                         
                             
+                            <a href="/asia-compass/miasto/toon/" class="sidebar-card">
+                                
+                                
+                                <img src="https://i.namu.wiki/i/lqO_AeHqo4NwRIeaJbB4K9wlnNn3uDFtqPntHM5KL4wD7EEw2DTxl1L7oXk8erEICoO05noyYEzeVCJH_bbRVg.webp" alt="TOON" loading="lazy">
+                                
+                                <div class="sidebar-card-info">
+                                    <h4>TOON</h4>
+                                    <span class="sidebar-city">japonia</span>
+                                </div>
+                            </a>
+                        
+                    
+                        
+                        
+                            
                             <a href="/asia-compass/miasto/uda/" class="sidebar-card">
                                 
                                 
@@ -2051,32 +2212,6 @@ body {
                 
                 
                     
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
                 
             
         
@@ -2106,8 +2241,6 @@ body {
                 
             
         
-    
-        
             
             
             
@@ -2121,29 +2254,7 @@ body {
         
     
         
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
     
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
         
             
             
@@ -2196,54 +2307,6 @@ body {
             
         
     
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
         
             
             
@@ -2315,17 +2378,6 @@ body {
                 
                 
                     
-                
-            
-        
-    
-        
-            
-            
-            
-            
-                
-                
                     
                 
             
@@ -2339,24 +2391,8 @@ body {
                 
                 
                     
-                    
                 
             
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-    
         
             
             
@@ -2378,35 +2414,6 @@ body {
                 
                 
                     
-                    
-                
-            
-        
-    
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
                 
             
         
@@ -2424,33 +2431,6 @@ body {
                     
                 
             
-        
-    
-        
-    
-        
-            
-            
-            
-            
-                
-                
-                    
-                    
-                
-            
-        
-            
-            
-            
-            
-                
-                
-                    
-                
-            
-        
-    
         
             
             
@@ -2513,6 +2493,215 @@ body {
                 
             
         
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                
+            
+        
+    
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
+        
             
             
             
@@ -2549,6 +2738,19 @@ body {
             
         
     
+        
+    
+        
+            
+            
+            
+            
+                
+                
+                    
+                    
+                
+            
         
     
         
@@ -3198,16 +3400,19 @@ body {
 
 .attraction-banner {
     margin: 0 0 20px 0;
-    max-height: 400px;
+    width: 100%;
+    height: 380px;  
     overflow: hidden;
     border-radius: 12px;
+    background-color: #f2f2f2;
 }
 
 .attraction-banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;         
+    object-position: center !important;    
+    display: block !important;
 }
 
 .city-description-content a {

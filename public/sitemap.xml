@@ -100,6 +100,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/restaurant-kank-seok/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/restaurant-kome-enishi/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/tag/animals/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -220,6 +228,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/fuji/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/furong/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -316,6 +328,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/huanglong-cave/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/kategoria/jedzenie/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -401,6 +417,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nagoya/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/namekawa-valley/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -565,6 +585,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/tondabayashi/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/toon/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
