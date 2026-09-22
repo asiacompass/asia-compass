@@ -1,0 +1,171 @@
+---
+title: "Lustrzana pracownia Arashiyama Yusai-tei"
+kraj: "japonia"
+miasto: "kyoto"
+wyspa: "honsiu"
+region: "kiniki"
+prefektura: "kyoto"
+kategoria: "natura"
+tag: 
+type: "atrakcja"
+lat: 35.01423911709635
+lng: 135.67093413844944
+image_url: "https://i.pinimg.com/1200x/25/ba/2b/25ba2bf4e4e48cc213c5346c409cd662.jpg"
+cena: "Średnio $$"
+rezerwacja: "Tak"
+sezon: "Cały rok"
+adres: "6 Arashiyama Kagemochichō, Ukyō-ku, Kyoto, 616-8386, Japonia"
+link: "https://yusai.kyoto/gallery"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.7032172816444!2d135.66838067536446!3d35.01413367281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001aa06c66d0acf%3A0x44b6cec3f2416956!2sArashiyama%20Yusai-Tei%20Gallery!5e0!3m2!1spl!2spl!4v1789383458979!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
+
+rozwijalne_listy:
+  - tytul: "Rezerwacja"
+    tresc: |
+      <ul>
+        <li><b>Rezerwacja:</b><p>
+         Wstęp do obietku jest limitowany i wymaga wcześniejszej rezerwacji rezerwacji online, szczególnie w szczycie sezonu jesiennego i wiosennego.
+        </li>
+
+        <li><b>Gdzie rezerwować:</b><p>
+          Oficjalne wejściówki zarezerwujesz przez oficjalną stronę obiektu lub platformę rezerwacyjną wskazaną przez muzeum.
+        </li>
+
+        <li><b>Z jakim wyprzedzeniem:</b><p>
+         Rezerwuj z wyprzedzeniem minimum 14–30 dni (na sezon jesiennych liści koyo bilety wyprzedają się błyskawicznie po otwarciu kalendarza).
+        </li>
+
+  - tytul: "Wejście i ceny"
+    tresc: |
+      
+      <ul>
+       <li><b>Ceny:</b><p>
+         Płatne (cena standardowa wynosi ok. 2000 JPY za osobę dorosłą).
+       </li>
+        
+       <li><b>Godziny:</b><p>
+         10:00 – 18:00 (zamknięte w wybrane czwartki, warto sprawdzić kalendarz przed wizytą).
+       </li>
+
+       <li> <b>Najlepsza pora na wizytę:</b><p>
+         Wczesny poranek zaraz po otwarciu, aby cieszyć się optymalnym światłem wpadającym przez okna i mniejszą liczbą osób w sali ze stołami lustrzanymi.
+       </li>
+      </ul>
+
+  - tytul: "Dojazd"
+    tresc: |
+
+     Arashiyama Yusai-tei znajduje się w dzielnicy Arashiyama na zachodzie Kioto, około 10 minut spacerem od słynnego mostu Togetsukyo.
+
+      <ul>
+       <li><b>Z Tokio do Kioto:</b><br>
+         Najszybciej dojedziesz pociągiem Shinkansen. Kup bilet online, aby uniknąć kolejek na stacji: Kup bilet na Shinkansen na Trip.com lub przez aplikację Klook
+       </li><p>
+
+       <li><b>Ze stacji JR Kyoto Station do Arashiyamy:</b><br>
+         Wsiądź w pociąg linii JR San-in Main Line (Sagano Line) i wysiądź na stacji JR Saga-Arashiyama Station (przejazd trwa ok. 15 minut). Stamtąd czeka Cię urokliwy, 20-minutowy spacer wzdłuż rzeki.
+       </li><p>
+
+       <li><b>Linia Hankyu:</b><br>
+         Jeśli jedziesz z centrum Kioto lub Osaki, skorzystaj z linii Hankyu Arashiyama Line do stacji Hankyu Arashiyama Station (ok. 15 minut pieszo do obiektu).
+       </li>
+      </ul>
+
+  - tytul: "Przydatne wskazówki"
+    tresc: |
+     <ul>
+      <li><b>Zasady zachowania:</b><br>
+         Przed wejściem na tradycyjne maty tatami i lakierowane podłogi należy zdjąć obuwie (warto mieć na sobie czyste skarpetki).
+      </li><br>
+
+      <li><b>Statywy i fotografowanie:</b><br>
+         Używanie statywów oraz kijów do selfie jest surowo zabronione. Zachowaj ciszę – miejsce ma charakter kontemplacyjny. 
+      </li><br>
+
+      <li><b>Wskazówka fotograficzna:</b><br>
+        Podczas robienia zdjęć przy lustrzanych stołach przyłóż obiektyw aparatu lub telefonu bezpośrednio do krawędzi blatu, aby uzyskać niesamowity efekt idealnej symetrii.
+      </li>
+     </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://kkday.tpk.mx/nCHewYjp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+       <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        KKDAY <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz stronę</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
+
+galeria_zdjec:
+  - url: "https://i.pinimg.com/1200x/e8/66/22/e86622d33ff4f1c46afb307bd6357f6d.jpg"
+  - url: "https://i.pinimg.com/1200x/7f/cf/e9/7fcfe99a45d08e0564c37ee5b894072f.jpg"
+  - url: "https://i.pinimg.com/1200x/0b/87/e8/0b87e8af2ddba6049245c435181522d0.jpg"
+  - url: "https://i.pinimg.com/736x/52/fe/f9/52fef98e67215c7c57242d8c0bee8af9.jpg"
+  - url: "https://i.pinimg.com/736x/62/8c/4e/628c4e9cde9d372965ed7a757406f583.jpg"
+
+instagram_reel: "https://www.instagram.com/reel/DblQsKYBDB9/?igsi=MzRlODBiNWFlZA=="
+
+---
+
+### Magia Światła i Liści
+Ukryta pośród bambusowych gajów i szumu rzeki Katsura w Kioto, Arashiyama Yusai-tei to miejsce, w którym tradycyjna japońska estetyka spotyka się z magią światła i koloru. Ta ponad 150-letnia historyczna willa, pełniąca dawniej funkcję ekskluzywnej restauracji ryotei, jest dziś pracownią wybitnego mistrza barwienia tkanin Yusaia Okudy. Miejsce to słynie z fascynujących refleksów świetlnych, gdzie krajobraz Arashiyamy odbija się w lustrzanych blatach stołów i czarnych lakierowanych podłogach.
+
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/de/ea/f1/deeaf116245f5f67f5f05dab4c7fe410.jpg" alt="Opis zdjęcia" width="500">
+</p>
+
+### Fakty i Ciekawostki
+
+* **Odkrycie koloru "Yusai-yuzen":** Mistrz Yusai Okuda zasłynął z wynalezienia unikalnej techniki barwienia jedwabiu, która sprawia, że materiał zmienia kolor w zależności od kąta i rodzaju padającego światła – zupełnie jak liście klonu w ciągu dnia.
+
+* **Lustrzane stoły (Koyo Reflection):** W jednym z głównych pokoi znajdują się specjalnie zaprojektowane, idealnie wypolerowane stoły. Tworzą one efekt odbicia lustrzanego ("akwariów światła"), w których zieleń bambusów latem oraz krwista czerwień klonów jesienią wyglądają jak pociągnięcia pędzla na obrazie.
+
+* **Okrągłe okno marzeń:** W obiekcie znajduje się kultowe, okrągłe okno (Yusai-mado), które oprawia widok na naturę niczym żywy obraz. To nawiązanie do tradycyjnej architektury zen, w której okrąg symbolizuje oświecenie i nieskończoność.
+
+* **Pokój z lustrem wodnym:** W jednym z pomieszczeń przygotowano tradycyjne naczynie z wodą, w którym zwiedzający mogą tworzyć własne, unikalne wzory falowe, obserwując odbicia otaczających drzew na powierzchni wody.  
+
+<p align="center">
+  <img src="https://i.pinimg.com/1200x/1f/12/ff/1f12ff504768ea72d221b12cb64d688d.jpg" alt="Opis zdjęcia" width="500">
+</p>
+
+--- 
+#### Zobacz poradnik:
+
+<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a>  &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+<!--more-->
+
+<ins class="klk-aff-widget"  data-adid="1419611" data-lang="" data-currency="" data-cardH="126" data-padding="92" data-lgH="470" data-edgeValue="655" data-cid="30" data-tid="21" data-amount="3" data-prod="dynamic_widget"><a href="//www.klook.com/">Klook.com</a></ins>
+<script type="text/javascript">
+  (function (d, sc, u) {
+    var s = d.createElement(sc),
+      p = d.getElementsByTagName(sc)[0];
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = u;
+    p.parentNode.insertBefore(s, p);
+  })(
+    document,
+    "script",
+    "https://affiliate.klook.com/widget/fetch-iframe-init.js"
+  );
+</script>

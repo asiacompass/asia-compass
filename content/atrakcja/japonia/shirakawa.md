@@ -1,0 +1,156 @@
+---
+title: "Zabytkowa wieś Shirakawa"
+kraj: "japonia"
+miasto: "shirakawa"
+wyspa: "honsiu"
+region: "chubu"
+prefektura: "gifu"
+kategoria: "historia"
+tag: ["natura🍀"]
+type: "atrakcja"
+lat: 36.27449594067136
+lng: 136.89796221087855
+image_url: "https://images.pexels.com/photos/36920164/pexels-photo-36920164.jpeg"
+cena: "Free $0"
+rezerwacja: "Nie"
+sezon: "Cały rok"
+adres: "Ogimachi, Shirakawa, Ono District, Gifu 501-5627, Japonia"
+link: "https://shirakawa-go.gr.jp/en/"
+map_embed: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86547.15836563734!2d136.82969725964026!3d36.28009017630538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff871b0b6bf25e7%3A0xccc551bb9d5805f8!2sShirakawa-go!5e0!3m2!1spl!2spl!4v1789386924971!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>'
+
+rozwijalne_listy:
+  - tytul: "Rezerwacja"
+    tresc: |
+      <ul>
+        <li><b>Rezerwacja:</b><p>
+         Brak konieczności rezerwacji, spacer po osadzie Ogimachi jest bezpłatny i ogólnodostępny.
+        </li><p>
+
+        <li><b>Wizytacja domów-muzeów & Noclegi:</b><p>
+         Wejścia do zabytkowych domów (np. Wada House, Kanda House) nie wymagają wcześniejszej rezerwacji – bilet kupuje się przy wejściu. Jeśli planujesz nocleg w tradycyjnym domu minshuku lub chcesz odwiedzić wioskę w trakcie zimowych iluminacji (Light-up Event), rezerwacja z wielomiesięcznym wyprzedzeniem jest bezwzględnie wymagana (system losowania biletów/miejsc otwiera się jesienią).
+        </li><p>
+
+        <li><b>Gdzie zarezerwować:</b><p>
+         Zorganizowane jednodniowe wycieczki autobusowe z Kanazawy, Takayamy lub Nagoi zarezerwujesz najtaniej i bezstresowo przez Klook lub Trip.com.
+        </li>
+      </ul>
+
+  - tytul: "Wejście i ceny"
+    tresc: |
+      
+      <ul>
+       <li><b>Ceny:</b><p>
+         Wstęp na teren wioski jest darmowy. Wejście do pojedynczych domów-muzeów (np. Wada House): ok. 400–500 JPY za obiekt.
+       </li><p>
+        
+       <li><b>Godziny:</b><p>
+         Domy-muzea oraz lokalne sklepy z pamiątkami otwarte są zazwyczaj w godzinach 09:00 – 17:00.
+       </li><p>
+
+       <li><b>Najlepsza pora na wizytę:</b><p>
+         Wczesny poranek (przed 09:30), zanim dojadą autokary wycieczkowe z Kanazawy i Takayamy, lub późne popołudnie.
+       </li>
+      </ul>
+
+  - tytul: "Dojazd"
+    tresc: |
+
+     <p> Shirakawa-go znajduje się w prefekturze Gifu, a najwygodniejszymi punktami wypadowymi są miasta Takayama oraz Kanazawa.
+
+       <ul>
+       <li><b>Z Tokio do Kanazawy / Takayamy:</b><br>
+         Najszybciej Shinkansenem do Kanazawy lub pociągiem ekspresowym do Takayamy. Kup bilet online, aby uniknąć kolejek na stacji: Kup bilet na Shinkansen na Trip.com lub na Klook.
+       </li><p>
+
+       <li><b>Z Takayamy lub Kanazawy do Shirakawa-go:</b><br>
+         Dojeżdżają tu bezpośrednie autobusy ekspresowe (Nohi Bus / Hokutetsu Bus). Z Takayamy podróż trwa ok. 50 minut, a z Kanazawy ok. 1 godz. 15 minut. <br>
+         Ważne: Na większość kursów autobusowych obowiązuje wcześniejsza rezerwacja miejsc! Rezerwacji dokonasz online lub na stacjach autobusowych.
+       </li><p>
+
+       <li><b>Gdzie kupić bilety:</b><br>
+         Rezerwacje na przejazdy autobusowe i kolejowe w regionie zrealizujesz wygodnie przy użyciu karnetów regionalnych JR lub rezerwacji na platformie Klook.
+       </li>
+
+      </ul>
+
+  - tytul: "Przydatne wskazówki"
+    tresc: |
+     <ul>
+      <li><b>Ochrona przeciwpożarowa (Zakaz palenia):</b><br>
+         Domy ze słomianymi dachami są niezwykle podatne na ogień. Palenie tytoniu jest surowo zabronione na terenie całej wioski poza kilkoma wyznaczonymi strefami.
+      </li><br>
+
+      <li><b>Szacunek dla mieszkańców:</b><br>
+         Shirakawa-go to nie tylko skansen, ale zamieszkana wioska. Nie wchodź na prywatne posesje, nie zaglądaj przez okna domów i zabieraj swoje śmieci ze sobą (w wiosce nie ma publicznych koszy).
+      </li><br>
+
+      <li><b>Punkt widokowy Shiroyama:</b><br>
+        Najpiękniejszą panoramę całej wioski z góry zrobisz z punktu widokowego Shiroyama Viewpoint. Dostaniesz się tam pieszo (ok. 15–20 minut pod górę) lub dedykowanym busem wahadłowym spod wioski (ok. 200 JPY).
+      </li>
+     </ul>
+
+  - tytul: "Aplikacje"
+    tresc: |
+      <ul>
+        <li><b>Płatności:</b> <p>
+         SUICA <a href="https://kkday.tpk.mx/nCHewYjp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa<br>
+         PASMO <a href="https://www.pasmo.co.jp/visitors/en/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę </a> | karta zbliżeniowa <br>
+        ICOCA <a href="https://www.westjr.co.jp/global/en/howto/icoca/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zamów kartę</a> | karta zbliżeniowa
+        </li>
+
+        <li><b>Nawigacja:</b><p>
+          GOOGLE MAPS <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.maps" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> <br>
+          NAVITIME <a href="https://www.navitime.co.jp/pcstorage/html/japan_travel/english/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;">pobierz aplikację</a>
+        </li>
+
+        <li><b>Transport:</b><p>
+          GO <a href="https://go.goinc.jp/en"_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | zamawianie taksówek (polecana) <br> 
+          UBER <a href="https://www.uber.com/global/pl/r/japan/cities/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | zamawianie taksówek <br>
+          TRIP.COM <a href="https://us.trip.com/?locale=en-us" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a>  | komunikacja miejska <br>
+         SHINKANSEN <a href="https://smart-ex.jp/en/lp/app/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a> | kolej dużych prędkości
+        </li>
+
+        <li><b>Rezerwacja atrakcji i miejsc:</b><p>
+         KLOOK <a href="https://klook.tpk.mx/G9rX9Q6f" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        KKDAY <a href="https://kkday.tpk.mx/H94SHeIp" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> zobacz stronę</a><br>
+          GET YOUR GUIDE <a href="https://www.getyourguide.com/" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+         BOOKING.COM <a href="https://www.booking.com/attractions/index.pl.html?label=gog235jc-10CAsodUIbc2FrdXJhLXRyYWRpdGlvbmFsLWphcGFuZXNlSDNYA2i2AYgBAZgBM7gBF8gBDNgBA-gBAfgBAYgCAagCAbgCt5i71AbAAgHSAiQ3OTVhMzgxOC1jOGZlLTRmNWItODVhOC1iNjVhYzg3ZWMwMTPYAgHgAgE&sid=20c8fbb756be0c99ff0818ee28355be8&aid=356980&selected_currency=PLN&source=cross_product_header_link" target="_blank" rel="noopener" style="color: #e98a99; font-weight: bold; text-decoration: underline;"> pobierz aplikację</a><br>
+        </li>
+      </ul>
+
+galeria_zdjec:
+  - url: "https://images.pexels.com/photos/38086226/pexels-photo-38086226.jpeg"
+  - url: "https://images.pexels.com/photos/36958091/pexels-photo-36958091.jpeg"
+  - url: "https://images.pexels.com/photos/16164655/pexels-photo-16164655.jpeg"
+  - url: "https://images.pexels.com/photos/37434008/pexels-photo-37434008.jpeg" 
+  - url: "https://images.pexels.com/photos/17167969/pexels-photo-17167969.jpeg"
+  - url: "https://images.pexels.com/photos/31290706/pexels-photo-31290706.jpeg"
+  - url: "https://images.pexels.com/photos/29550813/pexels-photo-29550813.jpeg"
+  - url: "https://images.pexels.com/photos/38086249/pexels-photo-38086249.jpeg"
+  
+
+instagram_reel: "https://www.instagram.com/reel/DbQqU5aI1gh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+
+---
+
+### Malownicza wieś jak z bajki
+Przenieś się do baśniowej krainy otoczonej wysokimi, majestatycznymi szczytami górskimi w prefekturze Gifu. Wioska Shirakawa-go (ze słynną osadą Ogimachi na czele) to wpisany na listę światowego dziedzictwa UNESCO żywy skansen, który wygląda dokładnie tak, jakby czas zatrzymał się w nim kilkaset lat temu. Znana z charakterystycznych, krytych strzechą domów w stylu gassho-zukuri, wioska zachwyca o każdej porze roku – od soczystej zieleni lata, przez złotawe barwy jesieni, aż po puszyste, wielometrowe zaspy śnieżne zimą.
+
+
+### Fakty i Ciekawostki
+
+* **Dłonie złożone do modlitwy:** Architektura gassho-zukuri dosłownie oznacza „budowanie jak dłonie złożone do modlitwy”. Bardzo strome, słomiane dachy (nachylone pod kątem nawet 60 stopni) zostały zaprojektowane bez użycia ani jednego gwoździa, aby wytrzymać ciężar obfitych opadów mokrego, ciężkiego śniegu w regionie Hida.
+
+* **Jedwabny sekret pod dachem:** Przestronne poddasza tych ogromnych, kilkupiętrowych domów były historycznie wykorzystywane do hodowli jedwabników. Ciepło unoszące się z paleniska irori na parterze ogrzewało wyższe kondygnacje, tworząc idealny mikroklimat dla produkcji jedwabiu w mroźne zimy.
+
+* **Sąsiedzka siła Yui:** Wymiana wielowarstwowej strzechy na jednym domu to gigantyczne przedsięwzięcie. Zgodnie z tradycją Yui (duchem wzajemnej pomocy), cała lokalna społeczność gromadzi się razem, aby wymienić poszycie dachu w ciągu zaledwie jednego dnia!
+
+* **Zimowe iluminacje:** Raz w roku, w wybrane zimowe wieczory (styczeń–luty), wioska jest pokryta grubą warstwą śniegu i rozświetlana bajkowym światłem, tworząc jeden z najbardziej poszukiwanych kadrów fotograficznych na świecie.
+
+--- 
+#### Zobacz poradnik:
+
+<a href="/asia-compass/blog/japan-pay/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia i płatności</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-transport/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Japonia jak się poruszać?</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-net/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Jaki internet w Japonii</a> &nbsp; | &nbsp; <a href="/asia-compass/blog/japan-app/" style="color: #e98a99; font-weight: bold; text-decoration: underline;">Aplikacje przydatne w Japonii</a> 
+
+
+<!--more-->

@@ -26,76 +26,106 @@
                 <img src="{{ .Params.image_url }}" alt="{{ .Title }}" loading="lazy">
             </div>
             {{ end }}
-
-            <!-- Sekcja z głównymi cechami atrakcji -->
-            <section class="attraction-info-tile">
-                <div class="meta-container">
-                    <h3 class="meta-title">Informacje o atrakcji</h3>
-                    <div class="meta-grid">
-                    {{ if .Params.kraj }}
-                      {{ $krajPage := site.GetPage (printf "/kraj/%s" (.Params.kraj | urlize)) }}
-                      {{ if not $krajPage }}
-                        {{ $krajPage = site.GetPage (printf "/kraje/%s" (.Params.kraj | urlize)) }}
-                      {{ end }}
-                      <div>
-                        <strong>Kraj:</strong> 
-                        <a href="{{ if $krajPage }}{{ $krajPage.RelPermalink }}{{ else }}{{ printf "/kraj/%s/" (.Params.kraj | urlize) | relLangURL }}{{ end }}">
-                          {{ .Params.kraj }}
-                        </a>
-                      </div>
-                    {{ end }}
-
-                   {{ if .Params.miasto }}
-                     {{ $miastoPage := site.GetPage (printf "/miasto/%s" (.Params.miasto | urlize)) }}
-                     {{ if not $miastoPage }}
-                       {{ $miastoPage = site.GetPage (printf "/miasta/%s" (.Params.miasto | urlize)) }}
-                     {{ end }}
-                      <div>
-                        <strong>Miejscowość:</strong> 
-                        <a href="{{ if $miastoPage }}{{ $miastoPage.RelPermalink }}{{ else }}{{ printf "/miasto/%s/" (.Params.miasto | urlize) | relLangURL }}{{ end }}">
-                          {{ .Params.miasto }}
-                        </a>
-                      </div>
-                   {{ end }}
+<!-- Sekcja z głównymi cechami atrakcji -->
+<section class="attraction-info-tile">
+    <div class="meta-container">
+        <h3 class="meta-title">Informacje o atrakcji</h3>
+        <div class="meta-grid">
             
-                   {{ if .Params.kategoria }}
-                    {{ $katPage := site.GetPage (printf "/kategoria/%s" (.Params.kategoria | urlize)) }}
-                    {{ if not $katPage }}
-                      {{ $katPage = site.GetPage (printf "/kategorie/%s" (.Params.kategoria | urlize)) }}
-                    {{ end }}
-                     <div>
-                       <strong>Kategoria:</strong> 
-                       <a href="{{ if $katPage }}{{ $katPage.RelPermalink }}{{ else }}{{ printf "/kategoria/%s/" (.Params.kategoria | urlize) | relLangURL }}{{ end }}">
-                         {{ .Params.kategoria }}
-                       </a>
-                     </div>
-                   {{ end }}
+            {{/* 1. KRAJ */}}
+            {{ if .Params.kraj }}
+              {{ $krajPage := site.GetPage (printf "/kraj/%s" (.Params.kraj | urlize)) }}
+              {{ if not $krajPage }}
+                {{ $krajPage = site.GetPage (printf "/kraje/%s" (.Params.kraj | urlize)) }}
+              {{ end }}
+              <div>
+                <strong>Kraj:</strong> 
+                <a href="{{ if $krajPage }}{{ $krajPage.RelPermalink }}{{ else }}{{ printf "/kraj/%s/" (.Params.kraj | urlize) | relLangURL }}{{ end }}">
+                  {{ .Params.kraj | title }}
+                </a>
+              </div>
+            {{ end }}
 
-{{/* Sekcja wyświetlana tylko dla Japonii */}}
-{{ if eq (.Params.kraj | default "" | lower) "japonia" }}
+            {{/* 2. MIEJSCOWOŚĆ */}}
+            {{ if .Params.miasto }}
+              {{ $miastoPage := site.GetPage (printf "/miasto/%s" (.Params.miasto | urlize)) }}
+              {{ if not $miastoPage }}
+                {{ $miastoPage = site.GetPage (printf "/miasta/%s" (.Params.miasto | urlize)) }}
+              {{ end }}
+              <div>
+                <strong>Miejscowość:</strong> 
+                <a href="{{ if $miastoPage }}{{ $miastoPage.RelPermalink }}{{ else }}{{ printf "/miasto/%s/" (.Params.miasto | urlize) | relLangURL }}{{ end }}">
+                  {{ .Params.miasto | title }}
+                </a>
+              </div>
+            {{ end }}
 
-  {{/* PREFEKTURA */}}
-  {{ if .Params.prefektura }}
-    {{ $prefSlug := .Params.prefektura | urlize }}
-    {{ $prefTerm := site.GetPage (printf "/prefektura/%s" $prefSlug) }}
-    <div>
-      <strong>Prefektura:</strong>
-      <a href="{{ if $prefTerm }}{{ $prefTerm.RelPermalink }}{{ else }}{{ printf "/prefektura/%s/" $prefSlug | relLangURL }}{{ end }}">
-        {{ .Params.prefektura | title }}
+            {{/* 3. REZERWACJA */}}
+            {{ if .Params.rezerwacja }}<div><strong>Rezerwacja:</strong> {{ .Params.rezerwacja | title }}</div>{{ end }}
+
+            {{/* 4. WYSPA (tylko dla Japonii) */}}
+            {{ if eq (.Params.kraj | default "" | lower) "japonia" }}
+              {{ if .Params.wyspa }}<div><strong>Wyspa:</strong> {{ .Params.wyspa | title }}</div>{{ end }}
+            {{ end }}
+
+            {{/* 5. KATEGORIA */}}
+            {{ if .Params.kategoria }}
+              {{ $katPage := site.GetPage (printf "/kategoria/%s" (.Params.kategoria | urlize)) }}
+              {{ if not $katPage }}
+                {{ $katPage = site.GetPage (printf "/kategorie/%s" (.Params.kategoria | urlize)) }}
+              {{ end }}
+              <div>
+                <strong>Kategoria:</strong> 
+                <a href="{{ if $katPage }}{{ $katPage.RelPermalink }}{{ else }}{{ printf "/kategoria/%s/" (.Params.kategoria | urlize) | relLangURL }}{{ end }}">
+                  {{ .Params.kategoria | title }}
+                </a>
+              </div>
+            {{ end }}
+
+            {{/* 6. CENA */}}
+            {{ if .Params.cena }}<div><strong>Ceny:</strong> {{ .Params.cena | title }}</div>{{ end }}
+
+            {{/* 7. REGION */}}
+            {{ if .Params.region }}<div><strong>Region:</strong> {{ .Params.region | title }}</div>{{ end }}
+
+ {{/* 8. TAGI */}}
+{{ if .Params.tag }}
+  <div>
+    <strong>Tagi:</strong> 
+    {{ range $index, $tag := .GetTerms "tag" }}
+      {{ if $index }}, {{ end }}
+      <a href="{{ $tag.RelPermalink }}">
+        {{ $tag.LinkTitle }}
       </a>
-    </div>
-  {{ end }}
-                        {{ if .Params.wyspa }}<div><strong>Wyspa:</strong> {{ .Params.wyspa }}</div>{{ end }}
-                      {{ end }}
-            
-                        {{ if .Params.cena }}<div><strong>Ceny:</strong> {{ .Params.cena }}</div>{{ end }}
-                        {{ if .Params.rezerwacja }}<div><strong>Rezerwacja:</strong> {{ .Params.rezerwacja }}</div>{{ end }}
-                        {{ if .Params.sezon }}<div><strong>Sezon:</strong> {{ .Params.sezon }}</div>{{ end }}
-                        {{ if .Params.adres }}<div><strong>Adres:</strong> {{ .Params.adres }}</div>{{ end }}
-                        {{ if .Params.link }}<div><strong>Oficjalna strona:</strong> <a href="{{ .Params.link }}" target="_blank">Odwiedź link</a></div>{{ end }}
-                    </div>
+    {{ end }}
+  </div>
+{{ end }}
+
+            {{/* 9. OFICJALNA STRONA */}}
+            {{ if .Params.link }}<div><strong>Oficjalna strona:</strong> <a href="{{ .Params.link }}" target="_blank">Odwiedź link</a></div>{{ end }}
+
+            {{/* 10. PREFEKTURA (tylko dla Japonii) */}}
+            {{ if eq (.Params.kraj | default "" | lower) "japonia" }}
+              {{ if .Params.prefektura }}
+                {{ $prefSlug := .Params.prefektura | urlize }}
+                {{ $prefTerm := site.GetPage (printf "/prefektura/%s" $prefSlug) }}
+                <div>
+                  <strong>Prefektura:</strong>
+                  <a href="{{ if $prefTerm }}{{ $prefTerm.RelPermalink }}{{ else }}{{ printf "/prefektura/%s/" $prefSlug | relLangURL }}{{ end }}">
+                    {{ .Params.prefektura | title }}
+                  </a>
                 </div>
-            </section>
+              {{ end }}
+            {{ end }}
+
+            {{/* 11. SEZON */}}
+            {{ if .Params.sezon }}<div><strong>Sezon:</strong> {{ .Params.sezon | title }}</div>{{ end }}
+
+            {{/* 12. ADRES */}}
+            {{ if .Params.adres }}<div><strong>Adres:</strong> {{ .Params.adres }}</div>{{ end }}
+        </div>
+    </div>
+</section>
 
             <!-- Sekcja z opisem głównym (cała treść przed more - zawiera fakty, ciekawostki i poradniki) -->
             <section class="attraction-content">
