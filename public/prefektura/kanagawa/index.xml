@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kanagawa on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/kanagawa/</link>
+    <description>Recent content in Kanagawa on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/kanagawa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KAWASAKI</title>
+      <link>http://localhost:1313/asia-compass/miasto/kawasaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/kawasaki/</guid>
+      <description>&lt;p&gt;Kawasaki to elektryzujące miasto industrialnych kontrastów, w którym futurystyczne, fabryczne labirynty rozświetlające nocne niebo sąsiadują z jedną z najświętszych świątyń w Japonii. Położone tuż między Tokio a Jokohamą, całkowicie przełamuje stereotyp wyłącznie przemysłowego przedmieścia. To dynamiczny tygiel, który potrafi w ciągu kilku minut zmienić swoje oblicze – od tętniących życiem, nowoczesnych pasaży rozrywki w europejskim stylu, po absolutną ciszę ukrytych w zieleni tradycyjnych domów z epoki Edo. Nocą miasto przybiera niemal cyberpunkowy klimat, przyciągając miłośników alternatywnej fotografii i popkultury.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

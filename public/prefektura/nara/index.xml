@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nara on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/nara/</link>
+    <description>Recent content in Nara on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/nara/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NARA</title>
+      <link>http://localhost:1313/asia-compass/miasto/nara/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/nara/</guid>
+      <description>&lt;p&gt;Nara to pierwsza stała stolica Japonii i baśniowe miasto, w którym święte jelenie swobodnie spacerują pośród najstarszych drewnianych świątyń świata. Położona zaledwie krok od Kioto i Osaki, zachwyca mistyczną atmosferą i głębokim spokojem, który bije z tutejszych wiekowych lasów i sanktuariów. To tutaj narodziła się japońska kultura i buddyzm, a przeszłość jest dosłownie na wyciągnięcie ręki. Spacerując po rozległym parku, poczujesz unikalną harmonię między człowiekiem, naturą a historią, która od ponad 1300 lat pozostaje tu nienaruszona.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UDA</title>
+      <link>http://localhost:1313/asia-compass/miasto/uda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/uda/</guid>
+      <description>&lt;p&gt;Uda to ukryty klejnot prefektury Nara i mistyczna oaza spokoju, w której prastare, buddyjskie świątynie toną w gęstych, wiecznie zielonych lasach, a wiejski krajobraz definiują tarasowe pola ryżowe. Z dala od zatłoczonych szlaków turystycznych, to górzyste miasto pozwala dotknąć esencji japońskiej prowincji (satoyama). Czas płynie tu wolniej, powietrze pachnie krystalicznie czystą, górską naturą, a historyczne dzielnice kupieckie zachowały swój autentyczny charakter z czasów, gdy podróżowali nimi samuraje. Uda to idealne schronienie dla poszukiwaczy duchowego wyciszenia, miłośników pieszych wędrówek oraz każdego, kto chce zobaczyć tradycyjną Japonię, która nie zmieniła się od stuleci.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

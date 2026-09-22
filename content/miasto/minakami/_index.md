@@ -2,6 +2,8 @@
 title: "MINAKAMI"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "honsiu"
+prefektura: "gunma"
 lat: 36.6786
 lng: 138.9991
 img: "https://a3.cdn.japantravel.com/photo/67966-225944/1200x630%21/gunma-two-days-in-minakami-225944.jpg"

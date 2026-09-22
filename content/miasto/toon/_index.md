@@ -2,6 +2,8 @@
 title: "TOON"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "sikoku"
+prefektura: "ehime"
 lat: 33.7919
 lng: 132.9069
 img: "https://i.namu.wiki/i/lqO_AeHqo4NwRIeaJbB4K9wlnNn3uDFtqPntHM5KL4wD7EEw2DTxl1L7oXk8erEICoO05noyYEzeVCJH_bbRVg.webp"

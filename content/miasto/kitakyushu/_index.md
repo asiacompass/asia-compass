@@ -2,6 +2,8 @@
 title: "KITAKYUSHU"
 kraj: "japonia"
 typ: "miasto"
+prefektura: "fukuoka"
+wyspa: "kiusiu"
 lat: 33.8833
 lng: 130.8833
 img: "https://a2.cdn.japantravel.com/photo/69154-232075/630x420%21/fukuoka-one-dayin-kitakyushu-232075.webp"

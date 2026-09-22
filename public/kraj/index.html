@@ -2052,7 +2052,172 @@ body {
 
     
 
-</div>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    
+    var locations = {
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    };
+
+    
+    Object.keys(locations).forEach(function(key) {
+        
+        var element = document.querySelector('.geolonia-svg-map g.' + key) || document.getElementById(key);
+        
+        if (element) {
+            
+            var shapes = element.querySelectorAll('polygon, path');
+
+            element.style.cursor = "pointer";
+
+            
+            element.addEventListener('mouseover', function() {
+                shapes.forEach(function(shape) {
+                    shape.style.transition = "fill 0.2s ease, opacity 0.2s ease";
+                    shape.style.fill = "var(--primary-red, #ff4d4f)";
+                    shape.style.opacity = "0.8";
+                });
+            });
+
+            
+            element.addEventListener('mouseout', function() {
+                shapes.forEach(function(shape) {
+                    shape.style.fill = "";
+                    shape.style.opacity = "1";
+                });
+            });
+
+            
+            element.addEventListener('click', function() {
+                window.location.href = locations[key];
+            });
+        }
+    });
+});
+</script>
 
 <style>
 .country-kat-tile:hover, 

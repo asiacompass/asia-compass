@@ -2,6 +2,8 @@
 title: "OITA"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "kiusiu"
+prefektura: "oita"
 lat: 33.2382
 lng: 131.6126
 img: "https://images.pexels.com/photos/38801615/pexels-photo-38801615.jpeg"

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shimane on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/shimane/</link>
+    <description>Recent content in Shimane on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/shimane/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MASUDA</title>
+      <link>http://localhost:1313/asia-compass/miasto/masuda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/masuda/</guid>
+      <description>&lt;p&gt;Masuda to urokliwe, nadmorskie miasto w prefekturze Shimane, które słynie z dzikiej przyrody, tradycyjnego teatru Iwami Kagura oraz historycznych ogrodów zen zaprojektowanych przez mistrza Sesshū. Położone nad Morzem Japońskim u ujścia rzeki Takatsu, oferuje spokojny wypoczynek z dala od tłumów i okazję do poznania autentycznej Japonii. Więcej informacji na temat miasta można znaleźć w oficjalnych przewodnikach turystycznych.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wakayama on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/wakayama/</link>
+    <description>Recent content in Wakayama on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/wakayama/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NACHIKATSUURA</title>
+      <link>http://localhost:1313/asia-compass/miasto/nachikatsuura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/nachikatsuura/</guid>
+      <description>&lt;p&gt;Nachikatsuura to mistyczna brama do duchowego serca Japonii, gdzie potęga najwyższego wodospadu w kraju spotyka się ze świętymi szlakami pielgrzymkowymi i gorącymi źródłami nad brzegiem oceanu. Położone na malowniczym Półwyspie Kii miasteczko oszałamia krajobrazami pełnymi surowego piękna i głębokiego mistycyzmu. Dźwięk masowo spadającej wody miesza się tu z zaproszeniem do wyciszenia w starożytnych sanktuariach ukrytych pośród gigantycznych cedrów. Po dniu pełnym wędrówek, to portowe miasto ukoi Twoje zmysły kąpielą w termalnych jaskiniach oraz smakiem najświeższego tuńczyka w całej Japonii.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,8 @@
 title: "ICHINOSEKI"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "honsiu"
+prefektura: "iwate"
 lat: 38.9275
 lng: 141.1378
 img: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ichinoseki_City_Center_from_Tsuriyama_Park_202606.jpg?utm_source=pl.wikipedia.org&utm_campaign=index&utm_content=original"

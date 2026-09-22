@@ -2,6 +2,8 @@
 title: "SHAKOTAN"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "hokkaido"
+prefektura: "hokkaido"
 lat: 43.29484986723037
 lng: 140.60008346759503
 img: "https://i.pinimg.com/1200x/19/75/9b/19759b31e8fd12559b81a53355cda333.jpg"

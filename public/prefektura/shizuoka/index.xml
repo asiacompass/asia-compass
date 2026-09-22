@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shizuoka on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/shizuoka/</link>
+    <description>Recent content in Shizuoka on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/shizuoka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FUJI</title>
+      <link>http://localhost:1313/asia-compass/miasto/fuji/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/fuji/</guid>
+      <description>&lt;p&gt;Fuji jest uznawane za główną „bramę do góry Fudżi”, ale w przeciwieństwie do zatłoczonych kurortów po północnej stronie góry (takich jak region Pięciu Jezior), pozwala na podziwianie kultowego wulkanu z nieco spokojniejszej, mniej komercyjnej perspektywy.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

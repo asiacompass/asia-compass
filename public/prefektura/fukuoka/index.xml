@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fukuoka on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/fukuoka/</link>
+    <description>Recent content in Fukuoka on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/fukuoka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>KITAKYUSHU</title>
+      <link>http://localhost:1313/asia-compass/miasto/kitakyushu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/kitakyushu/</guid>
+      <description>&lt;p&gt;Położone na samym północnym krańcu wyspy Kiusiu miasto Kitakyūshū to jeden z najbardziej niedocenianych punktów na mapie Japonii. To tutaj tradycja idealnie przeplata się z nowoczesnością. W samym sercu miasta dumnie wznosi się zrekonstruowany zamek Kokura, a zaledwie kilka minut drogi dalej fani popkultury mogą zatracić się w nowoczesnym Muzeum Mangi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OKAGAKI</title>
+      <link>http://localhost:1313/asia-compass/miasto/okagaki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/okagaki/</guid>
+      <description>&lt;p&gt;Okagaki to sielski, nadmorski azyl w prefekturze Fukuoka, gdzie zielone sady owocowe spotykają się z nieskończonym, szumiącym oceanem i piaszczystymi plażami, na których żółwie morskie składają swoje jaja. To kameralne miasteczko na wyspie Kiusiu urzeka niespiesznym rytmem życia i nieskażoną, dziką przyrodą, stanowiąc doskonałą odskocznię od zgiełku pobliskich metropolii. Powietrze pachnie tu morską solą i dojrzałymi w słońcu owocami, a malownicze ścieżki rowerowe ciągnące się wzdłuż wybrzeża zapraszają do aktywnego relaksu. Okagaki to miejsce, w którym można poczuć głęboki kontakt z naturą, spróbować genialnych lokalnych smaków i podziwiać zachody słońca, które na długo zapadają w pamięć.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

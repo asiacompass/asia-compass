@@ -2,6 +2,8 @@
 title: "FUJI"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "honsiu"
+prefektura: "shizuoka"
 lat: 35.1613
 lng: 138.6763
 img: "https://i.pinimg.com/736x/58/9f/07/589f078c030ef9795645d3c0a43425f7.jpg"

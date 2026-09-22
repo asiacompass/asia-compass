@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aichi on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/aichi/</link>
+    <description>Recent content in Aichi on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/aichi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NAGOYA</title>
+      <link>http://localhost:1313/asia-compass/miasto/nagoya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/nagoya/</guid>
+      <description>&lt;p&gt;Nagoya to potężne, naszpikowane technologią serce japońskiego przemysłu i motoryzacji, w którym samurajska historia rodu Tokugawa współistnieje z futurystycznymi pociągami magnetycznymi. Ta czwarta co do wielkości metropolia Japonii całkowicie wymyka się schematom. Choć z lotu ptaka oszałamia nowoczesną architekturą, rozległymi podziemnymi miastami handlowymi i geometrycznym układem ulic, w swoim wnętrzu skrywa bezcenne, kilkusetletnie skarby narodowe. Nagoya to miasto o niezwykle wyrazistym charakterze, unikalnej kuchni i niesamowitej energii, stanowiące fascynujący pomost między narodzinami kultury samurajskiej a technologiczną przyszłością świata.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,6 +2,7 @@
 title: "Cafe 2d"
 kraj: "japonia"
 miasto: "tokyo"
+
 kategoria: "jedzenie"
 tag: ["anime🎐", "sweets🍰"]
 type: "atrakcja"

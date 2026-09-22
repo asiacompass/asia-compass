@@ -2,6 +2,7 @@
 title: "JAPONIA"
 kraj: "japonia"
 typ: "kraj"
+pokaz_mape: true
 banner_image: "https://images.pexels.com/photos/31710067/pexels-photo-31710067.jpeg"
 description: "Kraj Wschodzącego Słońca, w którym tradycyjne świątynie i majestatyczne Fudżi spotykają się z kosmiczną technologią Tokio oraz kulturą anime. Poznaj sekretne klimatyczne uliczki, spróbuj prawdziwego ramenu i daj się porwać magii Japonii!"
 

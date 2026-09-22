@@ -70,6 +70,23 @@
                        </a>
                      </div>
                    {{ end }}
+
+{{/* Sekcja wyświetlana tylko dla Japonii */}}
+{{ if eq (.Params.kraj | default "" | lower) "japonia" }}
+
+  {{/* PREFEKTURA */}}
+  {{ if .Params.prefektura }}
+    {{ $prefSlug := .Params.prefektura | urlize }}
+    {{ $prefTerm := site.GetPage (printf "/prefektura/%s" $prefSlug) }}
+    <div>
+      <strong>Prefektura:</strong>
+      <a href="{{ if $prefTerm }}{{ $prefTerm.RelPermalink }}{{ else }}{{ printf "/prefektura/%s/" $prefSlug | relLangURL }}{{ end }}">
+        {{ .Params.prefektura | title }}
+      </a>
+    </div>
+  {{ end }}
+                        {{ if .Params.wyspa }}<div><strong>Wyspa:</strong> {{ .Params.wyspa }}</div>{{ end }}
+                      {{ end }}
             
                         {{ if .Params.cena }}<div><strong>Ceny:</strong> {{ .Params.cena }}</div>{{ end }}
                         {{ if .Params.rezerwacja }}<div><strong>Rezerwacja:</strong> {{ .Params.rezerwacja }}</div>{{ end }}

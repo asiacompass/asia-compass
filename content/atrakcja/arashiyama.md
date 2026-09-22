@@ -2,6 +2,8 @@
 title: "Lustrzana pracownia Arashiyama Yusai-tei"
 kraj: "japonia"
 miasto: "kyoto"
+wyspa: "honsiu"
+prefektura: "kyoto"
 kategoria: "natura"
 tag: 
 type: "atrakcja"

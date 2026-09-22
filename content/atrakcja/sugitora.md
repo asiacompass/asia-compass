@@ -2,6 +2,8 @@
 title: "Cukiernia / Lodziarnia Sugitora"
 kraj: "japonia"
 miasto: "kyoto"
+wyspa: "honsiu"
+prefektura: "kyoto"
 kategoria: "jedzenie"
 tag: ["sweets🍰"]
 type: "atrakcja"

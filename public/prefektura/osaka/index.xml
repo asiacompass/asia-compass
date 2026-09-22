@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osaka on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/osaka/</link>
+    <description>Recent content in Osaka on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/osaka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSAKA</title>
+      <link>http://localhost:1313/asia-compass/miasto/osaka/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/osaka/</guid>
+      <description>&lt;p&gt;Osaka to tętniąca życiem, neonowa stolica japońskiego street foodu i miasto-energia, w którym nieformalna atmosfera, głośny śmiech i cyberpunkowe pasaże rozrywki całkowicie przyćmiewają tradycyjną powściągliwość Japonii. To tutaj bije najgłośniejsze serce regionu Kansai. Oszałamia gigantycznymi, ruchomymi neonami w kształcie krabów, zapachami parujących potraw z ulicznych grilli oraz niesamowitą otwartością mieszkańców. Miasto żyje według zasady kuidaore – „jedz, aż padniesz” – oferując miks futurystycznych drapaczy chmur, retro-dzielnic z lat 80. oraz nowoczesnych parków rozrywki, które gwarantują dawkę czystej adrenaliny.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>TONDABAYASHI</title>
+      <link>http://localhost:1313/asia-compass/miasto/tondabayashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/tondabayashi/</guid>
+      <description>&lt;p&gt;Tondabayashi to ukryty skarb prefektury Osaka, w którym czas zatrzymał się w urokliwych zaułkach z epoki Edo, a nad horyzontem góruje jedna z najbardziej surrealistycznych budowli współczesnej Japonii. Z dala od neonów i zgiełku wielkich metropolii, to miasto zaprasza do odkrywania autentycznej japońskiej prowincji. Spacerując po historycznych uliczkach, poczujesz się jak na planie filmu samurajskiego pośród tradycyjnych, drewnianych domów kupieckich. Zachwyca absolutnym spokojem, zapachem parzonej zielonej herbaty i unikalnym miksem głębokiej historii z awangardową architekturą, która potrafi kompletnie zaskoczyć.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

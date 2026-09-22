@@ -2,6 +2,8 @@
 title: "MASUDA"
 kraj: "japonia"
 typ: "miasto"
+wyspa: "honsiu"
+prefektura: "shimane"
 lat: 34.8012
 lng: 131.8119
 img: "https://www.japan-experience.com/sites/default/files/images/content_images/masuda20194.jpg"
