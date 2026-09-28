@@ -8,6 +8,13 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/prefektura/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Aicha</title>
+      <link>http://localhost:1313/asia-compass/prefektura/aicha/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/prefektura/aicha/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Aichi</title>
       <link>http://localhost:1313/asia-compass/prefektura/aichi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -131,6 +138,13 @@
       <link>http://localhost:1313/asia-compass/prefektura/wakayama/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/prefektura/wakayama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yamanashi</title>
+      <link>http://localhost:1313/asia-compass/prefektura/yamanashi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/prefektura/yamanashi/</guid>
       <description></description>
     </item>
   </channel>

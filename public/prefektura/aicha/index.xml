@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aicha on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/aicha/</link>
+    <description>Recent content in Aicha on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/aicha/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NISHIO</title>
+      <link>http://localhost:1313/asia-compass/miasto/nishio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/nishio/</guid>
+      <description>&lt;p&gt;Położone w południowej części prefektury Aichi miasto Nishio to jeden z najważniejszych i najbardziej wyspecjalizowanych regionów uprawy zielonej herbaty w Japonii. Blisko 98% tutejszych upraw dedykowanych jest wyłącznie produkcji matchy. Oprócz bogatego dziedzictwa kulinarnego (słynącego również ze wspaniałych owoców morza i grillowanego węgorza unagi), Nishio oferuje odwiedzającym unikalne zabytki, takie jak Park Historyczny zamku Nishio czy tradycyjne domy miso. To idealna destynacja dla osób szukających slow-travel i autentycznych japońskich tradycji poza utartym szlakiem.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
