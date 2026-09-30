@@ -82,7 +82,7 @@ galeria_zdjec:
   - instagram_photo: "https://www.instagram.com/reel/DdlNtHYTXez/?stkn=MzRlODBiNWFlZA=="
   - instagram_photo: "https://www.instagram.com/reel/DclTWtsT1J8/?stkn=MzRlODBiNWFlZA=="
 
-instagram_reel: [DO UZUPEŁNIENIA]
+instagram_reel: "https://www.instagram.com/reel/Dd4B_q_BW28/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

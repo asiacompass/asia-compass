@@ -87,7 +87,7 @@ galeria_zdjec:
   - url: "https://image.mom-mom.net/eyJrZXkiOiJtaWdyYXRlZC9wbGFjZXMvNjM1MjRkMDk5MTgxZDgzZDIwMjE0N2I3IiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMjgyLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0="
   - url: "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format=webp,w=1920/50PWLcNfm8kN6tOQj934nRo6iCdaX6FKL"
 
-    instagram_reel: ""
+    instagram_reel: "https://www.instagram.com/reel/DdJrsv9oiqn/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

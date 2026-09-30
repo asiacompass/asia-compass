@@ -82,7 +82,7 @@ galeria_zdjec:
   - url: "https://i.pinimg.com/1200x/9a/aa/49/9aaa494fed2e65de2404feea32391053.jpg"
   - url: "https://i.pinimg.com/736x/71/f8/9e/71f89ef96002c6ce920c75b250070216.jpg"
 
-    instagram_reel: ""
+    instagram_reel: "https://www.instagram.com/reel/DdEiHxjoHkr/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

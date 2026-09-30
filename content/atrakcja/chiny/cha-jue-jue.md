@@ -109,7 +109,7 @@ galeria_zdjec:
   - url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStkM5JBhpTLbmRox5Gpbc7ei-KtKpCVjHtceIogQy3RQ&s=10"
   - url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG60_732xnLhGU2aaUZZNclebHgCMdKxQDePwdNt-RxQ&s=10"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DdB9YOtoefc/?stkn=MzRlODBiNWFlZA=="
 
 ---
 

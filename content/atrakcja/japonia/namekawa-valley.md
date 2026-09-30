@@ -83,7 +83,7 @@ galeria_zdjec:
   - url: "https://cdn.zekkei-japan.jp/datas/cache/images/2024/04/11/800x533_ea1e9d427fb5664c32c517a73e421e58_4fe4aaa949eab3ecfc3f01077c603fe2c9bcc7a9.jpg"
   - url: [DO UZUPEŁNIENIA]
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/Ddtu5dRBoPj/?stkn=MzRlODBiNWFlZA=="
 ---
 
 ### Naturalny Park Wodny w Zielonym Sercu Shikoku

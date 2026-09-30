@@ -87,7 +87,7 @@ galeria_zdjec:
   - url: "https://i.pinimg.com/1200x/1d/e0/33/1de03351e5c1e26418e1d405d050bb37.jpg"
   - url: "https://i.pinimg.com/1200x/07/db/78/07db7802285892b39f196d4c9e52ac8a.jpg"
 
-instagram_reel: ""    
+instagram_reel: "https://www.instagram.com/reel/DdjbrLfBV-d/?stkn=MzRlODBiNWFlZA=="    
 ---
 
 ### Podziemny Pałac Smoczego Króla

@@ -77,7 +77,7 @@ galeria_zdjec:
   - url: "https://tblg.k-img.com/restaurant/images/Rvw/175513/640x640_rect_da8d81ec50129404be0ac68e453b9393.jpg"
   - url: "https://tblg.k-img.com/restaurant/images/Rvw/207329/640x640_rect_a2342eafaefdd4226a219eefe1b6ef09.jpg"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DdmAh58Bpv5/?stkn=MzRlODBiNWFlZA=="
 ---
 
 ### Poranny Rytuał Ryżowy u Stóp Fuji

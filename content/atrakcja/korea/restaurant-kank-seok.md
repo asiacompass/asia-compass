@@ -75,7 +75,7 @@ galeria_zdjec:
   - url: "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*GyySr7tt35h0KsoCwahlbw.jpeg"
     caption: "fot. by https://medium.com/"
 
-instagram_reel: ""
+instagram_reel: "https://www.instagram.com/reel/DdolUJKhcQM/?stkn=MzRlODBiNWFlZA=="
 
 ---
 
