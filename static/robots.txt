@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /asia-compass/
+
+Sitemap: https://github.io
