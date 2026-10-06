@@ -8,6 +8,13 @@
     <language>pl-pl</language>
     <atom:link href="http://localhost:1313/asia-compass/miasto/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>BEPPU</title>
+      <link>http://localhost:1313/asia-compass/miasto/beppu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/beppu/</guid>
+      <description>&lt;p&gt;Beppu to słynąca z największej liczby gorących źródeł w Japonii stolica uzdrowisk, charakteryzująca się widowiskowymi kłębami pary unoszącymi się nad miastem oraz kompleksem ośmiu spektakularnych &amp;ldquo;Piekieł&amp;rdquo;. Miasto oferuje tradycyjne onseny w dzielnicy Kannawa, unikalne kąpiele w gorącym piasku oraz kulinarną tradycję Jigoku Mushi gotowaną na naturalnej parze.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>BUSAN</title>
       <link>http://localhost:1313/asia-compass/miasto/busan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -176,6 +183,13 @@
       <description>&lt;p&gt;Nagoya to potężne, naszpikowane technologią serce japońskiego przemysłu i motoryzacji, w którym samurajska historia rodu Tokugawa współistnieje z futurystycznymi pociągami magnetycznymi. Ta czwarta co do wielkości metropolia Japonii całkowicie wymyka się schematom. Choć z lotu ptaka oszałamia nowoczesną architekturą, rozległymi podziemnymi miastami handlowymi i geometrycznym układem ulic, w swoim wnętrzu skrywa bezcenne, kilkusetletnie skarby narodowe. Nagoya to miasto o niezwykle wyrazistym charakterze, unikalnej kuchni i niesamowitej energii, stanowiące fascynujący pomost między narodzinami kultury samurajskiej a technologiczną przyszłością świata.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>NAMYANGJU</title>
+      <link>http://localhost:1313/asia-compass/miasto/namyangju/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/namyangju/</guid>
+      <description>&lt;p&gt;Namyangju (남양주시) to dynamicznie rozwijające się miasto, które idealnie łączy nowoczesną infrastrukturę miejską z malowniczą, dziewiczą przyrodą. Główną osią turystyczną regionu jest brzeg rzeki Bukhan, wzdłuż którego ciągną się legendarne, panoramiczne kawiarnie. Miasto słynie z bogatego dziedzictwa historycznego, w tym wpisanych na listę światowego dziedzictwa UNESCO &lt;strong&gt;królewskich grobowców dynastii Joseon (Sareung i Hongyureung)&lt;/strong&gt; oraz &lt;strong&gt;Dasan Jeong Yak-yong Sanctuary&lt;/strong&gt;, poświęconego jednemu z największych koreańskich filozofów. Dla miłośników aktywnego wypoczynku wizytówką Namyangju są spektakularne &lt;strong&gt;szlaki trekkingowe na górze Chungryeongsang&lt;/strong&gt;, malowniczy &lt;strong&gt;ogród wodny Water Garden (Mulmyeongdang)&lt;/strong&gt; oraz rozbudowana, nadrzeczna infrastruktura rowerowa. Doskonałe skomunikowanie z Seulem za pomocą linii metra Gyeongui-Jungang oraz tras ekspresowych sprawia, że Namyangju jest bezkonkurencyjnym kierunkiem na jednodniowy trip, oferującym unikalny miks kulturowego głębi, instagramowych widoków i relaksu na łonie natury.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>NANAO</title>
       <link>http://localhost:1313/asia-compass/miasto/nanao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -195,6 +209,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/miasto/nara/</guid>
       <description>&lt;p&gt;Nara to pierwsza stała stolica Japonii i baśniowe miasto, w którym święte jelenie swobodnie spacerują pośród najstarszych drewnianych świątyń świata. Położona zaledwie krok od Kioto i Osaki, zachwyca mistyczną atmosferą i głębokim spokojem, który bije z tutejszych wiekowych lasów i sanktuariów. To tutaj narodziła się japońska kultura i buddyzm, a przeszłość jest dosłownie na wyciągnięcie ręki. Spacerując po rozległym parku, poczujesz unikalną harmonię między człowiekiem, naturą a historią, która od ponad 1300 lat pozostaje tu nienaruszona.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NISHINOMIYA</title>
+      <link>http://localhost:1313/asia-compass/miasto/nishinomiya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/nishinomiya/</guid>
+      <description>&lt;p&gt;Nishinomiya (西宮市) to prestiżowe miasto w prefekturze Hyogo na wyspie Honsiu, położone idealnie w połowie drogi między Osaką a Kobe. Słynie w całej Japonii jako stolica tradycyjnej sake z regionu Nada-Gogō, warzonej od stuleci przy użyciu unikalnej wody Miyamizu oraz jako dom dla legendarnego, najstarszego w kraju stadionu baseballowego Hanshin Koshien Stadium. Nad miastem góruje święta góra Kabutoyama, a u jej stóp leży chram Nishinomiya Jinja, znany z corocznego, widowiskowego wyścigu o tytuł „Szczęśliwego Człowieka”. Dzięki świetnym połączeniom kolejowym oraz unikalnemu miksowi sportowych emocji, tradycyjnych browarów sake i luksusowego klimatu, Nishinomiya stanowi doskonały punkt na mapie regionu Kansai.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NISHIO</title>
@@ -300,6 +321,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/asia-compass/miasto/yongin/</guid>
       <description>&lt;p&gt;Yongin to rozrywkowa i kulturalna stolica prowincji Gyeonggi, w której największy park rozrywki w Korei sąsiaduje z żywym skansenem z epoki Joseon. Położone na malowniczych wzgórzach tuż pod Seulem, miasto oferuje niesamowitą podróż w czasie. W ciągu jednego dnia możesz tu przenieść się z zapierających dech w piersiach, nowoczesnych rollercoasterów prosto w środek tradycyjnej koreańskiej wioski, gdzie kręcone są najsłynniejsze dramy historyczne. To dynamiczne miasto, w którym nowoczesne atrakcje idealnie współgrają z sielską, zieloną naturą.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ZHANGJIAJIE</title>
+      <link>http://localhost:1313/asia-compass/miasto/zhangjiajie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/zhangjiajie/</guid>
+      <description>&lt;p&gt;Zhangjiajie to jedno z najbardziej surrealistycznych miejsc na Ziemi, gdzie tysiące gigantycznych, piaskowcowych filarów strzela pionowo w niebo z bujnych, wiecznie zamglonych dolin, tworząc mistyczny krajobraz, który zainspirował twórców filmu „Avatar”. Ten spektakularny region w chińskiej prowincji Hunan, z centralnym punktem w postaci wpisanego na Listę Światowego Dziedzictwa UNESCO obszaru Wulingyuan, to prawdziwy raj dla poszukiwaczy przygód i miłośników natury. Na podróżników czeka tu mnóstwo atrakcji: od szklanej &lt;strong&gt;windy Bailong Elevator&lt;/strong&gt;, która wwozi turystów na krawędź kilkuetapowego urwiska, przez spokojne &lt;strong&gt;szlaki wzdłuż potoku Gold Whip Stream&lt;/strong&gt; pełnego dzikich makaków, aż po monumentalne &lt;strong&gt;punkty widokowe na górze Tianzi&lt;/strong&gt;, gdzie szczyty wyłaniają się z morza chmur. Całość uzupełniają fascynujące formacje podziemne w &lt;strong&gt;Jaskini Żółtego Smoka&lt;/strong&gt; oraz kultowa &lt;strong&gt;góra Tianmen&lt;/strong&gt; z naturalną bramą skalną zwaną „Wrotami do Nieba”.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

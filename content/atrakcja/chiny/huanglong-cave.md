@@ -1,9 +1,9 @@
 ---
-title: "Jaskinia Żółtego Smoka (Huanglong Cave)"
+title: "Yellow Dragon Cave / Huanglong Cave"
 kraj: "chiny"
-miasto: "huanglong"
+miasto: "zhangjiajie"
 kategoria: "natura"
-tag: 
+tag: ["unesco🏯"]
 type: "atrakcja"
 lat: 29.363188109838056 
 lng: 110.61487465213749

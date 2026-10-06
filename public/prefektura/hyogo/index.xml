@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hyogo on Asia Compass</title>
+    <link>http://localhost:1313/asia-compass/prefektura/hyogo/</link>
+    <description>Recent content in Hyogo on Asia Compass</description>
+    <generator>Hugo</generator>
+    <language>pl-pl</language>
+    <atom:link href="http://localhost:1313/asia-compass/prefektura/hyogo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NISHINOMIYA</title>
+      <link>http://localhost:1313/asia-compass/miasto/nishinomiya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/asia-compass/miasto/nishinomiya/</guid>
+      <description>&lt;p&gt;Nishinomiya (西宮市) to prestiżowe miasto w prefekturze Hyogo na wyspie Honsiu, położone idealnie w połowie drogi między Osaką a Kobe. Słynie w całej Japonii jako stolica tradycyjnej sake z regionu Nada-Gogō, warzonej od stuleci przy użyciu unikalnej wody Miyamizu oraz jako dom dla legendarnego, najstarszego w kraju stadionu baseballowego Hanshin Koshien Stadium. Nad miastem góruje święta góra Kabutoyama, a u jej stóp leży chram Nishinomiya Jinja, znany z corocznego, widowiskowego wyścigu o tytuł „Szczęśliwego Człowieka”. Dzięki świetnym połączeniom kolejowym oraz unikalnemu miksowi sportowych emocji, tradycyjnych browarów sake i luksusowego klimatu, Nishinomiya stanowi doskonały punkt na mapie regionu Kansai.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

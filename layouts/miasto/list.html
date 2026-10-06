@@ -80,6 +80,13 @@
                 </div>
             </div>
             {{ end }}
+             
+           {{/* DODANA SEKCJA: Dodatkowy opis z Front Matter (np. .Params.opis lub .Params.description) */}}
+              {{ with .Params.opis }}
+             <div class="city-frontmatter-description" style="font-size: 1.15rem; line-height: 1.6; color: var(--text-color); margin-bottom: 25px; background: #fff8f9; padding: 20px 25px; border-left: 4px solid var(--primary-red); border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.04);">
+             {{ . | safeHTML }}             
+            </div>
+           {{ end }}
 
             {{/* 4. Kafelki Atrakcji w tym mieście wraz z PASEM FILTRÓW */}}
             <div style="margin-bottom: 40px;">

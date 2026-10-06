@@ -164,32 +164,33 @@
             {{ if .Params.galeria_zdjec }}
             <section style="margin-top: 40px;">
                 <h3 class="gallery-title">Galeria inspiracji</h3>
-                <div class="pinterest-gallery">
-                    {{ range .Params.galeria_zdjec }}
-                        {{ $caption := index . "caption" }}
-                        {{ $url := index . "url" }}
-                        {{ $ig := index . "instagram_photo" }}
+               <div class="pinterest-gallery">
+    {{ range .Params.galeria_zdjec }}
+        {{ $caption := index . "caption" }}
+        {{ $url := or (index . "url") (index . "image") }}
+        {{ $ig := index . "instagram_photo" }}
 
-                        <div class="gallery-item">
-                            {{ if $ig }}
-                                {{ $cleanParts := split $ig "?" }}
-                                {{ $baseUrl := index $cleanParts 0 }}
-                                {{ if not (hasSuffix $baseUrl "/") }}
-                                    {{ $baseUrl = printf "%s/" $baseUrl }}
-                                {{ end }}
-                                {{ $embedUrl := printf "%sembed" $baseUrl }}
-                                <iframe src="{{ $embedUrl }}" width="100%" height="420" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy"></iframe>
-                            {{ else if $url }}
-                                <a href="{{ $url }}" target="_blank" rel="noopener">
-                                    <img src="{{ $url }}" alt="{{ $caption | default "Zdjęcie z galerii" }}" loading="lazy">
-                                </a>
-                            {{ end }}
-                            {{ if $caption }}
-                                <p class="gallery-caption">{{ $caption }}</p>
-                            {{ end }}
-                        </div>
-                    {{ end }}
-                </div>
+        <div class="gallery-item">
+            {{ if $ig }}
+                {{ $cleanParts := split $ig "?" }}
+                {{ $baseUrl := index $cleanParts 0 }}
+                {{ if not (hasSuffix $baseUrl "/") }}
+                    {{ $baseUrl = printf "%s/" $baseUrl }}
+                {{ end }}
+                {{ $embedUrl := printf "%sembed" $baseUrl }}
+                <iframe src="{{ $embedUrl }}" width="100%" height="420" frameborder="0" scrolling="no" allowtransparency="true" loading="lazy"></iframe>
+            {{ else if $url }}
+                <a href="{{ $url }}" target="_blank" rel="noopener">
+                    <img src="{{ $url }}" alt="{{ $caption | default "Zdjęcie z galerii" }}" loading="lazy">
+                </a>
+            {{ end }}
+            {{ if $caption }}
+                <p class="gallery-caption">{{ $caption }}</p>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>
+                    
             </section>
             {{ end }}
 

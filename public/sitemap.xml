@@ -132,6 +132,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/beppu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/korea/starfield-library/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -181,6 +185,14 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/japonia/cafe-guruguram/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/korea/cafe-huijak/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/korea/cafe-valensole/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -368,6 +380,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/prefektura/hyogo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/prefektura/hy%C5%8Dgo/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/ichinoseki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -381,10 +401,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/kraj/japonia/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>http://localhost:1313/asia-compass/atrakcja/chiny/huanglong-cave/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -452,6 +468,14 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/wyspa/kyshu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/wyspa/kyushu/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/chiny/legoland/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -496,6 +520,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/namyangju/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nanao/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -528,6 +556,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/nishinomiya/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/nishio/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -557,6 +589,10 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/miasto/osaka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/japonia/onsen-yunoshizuku/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -692,6 +728,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/japonia/workshops/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/prefektura/tokyo/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -760,6 +800,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/chiny/huanglong-cave/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/japonia/yokokuji-temple/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -785,6 +829,14 @@
     <priority>0.5</priority>
   </url><url>
     <loc>http://localhost:1313/asia-compass/atrakcja/japonia/shirakawa/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/miasto/zhangjiajie/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/asia-compass/atrakcja/chiny/zhangjiajie-park/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
